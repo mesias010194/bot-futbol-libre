@@ -22,13 +22,21 @@ HEADERS = {
 }
 
 # ==========================================================
-# 3. EL CEREBRO DE BANDERAS (VERSION MEJORADA Y SIN ROTURAS)
+# 3. EL CEREBRO DE BANDERAS (CORREGIDO - PRIORIDAD TORNEOS)
 # ==========================================================
 def obtener_bandera(liga, encuentro):
-    """ Lee el nombre de la liga o equipos y asigna una bandera automáticamente """
+    """ Lee el nombre de la liga o equipos y asigna una bandera como respaldo """
     texto = (liga + " " + encuentro).lower()
     
-    # Países Principales de América
+    # 1. TORNEOS INTERNACIONALES (Tienen máxima prioridad)
+    if "champions" in texto or "campeones de la uefa" in texto: return "https://cdn-icons-png.flaticon.com/512/520/520786.png"
+    if "libertadores" in texto: return "https://cdn-icons-png.flaticon.com/512/1043/1043444.png"
+    if "sudamericana" in texto: return "https://cdn-icons-png.flaticon.com/512/3112/3112946.png"
+    if "concacaf" in texto: return "https://cdn-icons-png.flaticon.com/512/9903/9903672.png" 
+    if "afc" in texto or "asia" in texto: return "https://cdn-icons-png.flaticon.com/512/6104/6104033.png"
+    if "fifa" in texto or "mundial" in texto or "conmebol" in texto or "clasificatorias" in texto: return "https://cdn-icons-png.flaticon.com/512/323/323326.png"
+
+    # 2. PAÍSES Y LIGAS
     if "perú" in texto or "liga 1" in texto or "peruano" in texto or "alianza" in texto or "cristal" in texto or "universitario" in texto: return "https://flagcdn.com/w40/pe.png"
     if "argentina" in texto or "liga profesional" in texto or "copa de la liga" in texto or "boca" in texto or "river" in texto: return "https://flagcdn.com/w40/ar.png"
     if "mexic" in texto or "liga mx" in texto or "américa" in texto or "cruz azul" in texto or "chivas" in texto: return "https://flagcdn.com/w40/mx.png"
@@ -38,24 +46,12 @@ def obtener_bandera(liga, encuentro):
     if "ecuador" in texto or "ligapro" in texto or "barcelona sc" in texto or "emelec" in texto: return "https://flagcdn.com/w40/ec.png"
     if "brasil" in texto or "brasileirão" in texto or "paulista" in texto or "flamengo" in texto or "palmeiras" in texto: return "https://flagcdn.com/w40/br.png"
     if "usa" in texto or "mls" in texto or "estados unidos" in texto or "inter miami" in texto: return "https://flagcdn.com/w40/us.png"
-    
-    # Países Principales de Europa
     if "españa" in texto or "laliga" in texto or "copa del rey" in texto or "real madrid" in texto or "barcelona" in texto: return "https://flagcdn.com/w40/es.png"
     if "inglaterra" in texto or "premier" in texto or "championship" in texto or "fa cup" in texto or "liverpool" in texto or "city" in texto: return "https://flagcdn.com/w40/gb-eng.png"
     if "italia" in texto or "serie a" in texto or "juventus" in texto or "milan" in texto or "inter" in texto: return "https://flagcdn.com/w40/it.png"
     if "alemania" in texto or "bundesliga" in texto or "bayern" in texto: return "https://flagcdn.com/w40/de.png"
     if "francia" in texto or "ligue 1" in texto or "psg" in texto: return "https://flagcdn.com/w40/fr.png"
-    
-    # Otras Ligas
     if "arabia" in texto or "pro league" in texto or "al nassr" in texto: return "https://flagcdn.com/w40/sa.png"
-    
-    # Torneos Internacionales (URLs súper estables)
-    if "champions" in texto or "campeones de la uefa" in texto: return "https://cdn-icons-png.flaticon.com/512/520/520786.png"
-    if "libertadores" in texto: return "https://cdn-icons-png.flaticon.com/512/1043/1043444.png"
-    if "sudamericana" in texto: return "https://cdn-icons-png.flaticon.com/512/3112/3112946.png"
-    if "concacaf" in texto: return "https://cdn-icons-png.flaticon.com/512/9903/9903672.png" 
-    if "afc" in texto or "asia" in texto: return "https://cdn-icons-png.flaticon.com/512/6104/6104033.png"
-    if "fifa" in texto or "mundial" in texto or "conmebol" in texto or "clasificatorias" in texto: return "https://cdn-icons-png.flaticon.com/512/323/323326.png"
     
     # Pelota genérica por defecto (Nunca falla)
     return "https://cdn-icons-png.flaticon.com/512/53/53283.png"
@@ -109,8 +105,24 @@ def extraer_partidos():
                     
                 datetime_utc = convertir_hora(fecha, hora)
                 
-                # AQUI ACTIVAMOS EL CEREBRO DE BANDERAS
-                bandera_magica = obtener_bandera(liga, encuentro)
+                # =======================================================
+                # NUEVO: EXTRAER IMAGEN PROFESIONAL ORIGINAL DE LA API
+                # =======================================================
+                bandera_magica = ""
+                try:
+                    # Navegamos en el JSON original para atrapar su logo
+                    c_data = item.get("country", {}).get("data")
+                    if c_data:
+                        img_url = c_data.get("attributes", {}).get("image", {}).get("data", {}).get("attributes", {}).get("url", "")
+                        if img_url:
+                            # Le agregamos el dominio que descubriste en Inspeccionar
+                            bandera_magica = f"https://img.fubolazo.com{img_url}"
+                except:
+                    pass
+                
+                # Si la API no trajo foto original, usamos nuestro cerebro corregido
+                if not bandera_magica:
+                    bandera_magica = obtener_bandera(liga, encuentro)
                 
                 # ---- MENSAJE DE DIAGNÓSTICO EN CONSOLA ----
                 print(f"✅ {liga}: {encuentro}")
@@ -164,7 +176,7 @@ def actualizar_nube(datos):
 
 if __name__ == "__main__":
     print("===================================================================")
-    print("   BOT CAZADOR Y AGRUPADOR MÁXIMO (CON BANDERAS INTELIGENTES)      ")
+    print("   BOT CAZADOR MÁXIMO (BANDERAS OFICIALES + RESPALDO INTELIGENTE)  ")
     print("===================================================================")
     
     datos = extraer_partidos()
