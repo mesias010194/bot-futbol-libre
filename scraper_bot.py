@@ -11,22 +11,18 @@ BIN_ID = "69d933e5aaba882197e5950b"
 API_KEY = "$2a$10$fH2AVYqUAGOQm6KLrAcdk.fsTBsZPp7sTDWydhhsWtaYfrLlnAWv."
 
 # ==========================================================
-# 2. EL LINK DE LA NUEVA BÓVEDA SECRETA
+# 2. EL LINK DE LA BÓVEDA SECRETA (FUBOLAZO)
 # ==========================================================
-# REEMPLAZA ESTO con el link exacto que usaste en la pestaña Network
-# (Seguramente termina en /api/diaries o algo similar)
 API_ORIGEN = "https://fubolazo.com/agenda.json"
-
-# Dominio base para autocompletar las fotos de las banderas
 BASE_DOMAIN = "https://futbollibreplay.pe" 
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)",
     "Accept": "application/json",
 }
 
 def desencriptar_enlace(iframe_str):
-    """ Busca el parámetro r= y desencripta la URL de Base64 """
+    """ Desencripta la URL de Base64 de la API de Strapi """
     try:
         if 'r=' in iframe_str:
             b64_texto = iframe_str.split('r=')[1].split('&')[0]
@@ -34,13 +30,11 @@ def desencriptar_enlace(iframe_str):
             return url_real
     except Exception as e:
         pass
-    # Si no tiene encriptación, devuelve el original
     return iframe_str
 
 def convertir_hora(fecha_str, hora_str):
     """ Junta la fecha y hora de la API y la convierte a UTC """
     try:
-        # Ejemplo: "2026-04-14" y "13:00:00"
         fecha_hora_texto = f"{fecha_str} {hora_str}"
         fecha_obj = datetime.strptime(fecha_hora_texto, "%Y-%m-%d %H:%M:%S")
         
@@ -48,21 +42,17 @@ def convertir_hora(fecha_str, hora_str):
         tz_origen = timezone(timedelta(hours=-5))
         fecha_obj = fecha_obj.replace(tzinfo=tz_origen)
         
-        # Convertimos a UTC para que Blogger lo lea bien en cualquier país
         return fecha_obj.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     except Exception as e:
-        # Si falla, ponemos la hora actual para que no se rompa la página
         return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 def extraer_partidos():
-    print(f"[*] Conectando a la nueva API Strapi: {API_ORIGEN[:30]}...")
+    print(f"[*] Conectando a la API: {API_ORIGEN}...")
     try:
         respuesta = requests.get(API_ORIGEN, headers=HEADERS, timeout=15)
         respuesta.raise_for_status() 
         datos_json = respuesta.json()
         
-        # La API de Strapi suele devolver los datos dentro de una lista directamente
-        # o dentro de un objeto {"data": [...]}. Nos aseguramos de leer la lista.
         lista_partidos = datos_json if isinstance(datos_json, list) else datos_json.get("data", [])
         
         partidos_extraidos = []
@@ -73,17 +63,16 @@ def extraer_partidos():
             if not attrs:
                 continue
                 
-            # 1. Extraer Fechas y Horas
+            # Extraer Fechas y Horas
             fecha = attrs.get("date_diary", "")
             hora = attrs.get("diary_hour", "")
             datetime_utc = convertir_hora(fecha, hora)
             
-            # 2. Extraer Títulos y Equipos
+            # Extraer Títulos y Equipos
             descripcion = attrs.get("diary_description", "Fútbol")
             liga = "Fútbol"
             encuentro = descripcion
             
-            # Si tiene formato "Liga: Equipo vs Equipo"
             if ":" in descripcion:
                 partes = descripcion.split(":", 1)
                 liga = partes[0].strip()
@@ -96,17 +85,16 @@ def extraer_partidos():
                 home_team = equipos[0].strip()
                 away_team = equipos[1].strip()
 
-            # 3. Extraer Bandera (Navegando por el objeto anidado de Strapi)
+            # Extraer Bandera
             bandera_url = ""
             try:
                 ruta_img = attrs["country"]["data"]["attributes"]["image"]["data"]["attributes"]["url"]
                 if ruta_img:
-                    # Si la ruta no tiene https:// se lo agregamos
                     bandera_url = ruta_img if ruta_img.startswith("http") else BASE_DOMAIN + ruta_img
             except:
                 pass
 
-            # 4. Extraer y Desencriptar Servidores
+            # Extraer y Desencriptar Servidores
             servidores_extraidos = []
             lista_embeds = attrs.get("embeds", {}).get("data", [])
             
@@ -123,7 +111,6 @@ def extraer_partidos():
                         "url": url_limpia
                     })
 
-            # Añadir a la lista final
             partidos_extraidos.append({
                 "id": contador_id,
                 "datetime": datetime_utc,
@@ -134,6 +121,11 @@ def extraer_partidos():
                 "servers": servidores_extraidos
             })
             contador_id += 1
+            
+        # ==========================================================
+        # LA MAGIA DEL ORDEN: Acomodar por hora (de mañana a noche)
+        # ==========================================================
+        partidos_extraidos.sort(key=lambda x: x["datetime"])
             
         return partidos_extraidos
     except Exception as e:
@@ -150,7 +142,7 @@ def actualizar_nube(datos):
     try:
         res = requests.put(url, json=datos, headers=headers)
         if res.status_code == 200:
-            print(f"[+] ¡ÉXITO! Nube actualizada. Se subieron {len(datos)} partidos.")
+            print(f"[+] ¡ÉXITO! Nube actualizada. Se subieron {len(datos)} partidos ORDENADOS.")
         else:
             print(f"[X] Error de JSONBin: {res.text}")
     except Exception as e:
@@ -158,7 +150,7 @@ def actualizar_nube(datos):
 
 if __name__ == "__main__":
     print("===================================================================")
-    print("   BOT CAZADOR - DESENCRIPTADOR BASE64 (VERSIÓN STRAPI)            ")
+    print("   BOT CAZADOR - DESENCRIPTADOR Y ORDENADOR                        ")
     print("===================================================================")
     
     datos = extraer_partidos()
