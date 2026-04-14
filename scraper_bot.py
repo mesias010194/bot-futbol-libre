@@ -22,13 +22,13 @@ HEADERS = {
 }
 
 # ==========================================================
-# 3. EL CEREBRO DE BANDERAS (NUEVO)
+# 3. EL CEREBRO DE BANDERAS
 # ==========================================================
 def obtener_bandera(liga, encuentro):
     """ Lee el nombre de la liga o equipos y asigna una bandera automáticamente """
     texto = (liga + " " + encuentro).lower()
     
-    # Países Principales (Usamos un servidor de banderas ultrarrápido)
+    # Países Principales
     if "perú" in texto or "liga 1" in texto or "peruano" in texto: return "https://flagcdn.com/w40/pe.png"
     if "argentina" in texto or "liga profesional" in texto or "copa de la liga" in texto: return "https://flagcdn.com/w40/ar.png"
     if "españa" in texto or "laliga" in texto or "copa del rey" in texto: return "https://flagcdn.com/w40/es.png"
@@ -52,18 +52,15 @@ def obtener_bandera(liga, encuentro):
     if "concacaf" in texto: return "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/CONCACAF_logo.svg/40px-CONCACAF_logo.svg.png"
     if "fifa" in texto or "mundial" in texto: return "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/FIFA_logo_without_slogan.svg/40px-FIFA_logo_without_slogan.svg.png"
     
-    # Si es un deporte raro o no lo reconoce, pone una pelota genérica hermosa
+    # Pelota genérica por defecto
     return "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Soccerball.svg/40px-Soccerball.svg.png"
 
 def convertir_hora(fecha_str, hora_str):
-    """ Junta la fecha y hora de la API y la convierte a UTC """
     try:
         fecha_hora_texto = f"{fecha_str} {hora_str}"
         fecha_obj = datetime.strptime(fecha_hora_texto, "%Y-%m-%d %H:%M")
-        
         tz_origen = timezone(timedelta(hours=-5))
         fecha_obj = fecha_obj.replace(tzinfo=tz_origen)
-        
         return fecha_obj.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     except Exception as e:
         return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -85,7 +82,7 @@ def extraer_partidos():
             idioma = item.get("language", "Español")
             
             if not titulo_completo or "Futbol" not in item.get("category", ""):
-                pass 
+                continue 
             
             match_key = f"{fecha}_{hora}_{titulo_completo}"
             
@@ -110,6 +107,11 @@ def extraer_partidos():
                 # AQUI ACTIVAMOS EL CEREBRO DE BANDERAS
                 bandera_magica = obtener_bandera(liga, encuentro)
                 
+                # ---- NUEVO: MENSAJE DE DIAGNÓSTICO EN CONSOLA ----
+                print(f"✅ {liga}: {encuentro}")
+                print(f"   -> URL de Bandera Asignada: {bandera_magica}")
+                # ---------------------------------------------------
+                
                 partidos_agrupados[match_key] = {
                     "datetime": datetime_utc,
                     "flagUrl": bandera_magica, 
@@ -132,13 +134,7 @@ def extraer_partidos():
                     "url": url_segura
                 })
 
-        partidos_extraidos = []
-        contador_id = 1
-        for match_key, data in partidos_agrupados.items():
-            data["id"] = contador_id
-            partidos_extraidos.append(data)
-            contador_id += 1
-            
+        partidos_extraidos = list(partidos_agrupados.values())
         partidos_extraidos.sort(key=lambda x: x["datetime"])
             
         return partidos_extraidos
