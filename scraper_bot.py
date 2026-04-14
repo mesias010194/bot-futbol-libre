@@ -10,7 +10,7 @@ import re
 BIN_ID = "69d933e5aaba882197e5950b" 
 API_KEY = "$2a$10$fH2AVYqUAGOQm6KLrAcdk.fsTBsZPp7sTDWydhhsWtaYfrLlnAWv."
 
-URL_ORIGEN = "https://pelotalibretv.su/agenda/"
+URL_ORIGEN = "https://www.futbolibre.pe/"
 # Cabeceras mejoradas para que la página de origen no nos bloquee
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
