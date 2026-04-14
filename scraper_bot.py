@@ -12,18 +12,50 @@ BIN_ID = "69d933e5aaba882197e5950b"
 API_KEY = "$2a$10$fH2AVYqUAGOQm6KLrAcdk.fsTBsZPp7sTDWydhhsWtaYfrLlnAWv."
 
 # ==========================================================
-# 2. EL LINK DE LA BÓVEDA SECRETA (FUBOLAZO - CON IMÁGENES)
+# 2. EL LINK DIRECTO Y ACTUALIZADO (LA14HD)
 # ==========================================================
-API_ORIGEN = "https://fubolazo.com/agenda.json"
-BASE_DOMAIN = "https://img.fubolazo.com" 
+API_ORIGEN = "https://la14hd.com/eventos/json/agenda123.json"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
     "Accept": "application/json",
 }
 
+# ==========================================================
+# 3. CEREBRO DE BANDERAS (Para compensar la API sin imágenes)
+# ==========================================================
+def obtener_bandera(liga, encuentro):
+    texto = (liga + " " + encuentro).lower()
+    
+    # Torneos Internacionales
+    if "champions" in texto or "campeones de la uefa" in texto: return "https://cdn-icons-png.flaticon.com/512/520/520786.png"
+    if "libertadores" in texto: return "https://cdn-icons-png.flaticon.com/512/1043/1043444.png"
+    if "sudamericana" in texto: return "https://cdn-icons-png.flaticon.com/512/3112/3112946.png"
+    if "concacaf" in texto: return "https://cdn-icons-png.flaticon.com/512/9903/9903672.png" 
+    if "afc" in texto or "asia" in texto: return "https://cdn-icons-png.flaticon.com/512/6104/6104033.png"
+    if "fifa" in texto or "mundial" in texto or "conmebol" in texto or "clasificatorias" in texto: return "https://cdn-icons-png.flaticon.com/512/323/323326.png"
+
+    # Países y Ligas
+    if "perú" in texto or "liga 1" in texto or "peruano" in texto or "alianza" in texto or "cristal" in texto or "universitario" in texto: return "https://flagcdn.com/w40/pe.png"
+    if "argentina" in texto or "liga profesional" in texto or "copa de la liga" in texto or "boca" in texto or "river" in texto: return "https://flagcdn.com/w40/ar.png"
+    if "mexic" in texto or "liga mx" in texto or "américa" in texto or "cruz azul" in texto or "chivas" in texto: return "https://flagcdn.com/w40/mx.png"
+    if "colombia" in texto or "betplay" in texto or "primera a" in texto or "nacional" in texto or "millonarios" in texto: return "https://flagcdn.com/w40/co.png"
+    if "chile" in texto or "campeonato nacional" in texto or "colo colo" in texto or "u de chile" in texto: return "https://flagcdn.com/w40/cl.png"
+    if "uruguay" in texto or "peñarol" in texto or "nacional" in texto: return "https://flagcdn.com/w40/uy.png"
+    if "ecuador" in texto or "ligapro" in texto or "barcelona sc" in texto or "emelec" in texto: return "https://flagcdn.com/w40/ec.png"
+    if "brasil" in texto or "brasileirão" in texto or "paulista" in texto or "flamengo" in texto or "palmeiras" in texto: return "https://flagcdn.com/w40/br.png"
+    if "usa" in texto or "mls" in texto or "estados unidos" in texto or "inter miami" in texto: return "https://flagcdn.com/w40/us.png"
+    if "españa" in texto or "laliga" in texto or "copa del rey" in texto or "real madrid" in texto or "barcelona" in texto: return "https://flagcdn.com/w40/es.png"
+    if "inglaterra" in texto or "premier" in texto or "championship" in texto or "fa cup" in texto or "liverpool" in texto or "city" in texto: return "https://flagcdn.com/w40/gb-eng.png"
+    if "italia" in texto or "serie a" in texto or "juventus" in texto or "milan" in texto or "inter" in texto: return "https://flagcdn.com/w40/it.png"
+    if "alemania" in texto or "bundesliga" in texto or "bayern" in texto: return "https://flagcdn.com/w40/de.png"
+    if "francia" in texto or "ligue 1" in texto or "psg" in texto: return "https://flagcdn.com/w40/fr.png"
+    if "arabia" in texto or "pro league" in texto or "al nassr" in texto: return "https://flagcdn.com/w40/sa.png"
+    
+    # Pelota genérica por defecto
+    return "https://cdn-icons-png.flaticon.com/512/53/53283.png"
+
 def desencriptar_enlace(iframe_str):
-    """ Desencripta la URL de Base64 de la API de Strapi """
     try:
         if 'r=' in iframe_str:
             b64_texto = iframe_str.split('r=')[1].split('&')[0]
@@ -34,109 +66,89 @@ def desencriptar_enlace(iframe_str):
     return iframe_str
 
 def convertir_hora(fecha_str, hora_str):
-    """ Junta la fecha y hora de la API y la convierte a UTC """
     try:
         fecha_hora_texto = f"{fecha_str} {hora_str}"
-        fecha_obj = datetime.strptime(fecha_hora_texto, "%Y-%m-%d %H:%M:%S")
-        
-        # Asumimos que la API entrega horas de Perú/Colombia (UTC-5)
+        fecha_obj = datetime.strptime(fecha_hora_texto, "%Y-%m-%d %H:%M")
         tz_origen = timezone(timedelta(hours=-5))
         fecha_obj = fecha_obj.replace(tzinfo=tz_origen)
-        
         return fecha_obj.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     except Exception as e:
         return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 def extraer_partidos():
-    print(f"[*] Conectando a la API de fubolazo: {API_ORIGEN}...")
+    timestamp = int(time.time() * 1000)
+    url_con_timestamp = f"{API_ORIGEN}?_={timestamp}"
+    
+    print(f"[*] Conectando a la API actualizada: {url_con_timestamp[:50]}...")
     try:
-        # Añadimos un timestamp para evitar la caché de la página de origen
-        timestamp = int(time.time() * 1000)
-        respuesta = requests.get(f"{API_ORIGEN}?_={timestamp}", headers=HEADERS, timeout=15)
+        respuesta = requests.get(url_con_timestamp, headers=HEADERS, timeout=15)
         respuesta.raise_for_status() 
         datos_json = respuesta.json()
         
-        lista_partidos = datos_json if isinstance(datos_json, list) else datos_json.get("data", [])
+        partidos_agrupados = {}
         
-        partidos_extraidos = []
-        contador_id = 1
-        
-        for item in lista_partidos:
-            attrs = item.get("attributes", {})
-            if not attrs:
+        # Esta API entrega una lista plana, por lo que debemos agrupar los canales por partido
+        for item in datos_json:
+            titulo_completo = item.get("title", "Partido en Vivo")
+            fecha = item.get("date", "")
+            hora = item.get("time", "")
+            link = item.get("link", "")
+            idioma = item.get("language", "Español")
+            
+            if not titulo_completo or "Futbol" not in item.get("category", ""):
                 continue
                 
-            # Extraer Fechas y Horas
-            fecha = attrs.get("date_diary", "")
-            hora = attrs.get("diary_hour", "")
-            datetime_utc = convertir_hora(fecha, hora)
+            match_key = f"{fecha}_{hora}_{titulo_completo}"
             
-            # Extraer Títulos y Equipos
-            descripcion = attrs.get("diary_description", "Fútbol")
-            liga = "Fútbol"
-            encuentro = descripcion
-            
-            if ":" in descripcion:
-                partes = descripcion.split(":", 1)
-                liga = partes[0].strip()
-                encuentro = partes[1].strip()
+            if match_key not in partidos_agrupados:
+                liga = "Fútbol"
+                encuentro = titulo_completo
                 
-            home_team = encuentro
-            away_team = ""
-            if " vs " in encuentro.lower():
-                equipos = re.split(r'\s+vs\s+', encuentro, flags=re.IGNORECASE)
-                home_team = equipos[0].strip()
-                away_team = equipos[1].strip()
-
-            # =======================================================
-            # EXTRAER IMAGEN PROFESIONAL DIRECTO DE FUBOLAZO
-            # =======================================================
-            bandera_url = "https://cdn-icons-png.flaticon.com/512/53/53283.png" # Pelota por defecto
-            try:
-                ruta_img = attrs.get("country", {}).get("data", {}).get("attributes", {}).get("image", {}).get("data", {}).get("attributes", {}).get("url", "")
-                if ruta_img:
-                    bandera_url = ruta_img if ruta_img.startswith("http") else BASE_DOMAIN + ruta_img
-            except Exception as e:
-                pass
-
-            # Extraer y Desencriptar Servidores
-            servidores_extraidos = []
-            lista_embeds = attrs.get("embeds", {}).get("data", [])
-            
-            for emb in lista_embeds:
-                emb_attrs = emb.get("attributes", {})
-                nombre = emb_attrs.get("embed_name", "Opción")
-                iframe_encriptado = emb_attrs.get("embed_iframe", "")
-                
-                url_limpia = desencriptar_enlace(iframe_encriptado)
-                
-                if url_limpia and url_limpia.startswith("http"):
-                    # TRUCO ANTI-BLOQUEO: cambiar canales.php a canal.php
-                    url_segura = url_limpia.replace("\\/", "/").replace("canales.php", "canal.php")
-                    servidores_extraidos.append({
-                        "name": nombre,
-                        "url": url_segura
-                    })
+                if ":" in titulo_completo:
+                    partes = titulo_completo.split(":", 1)
+                    liga = partes[0].strip()
+                    encuentro = partes[1].strip()
                     
-            if not servidores_extraidos:
-                continue
+                home_team = encuentro
+                away_team = ""
+                if " vs " in encuentro.lower():
+                    equipos = re.split(r'\s+vs\s+', encuentro, flags=re.IGNORECASE)
+                    home_team = equipos[0].strip()
+                    away_team = equipos[1].strip()
 
-            print(f"✅ {liga}: {encuentro}")
-            print(f"   -> URL de Bandera Asignada: {bandera_url}")
+                datetime_utc = convertir_hora(fecha, hora)
+                bandera_magica = obtener_bandera(liga, encuentro)
 
-            partidos_extraidos.append({
-                "id": contador_id,
-                "datetime": datetime_utc,
-                "flagUrl": bandera_url,
-                "league": liga,
-                "homeTeam": home_team,
-                "awayTeam": away_team,
-                "servers": servidores_extraidos
-            })
-            contador_id += 1
+                partidos_agrupados[match_key] = {
+                    "datetime": datetime_utc,
+                    "flagUrl": bandera_magica,
+                    "league": liga,
+                    "homeTeam": home_team,
+                    "awayTeam": away_team,
+                    "servers": []
+                }
+
+            if link:
+                canal_nombre = f"Opción ({idioma})"
+                if "stream=" in link:
+                    canal_raw = link.split("stream=")[-1].replace("_", " ").upper()
+                    canal_nombre = f"{canal_raw} ({idioma})"
+                
+                url_limpia = desencriptar_enlace(link)
+                url_segura = url_limpia.replace("\\/", "/").replace("canales.php", "canal.php")
+                
+                partidos_agrupados[match_key]["servers"].append({
+                    "name": canal_nombre,
+                    "url": url_segura
+                })
             
-        # Ordenar cronológicamente
+        partidos_extraidos = list(partidos_agrupados.values())
         partidos_extraidos.sort(key=lambda x: x["datetime"])
+        
+        # Asignar IDs únicos y mostrar en consola
+        for i, p in enumerate(partidos_extraidos):
+            p["id"] = i + 1
+            print(f"  -> {p['league']}: {p['homeTeam']} | {len(p['servers'])} links")
             
         return partidos_extraidos
     except Exception as e:
@@ -153,7 +165,7 @@ def actualizar_nube(datos):
     try:
         res = requests.put(url, json=datos, headers=headers)
         if res.status_code == 200:
-            print(f"[+] ¡ÉXITO! Nube actualizada con {len(datos)} partidos y BANDERAS ORIGINALES.")
+            print(f"[+] ¡ÉXITO! Nube actualizada con {len(datos)} partidos y enlaces frescos.")
         else:
             print(f"[X] Error de JSONBin: {res.text}")
     except Exception as e:
@@ -161,9 +173,17 @@ def actualizar_nube(datos):
 
 if __name__ == "__main__":
     print("===================================================================")
-    print("   BOT DEFINITIVO: BANDERAS ORIGINALES + ENLACES DESBLOQUEADOS     ")
+    print("   BOT DEFINITIVO: LA14HD DIRECTO + BUCLE LOCAL (CADA 10 MIN)      ")
     print("===================================================================")
     
-    datos = extraer_partidos()
-    if datos is not None: 
-        actualizar_nube(datos)
+    # BUCLE INFINITO
+    while True:
+        ahora = datetime.now().strftime("%H:%M:%S")
+        print(f"\n--- INICIANDO ESCANEO A LAS {ahora} ---")
+        
+        datos = extraer_partidos()
+        if datos is not None: 
+            actualizar_nube(datos)
+            
+        print("\n[*] Escaneo finalizado. Durmiendo por 10 minutos zZz...")
+        time.sleep(600)
