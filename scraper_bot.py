@@ -22,38 +22,43 @@ HEADERS = {
 }
 
 # ==========================================================
-# 3. EL CEREBRO DE BANDERAS
+# 3. EL CEREBRO DE BANDERAS (VERSION MEJORADA Y SIN ROTURAS)
 # ==========================================================
 def obtener_bandera(liga, encuentro):
     """ Lee el nombre de la liga o equipos y asigna una bandera automáticamente """
     texto = (liga + " " + encuentro).lower()
     
-    # Países Principales
-    if "perú" in texto or "liga 1" in texto or "peruano" in texto: return "https://flagcdn.com/w40/pe.png"
-    if "argentina" in texto or "liga profesional" in texto or "copa de la liga" in texto: return "https://flagcdn.com/w40/ar.png"
-    if "españa" in texto or "laliga" in texto or "copa del rey" in texto: return "https://flagcdn.com/w40/es.png"
-    if "inglaterra" in texto or "premier" in texto or "championship" in texto or "fa cup" in texto: return "https://flagcdn.com/w40/gb-eng.png"
-    if "italia" in texto or "serie a" in texto: return "https://flagcdn.com/w40/it.png"
-    if "alemania" in texto or "bundesliga" in texto: return "https://flagcdn.com/w40/de.png"
-    if "francia" in texto or "ligue 1" in texto: return "https://flagcdn.com/w40/fr.png"
-    if "mexic" in texto or "liga mx" in texto: return "https://flagcdn.com/w40/mx.png"
-    if "colombia" in texto or "betplay" in texto or "primera a" in texto: return "https://flagcdn.com/w40/co.png"
-    if "chile" in texto or "campeonato nacional" in texto: return "https://flagcdn.com/w40/cl.png"
-    if "uruguay" in texto: return "https://flagcdn.com/w40/uy.png"
-    if "ecuador" in texto or "ligapro" in texto: return "https://flagcdn.com/w40/ec.png"
-    if "brasil" in texto or "brasileirão" in texto or "paulista" in texto: return "https://flagcdn.com/w40/br.png"
-    if "usa" in texto or "mls" in texto or "estados unidos" in texto: return "https://flagcdn.com/w40/us.png"
-    if "arabia" in texto or "pro league" in texto: return "https://flagcdn.com/w40/sa.png"
+    # Países Principales de América
+    if "perú" in texto or "liga 1" in texto or "peruano" in texto or "alianza" in texto or "cristal" in texto or "universitario" in texto: return "https://flagcdn.com/w40/pe.png"
+    if "argentina" in texto or "liga profesional" in texto or "copa de la liga" in texto or "boca" in texto or "river" in texto: return "https://flagcdn.com/w40/ar.png"
+    if "mexic" in texto or "liga mx" in texto or "américa" in texto or "cruz azul" in texto or "chivas" in texto: return "https://flagcdn.com/w40/mx.png"
+    if "colombia" in texto or "betplay" in texto or "primera a" in texto or "nacional" in texto or "millonarios" in texto: return "https://flagcdn.com/w40/co.png"
+    if "chile" in texto or "campeonato nacional" in texto or "colo colo" in texto or "u de chile" in texto: return "https://flagcdn.com/w40/cl.png"
+    if "uruguay" in texto or "peñarol" in texto or "nacional" in texto: return "https://flagcdn.com/w40/uy.png"
+    if "ecuador" in texto or "ligapro" in texto or "barcelona sc" in texto or "emelec" in texto: return "https://flagcdn.com/w40/ec.png"
+    if "brasil" in texto or "brasileirão" in texto or "paulista" in texto or "flamengo" in texto or "palmeiras" in texto: return "https://flagcdn.com/w40/br.png"
+    if "usa" in texto or "mls" in texto or "estados unidos" in texto or "inter miami" in texto: return "https://flagcdn.com/w40/us.png"
     
-    # Torneos Internacionales
-    if "champions league" in texto or "uefa" in texto: return "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/UEFA_Champions_League_logo_2.svg/40px-UEFA_Champions_League_logo_2.svg.png"
-    if "libertadores" in texto: return "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Copa_Libertadores_logo.svg/40px-Copa_Libertadores_logo.svg.png"
-    if "sudamericana" in texto: return "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Copa_Sudamericana_logo.svg/40px-Copa_Sudamericana_logo.svg.png"
-    if "concacaf" in texto: return "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/CONCACAF_logo.svg/40px-CONCACAF_logo.svg.png"
-    if "fifa" in texto or "mundial" in texto: return "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/FIFA_logo_without_slogan.svg/40px-FIFA_logo_without_slogan.svg.png"
+    # Países Principales de Europa
+    if "españa" in texto or "laliga" in texto or "copa del rey" in texto or "real madrid" in texto or "barcelona" in texto: return "https://flagcdn.com/w40/es.png"
+    if "inglaterra" in texto or "premier" in texto or "championship" in texto or "fa cup" in texto or "liverpool" in texto or "city" in texto: return "https://flagcdn.com/w40/gb-eng.png"
+    if "italia" in texto or "serie a" in texto or "juventus" in texto or "milan" in texto or "inter" in texto: return "https://flagcdn.com/w40/it.png"
+    if "alemania" in texto or "bundesliga" in texto or "bayern" in texto: return "https://flagcdn.com/w40/de.png"
+    if "francia" in texto or "ligue 1" in texto or "psg" in texto: return "https://flagcdn.com/w40/fr.png"
     
-    # Pelota genérica por defecto
-    return "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Soccerball.svg/40px-Soccerball.svg.png"
+    # Otras Ligas
+    if "arabia" in texto or "pro league" in texto or "al nassr" in texto: return "https://flagcdn.com/w40/sa.png"
+    
+    # Torneos Internacionales (URLs súper estables)
+    if "champions" in texto or "campeones de la uefa" in texto: return "https://cdn-icons-png.flaticon.com/512/520/520786.png"
+    if "libertadores" in texto: return "https://cdn-icons-png.flaticon.com/512/1043/1043444.png"
+    if "sudamericana" in texto: return "https://cdn-icons-png.flaticon.com/512/3112/3112946.png"
+    if "concacaf" in texto: return "https://cdn-icons-png.flaticon.com/512/9903/9903672.png" 
+    if "afc" in texto or "asia" in texto: return "https://cdn-icons-png.flaticon.com/512/6104/6104033.png"
+    if "fifa" in texto or "mundial" in texto or "conmebol" in texto or "clasificatorias" in texto: return "https://cdn-icons-png.flaticon.com/512/323/323326.png"
+    
+    # Pelota genérica por defecto (Nunca falla)
+    return "https://cdn-icons-png.flaticon.com/512/53/53283.png"
 
 def convertir_hora(fecha_str, hora_str):
     try:
@@ -107,10 +112,9 @@ def extraer_partidos():
                 # AQUI ACTIVAMOS EL CEREBRO DE BANDERAS
                 bandera_magica = obtener_bandera(liga, encuentro)
                 
-                # ---- NUEVO: MENSAJE DE DIAGNÓSTICO EN CONSOLA ----
+                # ---- MENSAJE DE DIAGNÓSTICO EN CONSOLA ----
                 print(f"✅ {liga}: {encuentro}")
                 print(f"   -> URL de Bandera Asignada: {bandera_magica}")
-                # ---------------------------------------------------
                 
                 partidos_agrupados[match_key] = {
                     "datetime": datetime_utc,
