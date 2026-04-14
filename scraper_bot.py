@@ -12,9 +12,11 @@ BIN_ID = "69d933e5aaba882197e5950b"
 API_KEY = "$2a$10$fH2AVYqUAGOQm6KLrAcdk.fsTBsZPp7sTDWydhhsWtaYfrLlnAWv."
 
 # ==========================================================
-# 2. EL LINK DIRECTO Y ACTUALIZADO (LA14HD)
+# 2. LOS LINKS DE LAS BÓVEDAS (AGENDA FRESCA + FOTOS)
 # ==========================================================
-API_ORIGEN = "https://la14hd.com/eventos/json/agenda123.json"
+API_AGENDA = "https://la14hd.com/eventos/json/agenda123.json"
+API_BANDERAS = "https://fubolazo.com/agenda.json"
+BASE_DOMAIN_IMG = "https://img.fubolazo.com"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
@@ -22,7 +24,7 @@ HEADERS = {
 }
 
 # ==========================================================
-# 3. CEREBRO DE BANDERAS (Para compensar la API sin imágenes)
+# 3. CEREBRO DE BANDERAS (Respaldo por si Fubolazo falla)
 # ==========================================================
 def obtener_bandera(liga, encuentro):
     texto = (liga + " " + encuentro).lower()
@@ -77,9 +79,36 @@ def convertir_hora(fecha_str, hora_str):
 
 def extraer_partidos():
     timestamp = int(time.time() * 1000)
-    url_con_timestamp = f"{API_ORIGEN}?_={timestamp}"
     
-    print(f"[*] Conectando a la API actualizada: {url_con_timestamp[:50]}...")
+    # =================================================================
+    # FASE 1: ROBAR EL DICCIONARIO DE FOTOS DE FUBOLAZO
+    # =================================================================
+    print(f"[*] FASE 1: Extrayendo imágenes originales de Fubolazo...")
+    diccionario_banderas = {}
+    try:
+        res_banderas = requests.get(f"{API_BANDERAS}?_={timestamp}", headers=HEADERS, timeout=15)
+        if res_banderas.status_code == 200:
+            datos_banderas = res_banderas.json()
+            lista_fubolazo = datos_banderas if isinstance(datos_banderas, list) else datos_banderas.get("data", [])
+            
+            for item in lista_fubolazo:
+                attrs = item.get("attributes", {})
+                titulo = attrs.get("diary_description", "").strip().lower()
+                try:
+                    ruta_img = attrs.get("country", {}).get("data", {}).get("attributes", {}).get("image", {}).get("data", {}).get("attributes", {}).get("url", "")
+                    if ruta_img and titulo:
+                        diccionario_banderas[titulo] = ruta_img if ruta_img.startswith("http") else BASE_DOMAIN_IMG + ruta_img
+                except:
+                    pass
+            print(f"    -> Memorizadas {len(diccionario_banderas)} banderas oficiales.")
+    except Exception as e:
+        print(f"[!] Aviso: No se pudieron cargar las banderas oficiales ({e})")
+
+    # =================================================================
+    # FASE 2: ROBAR LA AGENDA SÚPER ACTUALIZADA DE LA14HD
+    # =================================================================
+    url_con_timestamp = f"{API_AGENDA}?_={timestamp}"
+    print(f"[*] FASE 2: Conectando a la agenda súper fresca: {url_con_timestamp[:50]}...")
     try:
         respuesta = requests.get(url_con_timestamp, headers=HEADERS, timeout=15)
         respuesta.raise_for_status() 
@@ -87,9 +116,8 @@ def extraer_partidos():
         
         partidos_agrupados = {}
         
-        # Esta API entrega una lista plana, por lo que debemos agrupar los canales por partido
         for item in datos_json:
-            titulo_completo = item.get("title", "Partido en Vivo")
+            titulo_completo = item.get("title", "Partido en Vivo").strip()
             fecha = item.get("date", "")
             hora = item.get("time", "")
             link = item.get("link", "")
@@ -117,7 +145,11 @@ def extraer_partidos():
                     away_team = equipos[1].strip()
 
                 datetime_utc = convertir_hora(fecha, hora)
-                bandera_magica = obtener_bandera(liga, encuentro)
+                
+                # LA MAGIA: Buscar la foto en la memoria de Fubolazo, sino usar nuestro Cerebro
+                bandera_magica = diccionario_banderas.get(titulo_completo.lower(), "")
+                if not bandera_magica:
+                    bandera_magica = obtener_bandera(liga, encuentro)
 
                 partidos_agrupados[match_key] = {
                     "datetime": datetime_utc,
@@ -148,7 +180,7 @@ def extraer_partidos():
         # Asignar IDs únicos y mostrar en consola
         for i, p in enumerate(partidos_extraidos):
             p["id"] = i + 1
-            print(f"  -> {p['league']}: {p['homeTeam']} | {len(p['servers'])} links")
+            print(f"  -> {p['league']}: {p['homeTeam']} | B: {p['flagUrl'][:20]}... | {len(p['servers'])} links")
             
         return partidos_extraidos
     except Exception as e:
@@ -165,7 +197,7 @@ def actualizar_nube(datos):
     try:
         res = requests.put(url, json=datos, headers=headers)
         if res.status_code == 200:
-            print(f"[+] ¡ÉXITO! Nube actualizada con {len(datos)} partidos y enlaces frescos.")
+            print(f"[+] ¡ÉXITO! Nube actualizada con {len(datos)} partidos (Fotos Fubolazo + Agenda La14HD).")
         else:
             print(f"[X] Error de JSONBin: {res.text}")
     except Exception as e:
@@ -173,7 +205,7 @@ def actualizar_nube(datos):
 
 if __name__ == "__main__":
     print("===================================================================")
-    print("   BOT DEFINITIVO: LA14HD DIRECTO + BUCLE LOCAL (CADA 10 MIN)      ")
+    print("   BOT HÍBRIDO: AGENDA LA14HD + FOTOS FUBOLAZO (CADA 10 MIN)       ")
     print("===================================================================")
     
     # BUCLE INFINITO
