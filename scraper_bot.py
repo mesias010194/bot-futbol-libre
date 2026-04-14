@@ -29,7 +29,6 @@ HEADERS = {
 def obtener_bandera(liga, encuentro):
     texto = (liga + " " + encuentro).lower()
     
-    # Torneos Internacionales
     if "champions" in texto or "campeones de la uefa" in texto: return "https://cdn-icons-png.flaticon.com/512/520/520786.png"
     if "libertadores" in texto: return "https://cdn-icons-png.flaticon.com/512/1043/1043444.png"
     if "sudamericana" in texto: return "https://cdn-icons-png.flaticon.com/512/3112/3112946.png"
@@ -37,7 +36,6 @@ def obtener_bandera(liga, encuentro):
     if "afc" in texto or "asia" in texto: return "https://cdn-icons-png.flaticon.com/512/6104/6104033.png"
     if "fifa" in texto or "mundial" in texto or "conmebol" in texto or "clasificatorias" in texto: return "https://cdn-icons-png.flaticon.com/512/323/323326.png"
 
-    # Países y Ligas
     if "perú" in texto or "liga 1" in texto or "peruano" in texto or "alianza" in texto or "cristal" in texto or "universitario" in texto: return "https://flagcdn.com/w40/pe.png"
     if "argentina" in texto or "liga profesional" in texto or "copa de la liga" in texto or "boca" in texto or "river" in texto: return "https://flagcdn.com/w40/ar.png"
     if "mexic" in texto or "liga mx" in texto or "américa" in texto or "cruz azul" in texto or "chivas" in texto: return "https://flagcdn.com/w40/mx.png"
@@ -54,7 +52,6 @@ def obtener_bandera(liga, encuentro):
     if "francia" in texto or "ligue 1" in texto or "psg" in texto: return "https://flagcdn.com/w40/fr.png"
     if "arabia" in texto or "pro league" in texto or "al nassr" in texto: return "https://flagcdn.com/w40/sa.png"
     
-    # Pelota genérica por defecto
     return "https://cdn-icons-png.flaticon.com/512/53/53283.png"
 
 def desencriptar_enlace(iframe_str):
@@ -68,11 +65,10 @@ def desencriptar_enlace(iframe_str):
     return iframe_str
 
 def procesar_fecha(fecha_str, hora_str):
-    """ Convierte la hora y devuelve tanto el string UTC como el objeto Datetime para cálculos """
     try:
         fecha_hora_texto = f"{fecha_str} {hora_str}"
         fecha_obj = datetime.strptime(fecha_hora_texto, "%Y-%m-%d %H:%M")
-        tz_origen = timezone(timedelta(hours=-5)) # Hora Perú/Colombia
+        tz_origen = timezone(timedelta(hours=-5)) 
         fecha_obj = fecha_obj.replace(tzinfo=tz_origen)
         utc_obj = fecha_obj.astimezone(timezone.utc)
         return utc_obj.strftime("%Y-%m-%dT%H:%M:%SZ"), utc_obj
@@ -83,9 +79,6 @@ def procesar_fecha(fecha_str, hora_str):
 def extraer_partidos():
     timestamp = int(time.time() * 1000)
     
-    # =================================================================
-    # FASE 1: ROBAR EL DICCIONARIO DE FOTOS DE FUBOLAZO
-    # =================================================================
     print(f"[*] FASE 1: Extrayendo imágenes originales de Fubolazo...")
     diccionario_banderas = {}
     try:
@@ -93,7 +86,6 @@ def extraer_partidos():
         if res_banderas.status_code == 200:
             datos_banderas = res_banderas.json()
             lista_fubolazo = datos_banderas if isinstance(datos_banderas, list) else datos_banderas.get("data", [])
-            
             for item in lista_fubolazo:
                 attrs = item.get("attributes", {})
                 titulo = attrs.get("diary_description", "").strip().lower()
@@ -103,13 +95,10 @@ def extraer_partidos():
                         diccionario_banderas[titulo] = ruta_img if ruta_img.startswith("http") else BASE_DOMAIN_IMG + ruta_img
                 except:
                     pass
-            print(f"    -> Memorizadas {len(diccionario_banderas)} banderas oficiales.")
+            print(f"    -> Memorizadas {len(diccionario_banderas)} banderas.")
     except Exception as e:
-        print(f"[!] Aviso: No se pudieron cargar las banderas oficiales ({e})")
+        print(f"[!] Aviso: Error con banderas ({e})")
 
-    # =================================================================
-    # FASE 2: ROBAR LA AGENDA SÚPER ACTUALIZADA DE LA14HD
-    # =================================================================
     url_con_timestamp = f"{API_AGENDA}?_={timestamp}"
     print(f"[*] FASE 2: Conectando a la agenda súper fresca: {url_con_timestamp[:50]}...")
     try:
@@ -127,21 +116,16 @@ def extraer_partidos():
             idioma = item.get("language", "Español")
             estado = item.get("status", "").lower()
             
-            # --- FILTRO 1: ESTADO TEXTUAL ---
             if "finalizado" in estado or "terminado" in estado:
                  continue
                  
-            # Obtenemos las fechas para el filtro inteligente
             datetime_utc, fecha_obj_utc = procesar_fecha(fecha, hora)
             
-            # --- FILTRO 2: RELOJ INTERNO ANTI-ERRORES (¡EL MÁS IMPORTANTE!) ---
-            # Comparamos la hora actual con la hora en que empezó el partido.
-            # Si ya pasaron 240 minutos (4 horas), el partido se da por finalizado y se borra. (Cubre prórrogas y penales)
+            # --- FILTRO RELOJ: 240 MINUTOS (4 HORAS) ---
             ahora_utc = datetime.now(timezone.utc)
             minutos_transcurridos = (ahora_utc - fecha_obj_utc).total_seconds() / 60
             
             if minutos_transcurridos > 240:
-                # Omitimos el partido silenciosamente porque ya expiró su tiempo
                 continue
             
             if not titulo_completo or "Futbol" not in item.get("category", ""):
@@ -152,7 +136,6 @@ def extraer_partidos():
             if match_key not in partidos_agrupados:
                 liga = "Fútbol"
                 encuentro = titulo_completo
-                
                 if ":" in titulo_completo:
                     partes = titulo_completo.split(":", 1)
                     liga = partes[0].strip()
@@ -165,7 +148,6 @@ def extraer_partidos():
                     home_team = equipos[0].strip()
                     away_team = equipos[1].strip()
                 
-                # LA MAGIA: Buscar la foto en la memoria de Fubolazo, sino usar nuestro Cerebro
                 bandera_magica = diccionario_banderas.get(titulo_completo.lower(), "")
                 if not bandera_magica:
                     bandera_magica = obtener_bandera(liga, encuentro)
@@ -196,10 +178,9 @@ def extraer_partidos():
         partidos_extraidos = list(partidos_agrupados.values())
         partidos_extraidos.sort(key=lambda x: x["datetime"])
         
-        # Asignar IDs únicos y mostrar en consola
         for i, p in enumerate(partidos_extraidos):
             p["id"] = i + 1
-            print(f"  -> {p['league']}: {p['homeTeam']} | B: {p['flagUrl'][:20]}... | {len(p['servers'])} links")
+            print(f"  -> {p['league']}: {p['homeTeam']} | {len(p['servers'])} links")
             
         return partidos_extraidos
     except Exception as e:
@@ -209,7 +190,6 @@ def extraer_partidos():
 def actualizar_nube(datos):
     if not datos:
         print("[!] No hay datos para subir. La agenda está vacía.")
-        # Subimos un arreglo vacío para borrar los partidos de la web
         url = f"https://api.jsonbin.io/v3/b/{BIN_ID}"
         headers = { 'Content-Type': 'application/json', 'X-Master-Key': API_KEY }
         requests.put(url, json=[], headers=headers)
@@ -220,7 +200,7 @@ def actualizar_nube(datos):
     try:
         res = requests.put(url, json=datos, headers=headers)
         if res.status_code == 200:
-            print(f"[+] ¡ÉXITO! Nube actualizada con {len(datos)} partidos (Fotos Fubolazo + Agenda La14HD).")
+            print(f"[+] ¡ÉXITO! Nube actualizada.")
         else:
             print(f"[X] Error de JSONBin: {res.text}")
     except Exception as e:
@@ -228,17 +208,15 @@ def actualizar_nube(datos):
 
 if __name__ == "__main__":
     print("===================================================================")
-    print("   BOT HÍBRIDO: AGENDA LA14HD + FILTRO DE TIEMPO (CADA 10 MIN)     ")
+    print("   BOT PARA GITHUB: 1 SOLA EJECUCIÓN (SIN BUCLE INFINITO)          ")
     print("===================================================================")
     
-    # BUCLE INFINITO
-    while True:
-        ahora = datetime.now().strftime("%H:%M:%S")
-        print(f"\n--- INICIANDO ESCANEO A LAS {ahora} ---")
+    # ATENCIÓN: Aquí ya NO hay "while True". Solo se ejecuta 1 vez y se apaga.
+    ahora = datetime.now().strftime("%H:%M:%S")
+    print(f"\n--- INICIANDO ESCANEO A LAS {ahora} ---")
+    
+    datos = extraer_partidos()
+    if datos is not None: 
+        actualizar_nube(datos)
         
-        datos = extraer_partidos()
-        if datos is not None: 
-            actualizar_nube(datos)
-            
-        print("\n[*] Escaneo finalizado. Durmiendo por 10 minutos zZz...")
-        time.sleep(600)
+    print("\n[*] Escaneo finalizado. Apagando bot para que GitHub descanse.")
