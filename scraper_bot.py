@@ -56,7 +56,7 @@ def extraer_partidos():
             
             # Filtramos solo los partidos (ignoramos repeticiones u otras categorías raras si las hay)
             if not titulo_completo or "Futbol" not in item.get("category", ""):
-                pass # Puedes quitar esto si quieres traer baloncesto, UFC, etc.
+                pass 
             
             # Clave única para agrupar: Fecha + Hora + Título
             match_key = f"{fecha}_{hora}_{titulo_completo}"
@@ -83,7 +83,7 @@ def extraer_partidos():
                 
                 partidos_agrupados[match_key] = {
                     "datetime": datetime_utc,
-                    "flagUrl": "", # Esta API no tiene banderas, las ocultaremos limpio
+                    "flagUrl": "", 
                     "league": liga,
                     "homeTeam": home_team,
                     "awayTeam": away_team,
@@ -94,14 +94,17 @@ def extraer_partidos():
             if link:
                 canal_nombre = f"Opción ({idioma})"
                 
-                # Sacar un nombre bonito de canal desde la URL (ej: stream=espnmx -> ESPNMX)
                 if "stream=" in link:
                     canal_raw = link.split("stream=")[-1].replace("_", " ").upper()
                     canal_nombre = f"{canal_raw} ({idioma})"
                     
+                # --- TRUCO ANTI-BLOQUEO MÁXIMO ---
+                # Limpiamos la URL y cambiamos 'canales.php' (protegido) por 'canal.php' (libre)
+                url_segura = link.replace("\\/", "/").replace("canales.php", "canal.php")
+                    
                 partidos_agrupados[match_key]["servers"].append({
                     "name": canal_nombre,
-                    "url": link.replace("\\/", "/") # Limpieza por seguridad
+                    "url": url_segura
                 })
 
         # Convertir nuestro grupo en una lista final para la nube
