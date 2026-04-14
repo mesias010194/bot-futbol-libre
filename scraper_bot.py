@@ -67,15 +67,18 @@ def desencriptar_enlace(iframe_str):
         pass
     return iframe_str
 
-def convertir_hora(fecha_str, hora_str):
+def procesar_fecha(fecha_str, hora_str):
+    """ Convierte la hora y devuelve tanto el string UTC como el objeto Datetime para cálculos """
     try:
         fecha_hora_texto = f"{fecha_str} {hora_str}"
         fecha_obj = datetime.strptime(fecha_hora_texto, "%Y-%m-%d %H:%M")
-        tz_origen = timezone(timedelta(hours=-5))
+        tz_origen = timezone(timedelta(hours=-5)) # Hora Perú/Colombia
         fecha_obj = fecha_obj.replace(tzinfo=tz_origen)
-        return fecha_obj.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        utc_obj = fecha_obj.astimezone(timezone.utc)
+        return utc_obj.strftime("%Y-%m-%dT%H:%M:%SZ"), utc_obj
     except Exception as e:
-        return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        now_utc = datetime.now(timezone.utc)
+        return now_utc.strftime("%Y-%m-%dT%H:%M:%SZ"), now_utc
 
 def extraer_partidos():
     timestamp = int(time.time() * 1000)
@@ -122,6 +125,24 @@ def extraer_partidos():
             hora = item.get("time", "")
             link = item.get("link", "")
             idioma = item.get("language", "Español")
+            estado = item.get("status", "").lower()
+            
+            # --- FILTRO 1: ESTADO TEXTUAL ---
+            if "finalizado" in estado or "terminado" in estado:
+                 continue
+                 
+            # Obtenemos las fechas para el filtro inteligente
+            datetime_utc, fecha_obj_utc = procesar_fecha(fecha, hora)
+            
+            # --- FILTRO 2: RELOJ INTERNO ANTI-ERRORES (¡EL MÁS IMPORTANTE!) ---
+            # Comparamos la hora actual con la hora en que empezó el partido.
+            # Si ya pasaron 240 minutos (4 horas), el partido se da por finalizado y se borra. (Cubre prórrogas y penales)
+            ahora_utc = datetime.now(timezone.utc)
+            minutos_transcurridos = (ahora_utc - fecha_obj_utc).total_seconds() / 60
+            
+            if minutos_transcurridos > 240:
+                # Omitimos el partido silenciosamente porque ya expiró su tiempo
+                continue
             
             if not titulo_completo or "Futbol" not in item.get("category", ""):
                 continue
@@ -143,8 +164,6 @@ def extraer_partidos():
                     equipos = re.split(r'\s+vs\s+', encuentro, flags=re.IGNORECASE)
                     home_team = equipos[0].strip()
                     away_team = equipos[1].strip()
-
-                datetime_utc = convertir_hora(fecha, hora)
                 
                 # LA MAGIA: Buscar la foto en la memoria de Fubolazo, sino usar nuestro Cerebro
                 bandera_magica = diccionario_banderas.get(titulo_completo.lower(), "")
@@ -189,7 +208,11 @@ def extraer_partidos():
 
 def actualizar_nube(datos):
     if not datos:
-        print("[!] No hay datos para subir.")
+        print("[!] No hay datos para subir. La agenda está vacía.")
+        # Subimos un arreglo vacío para borrar los partidos de la web
+        url = f"https://api.jsonbin.io/v3/b/{BIN_ID}"
+        headers = { 'Content-Type': 'application/json', 'X-Master-Key': API_KEY }
+        requests.put(url, json=[], headers=headers)
         return
         
     url = f"https://api.jsonbin.io/v3/b/{BIN_ID}"
@@ -205,7 +228,7 @@ def actualizar_nube(datos):
 
 if __name__ == "__main__":
     print("===================================================================")
-    print("   BOT HÍBRIDO: AGENDA LA14HD + FOTOS FUBOLAZO (CADA 10 MIN)       ")
+    print("   BOT HÍBRIDO: AGENDA LA14HD + FILTRO DE TIEMPO (CADA 10 MIN)     ")
     print("===================================================================")
     
     # BUCLE INFINITO
