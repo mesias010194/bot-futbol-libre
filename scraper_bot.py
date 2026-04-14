@@ -1,8 +1,8 @@
 import requests
 import json
-import base64
 from datetime import datetime, timedelta, timezone
 import re
+import time
 
 # ==========================================================
 # 1. CONFIGURACIÓN DE TU NUBE (JSONBIN.IO)
@@ -11,34 +11,24 @@ BIN_ID = "69d933e5aaba882197e5950b"
 API_KEY = "$2a$10$fH2AVYqUAGOQm6KLrAcdk.fsTBsZPp7sTDWydhhsWtaYfrLlnAWv."
 
 # ==========================================================
-# 2. EL LINK DE LA BÓVEDA SECRETA (FUBOLAZO)
+# 2. EL LINK DE LA BÓVEDA SECRETA (LA14HD)
+# Le agregamos un contador de tiempo para evadir su caché
 # ==========================================================
-API_ORIGEN = "https://fubolazo.com/agenda.json"
-BASE_DOMAIN = "https://futbollibreplay.pe" 
+TIMESTAMP = int(time.time() * 1000)
+API_ORIGEN = f"https://la14hd.com//eventos/json/agenda123.json?_={TIMESTAMP}"
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
     "Accept": "application/json",
 }
-
-def desencriptar_enlace(iframe_str):
-    """ Desencripta la URL de Base64 de la API de Strapi """
-    try:
-        if 'r=' in iframe_str:
-            b64_texto = iframe_str.split('r=')[1].split('&')[0]
-            url_real = base64.b64decode(b64_texto).decode('utf-8')
-            return url_real
-    except Exception as e:
-        pass
-    return iframe_str
 
 def convertir_hora(fecha_str, hora_str):
     """ Junta la fecha y hora de la API y la convierte a UTC """
     try:
         fecha_hora_texto = f"{fecha_str} {hora_str}"
-        fecha_obj = datetime.strptime(fecha_hora_texto, "%Y-%m-%d %H:%M:%S")
+        fecha_obj = datetime.strptime(fecha_hora_texto, "%Y-%m-%d %H:%M")
         
-        # Asumimos que la API entrega horas de Perú/Colombia (UTC-5)
+        # Asumimos que la API entrega horas de Perú/Colombia/Ecuador (UTC-5)
         tz_origen = timezone(timedelta(hours=-5))
         fecha_obj = fecha_obj.replace(tzinfo=tz_origen)
         
@@ -47,83 +37,83 @@ def convertir_hora(fecha_str, hora_str):
         return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 def extraer_partidos():
-    print(f"[*] Conectando a la API: {API_ORIGEN}...")
+    print(f"[*] Conectando a la API de la14hd: {API_ORIGEN[:45]}...")
     try:
         respuesta = requests.get(API_ORIGEN, headers=HEADERS, timeout=15)
         respuesta.raise_for_status() 
         datos_json = respuesta.json()
         
-        lista_partidos = datos_json if isinstance(datos_json, list) else datos_json.get("data", [])
+        # Diccionario para agrupar los canales que pertenecen al mismo partido
+        partidos_agrupados = {}
         
+        for item in datos_json:
+            titulo_completo = item.get("title", "Partido en Vivo")
+            fecha = item.get("date", "")
+            hora = item.get("time", "")
+            link = item.get("link", "")
+            idioma = item.get("language", "Español")
+            estado = item.get("status", "")
+            
+            # Filtramos solo los partidos (ignoramos repeticiones u otras categorías raras si las hay)
+            if not titulo_completo or "Futbol" not in item.get("category", ""):
+                pass # Puedes quitar esto si quieres traer baloncesto, UFC, etc.
+            
+            # Clave única para agrupar: Fecha + Hora + Título
+            match_key = f"{fecha}_{hora}_{titulo_completo}"
+            
+            # Si el partido no existe en nuestro agrupador, lo creamos
+            if match_key not in partidos_agrupados:
+                liga = "Fútbol"
+                encuentro = titulo_completo
+                
+                # Separar Liga y Equipos ("Liga 1: ADT vs Alianza Lima")
+                if ":" in titulo_completo:
+                    partes = titulo_completo.split(":", 1)
+                    liga = partes[0].strip()
+                    encuentro = partes[1].strip()
+                    
+                home_team = encuentro
+                away_team = ""
+                if " vs " in encuentro.lower():
+                    equipos = re.split(r'\s+vs\s+', encuentro, flags=re.IGNORECASE)
+                    home_team = equipos[0].strip()
+                    away_team = equipos[1].strip()
+                    
+                datetime_utc = convertir_hora(fecha, hora)
+                
+                partidos_agrupados[match_key] = {
+                    "datetime": datetime_utc,
+                    "flagUrl": "", # Esta API no tiene banderas, las ocultaremos limpio
+                    "league": liga,
+                    "homeTeam": home_team,
+                    "awayTeam": away_team,
+                    "servers": []
+                }
+            
+            # Añadir el canal a la lista de servidores del partido
+            if link:
+                canal_nombre = f"Opción ({idioma})"
+                
+                # Sacar un nombre bonito de canal desde la URL (ej: stream=espnmx -> ESPNMX)
+                if "stream=" in link:
+                    canal_raw = link.split("stream=")[-1].replace("_", " ").upper()
+                    canal_nombre = f"{canal_raw} ({idioma})"
+                    
+                partidos_agrupados[match_key]["servers"].append({
+                    "name": canal_nombre,
+                    "url": link.replace("\\/", "/") # Limpieza por seguridad
+                })
+
+        # Convertir nuestro grupo en una lista final para la nube
         partidos_extraidos = []
         contador_id = 1
-        
-        for item in lista_partidos:
-            attrs = item.get("attributes", {})
-            if not attrs:
-                continue
-                
-            # Extraer Fechas y Horas
-            fecha = attrs.get("date_diary", "")
-            hora = attrs.get("diary_hour", "")
-            datetime_utc = convertir_hora(fecha, hora)
-            
-            # Extraer Títulos y Equipos
-            descripcion = attrs.get("diary_description", "Fútbol")
-            liga = "Fútbol"
-            encuentro = descripcion
-            
-            if ":" in descripcion:
-                partes = descripcion.split(":", 1)
-                liga = partes[0].strip()
-                encuentro = partes[1].strip()
-                
-            home_team = encuentro
-            away_team = ""
-            if " vs " in encuentro.lower():
-                equipos = re.split(r'\s+vs\s+', encuentro, flags=re.IGNORECASE)
-                home_team = equipos[0].strip()
-                away_team = equipos[1].strip()
-
-            # Extraer Bandera
-            bandera_url = ""
-            try:
-                ruta_img = attrs["country"]["data"]["attributes"]["image"]["data"]["attributes"]["url"]
-                if ruta_img:
-                    bandera_url = ruta_img if ruta_img.startswith("http") else BASE_DOMAIN + ruta_img
-            except:
-                pass
-
-            # Extraer y Desencriptar Servidores
-            servidores_extraidos = []
-            lista_embeds = attrs.get("embeds", {}).get("data", [])
-            
-            for emb in lista_embeds:
-                emb_attrs = emb.get("attributes", {})
-                nombre = emb_attrs.get("embed_name", "Opción")
-                iframe_encriptado = emb_attrs.get("embed_iframe", "")
-                
-                url_limpia = desencriptar_enlace(iframe_encriptado)
-                
-                if url_limpia and url_limpia.startswith("http"):
-                    servidores_extraidos.append({
-                        "name": nombre,
-                        "url": url_limpia
-                    })
-
-            partidos_extraidos.append({
-                "id": contador_id,
-                "datetime": datetime_utc,
-                "flagUrl": bandera_url,
-                "league": liga,
-                "homeTeam": home_team,
-                "awayTeam": away_team,
-                "servers": servidores_extraidos
-            })
+        for match_key, data in partidos_agrupados.items():
+            data["id"] = contador_id
+            partidos_extraidos.append(data)
             contador_id += 1
             
         # ==========================================================
-        # LA MAGIA DEL ORDEN: Acomodar por hora (de mañana a noche)
+        # ORDENAR LA LISTA CRONOLÓGICAMENTE (MAÑANA A NOCHE)
         # ==========================================================
         partidos_extraidos.sort(key=lambda x: x["datetime"])
             
@@ -142,7 +132,7 @@ def actualizar_nube(datos):
     try:
         res = requests.put(url, json=datos, headers=headers)
         if res.status_code == 200:
-            print(f"[+] ¡ÉXITO! Nube actualizada. Se subieron {len(datos)} partidos ORDENADOS.")
+            print(f"[+] ¡ÉXITO! Nube actualizada. Se agruparon y ordenaron {len(datos)} partidos.")
         else:
             print(f"[X] Error de JSONBin: {res.text}")
     except Exception as e:
@@ -150,7 +140,7 @@ def actualizar_nube(datos):
 
 if __name__ == "__main__":
     print("===================================================================")
-    print("   BOT CAZADOR - DESENCRIPTADOR Y ORDENADOR                        ")
+    print("   BOT CAZADOR Y AGRUPADOR MÁXIMO (VERSIÓN LA14HD)                 ")
     print("===================================================================")
     
     datos = extraer_partidos()
