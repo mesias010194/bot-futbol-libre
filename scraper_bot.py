@@ -6,7 +6,7 @@ import re
 import time
 
 # ==========================================================
-# 1. CONFIGURACIÓN DE TU NUBE (JSONBIN.IO)
+# 1. CONFIGURACIÓN DE TU NUBE (JSONBIN.IO) - (Ya no se usa, pero lo dejamos)
 # ==========================================================
 BIN_ID = "69d933e5aaba882197e5950b" 
 API_KEY = "$2a$10$fH2AVYqUAGOQm6KLrAcdk.fsTBsZPp7sTDWydhhsWtaYfrLlnAWv."
@@ -174,7 +174,7 @@ def extraer_partidos():
                     "name": canal_nombre,
                     "url": url_segura
                 })
-            
+        
         partidos_extraidos = list(partidos_agrupados.values())
         partidos_extraidos.sort(key=lambda x: x["datetime"])
         
@@ -190,28 +190,21 @@ def extraer_partidos():
 def actualizar_nube(datos):
     if not datos:
         print("[!] No hay datos para subir. La agenda está vacía.")
-        url = f"https://api.jsonbin.io/v3/b/{BIN_ID}"
-        headers = { 'Content-Type': 'application/json', 'X-Master-Key': API_KEY }
-        requests.put(url, json=[], headers=headers)
-        return
+        datos = []
         
-    url = f"https://api.jsonbin.io/v3/b/{BIN_ID}"
-    headers = { 'Content-Type': 'application/json', 'X-Master-Key': API_KEY }
     try:
-        res = requests.put(url, json=datos, headers=headers)
-        if res.status_code == 200:
-            print(f"[+] ¡ÉXITO! Nube actualizada.")
-        else:
-            print(f"[X] Error de JSONBin: {res.text}")
+        # Guardamos el archivo localmente para que GitHub lo detecte
+        with open('agenda.json', 'w', encoding='utf-8') as f:
+            json.dump(datos, f, ensure_ascii=False, indent=4)
+        print("[+] ¡ÉXITO! Archivo agenda.json guardado localmente en GitHub.")
     except Exception as e:
-        print(f"[X] Error de red: {e}")
+        print(f"[X] Error al guardar el archivo: {e}")
 
 if __name__ == "__main__":
     print("===================================================================")
-    print("   BOT PARA GITHUB: 1 SOLA EJECUCIÓN (SIN BUCLE INFINITO)          ")
+    print("   BOT GITHUB ACTIONS: EJECUCIÓN ÚNICA                             ")
     print("===================================================================")
     
-    # ATENCIÓN: Aquí ya NO hay "while True". Solo se ejecuta 1 vez y se apaga.
     ahora = datetime.now().strftime("%H:%M:%S")
     print(f"\n--- INICIANDO ESCANEO A LAS {ahora} ---")
     
@@ -219,4 +212,4 @@ if __name__ == "__main__":
     if datos is not None: 
         actualizar_nube(datos)
         
-    print("\n[*] Escaneo finalizado. Apagando bot para que GitHub descanse.")
+    print("\n[*] Escaneo y guardado finalizado.")
