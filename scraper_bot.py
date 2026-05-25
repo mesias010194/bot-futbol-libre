@@ -209,7 +209,13 @@ if __name__ == "__main__":
     print(f"\n--- INICIANDO ESCANEO A LAS {ahora} ---")
     
     datos = extraer_partidos()
-    if datos is not None: 
-        actualizar_nube(datos)
+    
+    # PARCHE DE SEGURIDAD:
+    # Si hubo error al extraer los datos, forzamos que datos sea un array vacío.
+    # Esto asegura que el archivo agenda.json SIEMPRE se cree, previniendo fallas críticas en GitHub Actions.
+    if datos is None: 
+        datos = []
+        
+    actualizar_nube(datos)
         
     print("\n[*] Escaneo y guardado finalizado.")
