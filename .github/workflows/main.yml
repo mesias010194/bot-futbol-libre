@@ -1,12 +1,10 @@
 name: Bot Actualizador de Partidos
 
 on:
-  push:
   schedule:
     - cron: '*/15 * * * *'
   workflow_dispatch:
 
-# Esto fuerza el permiso de escritura aunque se te olvide el Paso A
 permissions:
   contents: write
 
@@ -33,5 +31,5 @@ jobs:
           git config --global user.name 'Bot Fútbol Libre'
           git config --global user.email 'bot@futbollibre.com'
           git add agenda.json || true
-          git commit -m "Actualizando agenda de partidos 🔄" || echo "No hay cambios para subir"
+          git commit -m "Actualizando agenda [skip ci]" || echo "No hay cambios para subir"
           git push
