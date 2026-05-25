@@ -1,1 +1,178 @@
-[]
+[
+    {
+        "datetime": "2026-05-25T18:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/alemania_e50aa475de.png",
+        "league": "Bundesliga",
+        "homeTeam": "Paderborn",
+        "awayTeam": "Wolfsburg",
+        "servers": [
+            {
+                "name": "ESPN5 (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn5"
+            },
+            {
+                "name": "DISNEY1 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney1"
+            },
+            {
+                "name": "Opción ()",
+                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/espn5tv.html"
+            }
+        ],
+        "id": 1
+    },
+    {
+        "datetime": "2026-05-25T19:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/mlb_f5711cc440.png",
+        "league": "MLB",
+        "homeTeam": "Kansas City Royals",
+        "awayTeam": "New York Yankees",
+        "servers": [
+            {
+                "name": "ESPN4 (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn4"
+            }
+        ],
+        "id": 2
+    },
+    {
+        "datetime": "2026-05-25T20:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/peru_ddc4e685cf.png",
+        "league": "Liga 1",
+        "homeTeam": "Comerciantes Unidos",
+        "awayTeam": "Deportivo Garcilaso",
+        "servers": [
+            {
+                "name": "LIGA1MAX (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=liga1max"
+            },
+            {
+                "name": "Opción ()",
+                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/ligaperu.html"
+            }
+        ],
+        "id": 3
+    },
+    {
+        "datetime": "2026-05-25T21:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/uruguay_e2b9597af8.png",
+        "league": "Segunda División",
+        "homeTeam": "Miramar Misiones",
+        "awayTeam": "Fénix",
+        "servers": [
+            {
+                "name": "DISNEY2 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney2"
+            }
+        ],
+        "id": 4
+    },
+    {
+        "datetime": "2026-05-25T22:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/mlb_f5711cc440.png",
+        "league": "Fútbol",
+        "homeTeam": "MLB – San Diego Padres",
+        "awayTeam": "Philadelphia Phillies",
+        "servers": [
+            {
+                "name": "ESPN5 (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn5"
+            },
+            {
+                "name": "DISNEY3 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney3"
+            },
+            {
+                "name": "Opción ()",
+                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/espn5tv.html"
+            }
+        ],
+        "id": 5
+    },
+    {
+        "datetime": "2026-05-25T23:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/brasil_25a533e5f7.png",
+        "league": "Brasileirão",
+        "homeTeam": "Coritiba",
+        "awayTeam": "Bahia",
+        "servers": [
+            {
+                "name": "PREMIERE1 (Portugués)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=premiere1"
+            }
+        ],
+        "id": 6
+    },
+    {
+        "datetime": "2026-05-26T00:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/nba_b6210b97b6.png",
+        "league": "NBA",
+        "homeTeam": "Knicks",
+        "awayTeam": "Cavaliers",
+        "servers": [
+            {
+                "name": "ESPN3 (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn3"
+            },
+            {
+                "name": "ESPNMX (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espnmx"
+            },
+            {
+                "name": "ESPNDEPORTES (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espndeportes"
+            }
+        ],
+        "id": 7
+    },
+    {
+        "datetime": "2026-05-26T00:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/nba_b6210b97b6.png",
+        "league": "Fútbol",
+        "homeTeam": "NBA – Final de Conferencia Este – Juego #4 – Cleveland Cavaliers",
+        "awayTeam": "New York Knicks",
+        "servers": [
+            {
+                "name": "ESPN3 (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn3"
+            }
+        ],
+        "id": 8
+    },
+    {
+        "datetime": "2026-05-26T00:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/nhl_4a934e9b3a.png",
+        "league": "Fútbol",
+        "homeTeam": "NHL Finales de Conferencia – Juego #3 – Montreal Canadiens",
+        "awayTeam": "Carolina Hurricanes",
+        "servers": [
+            {
+                "name": "ESPN4 (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn4"
+            }
+        ],
+        "id": 9
+    },
+    {
+        "datetime": "2026-05-26T01:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/colombia_dcf9cc2637.png",
+        "league": "Primera B",
+        "homeTeam": "Real Cartagena",
+        "awayTeam": "Envigado | Final 1/2",
+        "servers": [
+            {
+                "name": "WINSPORTSPLUS (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=winsportsplus"
+            },
+            {
+                "name": "WINSPORTS2 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=winsports2"
+            },
+            {
+                "name": "Opción (Español)",
+                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/winsports.html"
+            }
+        ],
+        "id": 10
+    }
+]
