@@ -24,3 +24,10 @@ jobs:
       - name: Ejecutar el bot
         run: python scraper_bot.py
 
+- name: Guardar y subir cambios a GitHub
+        run: |
+          git config --global user.name 'Bot Fútbol Libre'
+          git config --global user.email 'bot@futbollibre.com'
+          git add agenda.json
+          git commit -m "Actualizando agenda de partidos 🔄" || echo "No hay cambios para subir"
+          git push
