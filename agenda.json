@@ -1,1 +1,92 @@
-[]
+[
+    {
+        "datetime": "2026-05-26T16:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/argentina_2bd748026e.png",
+        "league": "Torneo de Reserva",
+        "homeTeam": "Defensa y Justicia",
+        "awayTeam": "Independiente",
+        "servers": [
+            {
+                "name": "ESPN4 (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn4"
+            }
+        ],
+        "id": 1
+    },
+    {
+        "datetime": "2026-05-26T18:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/alemania_e50aa475de.png",
+        "league": "2. Bundesliga",
+        "homeTeam": "Greuther Fürth",
+        "awayTeam": "Rot-Weiss Essen",
+        "servers": [
+            {
+                "name": "DISNEY1 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney1"
+            },
+            {
+                "name": "FOXSPORTS2 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=foxsports2"
+            }
+        ],
+        "id": 2
+    },
+    {
+        "datetime": "2026-05-26T18:45:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/francia_e9d1a8ab33.png",
+        "league": "Ligue 1",
+        "homeTeam": "Saint-Étienne",
+        "awayTeam": "Nice",
+        "servers": [
+            {
+                "name": "ESPN5 (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn5"
+            },
+            {
+                "name": "DISNEY2 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney2"
+            },
+            {
+                "name": "Opción ()",
+                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/espn5tv.html"
+            }
+        ],
+        "id": 3
+    },
+    {
+        "datetime": "2026-05-26T20:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/colombia_dcf9cc2637.png",
+        "league": "Copa Colombia",
+        "homeTeam": "Real Cundinamarca",
+        "awayTeam": "Rionegro Águilas",
+        "servers": [
+            {
+                "name": "WINSPORTSPLUS (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=winsportsplus"
+            },
+            {
+                "name": "WINSPORTS2 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=winsports2"
+            },
+            {
+                "name": "Opción (Español)",
+                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/winsports.html"
+            }
+        ],
+        "id": 4
+    },
+    {
+        "datetime": "2026-05-26T22:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/image_modified_f8ce531f01.png",
+        "league": "Copa Sudamericana",
+        "homeTeam": "Grêmio",
+        "awayTeam": "Torque",
+        "servers": [
+            {
+                "name": "DSPORTSPLUS (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=dsportsplus"
+            }
+        ],
+        "id": 5
+    }
+]
