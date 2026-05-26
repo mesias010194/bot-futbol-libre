@@ -1,87 +1,5 @@
 [
     {
-        "datetime": "2026-05-25T23:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/brasil_25a533e5f7.png",
-        "league": "Brasileirão",
-        "homeTeam": "Coritiba",
-        "awayTeam": "Bahia",
-        "servers": [
-            {
-                "name": "PREMIERE1 (Portugués)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=premiere1"
-            },
-            {
-                "name": "SPORTV (Portugués)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=sportv"
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-05-26T00:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/nba_b6210b97b6.png",
-        "league": "NBA",
-        "homeTeam": "Knicks",
-        "awayTeam": "Cavaliers",
-        "servers": [
-            {
-                "name": "ESPN3 (español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=espn3"
-            },
-            {
-                "name": "ESPNMX (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=espnmx"
-            },
-            {
-                "name": "ESPNDEPORTES (español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=espndeportes"
-            }
-        ],
-        "id": 2
-    },
-    {
-        "datetime": "2026-05-26T00:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/nba_b6210b97b6.png",
-        "league": "Fútbol",
-        "homeTeam": "NBA – Final de Conferencia Este – Juego #4 – Cleveland Cavaliers",
-        "awayTeam": "New York Knicks",
-        "servers": [
-            {
-                "name": "ESPN3 (español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=espn3"
-            }
-        ],
-        "id": 3
-    },
-    {
-        "datetime": "2026-05-26T00:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/nhl_4a934e9b3a.png",
-        "league": "Fútbol",
-        "homeTeam": "NHL Finales de Conferencia – Juego #3 – Montreal Canadiens",
-        "awayTeam": "Carolina Hurricanes",
-        "servers": [
-            {
-                "name": "ESPN4 (español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=espn4"
-            }
-        ],
-        "id": 4
-    },
-    {
-        "datetime": "2026-05-26T00:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/chile_86c07a7b38.png",
-        "league": "Primera B",
-        "homeTeam": "Copiapó",
-        "awayTeam": "Unión Española",
-        "servers": [
-            {
-                "name": "TNTSPORTSCHILE (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=tntsportschile"
-            }
-        ],
-        "id": 5
-    },
-    {
         "datetime": "2026-05-26T01:00:00Z",
         "flagUrl": "https://img.fubolazo.com/uploads/colombia_dcf9cc2637.png",
         "league": "Primera B",
@@ -101,6 +19,6 @@
                 "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/winsports.html"
             }
         ],
-        "id": 6
+        "id": 1
     }
 ]
