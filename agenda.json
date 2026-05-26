@@ -88,5 +88,19 @@
             }
         ],
         "id": 5
+    },
+    {
+        "datetime": "2026-05-26T22:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/image_modified_f8ce531f01.png",
+        "league": "Copa Sudamericana",
+        "homeTeam": "Millonarios",
+        "awayTeam": "O'Higgins",
+        "servers": [
+            {
+                "name": "DSPORTS (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=dsports"
+            }
+        ],
+        "id": 6
     }
 ]
