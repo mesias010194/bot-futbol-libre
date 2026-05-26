@@ -1,37 +1,5 @@
 [
     {
-        "datetime": "2026-05-25T20:30:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/peru_ddc4e685cf.png",
-        "league": "Liga 1",
-        "homeTeam": "Comerciantes Unidos",
-        "awayTeam": "Deportivo Garcilaso",
-        "servers": [
-            {
-                "name": "LIGA1MAX (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=liga1max"
-            },
-            {
-                "name": "Opción ()",
-                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/ligaperu.html"
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-05-25T21:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/uruguay_e2b9597af8.png",
-        "league": "Segunda División",
-        "homeTeam": "Miramar Misiones",
-        "awayTeam": "Fénix",
-        "servers": [
-            {
-                "name": "DISNEY2 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney2"
-            }
-        ],
-        "id": 2
-    },
-    {
         "datetime": "2026-05-25T22:00:00Z",
         "flagUrl": "https://img.fubolazo.com/uploads/mlb_f5711cc440.png",
         "league": "Fútbol",
@@ -51,7 +19,7 @@
                 "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/espn5tv.html"
             }
         ],
-        "id": 3
+        "id": 1
     },
     {
         "datetime": "2026-05-25T23:00:00Z",
@@ -63,9 +31,13 @@
             {
                 "name": "PREMIERE1 (Portugués)",
                 "url": "https://la14hd.com/vivo/canal.php?stream=premiere1"
+            },
+            {
+                "name": "SPORTV (Portugués)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=sportv"
             }
         ],
-        "id": 4
+        "id": 2
     },
     {
         "datetime": "2026-05-26T00:00:00Z",
@@ -87,7 +59,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=espndeportes"
             }
         ],
-        "id": 5
+        "id": 3
     },
     {
         "datetime": "2026-05-26T00:00:00Z",
@@ -101,7 +73,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=espn3"
             }
         ],
-        "id": 6
+        "id": 4
     },
     {
         "datetime": "2026-05-26T00:00:00Z",
@@ -115,7 +87,21 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=espn4"
             }
         ],
-        "id": 7
+        "id": 5
+    },
+    {
+        "datetime": "2026-05-26T00:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/chile_86c07a7b38.png",
+        "league": "Primera B",
+        "homeTeam": "Copiapó",
+        "awayTeam": "Unión Española",
+        "servers": [
+            {
+                "name": "TNTSPORTSCHILE (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=tntsportschile"
+            }
+        ],
+        "id": 6
     },
     {
         "datetime": "2026-05-26T01:00:00Z",
@@ -137,6 +123,6 @@
                 "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/winsports.html"
             }
         ],
-        "id": 8
+        "id": 7
     }
 ]
