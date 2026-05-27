@@ -1,141 +1,5 @@
 [
     {
-        "datetime": "2026-05-26T22:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/image_modified_f8ce531f01.png",
-        "league": "Copa Sudamericana",
-        "homeTeam": "São Paulo",
-        "awayTeam": "Boston River",
-        "servers": [
-            {
-                "name": "DSPORTS2 (español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=dsports2"
-            },
-            {
-                "name": "FANATIZ6 ()",
-                "url": "https://la14hd.com/vivo/canal.php?stream=fanatiz6"
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-05-26T22:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/image_modified_f8ce531f01.png",
-        "league": "Copa Sudamericana",
-        "homeTeam": "Palestino",
-        "awayTeam": "Deportivo Riestra",
-        "servers": [
-            {
-                "name": "ESPN5 (español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=espn5"
-            },
-            {
-                "name": "DISNEY5 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney5"
-            },
-            {
-                "name": "Opción ()",
-                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/espn5tv.html"
-            },
-            {
-                "name": "FANATIZ5 ()",
-                "url": "https://la14hd.com/vivo/canal.php?stream=fanatiz5"
-            }
-        ],
-        "id": 2
-    },
-    {
-        "datetime": "2026-05-26T22:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/copa_libertadores_f60faf808a.png",
-        "league": "Copa Libertadores",
-        "homeTeam": "Lanús",
-        "awayTeam": "Mirassol",
-        "servers": [
-            {
-                "name": "ESPN2 (español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=espn2"
-            },
-            {
-                "name": "DISNEY4 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney4"
-            },
-            {
-                "name": "FOXSPORTS (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=foxsports"
-            },
-            {
-                "name": "FANATIZ1 ()",
-                "url": "https://la14hd.com/vivo/canal.php?stream=fanatiz1"
-            },
-            {
-                "name": "ESPN2MX (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=espn2mx"
-            }
-        ],
-        "id": 3
-    },
-    {
-        "datetime": "2026-05-26T22:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/image_modified_f8ce531f01.png",
-        "league": "Copa Sudamericana",
-        "homeTeam": "Grêmio",
-        "awayTeam": "Torque",
-        "servers": [
-            {
-                "name": "DSPORTSPLUS (español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=dsportsplus"
-            },
-            {
-                "name": "FANATIZ3 ()",
-                "url": "https://la14hd.com/vivo/canal.php?stream=fanatiz3"
-            }
-        ],
-        "id": 4
-    },
-    {
-        "datetime": "2026-05-26T22:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/copa_libertadores_f60faf808a.png",
-        "league": "Copa Libertadores",
-        "homeTeam": "LDU Quito",
-        "awayTeam": "Always Ready",
-        "servers": [
-            {
-                "name": "ESPN (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=espn"
-            },
-            {
-                "name": "DISNEY6 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney6"
-            },
-            {
-                "name": "FOXSPORTS2 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=foxsports2"
-            },
-            {
-                "name": "FANATIZ2 ()",
-                "url": "https://la14hd.com/vivo/canal.php?stream=fanatiz2"
-            }
-        ],
-        "id": 5
-    },
-    {
-        "datetime": "2026-05-26T22:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/image_modified_f8ce531f01.png",
-        "league": "Copa Sudamericana",
-        "homeTeam": "Millonarios",
-        "awayTeam": "O'Higgins",
-        "servers": [
-            {
-                "name": "DSPORTS (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=dsports"
-            },
-            {
-                "name": "FANATIZ4 ()",
-                "url": "https://la14hd.com/vivo/canal.php?stream=fanatiz4"
-            }
-        ],
-        "id": 6
-    },
-    {
         "datetime": "2026-05-27T00:30:00Z",
         "flagUrl": "https://img.fubolazo.com/uploads/copa_libertadores_f60faf808a.png",
         "league": "Copa Libertadores",
@@ -163,7 +27,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=foxsports3"
             }
         ],
-        "id": 7
+        "id": 1
     },
     {
         "datetime": "2026-05-27T00:30:00Z",
@@ -181,7 +45,7 @@
                 "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/tntsports2.html"
             }
         ],
-        "id": 8
+        "id": 2
     },
     {
         "datetime": "2026-05-27T00:30:00Z",
@@ -199,7 +63,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=fanatiz2"
             }
         ],
-        "id": 9
+        "id": 3
     },
     {
         "datetime": "2026-05-27T00:30:00Z",
@@ -221,7 +85,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=fanatiz1"
             }
         ],
-        "id": 10
+        "id": 4
     },
     {
         "datetime": "2026-05-27T00:30:00Z",
@@ -247,7 +111,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=fanatiz7"
             }
         ],
-        "id": 11
+        "id": 5
     },
     {
         "datetime": "2026-05-27T00:30:00Z",
@@ -273,7 +137,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=fanatiz10"
             }
         ],
-        "id": 12
+        "id": 6
     },
     {
         "datetime": "2026-05-27T00:30:00Z",
@@ -299,6 +163,6 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=beinsportes"
             }
         ],
-        "id": 13
+        "id": 7
     }
 ]
