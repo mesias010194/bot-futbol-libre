@@ -277,6 +277,28 @@
         "datetime": "2026-05-28T00:30:00Z",
         "flagUrl": "https://img.fubolazo.com/uploads/copa_libertadores_f60faf808a.png",
         "league": "Copa Libertadores",
+        "homeTeam": "Corinthians",
+        "awayTeam": "Platense",
+        "servers": [
+            {
+                "name": "DISNEY9 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney9"
+            },
+            {
+                "name": "ESPN7 (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn7"
+            },
+            {
+                "name": "FANATIZ2 ()",
+                "url": "https://la14hd.com/vivo/canal.php?stream=fanatiz2"
+            }
+        ],
+        "id": 14
+    },
+    {
+        "datetime": "2026-05-28T00:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/copa_libertadores_f60faf808a.png",
+        "league": "Copa Libertadores",
         "homeTeam": "Bolívar",
         "awayTeam": "Independiente Rivadavia",
         "servers": [
@@ -293,6 +315,54 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=fanatiz1"
             }
         ],
-        "id": 14
+        "id": 15
+    },
+    {
+        "datetime": "2026-05-28T00:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/copa_libertadores_f60faf808a.png",
+        "league": "Copa Libertadores",
+        "homeTeam": "Fluminense",
+        "awayTeam": "Deportivo La Guaira",
+        "servers": [
+            {
+                "name": "DISNEY10 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney10"
+            },
+            {
+                "name": "ESPN5 (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn5"
+            },
+            {
+                "name": "Opción ()",
+                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/espn5tv.html"
+            },
+            {
+                "name": "FANATIZ10 ()",
+                "url": "https://la14hd.com/vivo/canal.php?stream=fanatiz10"
+            }
+        ],
+        "id": 16
+    },
+    {
+        "datetime": "2026-05-28T00:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/copa_libertadores_f60faf808a.png",
+        "league": "Copa Libertadores",
+        "homeTeam": "Peñarol",
+        "awayTeam": "Santa Fe",
+        "servers": [
+            {
+                "name": "DISNEY11 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney11"
+            },
+            {
+                "name": "ESPN (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn"
+            },
+            {
+                "name": "FANATIZ9 ()",
+                "url": "https://streamtpnew.com/global1.php?stream=fanatiz9"
+            }
+        ],
+        "id": 17
     }
 ]
