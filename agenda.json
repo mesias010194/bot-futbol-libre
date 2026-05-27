@@ -137,20 +137,6 @@
     },
     {
         "datetime": "2026-05-27T00:30:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/image_modified_f8ce531f01.png",
-        "league": "Copa Sudamericana",
-        "homeTeam": "Santos",
-        "awayTeam": "Deportivo Cuenca",
-        "servers": [
-            {
-                "name": "DSPORTS (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=dsports"
-            }
-        ],
-        "id": 7
-    },
-    {
-        "datetime": "2026-05-27T00:30:00Z",
         "flagUrl": "https://img.fubolazo.com/uploads/copa_libertadores_f60faf808a.png",
         "league": "Copa Libertadores",
         "homeTeam": "Nacional",
@@ -177,7 +163,43 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=foxsports3"
             }
         ],
+        "id": 7
+    },
+    {
+        "datetime": "2026-05-27T00:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/nba_b6210b97b6.png",
+        "league": "NBA",
+        "homeTeam": "Spurs",
+        "awayTeam": "Thunder",
+        "servers": [
+            {
+                "name": "TNTSPORTS (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=tntsports"
+            },
+            {
+                "name": "Opción ()",
+                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/tntsports2.html"
+            }
+        ],
         "id": 8
+    },
+    {
+        "datetime": "2026-05-27T00:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/image_modified_f8ce531f01.png",
+        "league": "Copa Sudamericana",
+        "homeTeam": "Santos",
+        "awayTeam": "Deportivo Cuenca",
+        "servers": [
+            {
+                "name": "DSPORTS (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=dsports"
+            },
+            {
+                "name": "FANATIZ2 ()",
+                "url": "https://la14hd.com/vivo/canal.php?stream=fanatiz2"
+            }
+        ],
+        "id": 9
     },
     {
         "datetime": "2026-05-27T00:30:00Z",
@@ -199,7 +221,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=fanatiz1"
             }
         ],
-        "id": 9
+        "id": 10
     },
     {
         "datetime": "2026-05-27T00:30:00Z",
@@ -225,7 +247,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=fanatiz7"
             }
         ],
-        "id": 10
+        "id": 11
     },
     {
         "datetime": "2026-05-27T00:30:00Z",
@@ -251,7 +273,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=fanatiz10"
             }
         ],
-        "id": 11
+        "id": 12
     },
     {
         "datetime": "2026-05-27T00:30:00Z",
@@ -277,6 +299,6 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=beinsportes"
             }
         ],
-        "id": 12
+        "id": 13
     }
 ]
