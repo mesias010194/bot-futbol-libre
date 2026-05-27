@@ -159,28 +159,6 @@
     },
     {
         "datetime": "2026-05-27T22:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/copa_libertadores_f60faf808a.png",
-        "league": "Copa Libertadores",
-        "homeTeam": "Libertad",
-        "awayTeam": "UCV",
-        "servers": [
-            {
-                "name": "ESPN7 (español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=espn7"
-            },
-            {
-                "name": "DISNEY4 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney4"
-            },
-            {
-                "name": "FANATIZ2 ()",
-                "url": "https://la14hd.com/vivo/canal.php?stream=fanatiz2"
-            }
-        ],
-        "id": 8
-    },
-    {
-        "datetime": "2026-05-27T22:00:00Z",
         "flagUrl": "https://img.fubolazo.com/uploads/image_modified_f8ce531f01.png",
         "league": "Copa Sudamericana",
         "homeTeam": "Olimpia",
@@ -203,7 +181,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=fanatiz5"
             }
         ],
-        "id": 9
+        "id": 8
     },
     {
         "datetime": "2026-05-27T22:00:00Z",
@@ -219,6 +197,28 @@
             {
                 "name": "DISNEY7 (Español)",
                 "url": "https://la14hd.com/vivo/canal.php?stream=disney7"
+            }
+        ],
+        "id": 9
+    },
+    {
+        "datetime": "2026-05-27T22:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/copa_libertadores_f60faf808a.png",
+        "league": "Copa Libertadores",
+        "homeTeam": "Libertad",
+        "awayTeam": "UCV",
+        "servers": [
+            {
+                "name": "ESPN7 (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn7"
+            },
+            {
+                "name": "DISNEY8 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney8"
+            },
+            {
+                "name": "FANATIZ2 ()",
+                "url": "https://la14hd.com/vivo/canal.php?stream=fanatiz2"
             }
         ],
         "id": 10
