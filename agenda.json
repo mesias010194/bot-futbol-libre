@@ -281,12 +281,12 @@
         "awayTeam": "Platense",
         "servers": [
             {
-                "name": "DISNEY9 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney9"
-            },
-            {
                 "name": "ESPN7 (español)",
                 "url": "https://la14hd.com/vivo/canal.php?stream=espn7"
+            },
+            {
+                "name": "DISNEY9 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney9"
             },
             {
                 "name": "FANATIZ2 ()",
@@ -303,12 +303,12 @@
         "awayTeam": "Independiente Rivadavia",
         "servers": [
             {
-                "name": "DISNEY8 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney8"
-            },
-            {
                 "name": "ESPN6 (español)",
                 "url": "https://la14hd.com/vivo/canal.php?stream=espn6"
+            },
+            {
+                "name": "DISNEY8 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney8"
             },
             {
                 "name": "FANATIZ1 ()",
@@ -325,12 +325,12 @@
         "awayTeam": "Deportivo La Guaira",
         "servers": [
             {
-                "name": "DISNEY10 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney10"
-            },
-            {
                 "name": "ESPN5 (español)",
                 "url": "https://la14hd.com/vivo/canal.php?stream=espn5"
+            },
+            {
+                "name": "DISNEY10 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney10"
             },
             {
                 "name": "Opción ()",
@@ -351,12 +351,12 @@
         "awayTeam": "Santa Fe",
         "servers": [
             {
-                "name": "DISNEY11 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney11"
-            },
-            {
                 "name": "ESPN (Español)",
                 "url": "https://la14hd.com/vivo/canal.php?stream=espn"
+            },
+            {
+                "name": "DISNEY11 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney11"
             },
             {
                 "name": "FANATIZ9 ()",
