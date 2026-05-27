@@ -1,1 +1,298 @@
-[]
+[
+    {
+        "datetime": "2026-05-27T16:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/argentina_2bd748026e.png",
+        "league": "Torneo de Reserva",
+        "homeTeam": "Deportivo Riestra",
+        "awayTeam": "Estudiantes",
+        "servers": [
+            {
+                "name": "ESPN4 (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn4"
+            },
+            {
+                "name": "DISNEY2 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney2"
+            }
+        ],
+        "id": 1
+    },
+    {
+        "datetime": "2026-05-27T17:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/mlb_f5711cc440.png",
+        "league": "Fútbol",
+        "homeTeam": "MLB – Toronto Blue Jays",
+        "awayTeam": "Miami Marlins",
+        "servers": [
+            {
+                "name": "ESPN7 (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn7"
+            }
+        ],
+        "id": 2
+    },
+    {
+        "datetime": "2026-05-27T19:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/ecl_b0125746a9.png",
+        "league": "UEFA Conference League",
+        "homeTeam": "Crystal Palace",
+        "awayTeam": "Rayo Vallecano | Final",
+        "servers": [
+            {
+                "name": "ESPN (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn"
+            },
+            {
+                "name": "DISNEY1 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney1"
+            },
+            {
+                "name": "ESPNMX (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espnmx"
+            },
+            {
+                "name": "TUDN (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=tudn"
+            }
+        ],
+        "id": 3
+    },
+    {
+        "datetime": "2026-05-27T21:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/colombia_dcf9cc2637.png",
+        "league": "Copa Colombia",
+        "homeTeam": "Boyacá Chicó",
+        "awayTeam": "Llaneros",
+        "servers": [
+            {
+                "name": "WINSPORTSPLUS (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=winsportsplus"
+            },
+            {
+                "name": "WINSPORTS2 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=winsports2"
+            },
+            {
+                "name": "Opción (Español)",
+                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/winsports.html"
+            }
+        ],
+        "id": 4
+    },
+    {
+        "datetime": "2026-05-27T22:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/copa_libertadores_f60faf808a.png",
+        "league": "Copa Libertadores",
+        "homeTeam": "Independiente del Valle",
+        "awayTeam": "Rosario Central",
+        "servers": [
+            {
+                "name": "ESPN (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn"
+            },
+            {
+                "name": "DISNEY4 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney4"
+            },
+            {
+                "name": "FOXSPORTS (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=foxsports"
+            },
+            {
+                "name": "ESPN4MX (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn4mx"
+            },
+            {
+                "name": "BEINSPORTES (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=beinsportes"
+            }
+        ],
+        "id": 5
+    },
+    {
+        "datetime": "2026-05-27T22:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/image_modified_f8ce531f01.png",
+        "league": "Copa Sudamericana",
+        "homeTeam": "Racing Club",
+        "awayTeam": "Independiente Petrolero",
+        "servers": [
+            {
+                "name": "ESPN3 (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn3"
+            },
+            {
+                "name": "DISNEY5 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney5"
+            },
+            {
+                "name": "FANATIZ6 ()",
+                "url": "https://la14hd.com/vivo/canal.php?stream=fanatiz6"
+            }
+        ],
+        "id": 6
+    },
+    {
+        "datetime": "2026-05-27T22:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/image_modified_f8ce531f01.png",
+        "league": "Copa Sudamericana",
+        "homeTeam": "Atlético Mineiro",
+        "awayTeam": "Academia Puerto Cabello",
+        "servers": [
+            {
+                "name": "ESPN4 (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn4"
+            },
+            {
+                "name": "DISNEY3 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney3"
+            },
+            {
+                "name": "FANATIZ3 ()",
+                "url": "https://la14hd.com/vivo/canal.php?stream=fanatiz3"
+            }
+        ],
+        "id": 7
+    },
+    {
+        "datetime": "2026-05-27T22:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/image_modified_f8ce531f01.png",
+        "league": "Copa Sudamericana",
+        "homeTeam": "Caracas",
+        "awayTeam": "Botafogo",
+        "servers": [
+            {
+                "name": "FANATIZ8 ()",
+                "url": "https://la14hd.com/vivo/canal.php?stream=fanatiz8"
+            },
+            {
+                "name": "DSPORTSPLUS (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=dsportsplus"
+            }
+        ],
+        "id": 8
+    },
+    {
+        "datetime": "2026-05-27T22:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/image_modified_f8ce531f01.png",
+        "league": "Copa Sudamericana",
+        "homeTeam": "Cienciano",
+        "awayTeam": "Juventud",
+        "servers": [
+            {
+                "name": "DSPORTS (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=dsports"
+            },
+            {
+                "name": "FANATIZ7 ()",
+                "url": "https://la14hd.com/vivo/canal.php?stream=fanatiz7"
+            }
+        ],
+        "id": 9
+    },
+    {
+        "datetime": "2026-05-27T22:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/copa_libertadores_f60faf808a.png",
+        "league": "Copa Libertadores",
+        "homeTeam": "Libertad",
+        "awayTeam": "UCV",
+        "servers": [
+            {
+                "name": "ESPN7 (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn7"
+            },
+            {
+                "name": "DISNEY4 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney4"
+            },
+            {
+                "name": "FANATIZ2 ()",
+                "url": "https://la14hd.com/vivo/canal.php?stream=fanatiz2"
+            }
+        ],
+        "id": 10
+    },
+    {
+        "datetime": "2026-05-27T22:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/image_modified_f8ce531f01.png",
+        "league": "Copa Sudamericana",
+        "homeTeam": "Olimpia",
+        "awayTeam": "Audax Italiano",
+        "servers": [
+            {
+                "name": "ESPN5 (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn5"
+            },
+            {
+                "name": "DISNEY6 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney6"
+            },
+            {
+                "name": "Opción ()",
+                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/espn5tv.html"
+            },
+            {
+                "name": "FANATIZ5 ()",
+                "url": "https://la14hd.com/vivo/canal.php?stream=fanatiz5"
+            }
+        ],
+        "id": 11
+    },
+    {
+        "datetime": "2026-05-27T22:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/image_modified_f8ce531f01.png",
+        "league": "Copa Sudamericana",
+        "homeTeam": "Vasco da Gama",
+        "awayTeam": "Barracas Central",
+        "servers": [
+            {
+                "name": "ESPN2 (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn2"
+            },
+            {
+                "name": "DISNEY7 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney7"
+            }
+        ],
+        "id": 12
+    },
+    {
+        "datetime": "2026-05-28T00:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/image_modified_f8ce531f01.png",
+        "league": "Copa Sudamericana",
+        "homeTeam": "River Plate",
+        "awayTeam": "Blooming",
+        "servers": [
+            {
+                "name": "ESPN2 (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn2"
+            },
+            {
+                "name": "FANATIZ3 ()",
+                "url": "https://la14hd.com/vivo/canal.php?stream=fanatiz3"
+            }
+        ],
+        "id": 13
+    },
+    {
+        "datetime": "2026-05-28T00:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/copa_libertadores_f60faf808a.png",
+        "league": "Copa Libertadores",
+        "homeTeam": "Bolívar",
+        "awayTeam": "Independiente Rivadavia",
+        "servers": [
+            {
+                "name": "DISNEY8 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney8"
+            },
+            {
+                "name": "ESPN6 (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn6"
+            },
+            {
+                "name": "FANATIZ1 ()",
+                "url": "https://la14hd.com/vivo/canal.php?stream=fanatiz1"
+            }
+        ],
+        "id": 14
+    }
+]
