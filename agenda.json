@@ -1,1 +1,182 @@
-[]
+[
+    {
+        "datetime": "2026-05-28T18:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/argentina_2bd748026e.png",
+        "league": "Torneo de Reserva",
+        "homeTeam": "Gimnasia La Plata",
+        "awayTeam": "Barracas Central",
+        "servers": [
+            {
+                "name": "TNTSPORTS (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=tntsports"
+            },
+            {
+                "name": "Opción ()",
+                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/tntsports2.html"
+            }
+        ],
+        "id": 1
+    },
+    {
+        "datetime": "2026-05-28T18:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
+        "league": "Amistoso",
+        "homeTeam": "Egipto",
+        "awayTeam": "Rusia",
+        "servers": [
+            {
+                "name": "FOXDEPORTES (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=foxdeportes"
+            }
+        ],
+        "id": 2
+    },
+    {
+        "datetime": "2026-05-28T18:45:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
+        "league": "Amistoso",
+        "homeTeam": "República de Irlanda",
+        "awayTeam": "Qatar",
+        "servers": [
+            {
+                "name": "DISNEY1 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney1"
+            },
+            {
+                "name": "FOXSPORTS2 USA (Inglés)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=foxsports2_usa"
+            }
+        ],
+        "id": 3
+    },
+    {
+        "datetime": "2026-05-28T22:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/copa_libertadores_f60faf808a.png",
+        "league": "Copa Libertadores",
+        "homeTeam": "Palmeiras",
+        "awayTeam": "Junior",
+        "servers": [
+            {
+                "name": "ESPN (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn"
+            },
+            {
+                "name": "DISNEY3 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney3"
+            }
+        ],
+        "id": 4
+    },
+    {
+        "datetime": "2026-05-28T22:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/copa_libertadores_f60faf808a.png",
+        "league": "Copa Libertadores",
+        "homeTeam": "Cerro Porteño",
+        "awayTeam": "Sporting Cristal",
+        "servers": [
+            {
+                "name": "ESPN2 (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn2"
+            },
+            {
+                "name": "DISNEY2 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney2"
+            }
+        ],
+        "id": 5
+    },
+    {
+        "datetime": "2026-05-28T22:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/argentina_2bd748026e.png",
+        "league": "Torneo de Reserva",
+        "homeTeam": "River Plate",
+        "awayTeam": "San Lorenzo",
+        "servers": [
+            {
+                "name": "TNTSPORTS (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=tntsports"
+            },
+            {
+                "name": "Opción ()",
+                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/tntsports2.html"
+            }
+        ],
+        "id": 6
+    },
+    {
+        "datetime": "2026-05-29T00:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/copa_libertadores_f60faf808a.png",
+        "league": "Copa Libertadores",
+        "homeTeam": "Boca Juniors",
+        "awayTeam": "Universidad Católica",
+        "servers": [
+            {
+                "name": "ESPN2 (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn2"
+            },
+            {
+                "name": "DISNEY6 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney6"
+            }
+        ],
+        "id": 7
+    },
+    {
+        "datetime": "2026-05-29T00:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/copa_libertadores_f60faf808a.png",
+        "league": "Copa Libertadores",
+        "homeTeam": "Cruzeiro",
+        "awayTeam": "Barcelona",
+        "servers": [
+            {
+                "name": "DISNEY7 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney7"
+            },
+            {
+                "name": "ESPN7 (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn7"
+            }
+        ],
+        "id": 8
+    },
+    {
+        "datetime": "2026-05-29T00:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/image_modified_f8ce531f01.png",
+        "league": "Copa Sudamericana",
+        "homeTeam": "América de Cali",
+        "awayTeam": "Macará",
+        "servers": [
+            {
+                "name": "ESPN (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn"
+            },
+            {
+                "name": "DISNEY4 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney4"
+            }
+        ],
+        "id": 9
+    },
+    {
+        "datetime": "2026-05-29T00:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/image_modified_f8ce531f01.png",
+        "league": "Copa Sudamericana",
+        "homeTeam": "Tigre",
+        "awayTeam": "Alianza Atlético",
+        "servers": [
+            {
+                "name": "ESPN5 (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn5"
+            },
+            {
+                "name": "DISNEY5 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney5"
+            },
+            {
+                "name": "Opción ()",
+                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/espn5tv.html"
+            }
+        ],
+        "id": 10
+    }
+]
