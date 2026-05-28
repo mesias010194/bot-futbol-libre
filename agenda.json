@@ -107,24 +107,6 @@
         "datetime": "2026-05-29T00:30:00Z",
         "flagUrl": "https://img.fubolazo.com/uploads/copa_libertadores_f60faf808a.png",
         "league": "Copa Libertadores",
-        "homeTeam": "Boca Juniors",
-        "awayTeam": "Universidad Católica",
-        "servers": [
-            {
-                "name": "ESPN2 (español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=espn2"
-            },
-            {
-                "name": "DISNEY6 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney6"
-            }
-        ],
-        "id": 7
-    },
-    {
-        "datetime": "2026-05-29T00:30:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/copa_libertadores_f60faf808a.png",
-        "league": "Copa Libertadores",
         "homeTeam": "Cruzeiro",
         "awayTeam": "Barcelona",
         "servers": [
@@ -135,6 +117,28 @@
             {
                 "name": "ESPN7 (español)",
                 "url": "https://la14hd.com/vivo/canal.php?stream=espn7"
+            }
+        ],
+        "id": 7
+    },
+    {
+        "datetime": "2026-05-29T00:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/copa_libertadores_f60faf808a.png",
+        "league": "Copa Libertadores",
+        "homeTeam": "Boca Juniors",
+        "awayTeam": "Universidad Católica",
+        "servers": [
+            {
+                "name": "ESPN2 (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn2"
+            },
+            {
+                "name": "DISNEY6 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney6"
+            },
+            {
+                "name": "BEINSPORTES (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=beinsportes"
             }
         ],
         "id": 8
