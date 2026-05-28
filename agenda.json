@@ -69,24 +69,6 @@
     },
     {
         "datetime": "2026-05-28T22:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/copa_libertadores_f60faf808a.png",
-        "league": "Copa Libertadores",
-        "homeTeam": "Cerro Porteño",
-        "awayTeam": "Sporting Cristal",
-        "servers": [
-            {
-                "name": "ESPN2 (español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=espn2"
-            },
-            {
-                "name": "DISNEY2 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney2"
-            }
-        ],
-        "id": 5
-    },
-    {
-        "datetime": "2026-05-28T22:00:00Z",
         "flagUrl": "https://img.fubolazo.com/uploads/argentina_2bd748026e.png",
         "league": "Torneo de Reserva",
         "homeTeam": "River Plate",
@@ -99,6 +81,28 @@
             {
                 "name": "Opción ()",
                 "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/tntsports2.html"
+            }
+        ],
+        "id": 5
+    },
+    {
+        "datetime": "2026-05-28T22:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/copa_libertadores_f60faf808a.png",
+        "league": "Copa Libertadores",
+        "homeTeam": "Cerro Porteño",
+        "awayTeam": "Sporting Cristal",
+        "servers": [
+            {
+                "name": "ESPN2 (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn2"
+            },
+            {
+                "name": "DISNEY2 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney2"
+            },
+            {
+                "name": "FOXSPORTS3 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=foxsports3"
             }
         ],
         "id": 6
