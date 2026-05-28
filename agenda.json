@@ -63,6 +63,14 @@
             {
                 "name": "DISNEY3 (Español)",
                 "url": "https://la14hd.com/vivo/canal.php?stream=disney3"
+            },
+            {
+                "name": "FOXSPORTS2 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=foxsports2"
+            },
+            {
+                "name": "BEINSPORTES (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=beinsportes"
             }
         ],
         "id": 4
@@ -108,19 +116,15 @@
         "id": 6
     },
     {
-        "datetime": "2026-05-29T00:30:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/copa_libertadores_f60faf808a.png",
-        "league": "Copa Libertadores",
-        "homeTeam": "Cruzeiro",
-        "awayTeam": "Barcelona",
+        "datetime": "2026-05-29T00:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/nhl_4a934e9b3a.png",
+        "league": "Fútbol",
+        "homeTeam": "NHL Finales de Conferencia – Juego #5 – Vegas Golden Knights",
+        "awayTeam": "Colorado Avalanche",
         "servers": [
             {
-                "name": "DISNEY7 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney7"
-            },
-            {
-                "name": "ESPN7 (español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=espn7"
+                "name": "ESPN4 (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn4"
             }
         ],
         "id": 7
@@ -141,11 +145,37 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=disney6"
             },
             {
+                "name": "FOXSPORTS (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=foxsports"
+            },
+            {
                 "name": "BEINSPORTES (Español)",
                 "url": "https://la14hd.com/vivo/canal.php?stream=beinsportes"
             }
         ],
         "id": 8
+    },
+    {
+        "datetime": "2026-05-29T00:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/copa_libertadores_f60faf808a.png",
+        "league": "Copa Libertadores",
+        "homeTeam": "Cruzeiro",
+        "awayTeam": "Barcelona",
+        "servers": [
+            {
+                "name": "ESPN7 (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn7"
+            },
+            {
+                "name": "DISNEY7 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney7"
+            },
+            {
+                "name": "FOXSPORTS2 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=foxsports2"
+            }
+        ],
+        "id": 9
     },
     {
         "datetime": "2026-05-29T00:30:00Z",
@@ -163,7 +193,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=disney4"
             }
         ],
-        "id": 9
+        "id": 10
     },
     {
         "datetime": "2026-05-29T00:30:00Z",
@@ -185,6 +215,28 @@
                 "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/espn5tv.html"
             }
         ],
-        "id": 10
+        "id": 11
+    },
+    {
+        "datetime": "2026-05-29T01:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/colombia_dcf9cc2637.png",
+        "league": "Copa Colombia",
+        "homeTeam": "Atletico Cali FC",
+        "awayTeam": "Millonarios",
+        "servers": [
+            {
+                "name": "WINSPORTSPLUS (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=winsportsplus"
+            },
+            {
+                "name": "WINSPORTS2 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=winsports2"
+            },
+            {
+                "name": "Opción (Español)",
+                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/winsports.html"
+            }
+        ],
+        "id": 12
     }
 ]
