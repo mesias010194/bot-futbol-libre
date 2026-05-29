@@ -1,27 +1,5 @@
 [
     {
-        "datetime": "2026-05-29T15:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/conmebol_d03512952a.png",
-        "league": "Sorteo Octavos de Final",
-        "homeTeam": "Copa Libertadores y Copa Sudamericana",
-        "awayTeam": "",
-        "servers": [
-            {
-                "name": "DISNEY1 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney1"
-            },
-            {
-                "name": "ESPN (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=espn"
-            },
-            {
-                "name": "DSPORTS (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=dsports"
-            }
-        ],
-        "id": 1
-    },
-    {
         "datetime": "2026-05-29T18:00:00Z",
         "flagUrl": "https://img.fubolazo.com/uploads/italia_cb19445d70.png",
         "league": "Serie B",
@@ -37,7 +15,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=espn3mx"
             }
         ],
-        "id": 2
+        "id": 1
     },
     {
         "datetime": "2026-05-29T18:30:00Z",
@@ -51,7 +29,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=disney2"
             }
         ],
-        "id": 3
+        "id": 2
     },
     {
         "datetime": "2026-05-29T18:45:00Z",
@@ -71,9 +49,13 @@
             {
                 "name": "Opción ()",
                 "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/espn5tv.html"
+            },
+            {
+                "name": "BEINSPORTES (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=beinsportes"
             }
         ],
-        "id": 4
+        "id": 3
     },
     {
         "datetime": "2026-05-29T20:00:00Z",
@@ -97,6 +79,20 @@
             {
                 "name": "WINSPORTS (Español)",
                 "url": "https://la14hd.com/vivo/canal.php?stream=winsports"
+            }
+        ],
+        "id": 4
+    },
+    {
+        "datetime": "2026-05-29T20:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
+        "league": "Amistoso",
+        "homeTeam": "Colombia",
+        "awayTeam": "Costa Rica",
+        "servers": [
+            {
+                "name": "EVENTOS10 ()",
+                "url": "https://la14hd.com/vivo/canal.php?stream=eventos10"
             }
         ],
         "id": 5
