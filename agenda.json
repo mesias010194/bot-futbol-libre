@@ -1,1 +1,178 @@
-[]
+[
+    {
+        "datetime": "2026-05-29T15:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/conmebol_d03512952a.png",
+        "league": "Sorteo Octavos de Final",
+        "homeTeam": "Copa Libertadores y Copa Sudamericana",
+        "awayTeam": "",
+        "servers": [
+            {
+                "name": "DISNEY1 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney1"
+            },
+            {
+                "name": "ESPN (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn"
+            },
+            {
+                "name": "DSPORTS (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=dsports"
+            }
+        ],
+        "id": 1
+    },
+    {
+        "datetime": "2026-05-29T18:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/italia_cb19445d70.png",
+        "league": "Serie B",
+        "homeTeam": "Monza",
+        "awayTeam": "Catanzaro",
+        "servers": [
+            {
+                "name": "DSPORTSPLUS (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=dsportsplus"
+            },
+            {
+                "name": "ESPN3MX (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn3mx"
+            }
+        ],
+        "id": 2
+    },
+    {
+        "datetime": "2026-05-29T18:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
+        "league": "Amistoso",
+        "homeTeam": "Bosnia-Herzegovina",
+        "awayTeam": "Macedonia del Norte",
+        "servers": [
+            {
+                "name": "DISNEY2 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney2"
+            }
+        ],
+        "id": 3
+    },
+    {
+        "datetime": "2026-05-29T18:45:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/francia_e9d1a8ab33.png",
+        "league": "Ligue 1",
+        "homeTeam": "Nice",
+        "awayTeam": "Saint-Étienne",
+        "servers": [
+            {
+                "name": "ESPN5 (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn5"
+            },
+            {
+                "name": "DISNEY1 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney1"
+            },
+            {
+                "name": "Opción ()",
+                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/espn5tv.html"
+            }
+        ],
+        "id": 4
+    },
+    {
+        "datetime": "2026-05-29T20:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/colombia_dcf9cc2637.png",
+        "league": "Primera B",
+        "homeTeam": "Envigado",
+        "awayTeam": "Real Cartagena | Final (2/2)",
+        "servers": [
+            {
+                "name": "WINSPORTSPLUS (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=winsportsplus"
+            },
+            {
+                "name": "WINSPORTS2 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=winsports2"
+            },
+            {
+                "name": "Opción (Español)",
+                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/winsports.html"
+            },
+            {
+                "name": "WINSPORTS (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=winsports"
+            }
+        ],
+        "id": 5
+    },
+    {
+        "datetime": "2026-05-29T20:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/peru_ddc4e685cf.png",
+        "league": "Liga 1",
+        "homeTeam": "Atlético Grau",
+        "awayTeam": "Deportivo Moquegua",
+        "servers": [
+            {
+                "name": "LIGA1MAX (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=liga1max"
+            },
+            {
+                "name": "Opción ()",
+                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/ligaperu.html"
+            }
+        ],
+        "id": 6
+    },
+    {
+        "datetime": "2026-05-29T22:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/chile_86c07a7b38.png",
+        "league": "Primera División",
+        "homeTeam": "Cobresal",
+        "awayTeam": "Ñublense",
+        "servers": [
+            {
+                "name": "TNTSPORTSCHILE (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=tntsportschile"
+            }
+        ],
+        "id": 7
+    },
+    {
+        "datetime": "2026-05-29T22:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/uruguay_e2b9597af8.png",
+        "league": "Primera División",
+        "homeTeam": "Cerro Largo",
+        "awayTeam": "Cerro",
+        "servers": [
+            {
+                "name": "DISNEY2 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney2"
+            }
+        ],
+        "id": 8
+    },
+    {
+        "datetime": "2026-05-29T23:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/mlb_f5711cc440.png",
+        "league": "Fútbol",
+        "homeTeam": "MLB – New York Mets",
+        "awayTeam": "Miami Marlins",
+        "servers": [
+            {
+                "name": "ESPN7 (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn7"
+            }
+        ],
+        "id": 9
+    },
+    {
+        "datetime": "2026-05-30T00:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/chile_86c07a7b38.png",
+        "league": "Primera División",
+        "homeTeam": "Univ. Concepción",
+        "awayTeam": "Unión La Calera",
+        "servers": [
+            {
+                "name": "TNTSPORTSCHILE (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=tntsportschile"
+            }
+        ],
+        "id": 10
+    }
+]
