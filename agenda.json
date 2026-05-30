@@ -29,20 +29,6 @@
     },
     {
         "datetime": "2026-05-30T19:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/brasil_25a533e5f7.png",
-        "league": "Brasileirão",
-        "homeTeam": "Athletico-PR",
-        "awayTeam": "Mirassol",
-        "servers": [
-            {
-                "name": "FANATIZ2 ()",
-                "url": "https://la14hd.com/vivo/canal.php?stream=fanatiz2"
-            }
-        ],
-        "id": 3
-    },
-    {
-        "datetime": "2026-05-30T19:00:00Z",
         "flagUrl": "https://img.fubolazo.com/uploads/uruguay_e2b9597af8.png",
         "league": "Segunda División",
         "homeTeam": "Paysandu",
@@ -51,6 +37,24 @@
             {
                 "name": "DISNEY8 (Español)",
                 "url": "https://la14hd.com/vivo/canal.php?stream=disney8"
+            }
+        ],
+        "id": 3
+    },
+    {
+        "datetime": "2026-05-30T19:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/brasil_25a533e5f7.png",
+        "league": "Brasileirão",
+        "homeTeam": "Athletico-PR",
+        "awayTeam": "Mirassol",
+        "servers": [
+            {
+                "name": "FANATIZ2 ()",
+                "url": "https://la14hd.com/vivo/canal.php?stream=fanatiz2"
+            },
+            {
+                "name": "PREMIERE4 (Portugués)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=premiere4"
             }
         ],
         "id": 4
@@ -172,5 +176,77 @@
             }
         ],
         "id": 11
+    },
+    {
+        "datetime": "2026-05-30T21:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/chile_86c07a7b38.png",
+        "league": "Liga De Primera",
+        "homeTeam": "Universidad Chile",
+        "awayTeam": "Deportes Concepción",
+        "servers": [
+            {
+                "name": "TNTSPORTSCHILE (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=tntsportschile"
+            },
+            {
+                "name": "MAX1 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=max1"
+            }
+        ],
+        "id": 12
+    },
+    {
+        "datetime": "2026-05-30T22:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/uruguay_e2b9597af8.png",
+        "league": "Segunda División",
+        "homeTeam": "Deportivo Colonia",
+        "awayTeam": "Miramar Misiones",
+        "servers": [
+            {
+                "name": "DISNEY9 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney9"
+            }
+        ],
+        "id": 13
+    },
+    {
+        "datetime": "2026-05-30T22:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/peru_ddc4e685cf.png",
+        "league": "Liga 1",
+        "homeTeam": "Sport Boys",
+        "awayTeam": "Comerciantes Unidos",
+        "servers": [
+            {
+                "name": "LIGA1MAX (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=liga1max"
+            },
+            {
+                "name": "Opción ()",
+                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/ligaperu.html"
+            }
+        ],
+        "id": 14
+    },
+    {
+        "datetime": "2026-05-30T23:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/brasil_25a533e5f7.png",
+        "league": "Brasileirão",
+        "homeTeam": "Santos",
+        "awayTeam": "Vitória",
+        "servers": [
+            {
+                "name": "FANATIZ8 ()",
+                "url": "https://la14hd.com/vivo/canal.php?stream=fanatiz8"
+            },
+            {
+                "name": "SPORTV (Portugués)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=sportv"
+            },
+            {
+                "name": "PREMIERE1 (Portugués)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=premiere1"
+            }
+        ],
+        "id": 15
     }
 ]
