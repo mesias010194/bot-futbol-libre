@@ -29,24 +29,6 @@
     },
     {
         "datetime": "2026-05-30T16:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/peru_ddc4e685cf.png",
-        "league": "Liga 1",
-        "homeTeam": "ADT",
-        "awayTeam": "Cusco",
-        "servers": [
-            {
-                "name": "LIGA1MAX (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=liga1max"
-            },
-            {
-                "name": "Opción ()",
-                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/ligaperu.html"
-            }
-        ],
-        "id": 3
-    },
-    {
-        "datetime": "2026-05-30T16:00:00Z",
         "flagUrl": "https://img.fubolazo.com/uploads/UEFA_Champions_L_e95eab40e4.png",
         "league": "UEFA Champions League",
         "homeTeam": "PSG",
@@ -55,6 +37,10 @@
             {
                 "name": "Opción (español)",
                 "url": "https://tv.la14hd.com/mpd/drm.php?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2xoci1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvNjJxZGtlZnY5Zi9vdXQvdjEvZjdkNWIzNTZlMDQ4NDk0YTgzMjU1NjNlODkxNmQ1MGIvY2VuYy5tcGQ=&k=ZmQ4NmRkZTBhZTNlMTRmZjUxYzhmYzhmMjQ4YTUwZGI6ZDEwNmFlNzhiMDg5M2RhMmU0MzkzZWNlOTk0MjBiYWE="
+            },
+            {
+                "name": "Opción ()",
+                "url": "https://tv.la20tv.com/mpd/drm?url=aHR0cHM6Ly9mbC0wMDMubGl2ZS5wN3MxdmlkZW8ubmV0LzQ1MzcxZDVhL3RfMDA5L3pkZi1kZS1oZC9jZW5jLWRlZmF1bHQubXBk&k=N2ZjMzUyZmE1NDY4M2FjY2YyMGIxMmY2NzkwMjc2NjE6OTkzNDAwYzRiNWFkODUxYzhkNjM2ODQxN2Q2YTNiNGM="
             },
             {
                 "name": "ESPN (Español)",
@@ -75,6 +61,24 @@
             {
                 "name": "UNIVISION (Español)",
                 "url": "https://la14hd.com/vivo/canal.php?stream=univision"
+            }
+        ],
+        "id": 3
+    },
+    {
+        "datetime": "2026-05-30T16:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/peru_ddc4e685cf.png",
+        "league": "Liga 1",
+        "homeTeam": "ADT",
+        "awayTeam": "Cusco",
+        "servers": [
+            {
+                "name": "LIGA1MAX (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=liga1max"
+            },
+            {
+                "name": "Opción ()",
+                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/ligaperu.html"
             }
         ],
         "id": 4
