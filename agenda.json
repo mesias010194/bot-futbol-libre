@@ -1,49 +1,5 @@
 [
     {
-        "datetime": "2026-05-29T20:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/colombia_dcf9cc2637.png",
-        "league": "Primera B",
-        "homeTeam": "Envigado",
-        "awayTeam": "Real Cartagena | Final (2/2)",
-        "servers": [
-            {
-                "name": "WINSPORTSPLUS (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=winsportsplus"
-            },
-            {
-                "name": "WINSPORTS2 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=winsports2"
-            },
-            {
-                "name": "Opción (Español)",
-                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/winsports.html"
-            },
-            {
-                "name": "WINSPORTS (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=winsports"
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-05-29T20:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/peru_ddc4e685cf.png",
-        "league": "Liga 1",
-        "homeTeam": "Atlético Grau",
-        "awayTeam": "Deportivo Moquegua",
-        "servers": [
-            {
-                "name": "LIGA1MAX (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=liga1max"
-            },
-            {
-                "name": "Opción ()",
-                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/ligaperu.html"
-            }
-        ],
-        "id": 2
-    },
-    {
         "datetime": "2026-05-29T22:00:00Z",
         "flagUrl": "https://img.fubolazo.com/uploads/chile_86c07a7b38.png",
         "league": "Primera División",
@@ -55,7 +11,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=tntsportschile"
             }
         ],
-        "id": 3
+        "id": 1
     },
     {
         "datetime": "2026-05-29T22:30:00Z",
@@ -69,7 +25,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=disney2"
             }
         ],
-        "id": 4
+        "id": 2
     },
     {
         "datetime": "2026-05-29T23:00:00Z",
@@ -83,7 +39,29 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=espn7"
             }
         ],
-        "id": 5
+        "id": 3
+    },
+    {
+        "datetime": "2026-05-29T23:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/colombia_dcf9cc2637.png",
+        "league": "Copa Colombia",
+        "homeTeam": "Leones",
+        "awayTeam": "Medellín",
+        "servers": [
+            {
+                "name": "WINSPORTSPLUS (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=winsportsplus"
+            },
+            {
+                "name": "WINSPORTS2 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=winsports2"
+            },
+            {
+                "name": "Opción (Español)",
+                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/winsports.html"
+            }
+        ],
+        "id": 4
     },
     {
         "datetime": "2026-05-30T00:00:00Z",
@@ -97,7 +75,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=espn4"
             }
         ],
-        "id": 6
+        "id": 5
     },
     {
         "datetime": "2026-05-30T00:00:00Z",
@@ -111,7 +89,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=espn3"
             }
         ],
-        "id": 7
+        "id": 6
     },
     {
         "datetime": "2026-05-30T00:30:00Z",
@@ -123,6 +101,28 @@
             {
                 "name": "TNTSPORTSCHILE (Español)",
                 "url": "https://la14hd.com/vivo/canal.php?stream=tntsportschile"
+            }
+        ],
+        "id": 7
+    },
+    {
+        "datetime": "2026-05-30T01:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/colombia_dcf9cc2637.png",
+        "league": "Copa Colombia",
+        "homeTeam": "Atlético Cali",
+        "awayTeam": "Millonarios",
+        "servers": [
+            {
+                "name": "WINSPORTSPLUS (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=winsportsplus"
+            },
+            {
+                "name": "WINSPORTS2 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=winsports2"
+            },
+            {
+                "name": "Opción (Español)",
+                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/winsports.html"
             }
         ],
         "id": 8
