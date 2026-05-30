@@ -173,16 +173,16 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=disney10"
             },
             {
-                "name": "FOXSPORTS1 USA (Inglés)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=foxsports1_usa"
-            },
-            {
                 "name": "TUDN (Español)",
                 "url": "https://la14hd.com/vivo/canal.php?stream=tudn"
             },
             {
                 "name": "UNIMAS ()",
                 "url": "https://la14hd.com/vivo/canal.php?stream=unimas"
+            },
+            {
+                "name": "FOXSPORTS1 USA (Inglés)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=foxsports1_usa"
             }
         ],
         "id": 10
