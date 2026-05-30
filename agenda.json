@@ -1,113 +1,7 @@
 [
     {
-        "datetime": "2026-05-29T22:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/chile_86c07a7b38.png",
-        "league": "Primera División",
-        "homeTeam": "Cobresal",
-        "awayTeam": "Ñublense",
-        "servers": [
-            {
-                "name": "TNTSPORTSCHILE (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=tntsportschile"
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-05-29T22:30:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/uruguay_e2b9597af8.png",
-        "league": "Primera División",
-        "homeTeam": "Cerro Largo",
-        "awayTeam": "Cerro",
-        "servers": [
-            {
-                "name": "DISNEY2 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney2"
-            }
-        ],
-        "id": 2
-    },
-    {
-        "datetime": "2026-05-29T23:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/mlb_f5711cc440.png",
-        "league": "Fútbol",
-        "homeTeam": "MLB – New York Mets",
-        "awayTeam": "Miami Marlins",
-        "servers": [
-            {
-                "name": "ESPN7 (español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=espn7"
-            }
-        ],
-        "id": 3
-    },
-    {
-        "datetime": "2026-05-29T23:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/colombia_dcf9cc2637.png",
-        "league": "Copa Colombia",
-        "homeTeam": "Leones",
-        "awayTeam": "Medellín",
-        "servers": [
-            {
-                "name": "WINSPORTSPLUS (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=winsportsplus"
-            },
-            {
-                "name": "WINSPORTS2 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=winsports2"
-            },
-            {
-                "name": "Opción (Español)",
-                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/winsports.html"
-            }
-        ],
-        "id": 4
-    },
-    {
-        "datetime": "2026-05-30T00:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/nhl_4a934e9b3a.png",
-        "league": "Fútbol",
-        "homeTeam": "NHL Finales de Conferencia – Juego #5 – Carolina Hurricanes vs. Montreal Canadiens",
-        "awayTeam": "",
-        "servers": [
-            {
-                "name": "ESPN4 (español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=espn4"
-            }
-        ],
-        "id": 5
-    },
-    {
-        "datetime": "2026-05-30T00:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/boxeo_2024_b15889ae93.png",
-        "league": "BOXEO",
-        "homeTeam": "Ivan Ricardo Actis",
-        "awayTeam": "Victor Garcia",
-        "servers": [
-            {
-                "name": "ESPN3 (español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=espn3"
-            }
-        ],
-        "id": 6
-    },
-    {
-        "datetime": "2026-05-30T00:30:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/chile_86c07a7b38.png",
-        "league": "Primera División",
-        "homeTeam": "Univ. Concepción",
-        "awayTeam": "Unión La Calera",
-        "servers": [
-            {
-                "name": "TNTSPORTSCHILE (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=tntsportschile"
-            }
-        ],
-        "id": 7
-    },
-    {
         "datetime": "2026-05-30T01:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/colombia_dcf9cc2637.png",
+        "flagUrl": "https://flagcdn.com/w40/co.png",
         "league": "Copa Colombia",
         "homeTeam": "Atlético Cali",
         "awayTeam": "Millonarios",
@@ -125,6 +19,6 @@
                 "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/winsports.html"
             }
         ],
-        "id": 8
+        "id": 1
     }
 ]
