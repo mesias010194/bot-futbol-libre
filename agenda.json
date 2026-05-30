@@ -144,6 +144,28 @@
         "id": 8
     },
     {
+        "datetime": "2026-05-30T23:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
+        "league": "Amistoso",
+        "homeTeam": "Ecuador",
+        "awayTeam": "Arabia Saudita",
+        "servers": [
+            {
+                "name": "EVENTOS3 ()",
+                "url": "https://la14hd.com/vivo/canal.php?stream=eventos3"
+            },
+            {
+                "name": "EVENTOS5 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=eventos5"
+            },
+            {
+                "name": "LIGADECAMPEONES1 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=ligadecampeones1"
+            }
+        ],
+        "id": 9
+    },
+    {
         "datetime": "2026-05-31T00:00:00Z",
         "flagUrl": "https://img.fubolazo.com/uploads/nba_b6210b97b6.png",
         "league": "NBA",
@@ -155,7 +177,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=max2"
             }
         ],
-        "id": 9
+        "id": 10
     },
     {
         "datetime": "2026-05-31T00:00:00Z",
@@ -181,7 +203,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=unimas"
             }
         ],
-        "id": 10
+        "id": 11
     },
     {
         "datetime": "2026-05-31T01:00:00Z",
@@ -199,7 +221,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=espnmx"
             }
         ],
-        "id": 11
+        "id": 12
     },
     {
         "datetime": "2026-05-31T01:00:00Z",
@@ -217,7 +239,7 @@
                 "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/ligaperu.html"
             }
         ],
-        "id": 12
+        "id": 13
     },
     {
         "datetime": "2026-05-31T02:00:00Z",
@@ -239,6 +261,6 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=foxdeportes"
             }
         ],
-        "id": 13
+        "id": 14
     }
 ]
