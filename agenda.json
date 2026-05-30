@@ -43,7 +43,7 @@
     },
     {
         "datetime": "2026-05-30T19:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/brasil_25a533e5f7.png",
+        "flagUrl": "https://img.fubolazo.com/uploads/uruguay_e2b9597af8.png",
         "league": "Segunda División",
         "homeTeam": "Paysandu",
         "awayTeam": "Cerrito",
@@ -93,6 +93,10 @@
             {
                 "name": "TNTSPORTSCHILE (Español)",
                 "url": "https://la14hd.com/vivo/canal.php?stream=tntsportschile"
+            },
+            {
+                "name": "MAX2 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=max2"
             }
         ],
         "id": 7
