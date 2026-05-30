@@ -1,1 +1,16 @@
-[]
+[
+    {
+        "datetime": "2026-05-30T12:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
+        "league": "Amistoso",
+        "homeTeam": "Escocia",
+        "awayTeam": "Curazao",
+        "servers": [
+            {
+                "name": "DISNEY1 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney1"
+            }
+        ],
+        "id": 1
+    }
+]
