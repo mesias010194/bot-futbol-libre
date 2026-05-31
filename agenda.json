@@ -1,87 +1,5 @@
 [
     {
-        "datetime": "2026-05-31T13:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
-        "league": "Amistoso",
-        "homeTeam": "Suiza",
-        "awayTeam": "Jordania",
-        "servers": [
-            {
-                "name": "ESPN (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=espn"
-            },
-            {
-                "name": "DISNEY2 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney2"
-            },
-            {
-                "name": "FOXSPORTS2 USA (Inglés)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=foxsports2_usa"
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-05-31T13:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/uruguay_e2b9597af8.png",
-        "league": "Primera División",
-        "homeTeam": "Albion",
-        "awayTeam": "Torque",
-        "servers": [
-            {
-                "name": "DISNEY3 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney3"
-            }
-        ],
-        "id": 2
-    },
-    {
-        "datetime": "2026-05-31T14:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/brasil_25a533e5f7.png",
-        "league": "Brasileirão",
-        "homeTeam": "RB Bragantino",
-        "awayTeam": "Internacional",
-        "servers": [
-            {
-                "name": "PREMIERE1 (Portugués)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=premiere1"
-            }
-        ],
-        "id": 3
-    },
-    {
-        "datetime": "2026-05-31T14:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
-        "league": "Amistoso",
-        "homeTeam": "República Checa",
-        "awayTeam": "Kosovo",
-        "servers": [
-            {
-                "name": "DISNEY19 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney19"
-            }
-        ],
-        "id": 4
-    },
-    {
-        "datetime": "2026-05-31T14:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/inglaterra_823176495f.png",
-        "league": "FA Women's Cup",
-        "homeTeam": "Brighton & Hove Albion",
-        "awayTeam": "Manchester City",
-        "servers": [
-            {
-                "name": "ESPN7 (español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=espn7"
-            },
-            {
-                "name": "DISNEY20 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney20"
-            }
-        ],
-        "id": 5
-    },
-    {
         "datetime": "2026-05-31T15:30:00Z",
         "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
         "league": "Amistoso",
@@ -93,7 +11,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=disney4"
             }
         ],
-        "id": 6
+        "id": 1
     },
     {
         "datetime": "2026-05-31T15:30:00Z",
@@ -107,7 +25,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=disney5"
             }
         ],
-        "id": 7
+        "id": 2
     },
     {
         "datetime": "2026-05-31T16:00:00Z",
@@ -125,7 +43,7 @@
                 "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/ligaperu.html"
             }
         ],
-        "id": 8
+        "id": 3
     },
     {
         "datetime": "2026-05-31T16:30:00Z",
@@ -135,11 +53,11 @@
         "awayTeam": "Málaga",
         "servers": [
             {
-                "name": "DISNEY5 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney5"
+                "name": "DISNEY6 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney6"
             }
         ],
-        "id": 9
+        "id": 4
     },
     {
         "datetime": "2026-05-31T16:30:00Z",
@@ -149,11 +67,11 @@
         "awayTeam": "Cádiz",
         "servers": [
             {
-                "name": "DISNEY6 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney6"
+                "name": "DISNEY7 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney7"
             }
         ],
-        "id": 10
+        "id": 5
     },
     {
         "datetime": "2026-05-31T16:30:00Z",
@@ -167,7 +85,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=tntsportschile"
             }
         ],
-        "id": 11
+        "id": 6
     },
     {
         "datetime": "2026-05-31T16:30:00Z",
@@ -177,11 +95,11 @@
         "awayTeam": "FC Andorra",
         "servers": [
             {
-                "name": "DISNEY7 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney7"
+                "name": "DISNEY8 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney8"
             }
         ],
-        "id": 12
+        "id": 7
     },
     {
         "datetime": "2026-05-31T18:00:00Z",
@@ -191,11 +109,11 @@
         "awayTeam": "Wanderers",
         "servers": [
             {
-                "name": "DISNEY8 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney8"
+                "name": "DISNEY9 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney9"
             }
         ],
-        "id": 13
+        "id": 8
     },
     {
         "datetime": "2026-05-31T18:15:00Z",
@@ -213,7 +131,25 @@
                 "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/ligaperu.html"
             }
         ],
-        "id": 14
+        "id": 9
+    },
+    {
+        "datetime": "2026-05-31T18:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/argentina_2bd748026e.png",
+        "league": "Copa Argentina",
+        "homeTeam": "Estudiantes",
+        "awayTeam": "Rosario Central",
+        "servers": [
+            {
+                "name": "TYCSPORTS (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=tycsports"
+            },
+            {
+                "name": "TYCINTERNACIONAL (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=tycinternacional"
+            }
+        ],
+        "id": 10
     },
     {
         "datetime": "2026-05-31T18:30:00Z",
@@ -223,11 +159,11 @@
         "awayTeam": "Atenas",
         "servers": [
             {
-                "name": "DISNEY9 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney9"
+                "name": "DISNEY10 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney10"
             }
         ],
-        "id": 15
+        "id": 11
     },
     {
         "datetime": "2026-05-31T18:45:00Z",
@@ -241,11 +177,43 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=espn"
             },
             {
-                "name": "DISNEY10 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney10"
+                "name": "DISNEY11 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney11"
+            },
+            {
+                "name": "FOXSPORTS2 USA (Inglés)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=foxsports2_usa"
             }
         ],
-        "id": 16
+        "id": 12
+    },
+    {
+        "datetime": "2026-05-31T19:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/brasil_25a533e5f7.png",
+        "league": "Brasileirão",
+        "homeTeam": "Palmeiras",
+        "awayTeam": "Chapecoense",
+        "servers": [
+            {
+                "name": "PREMIERE1 (Portugués)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=premiere1"
+            }
+        ],
+        "id": 13
+    },
+    {
+        "datetime": "2026-05-31T19:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/brasil_25a533e5f7.png",
+        "league": "Brasileirão",
+        "homeTeam": "Vasco da Gama",
+        "awayTeam": "Atlético Mineiro",
+        "servers": [
+            {
+                "name": "AMAZON PRIME1 (Portugués)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=amazon_prime1"
+            }
+        ],
+        "id": 14
     },
     {
         "datetime": "2026-05-31T19:00:00Z",
@@ -259,7 +227,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=tntsportschile"
             }
         ],
-        "id": 17
+        "id": 15
     },
     {
         "datetime": "2026-05-31T19:00:00Z",
@@ -269,11 +237,11 @@
         "awayTeam": "Huesca",
         "servers": [
             {
-                "name": "DISNEY11 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney11"
+                "name": "DISNEY12 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney12"
             }
         ],
-        "id": 18
+        "id": 16
     },
     {
         "datetime": "2026-05-31T19:30:00Z",
@@ -283,11 +251,23 @@
         "awayTeam": "Senegal",
         "servers": [
             {
-                "name": "DISNEY12 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney12"
+                "name": "DISNEY13 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney13"
+            },
+            {
+                "name": "ESPNMX (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espnmx"
+            },
+            {
+                "name": "Opción (Español)",
+                "url": "https://la14hd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbCh1bml2ZXJzby1lYXN0KS9tYXN0ZXIubXBk&k=OTZiNjdmYTA5MTQwMzI5YTg5YjdhMWVhZDEzNGVkYTM6YzYxOGQzMmM1NmNkYzZjYWQ4MzMwZWI5ODUwN2NhM2Y="
+            },
+            {
+                "name": "Opción ()",
+                "url": "https://la14hd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
             }
         ],
-        "id": 19
+        "id": 17
     },
     {
         "datetime": "2026-05-31T20:15:00Z",
@@ -305,6 +285,20 @@
                 "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/ligaperu.html"
             }
         ],
-        "id": 20
+        "id": 18
+    },
+    {
+        "datetime": "2026-05-31T21:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
+        "league": "Amistoso",
+        "homeTeam": "Brasil",
+        "awayTeam": "Panamá",
+        "servers": [
+            {
+                "name": "SPORTV (Portugués)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=sportv"
+            }
+        ],
+        "id": 19
     }
 ]
