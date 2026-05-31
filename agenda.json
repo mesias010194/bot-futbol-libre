@@ -1,1 +1,310 @@
-[]
+[
+    {
+        "datetime": "2026-05-31T12:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/uruguay_e2b9597af8.png",
+        "league": "Segunda División",
+        "homeTeam": "Huracán",
+        "awayTeam": "La Luz",
+        "servers": [
+            {
+                "name": "DISNEY1 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney1"
+            }
+        ],
+        "id": 1
+    },
+    {
+        "datetime": "2026-05-31T13:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
+        "league": "Amistoso",
+        "homeTeam": "Suiza",
+        "awayTeam": "Jordania",
+        "servers": [
+            {
+                "name": "ESPN (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn"
+            },
+            {
+                "name": "DISNEY2 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney2"
+            },
+            {
+                "name": "FOXSPORTS2 USA (Inglés)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=foxsports2_usa"
+            }
+        ],
+        "id": 2
+    },
+    {
+        "datetime": "2026-05-31T13:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/uruguay_e2b9597af8.png",
+        "league": "Primera División",
+        "homeTeam": "Albion",
+        "awayTeam": "Torque",
+        "servers": [
+            {
+                "name": "DISNEY3 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney3"
+            }
+        ],
+        "id": 3
+    },
+    {
+        "datetime": "2026-05-31T14:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/brasil_25a533e5f7.png",
+        "league": "Brasileirão",
+        "homeTeam": "RB Bragantino",
+        "awayTeam": "Internacional",
+        "servers": [
+            {
+                "name": "PREMIERE1 (Portugués)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=premiere1"
+            }
+        ],
+        "id": 4
+    },
+    {
+        "datetime": "2026-05-31T14:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/inglaterra_823176495f.png",
+        "league": "FA Women's Cup",
+        "homeTeam": "Brighton & Hove Albion",
+        "awayTeam": "Manchester City",
+        "servers": [
+            {
+                "name": "ESPN7 (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn7"
+            },
+            {
+                "name": "DISNEY20 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney20"
+            }
+        ],
+        "id": 5
+    },
+    {
+        "datetime": "2026-05-31T15:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
+        "league": "Amistoso",
+        "homeTeam": "Polonia",
+        "awayTeam": "Ucrania",
+        "servers": [
+            {
+                "name": "DISNEY4 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney4"
+            }
+        ],
+        "id": 6
+    },
+    {
+        "datetime": "2026-05-31T15:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/uruguay_e2b9597af8.png",
+        "league": "Segunda División",
+        "homeTeam": "Fénix",
+        "awayTeam": "Rentistas",
+        "servers": [
+            {
+                "name": "DISNEY5 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney5"
+            }
+        ],
+        "id": 7
+    },
+    {
+        "datetime": "2026-05-31T16:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/peru_ddc4e685cf.png",
+        "league": "Liga 1",
+        "homeTeam": "Melgar",
+        "awayTeam": "Alianza Atlético",
+        "servers": [
+            {
+                "name": "LIGA1MAX (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=liga1max"
+            },
+            {
+                "name": "Opción ()",
+                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/ligaperu.html"
+            }
+        ],
+        "id": 8
+    },
+    {
+        "datetime": "2026-05-31T16:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/espana_a8510f9b5f.png",
+        "league": "LaLiga 2",
+        "homeTeam": "Real Zaragoza",
+        "awayTeam": "Málaga",
+        "servers": [
+            {
+                "name": "DISNEY5 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney5"
+            }
+        ],
+        "id": 9
+    },
+    {
+        "datetime": "2026-05-31T16:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/espana_a8510f9b5f.png",
+        "league": "LaLiga 2",
+        "homeTeam": "Racing Santander",
+        "awayTeam": "Cádiz",
+        "servers": [
+            {
+                "name": "DISNEY6 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney6"
+            }
+        ],
+        "id": 10
+    },
+    {
+        "datetime": "2026-05-31T16:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/chile_86c07a7b38.png",
+        "league": "Primera División",
+        "homeTeam": "Deportes Limache",
+        "awayTeam": "Coquimbo Unido",
+        "servers": [
+            {
+                "name": "TNTSPORTSCHILE (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=tntsportschile"
+            }
+        ],
+        "id": 11
+    },
+    {
+        "datetime": "2026-05-31T16:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/espana_a8510f9b5f.png",
+        "league": "LaLiga 2",
+        "homeTeam": "Burgos",
+        "awayTeam": "FC Andorra",
+        "servers": [
+            {
+                "name": "DISNEY7 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney7"
+            }
+        ],
+        "id": 12
+    },
+    {
+        "datetime": "2026-05-31T18:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/uruguay_e2b9597af8.png",
+        "league": "Primera División",
+        "homeTeam": "Juventud",
+        "awayTeam": "Wanderers",
+        "servers": [
+            {
+                "name": "DISNEY8 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney8"
+            }
+        ],
+        "id": 13
+    },
+    {
+        "datetime": "2026-05-31T18:15:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/peru_ddc4e685cf.png",
+        "league": "Liga 1",
+        "homeTeam": "FC Cajamarca",
+        "awayTeam": "Alianza Lima",
+        "servers": [
+            {
+                "name": "LIGA1MAX (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=liga1max"
+            },
+            {
+                "name": "Opción ()",
+                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/ligaperu.html"
+            }
+        ],
+        "id": 14
+    },
+    {
+        "datetime": "2026-05-31T18:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/uruguay_e2b9597af8.png",
+        "league": "Segunda División",
+        "homeTeam": "River Plate",
+        "awayTeam": "Atenas",
+        "servers": [
+            {
+                "name": "DISNEY9 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney9"
+            }
+        ],
+        "id": 15
+    },
+    {
+        "datetime": "2026-05-31T18:45:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
+        "league": "Amistoso",
+        "homeTeam": "Alemania",
+        "awayTeam": "Finlandia",
+        "servers": [
+            {
+                "name": "ESPN (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn"
+            },
+            {
+                "name": "DISNEY10 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney10"
+            }
+        ],
+        "id": 16
+    },
+    {
+        "datetime": "2026-05-31T19:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/chile_86c07a7b38.png",
+        "league": "Primera División",
+        "homeTeam": "Huachipato",
+        "awayTeam": "Universidad Católica",
+        "servers": [
+            {
+                "name": "TNTSPORTSCHILE (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=tntsportschile"
+            }
+        ],
+        "id": 17
+    },
+    {
+        "datetime": "2026-05-31T19:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/espana_a8510f9b5f.png",
+        "league": "LaLiga 2",
+        "homeTeam": "Córdoba",
+        "awayTeam": "Huesca",
+        "servers": [
+            {
+                "name": "DISNEY11 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney11"
+            }
+        ],
+        "id": 18
+    },
+    {
+        "datetime": "2026-05-31T19:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
+        "league": "Amistoso",
+        "homeTeam": "EE. UU.",
+        "awayTeam": "Senegal",
+        "servers": [
+            {
+                "name": "DISNEY12 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney12"
+            }
+        ],
+        "id": 19
+    },
+    {
+        "datetime": "2026-05-31T20:15:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/peru_ddc4e685cf.png",
+        "league": "Liga 1",
+        "homeTeam": "Los Chankas",
+        "awayTeam": "UTC Cajamarca",
+        "servers": [
+            {
+                "name": "LIGA1MAX (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=liga1max"
+            },
+            {
+                "name": "Opción ()",
+                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/ligaperu.html"
+            }
+        ],
+        "id": 20
+    }
+]
