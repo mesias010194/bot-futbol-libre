@@ -1,49 +1,5 @@
 [
     {
-        "datetime": "2026-05-31T19:30:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
-        "league": "Amistoso",
-        "homeTeam": "EE. UU.",
-        "awayTeam": "Senegal",
-        "servers": [
-            {
-                "name": "DISNEY13 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney13"
-            },
-            {
-                "name": "ESPNMX (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=espnmx"
-            },
-            {
-                "name": "Opción (Español)",
-                "url": "https://la14hd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbCh1bml2ZXJzby1lYXN0KS9tYXN0ZXIubXBk&k=OTZiNjdmYTA5MTQwMzI5YTg5YjdhMWVhZDEzNGVkYTM6YzYxOGQzMmM1NmNkYzZjYWQ4MzMwZWI5ODUwN2NhM2Y="
-            },
-            {
-                "name": "Opción ()",
-                "url": "https://la14hd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-05-31T20:15:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/peru_ddc4e685cf.png",
-        "league": "Liga 1",
-        "homeTeam": "Los Chankas",
-        "awayTeam": "UTC Cajamarca",
-        "servers": [
-            {
-                "name": "LIGA1MAX (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=liga1max"
-            },
-            {
-                "name": "Opción ()",
-                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/ligaperu.html"
-            }
-        ],
-        "id": 2
-    },
-    {
         "datetime": "2026-05-31T21:30:00Z",
         "flagUrl": "https://img.fubolazo.com/uploads/chile_86c07a7b38.png",
         "league": "Primera División",
@@ -55,7 +11,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=tntsportschile"
             }
         ],
-        "id": 3
+        "id": 1
     },
     {
         "datetime": "2026-05-31T21:30:00Z",
@@ -69,7 +25,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=disney14"
             }
         ],
-        "id": 4
+        "id": 2
     },
     {
         "datetime": "2026-05-31T21:30:00Z",
@@ -87,7 +43,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=sportv"
             }
         ],
-        "id": 5
+        "id": 3
     },
     {
         "datetime": "2026-05-31T22:00:00Z",
@@ -105,7 +61,7 @@
                 "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/ligaperu.html"
             }
         ],
-        "id": 6
+        "id": 4
     },
     {
         "datetime": "2026-05-31T22:00:00Z",
@@ -119,7 +75,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=tycsports"
             }
         ],
-        "id": 7
+        "id": 5
     },
     {
         "datetime": "2026-05-31T23:00:00Z",
@@ -133,7 +89,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=espn2"
             }
         ],
-        "id": 8
+        "id": 6
     },
     {
         "datetime": "2026-05-31T23:30:00Z",
@@ -151,7 +107,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=premiere2"
             }
         ],
-        "id": 9
+        "id": 7
     },
     {
         "datetime": "2026-05-31T23:30:00Z",
@@ -169,7 +125,7 @@
                 "url": "https://streamtpnew.com/global1.php?stream=fanatiz9"
             }
         ],
-        "id": 10
+        "id": 8
     },
     {
         "datetime": "2026-06-01T00:00:00Z",
@@ -183,7 +139,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=tntsportschile"
             }
         ],
-        "id": 11
+        "id": 9
     },
     {
         "datetime": "2026-06-01T00:00:00Z",
@@ -197,6 +153,6 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=espn4"
             }
         ],
-        "id": 12
+        "id": 10
     }
 ]
