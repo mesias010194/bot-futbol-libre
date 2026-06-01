@@ -40,5 +40,37 @@
             }
         ],
         "id": 3
+    },
+    {
+        "datetime": "2026-06-01T17:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
+        "league": "Amistoso",
+        "homeTeam": "Noruega",
+        "awayTeam": "Suecia",
+        "servers": [
+            {
+                "name": "DISNEY5 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney5"
+            }
+        ],
+        "id": 4
+    },
+    {
+        "datetime": "2026-06-01T18:45:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
+        "league": "Amistoso",
+        "homeTeam": "Austria",
+        "awayTeam": "Túnez",
+        "servers": [
+            {
+                "name": "ESPN (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn"
+            },
+            {
+                "name": "DISNEY4 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney4"
+            }
+        ],
+        "id": 5
     }
 ]
