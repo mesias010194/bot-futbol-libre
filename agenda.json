@@ -1,47 +1,5 @@
 [
     {
-        "datetime": "2026-06-01T16:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
-        "league": "Amistoso",
-        "homeTeam": "Eslovaquia",
-        "awayTeam": "Malta",
-        "servers": [
-            {
-                "name": "DISNEY2 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney2"
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-06-01T16:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
-        "league": "Amistoso",
-        "homeTeam": "Bulgaria",
-        "awayTeam": "Montenegro",
-        "servers": [
-            {
-                "name": "DISNEY1 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney1"
-            }
-        ],
-        "id": 2
-    },
-    {
-        "datetime": "2026-06-01T16:30:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
-        "league": "Amistoso",
-        "homeTeam": "Turquía",
-        "awayTeam": "Macedonia del Norte",
-        "servers": [
-            {
-                "name": "DISNEY3 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney3"
-            }
-        ],
-        "id": 3
-    },
-    {
         "datetime": "2026-06-01T17:00:00Z",
         "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
         "league": "Amistoso",
@@ -53,7 +11,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=disney5"
             }
         ],
-        "id": 4
+        "id": 1
     },
     {
         "datetime": "2026-06-01T18:00:00Z",
@@ -67,7 +25,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=disney6"
             }
         ],
-        "id": 5
+        "id": 2
     },
     {
         "datetime": "2026-06-01T18:45:00Z",
@@ -85,6 +43,20 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=disney4"
             }
         ],
-        "id": 6
+        "id": 3
+    },
+    {
+        "datetime": "2026-06-01T23:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
+        "league": "Amistoso",
+        "homeTeam": "Colombia",
+        "awayTeam": "Costa Rica",
+        "servers": [
+            {
+                "name": "SPORTV (Portugués)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=sportv"
+            }
+        ],
+        "id": 4
     }
 ]
