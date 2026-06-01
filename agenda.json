@@ -56,6 +56,20 @@
         "id": 4
     },
     {
+        "datetime": "2026-06-01T18:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/uruguay_e2b9597af8.png",
+        "league": "Primera División",
+        "homeTeam": "Boston River",
+        "awayTeam": "Liverpool",
+        "servers": [
+            {
+                "name": "DISNEY6 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney6"
+            }
+        ],
+        "id": 5
+    },
+    {
         "datetime": "2026-06-01T18:45:00Z",
         "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
         "league": "Amistoso",
@@ -71,6 +85,6 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=disney4"
             }
         ],
-        "id": 5
+        "id": 6
     }
 ]
