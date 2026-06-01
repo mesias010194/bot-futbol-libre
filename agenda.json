@@ -1,23 +1,5 @@
 [
     {
-        "datetime": "2026-06-01T18:45:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
-        "league": "Amistoso",
-        "homeTeam": "Austria",
-        "awayTeam": "Túnez",
-        "servers": [
-            {
-                "name": "ESPN (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=espn"
-            },
-            {
-                "name": "DISNEY4 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney4"
-            }
-        ],
-        "id": 1
-    },
-    {
         "datetime": "2026-06-01T23:00:00Z",
         "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
         "league": "Amistoso",
@@ -29,6 +11,6 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=sportv"
             }
         ],
-        "id": 2
+        "id": 1
     }
 ]
