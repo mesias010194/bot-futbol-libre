@@ -1,1 +1,30 @@
-[]
+[
+    {
+        "datetime": "2026-06-01T16:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
+        "league": "Amistoso",
+        "homeTeam": "Eslovaquia",
+        "awayTeam": "Malta",
+        "servers": [
+            {
+                "name": "DISNEY2 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney2"
+            }
+        ],
+        "id": 1
+    },
+    {
+        "datetime": "2026-06-01T16:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
+        "league": "Amistoso",
+        "homeTeam": "Bulgaria",
+        "awayTeam": "Montenegro",
+        "servers": [
+            {
+                "name": "DISNEY1 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney1"
+            }
+        ],
+        "id": 2
+    }
+]
