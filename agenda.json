@@ -26,5 +26,19 @@
             }
         ],
         "id": 2
+    },
+    {
+        "datetime": "2026-06-01T16:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
+        "league": "Amistoso",
+        "homeTeam": "Turquía",
+        "awayTeam": "Macedonia del Norte",
+        "servers": [
+            {
+                "name": "DISNEY3 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney3"
+            }
+        ],
+        "id": 3
     }
 ]
