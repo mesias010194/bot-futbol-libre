@@ -1,1 +1,188 @@
-[]
+[
+    {
+        "datetime": "2026-06-02T13:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/fifa_ee72f5c955.png",
+        "league": "Torneo Maurice Revello",
+        "homeTeam": "China PR Sub-20",
+        "awayTeam": "RD del Congo Sub-20",
+        "servers": [
+            {
+                "name": "FOXDEPORTES (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=foxdeportes"
+            }
+        ],
+        "id": 1
+    },
+    {
+        "datetime": "2026-06-02T16:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
+        "league": "Amistoso",
+        "homeTeam": "Croacia",
+        "awayTeam": "Bélgica",
+        "servers": [
+            {
+                "name": "ESPN (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn"
+            },
+            {
+                "name": "DISNEY1 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney1"
+            }
+        ],
+        "id": 2
+    },
+    {
+        "datetime": "2026-06-02T16:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/fifa_ee72f5c955.png",
+        "league": "Torneo Maurice Revello",
+        "homeTeam": "Arabia Saudita Sub-23",
+        "awayTeam": "Colombia Sub-20",
+        "servers": [
+            {
+                "name": "FOXDEPORTES (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=foxdeportes"
+            },
+            {
+                "name": "WINSPORTS (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=winsports"
+            }
+        ],
+        "id": 3
+    },
+    {
+        "datetime": "2026-06-02T17:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
+        "league": "Amistoso",
+        "homeTeam": "Georgia",
+        "awayTeam": "Rumania",
+        "servers": [
+            {
+                "name": "DISNEY2 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney2"
+            }
+        ],
+        "id": 4
+    },
+    {
+        "datetime": "2026-06-02T18:45:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
+        "league": "Amistoso",
+        "homeTeam": "Gales",
+        "awayTeam": "Ghana",
+        "servers": [
+            {
+                "name": "ESPN (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn"
+            },
+            {
+                "name": "DISNEY3 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney3"
+            },
+            {
+                "name": "FOXSPORTS2 USA (Inglés)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=foxsports2_usa"
+            }
+        ],
+        "id": 5
+    },
+    {
+        "datetime": "2026-06-02T23:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/mlb_f5711cc440.png",
+        "league": "Fútbol",
+        "homeTeam": "MLB – New York Yankees",
+        "awayTeam": "Cleveland Guardians",
+        "servers": [
+            {
+                "name": "ESPN3 (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn3"
+            }
+        ],
+        "id": 6
+    },
+    {
+        "datetime": "2026-06-02T23:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/colombia_dcf9cc2637.png",
+        "league": "Copa Colombia",
+        "homeTeam": "Medellín",
+        "awayTeam": "Cúcuta Deportivo",
+        "servers": [
+            {
+                "name": "WINSPORTS (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=winsports"
+            },
+            {
+                "name": "FANATIZ4 ()",
+                "url": "https://la14hd.com/vivo/canal.php?stream=fanatiz4"
+            }
+        ],
+        "id": 7
+    },
+    {
+        "datetime": "2026-06-03T00:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/nhl_4a934e9b3a.png",
+        "league": "NHL",
+        "homeTeam": "Vegas Golden Knights vs. Carolina Hurricanes (Stanley Cup Final Game 2)",
+        "awayTeam": "",
+        "servers": [
+            {
+                "name": "ESPN4 (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn4"
+            }
+        ],
+        "id": 8
+    },
+    {
+        "datetime": "2026-06-03T00:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
+        "league": "Amistoso",
+        "homeTeam": "Haití",
+        "awayTeam": "Nueva Zelanda",
+        "servers": [
+            {
+                "name": "FOXDEPORTES (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=foxdeportes"
+            }
+        ],
+        "id": 9
+    },
+    {
+        "datetime": "2026-06-03T00:15:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/argentina_2bd748026e.png",
+        "league": "Copa Argentina",
+        "homeTeam": "Barracas Central",
+        "awayTeam": "Huracán",
+        "servers": [
+            {
+                "name": "TYCSPORTS (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=tycsports"
+            }
+        ],
+        "id": 10
+    },
+    {
+        "datetime": "2026-06-03T00:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/colombia_dcf9cc2637.png",
+        "league": "Primera Division",
+        "homeTeam": "Junior",
+        "awayTeam": "Atlético Nacional | FINAL 1/2",
+        "servers": [
+            {
+                "name": "WINSPORTSPLUS (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=winsportsplus"
+            },
+            {
+                "name": "WINSPORTS2 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=winsports2"
+            },
+            {
+                "name": "Opción (Español)",
+                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/winsports.html"
+            },
+            {
+                "name": "FANATIZ2 ()",
+                "url": "https://la14hd.com/vivo/canal.php?stream=fanatiz2"
+            }
+        ],
+        "id": 11
+    }
+]
