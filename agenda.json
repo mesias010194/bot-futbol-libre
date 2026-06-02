@@ -1,19 +1,5 @@
 [
     {
-        "datetime": "2026-06-02T13:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/fifa_ee72f5c955.png",
-        "league": "Torneo Maurice Revello",
-        "homeTeam": "China PR Sub-20",
-        "awayTeam": "RD del Congo Sub-20",
-        "servers": [
-            {
-                "name": "FOXDEPORTES (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=foxdeportes"
-            }
-        ],
-        "id": 1
-    },
-    {
         "datetime": "2026-06-02T16:00:00Z",
         "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
         "league": "Amistoso",
@@ -29,7 +15,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=disney1"
             }
         ],
-        "id": 2
+        "id": 1
     },
     {
         "datetime": "2026-06-02T16:30:00Z",
@@ -47,7 +33,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=winsports"
             }
         ],
-        "id": 3
+        "id": 2
     },
     {
         "datetime": "2026-06-02T17:00:00Z",
@@ -61,7 +47,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=disney2"
             }
         ],
-        "id": 4
+        "id": 3
     },
     {
         "datetime": "2026-06-02T18:45:00Z",
@@ -83,7 +69,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=foxsports2_usa"
             }
         ],
-        "id": 5
+        "id": 4
     },
     {
         "datetime": "2026-06-02T23:00:00Z",
@@ -97,7 +83,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=espn3"
             }
         ],
-        "id": 6
+        "id": 5
     },
     {
         "datetime": "2026-06-02T23:00:00Z",
@@ -115,7 +101,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=fanatiz4"
             }
         ],
-        "id": 7
+        "id": 6
     },
     {
         "datetime": "2026-06-03T00:00:00Z",
@@ -129,7 +115,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=espn4"
             }
         ],
-        "id": 8
+        "id": 7
     },
     {
         "datetime": "2026-06-03T00:00:00Z",
@@ -143,7 +129,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=foxdeportes"
             }
         ],
-        "id": 9
+        "id": 8
     },
     {
         "datetime": "2026-06-03T00:15:00Z",
@@ -157,7 +143,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=tycsports"
             }
         ],
-        "id": 10
+        "id": 9
     },
     {
         "datetime": "2026-06-03T00:30:00Z",
@@ -183,6 +169,6 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=fanatiz2"
             }
         ],
-        "id": 11
+        "id": 10
     }
 ]
