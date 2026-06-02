@@ -1,27 +1,5 @@
 [
     {
-        "datetime": "2026-06-02T18:45:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
-        "league": "Amistoso",
-        "homeTeam": "Gales",
-        "awayTeam": "Ghana",
-        "servers": [
-            {
-                "name": "ESPN (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=espn"
-            },
-            {
-                "name": "DISNEY3 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney3"
-            },
-            {
-                "name": "FOXSPORTS2 USA (Inglés)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=foxsports2_usa"
-            }
-        ],
-        "id": 1
-    },
-    {
         "datetime": "2026-06-02T23:00:00Z",
         "flagUrl": "https://img.fubolazo.com/uploads/mlb_f5711cc440.png",
         "league": "Fútbol",
@@ -33,7 +11,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=espn3"
             }
         ],
-        "id": 2
+        "id": 1
     },
     {
         "datetime": "2026-06-02T23:00:00Z",
@@ -51,7 +29,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=fanatiz4"
             }
         ],
-        "id": 3
+        "id": 2
     },
     {
         "datetime": "2026-06-03T00:00:00Z",
@@ -65,7 +43,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=espn4"
             }
         ],
-        "id": 4
+        "id": 3
     },
     {
         "datetime": "2026-06-03T00:00:00Z",
@@ -79,7 +57,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=foxdeportes"
             }
         ],
-        "id": 5
+        "id": 4
     },
     {
         "datetime": "2026-06-03T00:15:00Z",
@@ -93,7 +71,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=tycsports"
             }
         ],
-        "id": 6
+        "id": 5
     },
     {
         "datetime": "2026-06-03T00:30:00Z",
@@ -119,6 +97,6 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=fanatiz2"
             }
         ],
-        "id": 7
+        "id": 6
     }
 ]
