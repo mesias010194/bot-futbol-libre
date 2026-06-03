@@ -1,111 +1,5 @@
 [
     {
-        "datetime": "2026-06-03T17:30:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/mlb_f5711cc440.png",
-        "league": "Fútbol",
-        "homeTeam": "MLB – Minnesota Twins",
-        "awayTeam": "Chicago White Sox",
-        "servers": [
-            {
-                "name": "ESPN5 (español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=espn5"
-            },
-            {
-                "name": "Opción ()",
-                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/espn5tv.html"
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-06-03T18:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
-        "league": "Amistoso",
-        "homeTeam": "Albania",
-        "awayTeam": "Israel",
-        "servers": [
-            {
-                "name": "DISNEY2 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney2"
-            }
-        ],
-        "id": 2
-    },
-    {
-        "datetime": "2026-06-03T18:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
-        "league": "Amistoso",
-        "homeTeam": "RD del Congo",
-        "awayTeam": "Dinamarca",
-        "servers": [
-            {
-                "name": "DISNEY1 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney1"
-            }
-        ],
-        "id": 3
-    },
-    {
-        "datetime": "2026-06-03T18:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/argentina_2bd748026e.png",
-        "league": "Torneo de Reserva",
-        "homeTeam": "Rosario Central",
-        "awayTeam": "Racing Club",
-        "servers": [
-            {
-                "name": "ESPN3 (español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=espn3"
-            }
-        ],
-        "id": 4
-    },
-    {
-        "datetime": "2026-06-03T18:45:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
-        "league": "Amistoso",
-        "homeTeam": "Luxemburgo",
-        "awayTeam": "Italia",
-        "servers": [
-            {
-                "name": "DISNEY4 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney4"
-            }
-        ],
-        "id": 5
-    },
-    {
-        "datetime": "2026-06-03T18:45:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
-        "league": "Amistoso",
-        "homeTeam": "Países Bajos",
-        "awayTeam": "Argelia",
-        "servers": [
-            {
-                "name": "ESPN (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=espn"
-            },
-            {
-                "name": "DISNEY3 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney3"
-            }
-        ],
-        "id": 6
-    },
-    {
-        "datetime": "2026-06-03T18:45:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
-        "league": "Amistoso",
-        "homeTeam": "Polonia",
-        "awayTeam": "Nigeria",
-        "servers": [
-            {
-                "name": "DISNEY5 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney5"
-            }
-        ],
-        "id": 7
-    },
-    {
         "datetime": "2026-06-03T23:00:00Z",
         "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
         "league": "Amistoso",
@@ -117,7 +11,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=sportv"
             }
         ],
-        "id": 8
+        "id": 1
     },
     {
         "datetime": "2026-06-04T00:15:00Z",
@@ -131,7 +25,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=tycsports"
             }
         ],
-        "id": 9
+        "id": 2
     },
     {
         "datetime": "2026-06-04T00:30:00Z",
@@ -145,7 +39,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=espndeportes"
             }
         ],
-        "id": 10
+        "id": 3
     },
     {
         "datetime": "2026-06-04T00:45:00Z",
@@ -159,6 +53,6 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=eventos4"
             }
         ],
-        "id": 11
+        "id": 4
     }
 ]
