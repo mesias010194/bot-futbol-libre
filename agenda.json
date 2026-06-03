@@ -1,1 +1,62 @@
-[]
+[
+    {
+        "datetime": "2026-06-03T17:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/mlb_f5711cc440.png",
+        "league": "Fútbol",
+        "homeTeam": "MLB – Minnesota Twins",
+        "awayTeam": "Chicago White Sox",
+        "servers": [
+            {
+                "name": "ESPN5 (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn5"
+            },
+            {
+                "name": "Opción ()",
+                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/espn5tv.html"
+            }
+        ],
+        "id": 1
+    },
+    {
+        "datetime": "2026-06-03T18:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
+        "league": "Amistoso",
+        "homeTeam": "Albania",
+        "awayTeam": "Israel",
+        "servers": [
+            {
+                "name": "DISNEY2 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney2"
+            }
+        ],
+        "id": 2
+    },
+    {
+        "datetime": "2026-06-03T18:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
+        "league": "Amistoso",
+        "homeTeam": "RD del Congo",
+        "awayTeam": "Dinamarca",
+        "servers": [
+            {
+                "name": "DISNEY1 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney1"
+            }
+        ],
+        "id": 3
+    },
+    {
+        "datetime": "2026-06-03T18:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/argentina_2bd748026e.png",
+        "league": "Torneo de Reserva",
+        "homeTeam": "Rosario Central",
+        "awayTeam": "Racing Club",
+        "servers": [
+            {
+                "name": "ESPN3 (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn3"
+            }
+        ],
+        "id": 4
+    }
+]
