@@ -58,5 +58,107 @@
             }
         ],
         "id": 4
+    },
+    {
+        "datetime": "2026-06-03T18:45:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
+        "league": "Amistoso",
+        "homeTeam": "Luxemburgo",
+        "awayTeam": "Italia",
+        "servers": [
+            {
+                "name": "DISNEY4 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney4"
+            }
+        ],
+        "id": 5
+    },
+    {
+        "datetime": "2026-06-03T18:45:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
+        "league": "Amistoso",
+        "homeTeam": "Países Bajos",
+        "awayTeam": "Argelia",
+        "servers": [
+            {
+                "name": "ESPN (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn"
+            },
+            {
+                "name": "DISNEY3 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney3"
+            }
+        ],
+        "id": 6
+    },
+    {
+        "datetime": "2026-06-03T18:45:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
+        "league": "Amistoso",
+        "homeTeam": "Polonia",
+        "awayTeam": "Nigeria",
+        "servers": [
+            {
+                "name": "DISNEY5 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney5"
+            }
+        ],
+        "id": 7
+    },
+    {
+        "datetime": "2026-06-03T23:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
+        "league": "Amistoso",
+        "homeTeam": "Corea del Sur",
+        "awayTeam": "El Salvador",
+        "servers": [
+            {
+                "name": "SPORTV (Portugués)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=sportv"
+            }
+        ],
+        "id": 8
+    },
+    {
+        "datetime": "2026-06-04T00:15:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/argentina_2bd748026e.png",
+        "league": "Copa Argentina",
+        "homeTeam": "San Lorenzo",
+        "awayTeam": "Deportivo Riestra",
+        "servers": [
+            {
+                "name": "TYCSPORTS (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=tycsports"
+            }
+        ],
+        "id": 9
+    },
+    {
+        "datetime": "2026-06-04T00:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/nba_b6210b97b6.png",
+        "league": "NBA",
+        "homeTeam": "Knicks",
+        "awayTeam": "Spurs - Finals Game #1",
+        "servers": [
+            {
+                "name": "ESPNDEPORTES (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espndeportes"
+            }
+        ],
+        "id": 10
+    },
+    {
+        "datetime": "2026-06-04T00:45:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
+        "league": "Amistoso",
+        "homeTeam": "Panamá",
+        "awayTeam": "República Dominicana",
+        "servers": [
+            {
+                "name": "EVENTOS4 (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=eventos4"
+            }
+        ],
+        "id": 11
     }
 ]
