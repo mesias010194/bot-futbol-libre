@@ -1,47 +1,5 @@
 [
     {
-        "datetime": "2026-06-04T16:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
-        "league": "Amistoso",
-        "homeTeam": "Irlanda del Norte",
-        "awayTeam": "Guinea",
-        "servers": [
-            {
-                "name": "DISNEY1 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney1"
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-06-04T16:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
-        "league": "Amistoso",
-        "homeTeam": "Eslovenia",
-        "awayTeam": "Chipre",
-        "servers": [
-            {
-                "name": "DISNEY2 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney2"
-            }
-        ],
-        "id": 2
-    },
-    {
-        "datetime": "2026-06-04T17:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
-        "league": "Amistoso",
-        "homeTeam": "Andorra",
-        "awayTeam": "Liechtenstein",
-        "servers": [
-            {
-                "name": "DISNEY3 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney3"
-            }
-        ],
-        "id": 3
-    },
-    {
         "datetime": "2026-06-04T19:00:00Z",
         "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
         "league": "Amistoso",
@@ -53,7 +11,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=disney4"
             }
         ],
-        "id": 4
+        "id": 1
     },
     {
         "datetime": "2026-06-04T19:00:00Z",
@@ -71,7 +29,7 @@
                 "url": "https://tv.la14hd.com/mpd/drm.php?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2xoci1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvNjJxZGtlZnY5Zi9vdXQvdjEvZjdkNWIzNTZlMDQ4NDk0YTgzMjU1NjNlODkxNmQ1MGIvY2VuYy5tcGQ=&k=ZmQ4NmRkZTBhZTNlMTRmZjUxYzhmYzhmMjQ4YTUwZGI6ZDEwNmFlNzhiMDg5M2RhMmU0MzkzZWNlOTk0MjBiYWE="
             }
         ],
-        "id": 5
+        "id": 2
     },
     {
         "datetime": "2026-06-04T19:15:00Z",
@@ -89,6 +47,6 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=disney6"
             }
         ],
-        "id": 6
+        "id": 3
     }
 ]
