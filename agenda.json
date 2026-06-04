@@ -72,5 +72,23 @@
             }
         ],
         "id": 5
+    },
+    {
+        "datetime": "2026-06-04T19:15:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
+        "league": "Amistoso",
+        "homeTeam": "Francia",
+        "awayTeam": "Costa de Marfil",
+        "servers": [
+            {
+                "name": "ESPN (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn"
+            },
+            {
+                "name": "DISNEY6 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney6"
+            }
+        ],
+        "id": 6
     }
 ]
