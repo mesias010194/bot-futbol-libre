@@ -1,33 +1,5 @@
 [
     {
-        "datetime": "2026-06-05T17:45:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
-        "league": "Amistoso",
-        "homeTeam": "Hungría",
-        "awayTeam": "Finlandia",
-        "servers": [
-            {
-                "name": "DISNEY4 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney4"
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-06-05T18:00:00Z",
-        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
-        "league": "Amistoso",
-        "homeTeam": "Azerbaiyán",
-        "awayTeam": "Malta",
-        "servers": [
-            {
-                "name": "DISNEY5 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney5"
-            }
-        ],
-        "id": 2
-    },
-    {
         "datetime": "2026-06-05T22:00:00Z",
         "flagUrl": "https://img.fubolazo.com/uploads/uruguay_e2b9597af8.png",
         "league": "Primera División",
@@ -39,7 +11,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=disney6"
             }
         ],
-        "id": 3
+        "id": 1
     },
     {
         "datetime": "2026-06-05T22:00:00Z",
@@ -53,7 +25,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=disney9"
             }
         ],
-        "id": 4
+        "id": 2
     },
     {
         "datetime": "2026-06-05T23:00:00Z",
@@ -63,11 +35,11 @@
         "awayTeam": "Arabia Saudita",
         "servers": [
             {
-                "name": "Opción (Portugués)",
-                "url": "https://la10tv.com/mpd/drm.php?url=aHR0cHM6Ly9vdHRiLmxpdmUuY2Yud3cuYWl2LWNkbi5uZXQvZ3J1LW5pdHJvL2xpdmUvY2xpZW50cy9kYXNoL2VuYy9kc2EzaHd1aGQxL291dC92MS82MzFiNDhjOGQ5ZWE0MzdlODMwOWQxYTRiNTVhY2VmNS9jZW5jLm1wZA==&k=M2RlMDI4ZWFmYjNiMmNhZmZlYzAzYmUxYzFjODE4YjM6OGZiZGQ4YTlhZTY3NDg2OTZiYjEzZTU0N2JiMDkzZmM="
+                "name": "SPORTV2 (Portugués)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=sportv2"
             }
         ],
-        "id": 5
+        "id": 3
     },
     {
         "datetime": "2026-06-06T00:15:00Z",
@@ -89,6 +61,6 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=foxdeportes"
             }
         ],
-        "id": 6
+        "id": 4
     }
 ]
