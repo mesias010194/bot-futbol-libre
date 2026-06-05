@@ -1,1 +1,90 @@
-[]
+[
+    {
+        "datetime": "2026-06-05T13:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/fifa_ee72f5c955.png",
+        "league": "Torneo Maurice Revello Sub-20",
+        "homeTeam": "Colombia",
+        "awayTeam": "China PR",
+        "servers": [
+            {
+                "name": "WINSPORTS (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=winsports"
+            }
+        ],
+        "id": 1
+    },
+    {
+        "datetime": "2026-06-05T13:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/logof2_5646b022e7.png",
+        "league": "Fútbol",
+        "homeTeam": "F2 Monte Carlo – Clasificación",
+        "awayTeam": "",
+        "servers": [
+            {
+                "name": "ESPN3 (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espn3"
+            },
+            {
+                "name": "ESPNDEPORTES (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=espndeportes"
+            }
+        ],
+        "id": 2
+    },
+    {
+        "datetime": "2026-06-05T16:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
+        "league": "Amistoso",
+        "homeTeam": "Georgia",
+        "awayTeam": "Bahréin",
+        "servers": [
+            {
+                "name": "DISNEY1 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney1"
+            }
+        ],
+        "id": 3
+    },
+    {
+        "datetime": "2026-06-05T16:00:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
+        "league": "Amistoso",
+        "homeTeam": "Bielorrusia",
+        "awayTeam": "Siria",
+        "servers": [
+            {
+                "name": "DISNEY2 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney2"
+            }
+        ],
+        "id": 4
+    },
+    {
+        "datetime": "2026-06-05T16:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/amistoso_paises_b9febc0d3c.png",
+        "league": "Amistoso",
+        "homeTeam": "Eslovaquia",
+        "awayTeam": "Montenegro",
+        "servers": [
+            {
+                "name": "DISNEY3 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney3"
+            }
+        ],
+        "id": 5
+    },
+    {
+        "datetime": "2026-06-05T16:30:00Z",
+        "flagUrl": "https://img.fubolazo.com/uploads/fifa_ee72f5c955.png",
+        "league": "Torneo Maurice Revello",
+        "homeTeam": "Arabia Saudita Sub-23",
+        "awayTeam": "Túnez Sub-20",
+        "servers": [
+            {
+                "name": "FOXDEPORTES (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=foxdeportes"
+            }
+        ],
+        "id": 6
+    }
+]
