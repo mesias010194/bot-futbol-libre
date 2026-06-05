@@ -7,6 +7,10 @@
         "awayTeam": "Guatemala",
         "servers": [
             {
+                "name": "DISNEY1 (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=disney1"
+            },
+            {
                 "name": "SPORTV (Portugués)",
                 "url": "https://la14hd.com/vivo/canal.php?stream=sportv"
             },
@@ -25,12 +29,20 @@
         "awayTeam": "Serbia",
         "servers": [
             {
+                "name": "FOXDEPORTES (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=foxdeportes"
+            },
+            {
                 "name": "AZTECA7 (Español)",
                 "url": "https://la14hd.com/vivo/canal.php?stream=azteca7"
             },
             {
                 "name": "TUDN (Español)",
                 "url": "https://la14hd.com/vivo/canal.php?stream=tudn"
+            },
+            {
+                "name": "UNIVISION (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=univision"
             }
         ],
         "id": 2
