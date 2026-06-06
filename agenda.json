@@ -1,81 +1,5 @@
 [
     {
-        "datetime": "2026-06-06T18:30:00Z",
-        "flagUrl": "https://flagcdn.com/w40/de.png",
-        "league": "Amistoso",
-        "homeTeam": "EE. UU.",
-        "awayTeam": "Alemania",
-        "servers": [
-            {
-                "name": "DISNEY13 (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=disney13"
-            },
-            {
-                "name": "ESPNMX (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=espnmx"
-            },
-            {
-                "name": "Opción (Español)",
-                "url": "https://la18hd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbCh1bml2ZXJzby1lYXN0KS9tYXN0ZXIubXBk&k=OTZiNjdmYTA5MTQwMzI5YTg5YjdhMWVhZDEzNGVkYTM6YzYxOGQzMmM1NmNkYzZjYWQ4MzMwZWI5ODUwN2NhM2Y="
-            },
-            {
-                "name": "Opción ()",
-                "url": "https://la18hd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-06-06T19:00:00Z",
-        "flagUrl": "https://cdn-icons-png.flaticon.com/512/53/53283.png",
-        "league": "Amistoso",
-        "homeTeam": "Suiza",
-        "awayTeam": "Australia",
-        "servers": [
-            {
-                "name": "DISNEY14 (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=disney14"
-            }
-        ],
-        "id": 2
-    },
-    {
-        "datetime": "2026-06-06T19:00:00Z",
-        "flagUrl": "https://cdn-icons-png.flaticon.com/512/53/53283.png",
-        "league": "Amistoso",
-        "homeTeam": "Panamá",
-        "awayTeam": "Bosnia-Herzegovina",
-        "servers": [
-            {
-                "name": "EVENTOS4 (español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=eventos4"
-            }
-        ],
-        "id": 3
-    },
-    {
-        "datetime": "2026-06-06T19:00:00Z",
-        "flagUrl": "https://flagcdn.com/w40/es.png",
-        "league": "LaLiga SmartBank",
-        "homeTeam": "CD Castellon",
-        "awayTeam": "Almería",
-        "servers": [
-            {
-                "name": "ESPN5 (español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=espn5"
-            },
-            {
-                "name": "DISNEY15 (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=disney15"
-            },
-            {
-                "name": "Opción ()",
-                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/espn5tv.html"
-            }
-        ],
-        "id": 4
-    },
-    {
         "datetime": "2026-06-06T20:00:00Z",
         "flagUrl": "https://flagcdn.com/w40/gb-eng.png",
         "league": "Amistoso",
@@ -91,7 +15,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=disney16"
             }
         ],
-        "id": 5
+        "id": 1
     },
     {
         "datetime": "2026-06-06T20:00:00Z",
@@ -113,25 +37,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=espn3mx"
             }
         ],
-        "id": 6
-    },
-    {
-        "datetime": "2026-06-06T21:30:00Z",
-        "flagUrl": "https://flagcdn.com/w40/co.png",
-        "league": "Amistoso Internacional Femenino",
-        "homeTeam": "Brasil",
-        "awayTeam": "EE. UU.",
-        "servers": [
-            {
-                "name": "ESPN (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=espn"
-            },
-            {
-                "name": "DISNEY19 (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=disney19"
-            }
-        ],
-        "id": 7
+        "id": 2
     },
     {
         "datetime": "2026-06-06T21:30:00Z",
@@ -145,7 +51,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=disney18"
             }
         ],
-        "id": 8
+        "id": 3
     },
     {
         "datetime": "2026-06-06T22:00:00Z",
@@ -159,7 +65,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=disney20"
             }
         ],
-        "id": 9
+        "id": 4
     },
     {
         "datetime": "2026-06-06T22:00:00Z",
@@ -185,7 +91,21 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=sportv"
             }
         ],
-        "id": 10
+        "id": 5
+    },
+    {
+        "datetime": "2026-06-06T22:00:00Z",
+        "flagUrl": "https://cdn-icons-png.flaticon.com/512/53/53283.png",
+        "league": "Primera Divisón",
+        "homeTeam": "Universidad Católica",
+        "awayTeam": "Cobresal",
+        "servers": [
+            {
+                "name": "MAX3 (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=max3"
+            }
+        ],
+        "id": 6
     },
     {
         "datetime": "2026-06-06T22:00:00Z",
@@ -196,10 +116,14 @@
         "servers": [
             {
                 "name": "TNTSPORTSCHILE (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=tntsportschile"
+                "url": "https://la18hd.com/vivo/canal.php?stream=tntsportschile"
+            },
+            {
+                "name": "MAX2 (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=max2"
             }
         ],
-        "id": 11
+        "id": 7
     },
     {
         "datetime": "2026-06-06T23:00:00Z",
@@ -221,7 +145,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=espndeportes"
             }
         ],
-        "id": 12
+        "id": 8
     },
     {
         "datetime": "2026-06-07T00:00:00Z",
@@ -235,7 +159,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=disney2"
             }
         ],
-        "id": 13
+        "id": 9
     },
     {
         "datetime": "2026-06-07T00:00:00Z",
@@ -253,7 +177,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=disney3"
             }
         ],
-        "id": 14
+        "id": 10
     },
     {
         "datetime": "2026-06-07T02:00:00Z",
@@ -271,6 +195,6 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=disney4"
             }
         ],
-        "id": 15
+        "id": 11
     }
 ]
