@@ -1,1 +1,180 @@
-[]
+[
+    {
+        "datetime": "2026-06-06T16:30:00Z",
+        "flagUrl": "https://cdn-icons-png.flaticon.com/512/53/53283.png",
+        "league": "Torneo Maurice Revello Sub-20",
+        "homeTeam": "Portugal",
+        "awayTeam": "Costa de Marfil",
+        "servers": [
+            {
+                "name": "FOXDEPORTES (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=foxdeportes"
+            }
+        ],
+        "id": 1
+    },
+    {
+        "datetime": "2026-06-06T17:00:00Z",
+        "flagUrl": "https://cdn-icons-png.flaticon.com/512/53/53283.png",
+        "league": "Amistoso",
+        "homeTeam": "Gibraltar",
+        "awayTeam": "Islas Caimán",
+        "servers": [
+            {
+                "name": "DISNEY7 (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=disney7"
+            }
+        ],
+        "id": 2
+    },
+    {
+        "datetime": "2026-06-06T17:45:00Z",
+        "flagUrl": "https://flagcdn.com/w40/cl.png",
+        "league": "Amistoso",
+        "homeTeam": "Portugal",
+        "awayTeam": "Chile",
+        "servers": [
+            {
+                "name": "ESPN (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=espn"
+            },
+            {
+                "name": "DISNEY8 (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=disney8"
+            }
+        ],
+        "id": 3
+    },
+    {
+        "datetime": "2026-06-06T17:45:00Z",
+        "flagUrl": "https://cdn-icons-png.flaticon.com/512/53/53283.png",
+        "league": "Amistoso",
+        "homeTeam": "Rumania",
+        "awayTeam": "Gales",
+        "servers": [
+            {
+                "name": "DISNEY9 (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=disney9"
+            }
+        ],
+        "id": 4
+    },
+    {
+        "datetime": "2026-06-06T18:00:00Z",
+        "flagUrl": "https://cdn-icons-png.flaticon.com/512/53/53283.png",
+        "league": "Amistoso",
+        "homeTeam": "Albania",
+        "awayTeam": "Luxemburgo",
+        "servers": [
+            {
+                "name": "DISNEY10PL ()",
+                "url": "https://la14hd.com/vivo/pl.php?stream=disney10pl"
+            },
+            {
+                "name": "DISNEY10 (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=disney10"
+            }
+        ],
+        "id": 5
+    },
+    {
+        "datetime": "2026-06-06T18:00:00Z",
+        "flagUrl": "https://cdn-icons-png.flaticon.com/512/53/53283.png",
+        "league": "Primera Divisón",
+        "homeTeam": "Torque",
+        "awayTeam": "Deportivo Maldonado",
+        "servers": [
+            {
+                "name": "DISNEY11 (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=disney11"
+            }
+        ],
+        "id": 6
+    },
+    {
+        "datetime": "2026-06-06T18:00:00Z",
+        "flagUrl": "https://cdn-icons-png.flaticon.com/512/53/53283.png",
+        "league": "Segunda División",
+        "homeTeam": "La Luz",
+        "awayTeam": "Paysandu",
+        "servers": [
+            {
+                "name": "DISNEY12 (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=disney12"
+            }
+        ],
+        "id": 7
+    },
+    {
+        "datetime": "2026-06-06T18:30:00Z",
+        "flagUrl": "https://flagcdn.com/w40/de.png",
+        "league": "Amistoso",
+        "homeTeam": "EE. UU.",
+        "awayTeam": "Alemania",
+        "servers": [
+            {
+                "name": "DISNEY13 (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=disney13"
+            },
+            {
+                "name": "ESPNMX (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=espnmx"
+            },
+            {
+                "name": "Opción (Español)",
+                "url": "https://la14hd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbCh1bml2ZXJzby1lYXN0KS9tYXN0ZXIubXBk&k=OTZiNjdmYTA5MTQwMzI5YTg5YjdhMWVhZDEzNGVkYTM6YzYxOGQzMmM1NmNkYzZjYWQ4MzMwZWI5ODUwN2NhM2Y="
+            },
+            {
+                "name": "Opción ()",
+                "url": "https://la14hd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
+            }
+        ],
+        "id": 8
+    },
+    {
+        "datetime": "2026-06-06T19:00:00Z",
+        "flagUrl": "https://cdn-icons-png.flaticon.com/512/53/53283.png",
+        "league": "Amistoso",
+        "homeTeam": "Suiza",
+        "awayTeam": "Australia",
+        "servers": [
+            {
+                "name": "DISNEY14 (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=disney14"
+            }
+        ],
+        "id": 9
+    },
+    {
+        "datetime": "2026-06-06T19:00:00Z",
+        "flagUrl": "https://cdn-icons-png.flaticon.com/512/53/53283.png",
+        "league": "Amistoso",
+        "homeTeam": "Panamá",
+        "awayTeam": "Bosnia-Herzegovina",
+        "servers": [
+            {
+                "name": "EVENTOS4 (español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=eventos4"
+            }
+        ],
+        "id": 10
+    },
+    {
+        "datetime": "2026-06-06T20:00:00Z",
+        "flagUrl": "https://flagcdn.com/w40/gb-eng.png",
+        "league": "Amistoso",
+        "homeTeam": "Inglaterra",
+        "awayTeam": "Nueva Zelanda",
+        "servers": [
+            {
+                "name": "ESPN (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=espn"
+            },
+            {
+                "name": "DISNEY16 (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=disney16"
+            }
+        ],
+        "id": 11
+    }
+]
