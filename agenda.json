@@ -15,38 +15,6 @@
     },
     {
         "datetime": "2026-06-07T16:30:00Z",
-        "flagUrl": "https://flagcdn.com/w40/ar.png",
-        "league": "Copa de la Liga",
-        "homeTeam": "La Serena",
-        "awayTeam": "Unión La Calera",
-        "servers": [
-            {
-                "name": "TNTSPORTSCHILE (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=tntsportschile"
-            },
-            {
-                "name": "MAX1 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=max1"
-            }
-        ],
-        "id": 2
-    },
-    {
-        "datetime": "2026-06-07T16:30:00Z",
-        "flagUrl": "https://flagcdn.com/w40/ar.png",
-        "league": "Copa de la Liga",
-        "homeTeam": "Universidad Chile",
-        "awayTeam": "Audax Italiano",
-        "servers": [
-            {
-                "name": "MAX2 (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=max2"
-            }
-        ],
-        "id": 3
-    },
-    {
-        "datetime": "2026-06-07T16:30:00Z",
         "flagUrl": "https://cdn-icons-png.flaticon.com/512/53/53283.png",
         "league": "Amistoso",
         "homeTeam": "Dinamarca",
@@ -63,6 +31,38 @@
             {
                 "name": "FOXSPORTS2 USA (Inglés)",
                 "url": "https://la18hd.com/vivo/canal.php?stream=foxsports2_usa"
+            }
+        ],
+        "id": 2
+    },
+    {
+        "datetime": "2026-06-07T16:30:00Z",
+        "flagUrl": "https://flagcdn.com/w40/ar.png",
+        "league": "Copa de la Liga",
+        "homeTeam": "La Serena",
+        "awayTeam": "Unión La Calera",
+        "servers": [
+            {
+                "name": "MAX1 (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=max1"
+            }
+        ],
+        "id": 3
+    },
+    {
+        "datetime": "2026-06-07T16:30:00Z",
+        "flagUrl": "https://flagcdn.com/w40/ar.png",
+        "league": "Copa de la Liga",
+        "homeTeam": "Universidad Chile",
+        "awayTeam": "Audax Italiano",
+        "servers": [
+            {
+                "name": "MAX2 (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=max2"
+            },
+            {
+                "name": "TNTSPORTSCHILE (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=tntsportschile"
             }
         ],
         "id": 4
