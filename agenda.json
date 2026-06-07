@@ -1,65 +1,5 @@
 [
     {
-        "datetime": "2026-06-07T13:00:00Z",
-        "flagUrl": "https://cdn-icons-png.flaticon.com/512/53/53283.png",
-        "league": "F1",
-        "homeTeam": "Formula 1: GP Mónaco - Carrera",
-        "awayTeam": "",
-        "servers": [
-            {
-                "name": "DISNEY3 (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=disney3"
-            },
-            {
-                "name": "FOXSPORTS (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=foxsports"
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-06-07T13:00:00Z",
-        "flagUrl": "https://cdn-icons-png.flaticon.com/512/53/53283.png",
-        "league": "F1",
-        "homeTeam": "Formula 1: GP Mónaco - Race Hub",
-        "awayTeam": "",
-        "servers": [
-            {
-                "name": "DISNEY4 (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=disney4"
-            }
-        ],
-        "id": 2
-    },
-    {
-        "datetime": "2026-06-07T13:00:00Z",
-        "flagUrl": "https://cdn-icons-png.flaticon.com/512/53/53283.png",
-        "league": "Amistoso",
-        "homeTeam": "Liechtenstein",
-        "awayTeam": "Chipre",
-        "servers": [
-            {
-                "name": "DISNEY1 (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=disney1"
-            }
-        ],
-        "id": 3
-    },
-    {
-        "datetime": "2026-06-07T13:00:00Z",
-        "flagUrl": "https://cdn-icons-png.flaticon.com/512/53/53283.png",
-        "league": "Primera Divisón",
-        "homeTeam": "Progreso",
-        "awayTeam": "Albion",
-        "servers": [
-            {
-                "name": "DISNEY2 (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=disney2"
-            }
-        ],
-        "id": 4
-    },
-    {
         "datetime": "2026-06-07T16:00:00Z",
         "flagUrl": "https://cdn-icons-png.flaticon.com/512/53/53283.png",
         "league": "Segunda División",
@@ -71,7 +11,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=disney5"
             }
         ],
-        "id": 5
+        "id": 1
     },
     {
         "datetime": "2026-06-07T16:30:00Z",
@@ -89,7 +29,7 @@
                 "url": "https://la14hd.com/vivo/canal.php?stream=max1"
             }
         ],
-        "id": 6
+        "id": 2
     },
     {
         "datetime": "2026-06-07T16:30:00Z",
@@ -103,7 +43,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=max2"
             }
         ],
-        "id": 7
+        "id": 3
     },
     {
         "datetime": "2026-06-07T16:30:00Z",
@@ -125,7 +65,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=foxsports2_usa"
             }
         ],
-        "id": 8
+        "id": 4
     },
     {
         "datetime": "2026-06-07T18:00:00Z",
@@ -139,7 +79,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=disney7"
             }
         ],
-        "id": 9
+        "id": 5
     },
     {
         "datetime": "2026-06-07T18:00:00Z",
@@ -153,7 +93,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=disney8"
             }
         ],
-        "id": 10
+        "id": 6
     },
     {
         "datetime": "2026-06-07T18:45:00Z",
@@ -179,7 +119,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=foxsports2_usa"
             }
         ],
-        "id": 11
+        "id": 7
     },
     {
         "datetime": "2026-06-07T19:00:00Z",
@@ -193,7 +133,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=disney10"
             }
         ],
-        "id": 12
+        "id": 8
     },
     {
         "datetime": "2026-06-07T19:00:00Z",
@@ -211,7 +151,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=espndeportes"
             }
         ],
-        "id": 13
+        "id": 9
     },
     {
         "datetime": "2026-06-07T19:00:00Z",
@@ -229,7 +169,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=max3"
             }
         ],
-        "id": 14
+        "id": 10
     },
     {
         "datetime": "2026-06-07T20:00:00Z",
@@ -243,7 +183,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=clarosports1"
             }
         ],
-        "id": 15
+        "id": 11
     },
     {
         "datetime": "2026-06-07T21:00:00Z",
@@ -257,7 +197,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=disney12"
             }
         ],
-        "id": 16
+        "id": 12
     },
     {
         "datetime": "2026-06-07T21:30:00Z",
@@ -271,7 +211,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=disney11"
             }
         ],
-        "id": 17
+        "id": 13
     },
     {
         "datetime": "2026-06-07T22:00:00Z",
@@ -285,7 +225,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=tntsportschile"
             }
         ],
-        "id": 18
+        "id": 14
     },
     {
         "datetime": "2026-06-07T23:00:00Z",
@@ -311,7 +251,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=sportv"
             }
         ],
-        "id": 19
+        "id": 15
     },
     {
         "datetime": "2026-06-08T00:00:00Z",
@@ -325,6 +265,6 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=disney13"
             }
         ],
-        "id": 20
+        "id": 16
     }
 ]
