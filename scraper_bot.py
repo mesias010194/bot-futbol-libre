@@ -4,7 +4,6 @@ import base64
 from datetime import datetime, timedelta, timezone
 import re
 import time
-
 # ==========================================================
 # 1. CONFIGURACIÓN DE TU NUBE (JSONBIN.IO) - (Ya no se usa, pero lo dejamos)
 # ==========================================================
