@@ -1,49 +1,5 @@
 [
     {
-        "datetime": "2026-06-08T18:45:00Z",
-        "flagUrl": "https://cdn-icons-png.flaticon.com/512/53/53283.png",
-        "league": "Amistoso",
-        "homeTeam": "Países Bajos",
-        "awayTeam": "Uzbekistán",
-        "servers": [
-            {
-                "name": "ESPN2 (español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=espn2"
-            },
-            {
-                "name": "DISNEY1 (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=disney1"
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-06-08T19:10:00Z",
-        "flagUrl": "https://flagcdn.com/w40/fr.png",
-        "league": "Amistoso",
-        "homeTeam": "Francia",
-        "awayTeam": "Irlanda del Norte",
-        "servers": [
-            {
-                "name": "ESPN (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=espn"
-            },
-            {
-                "name": "DISNEY2 (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=disney2"
-            },
-            {
-                "name": "SPORTV (Portugués)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=sportv"
-            },
-            {
-                "name": "FOXSPORTS2 USA (Inglés)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=foxsports2_usa"
-            }
-        ],
-        "id": 2
-    },
-    {
         "datetime": "2026-06-08T22:00:00Z",
         "flagUrl": "https://flagcdn.com/w40/gb-eng.png",
         "league": "Primera Divisíon",
@@ -55,7 +11,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=disney3"
             }
         ],
-        "id": 3
+        "id": 1
     },
     {
         "datetime": "2026-06-08T22:00:00Z",
@@ -77,7 +33,7 @@
                 "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/winsports.html"
             }
         ],
-        "id": 4
+        "id": 2
     },
     {
         "datetime": "2026-06-08T23:00:00Z",
@@ -91,7 +47,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=espn2"
             }
         ],
-        "id": 5
+        "id": 3
     },
     {
         "datetime": "2026-06-08T23:30:00Z",
@@ -105,7 +61,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=tntsportschile"
             }
         ],
-        "id": 6
+        "id": 4
     },
     {
         "datetime": "2026-06-09T02:00:00Z",
@@ -115,8 +71,12 @@
         "awayTeam": "España",
         "servers": [
             {
+                "name": "Opción (español)",
+                "url": "https://la18hd.com/mpd/drm.php?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2xoci1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvNjJxZGtlZnY5Zi9vdXQvdjEvZjdkNWIzNTZlMDQ4NDk0YTgzMjU1NjNlODkxNmQ1MGIvY2VuYy5tcGQ=&k=ZmQ4NmRkZTBhZTNlMTRmZjUxYzhmYzhmMjQ4YTUwZGI6ZDEwNmFlNzhiMDg5M2RhMmU0MzkzZWNlOTk0MjBiYWE="
+            },
+            {
                 "name": "AMERICATV (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=americatv"
+                "url": "https://la18hd.com/vivo/canal.php?stream=americatv"
             },
             {
                 "name": "MOVISTAR (español)",
@@ -127,10 +87,6 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=foxdeportes"
             },
             {
-                "name": "Opción (español)",
-                "url": "https://tv.la14hd.com/mpd/drm.php?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2xoci1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvNjJxZGtlZnY5Zi9vdXQvdjEvZjdkNWIzNTZlMDQ4NDk0YTgzMjU1NjNlODkxNmQ1MGIvY2VuYy5tcGQ=&k=ZmQ4NmRkZTBhZTNlMTRmZjUxYzhmYzhmMjQ4YTUwZGI6ZDEwNmFlNzhiMDg5M2RhMmU0MzkzZWNlOTk0MjBiYWE="
-            },
-            {
                 "name": "SPORTV (Portugués)",
                 "url": "https://la18hd.com/vivo/canal.php?stream=sportv"
             },
@@ -139,6 +95,6 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=espnmx"
             }
         ],
-        "id": 7
+        "id": 5
     }
 ]
