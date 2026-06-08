@@ -1,61 +1,5 @@
 [
     {
-        "datetime": "2026-06-07T20:00:00Z",
-        "flagUrl": "https://flagcdn.com/w40/ec.png",
-        "league": "Amistoso",
-        "homeTeam": "Ecuador",
-        "awayTeam": "Guatemala",
-        "servers": [
-            {
-                "name": "CLAROSPORTS1 ()",
-                "url": "https://la18hd.com/vivo/canal.php?stream=clarosports1"
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-06-07T21:00:00Z",
-        "flagUrl": "https://flagcdn.com/w40/uy.png",
-        "league": "Segunda División",
-        "homeTeam": "Tacuarembó",
-        "awayTeam": "Uruguay Montevideo",
-        "servers": [
-            {
-                "name": "DISNEY12 (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=disney12"
-            }
-        ],
-        "id": 2
-    },
-    {
-        "datetime": "2026-06-07T21:30:00Z",
-        "flagUrl": "https://flagcdn.com/w40/ar.png",
-        "league": "Primera Divisón",
-        "homeTeam": "Defensor Sporting",
-        "awayTeam": "Boston River",
-        "servers": [
-            {
-                "name": "DISNEY11 (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=disney11"
-            }
-        ],
-        "id": 3
-    },
-    {
-        "datetime": "2026-06-07T22:00:00Z",
-        "flagUrl": "https://cdn-icons-png.flaticon.com/512/53/53283.png",
-        "league": "Primera Divisón",
-        "homeTeam": "Deportes Limache",
-        "awayTeam": "Everton",
-        "servers": [
-            {
-                "name": "TNTSPORTSCHILE (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=tntsportschile"
-            }
-        ],
-        "id": 4
-    },
-    {
         "datetime": "2026-06-07T23:00:00Z",
         "flagUrl": "https://flagcdn.com/w40/co.png",
         "league": "Amistoso",
@@ -79,7 +23,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=sportv"
             }
         ],
-        "id": 5
+        "id": 1
     },
     {
         "datetime": "2026-06-08T00:00:00Z",
@@ -93,6 +37,6 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=disney13"
             }
         ],
-        "id": 6
+        "id": 2
     }
 ]
