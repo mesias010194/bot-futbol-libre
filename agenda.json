@@ -1,19 +1,5 @@
 [
     {
-        "datetime": "2026-06-08T18:00:00Z",
-        "flagUrl": "https://cdn-icons-png.flaticon.com/512/6104/6104033.png",
-        "league": "Torneo de Reserva",
-        "homeTeam": "Gimnasia La Plata",
-        "awayTeam": "Godoy Cruz",
-        "servers": [
-            {
-                "name": "ESPN2 (español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=espn2"
-            }
-        ],
-        "id": 1
-    },
-    {
         "datetime": "2026-06-08T18:45:00Z",
         "flagUrl": "https://cdn-icons-png.flaticon.com/512/53/53283.png",
         "league": "Amistoso",
@@ -29,7 +15,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=disney1"
             }
         ],
-        "id": 2
+        "id": 1
     },
     {
         "datetime": "2026-06-08T19:10:00Z",
@@ -55,7 +41,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=foxsports2_usa"
             }
         ],
-        "id": 3
+        "id": 2
     },
     {
         "datetime": "2026-06-08T22:00:00Z",
@@ -69,7 +55,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=disney3"
             }
         ],
-        "id": 4
+        "id": 3
     },
     {
         "datetime": "2026-06-08T22:00:00Z",
@@ -91,7 +77,7 @@
                 "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/winsports.html"
             }
         ],
-        "id": 5
+        "id": 4
     },
     {
         "datetime": "2026-06-08T23:00:00Z",
@@ -105,7 +91,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=espn2"
             }
         ],
-        "id": 6
+        "id": 5
     },
     {
         "datetime": "2026-06-08T23:30:00Z",
@@ -119,7 +105,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=tntsportschile"
             }
         ],
-        "id": 7
+        "id": 6
     },
     {
         "datetime": "2026-06-09T02:00:00Z",
@@ -153,6 +139,6 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=espnmx"
             }
         ],
-        "id": 8
+        "id": 7
     }
 ]
