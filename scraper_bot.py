@@ -13,7 +13,7 @@ API_KEY = "$2a$10$fH2AVYqUAGOQm6KLrAcdk.fsTBsZPp7sTDWydhhsWtaYfrLlnAWv."
 # ==========================================================
 # 2. LOS LINKS DE LAS BÓVEDAS (AGENDA FRESCA + FOTOS)
 # ==========================================================
-API_AGENDA = "https://la14hd.com/eventos/json/agenda123.json"
+API_AGENDA = "https://la18hd.com/eventos/json/agenda123.json"
 API_BANDERAS = "https://fubolazo.com/agenda.json"
 BASE_DOMAIN_IMG = "https://img.fubolazo.com"
 
