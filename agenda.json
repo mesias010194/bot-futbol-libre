@@ -1,65 +1,5 @@
 [
     {
-        "datetime": "2026-06-09T18:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/amistoso_paises_b9febc0d3c.png",
-        "league": "Amistoso",
-        "homeTeam": "Azerbaiyán",
-        "awayTeam": "San Marino",
-        "servers": [
-            {
-                "name": "DISNEY8 (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=disney8"
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-06-09T19:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
-        "league": "Clasificatorias para el Mundial Femenino",
-        "homeTeam": "Francia",
-        "awayTeam": "Republic of Ireland",
-        "servers": [
-            {
-                "name": "ESPN2 (español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=espn2"
-            },
-            {
-                "name": "DISNEY10 (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=disney10"
-            }
-        ],
-        "id": 2
-    },
-    {
-        "datetime": "2026-06-09T19:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
-        "league": "Clasificatorias para el Mundial Femenino",
-        "homeTeam": "Inglaterra",
-        "awayTeam": "Ucrania",
-        "servers": [
-            {
-                "name": "DISNEY9 (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=disney9"
-            }
-        ],
-        "id": 3
-    },
-    {
-        "datetime": "2026-06-09T19:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/espana_a8510f9b5f.png",
-        "league": "LaLiga SmartBank",
-        "homeTeam": "Almería",
-        "awayTeam": "CD Castellon",
-        "servers": [
-            {
-                "name": "ESPNDEPORTES (español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=espndeportes"
-            }
-        ],
-        "id": 4
-    },
-    {
         "datetime": "2026-06-10T01:00:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/amistoso_paises_b9febc0d3c.png",
         "league": "Amistoso",
@@ -83,6 +23,6 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=espndeportes"
             }
         ],
-        "id": 5
+        "id": 1
     }
 ]
