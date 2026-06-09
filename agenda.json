@@ -1,19 +1,5 @@
 [
     {
-        "datetime": "2026-06-08T23:30:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/chile_86c07a7b38.png",
-        "league": "Primera B",
-        "homeTeam": "Deportes Temuco",
-        "awayTeam": "Curicó Unido",
-        "servers": [
-            {
-                "name": "TNTSPORTSCHILE (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=tntsportschile"
-            }
-        ],
-        "id": 1
-    },
-    {
         "datetime": "2026-06-09T02:00:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/amistoso_paises_b9febc0d3c.png",
         "league": "Amistoso",
@@ -41,6 +27,6 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=sportv"
             }
         ],
-        "id": 2
+        "id": 1
     }
 ]
