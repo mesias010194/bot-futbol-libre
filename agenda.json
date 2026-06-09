@@ -1,119 +1,5 @@
 [
     {
-        "datetime": "2026-06-09T15:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/amistoso_paises_b9febc0d3c.png",
-        "league": "Amistoso",
-        "homeTeam": "Armenia",
-        "awayTeam": "Moldavia",
-        "servers": [
-            {
-                "name": "DISNEY1 (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=disney1"
-            },
-            {
-                "name": "SPORTV (Portugués)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=sportv"
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-06-09T15:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/amistoso_paises_b9febc0d3c.png",
-        "league": "Amistoso",
-        "homeTeam": "Letonia",
-        "awayTeam": "Islas Feroe",
-        "servers": [
-            {
-                "name": "DISNEY2 (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=disney2"
-            }
-        ],
-        "id": 2
-    },
-    {
-        "datetime": "2026-06-09T16:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/amistoso_paises_b9febc0d3c.png",
-        "league": "Amistoso",
-        "homeTeam": "Lituania",
-        "awayTeam": "Estonia",
-        "servers": [
-            {
-                "name": "DISNEY3 (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=disney3"
-            }
-        ],
-        "id": 3
-    },
-    {
-        "datetime": "2026-06-09T16:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/amistoso_paises_b9febc0d3c.png",
-        "league": "Amistoso",
-        "homeTeam": "RD del Congo",
-        "awayTeam": "Chile",
-        "servers": [
-            {
-                "name": "DISNEY4 (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=disney4"
-            }
-        ],
-        "id": 4
-    },
-    {
-        "datetime": "2026-06-09T16:30:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/amistoso_paises_b9febc0d3c.png",
-        "league": "Amistoso",
-        "homeTeam": "Bielorrusia",
-        "awayTeam": "Burkina Faso",
-        "servers": [
-            {
-                "name": "DISNEY5 (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=disney5"
-            }
-        ],
-        "id": 5
-    },
-    {
-        "datetime": "2026-06-09T17:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/amistoso_paises_b9febc0d3c.png",
-        "league": "Amistoso",
-        "homeTeam": "Hungría",
-        "awayTeam": "Kazajstán",
-        "servers": [
-            {
-                "name": "DISNEY6 (Español)",
-                "url": "https://la14hd.com/vivo/canal.php?stream=disney6"
-            },
-            {
-                "name": "SPORTV (Portugués)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=sportv"
-            },
-            {
-                "name": "FOXSPORTS2 USA (Inglés)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=foxsports2_usa"
-            }
-        ],
-        "id": 6
-    },
-    {
-        "datetime": "2026-06-09T17:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/amistoso_paises_b9febc0d3c.png",
-        "league": "Amistoso",
-        "homeTeam": "Suecia",
-        "awayTeam": "Italia",
-        "servers": [
-            {
-                "name": "DISNEY7 (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=disney7"
-            },
-            {
-                "name": "ESPN2MX (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=espn2mx"
-            }
-        ],
-        "id": 7
-    },
-    {
         "datetime": "2026-06-09T18:00:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/amistoso_paises_b9febc0d3c.png",
         "league": "Amistoso",
@@ -125,7 +11,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=disney8"
             }
         ],
-        "id": 8
+        "id": 1
     },
     {
         "datetime": "2026-06-09T19:00:00Z",
@@ -143,7 +29,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=disney10"
             }
         ],
-        "id": 9
+        "id": 2
     },
     {
         "datetime": "2026-06-09T19:00:00Z",
@@ -157,7 +43,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=disney9"
             }
         ],
-        "id": 10
+        "id": 3
     },
     {
         "datetime": "2026-06-09T19:00:00Z",
@@ -171,7 +57,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=espndeportes"
             }
         ],
-        "id": 11
+        "id": 4
     },
     {
         "datetime": "2026-06-10T01:00:00Z",
@@ -197,6 +83,6 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=espndeportes"
             }
         ],
-        "id": 12
+        "id": 5
     }
 ]
