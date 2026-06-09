@@ -1,19 +1,5 @@
 [
     {
-        "datetime": "2026-06-08T23:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/mlb_f5711cc440.png",
-        "league": "Fútbol",
-        "homeTeam": "MLB – Cleveland Guardians vs. New York Yankees",
-        "awayTeam": "",
-        "servers": [
-            {
-                "name": "ESPN2 (español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=espn2"
-            }
-        ],
-        "id": 1
-    },
-    {
         "datetime": "2026-06-08T23:30:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/chile_86c07a7b38.png",
         "league": "Primera B",
@@ -25,7 +11,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=tntsportschile"
             }
         ],
-        "id": 2
+        "id": 1
     },
     {
         "datetime": "2026-06-09T02:00:00Z",
@@ -47,18 +33,14 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=movistar"
             },
             {
-                "name": "FOXDEPORTES (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=foxdeportes"
+                "name": "ESPNMX (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=espnmx"
             },
             {
                 "name": "SPORTV (Portugués)",
                 "url": "https://la18hd.com/vivo/canal.php?stream=sportv"
-            },
-            {
-                "name": "ESPNMX (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=espnmx"
             }
         ],
-        "id": 3
+        "id": 2
     }
 ]
