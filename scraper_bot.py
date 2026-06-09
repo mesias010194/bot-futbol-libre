@@ -4,9 +4,10 @@ import base64
 from datetime import datetime, timedelta, timezone
 import re
 import time
+import subprocess
+
 # ==========================================================
-# 1. CONFIGURACIÓN DE TU NUBE (JSONBIN.IO) - (Ya no se usa, pero lo dejamos)
-# ==========================================================
+# 1. CONFIGURACIÓN DE TU NUBE (JSONBIN.IO) - (Ya no se usa)
 BIN_ID = "69d933e5aaba882197e5950b" 
 API_KEY = "$2a$10$fH2AVYqUAGOQm6KLrAcdk.fsTBsZPp7sTDWydhhsWtaYfrLlnAWv."
 
@@ -14,8 +15,8 @@ API_KEY = "$2a$10$fH2AVYqUAGOQm6KLrAcdk.fsTBsZPp7sTDWydhhsWtaYfrLlnAWv."
 # 2. LOS LINKS DE LAS BÓVEDAS (AGENDA FRESCA + FOTOS)
 # ==========================================================
 API_AGENDA = "https://la18hd.com/eventos/json/agenda123.json"
-API_BANDERAS = "https://fubolazo.com/agenda.json"
-BASE_DOMAIN_IMG = "https://img.fubolazo.com"
+API_BANDERAS = "https://agenda18.com/agenda.json"
+BASE_DOMAIN_IMG = "https://img.agenda18.com"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
@@ -147,7 +148,19 @@ def extraer_partidos():
                     home_team = equipos[0].strip()
                     away_team = equipos[1].strip()
                 
-                bandera_magica = diccionario_banderas.get(titulo_completo.lower(), "")
+                # --- SISTEMA DE ASIGNACIÓN DE BANDERAS ---
+                bandera_magica = ""
+                
+                # 1. Buscamos primero en el tesoro robado de la competencia usando el título completo
+                titulo_busqueda = titulo_completo.lower()
+                
+                # Búsqueda más relajada: si una parte del título completo (ej. los equipos) está en la clave del diccionario
+                for clave_texto, url_logo in diccionario_banderas.items():
+                     if (home_team.lower() in clave_texto and away_team.lower() in clave_texto) or (titulo_busqueda in clave_texto) or (clave_texto in titulo_busqueda):
+                        bandera_magica = url_logo
+                        break
+                        
+                # 2. Si no lo encontramos ahí, usamos tu cerebro seguro local
                 if not bandera_magica:
                     bandera_magica = obtener_bandera(liga, encuentro)
 
@@ -192,16 +205,59 @@ def actualizar_nube(datos):
         datos = []
         
     try:
-        # Guardamos el archivo localmente para que GitHub lo detecte
+        # 1. Guardamos el archivo localmente
         with open('agenda.json', 'w', encoding='utf-8') as f:
             json.dump(datos, f, ensure_ascii=False, indent=4)
-        print("[+] ¡ÉXITO! Archivo agenda.json guardado localmente en GitHub.")
+        print("[+] Archivo agenda.json guardado localmente.")
+        
+        # 2. Subimos el archivo a GitHub usando la API REST (Sin Git instalado)
+        print("[*] Conectando con GitHub API...")
+        
+        # === CONFIGURACIÓN GITHUB ===
+        github_token = "TU_NUEVO_TOKEN_AQUI" # ⚠️ RECUERDA PONER TU NUEVO TOKEN, NO EL EXPUESTO
+        repo = "mesias010194/bot-futbol-libre"
+        file_path = "agenda.json"
+        url = f"https://api.github.com/repos/{repo}/contents/{file_path}"
+        
+        headers = {
+            "Authorization": f"token {github_token}",
+            "Accept": "application/vnd.github.v3+json"
+        }
+        
+        # a) Leer el contenido actual y pasarlo a base64
+        with open('agenda.json', 'rb') as file:
+            content = file.read()
+            encoded_content = base64.b64encode(content).decode('utf-8')
+            
+        # b) Obtener el 'sha' (identificador) del archivo anterior en GitHub para poder sobreescribirlo
+        get_res = requests.get(url, headers=headers)
+        sha = ""
+        if get_res.status_code == 200:
+            sha = get_res.json()['sha']
+            
+        # c) Preparar el envío
+        data = {
+            "message": "Actualización automática de agenda 🔄",
+            "content": encoded_content,
+            "branch": "main"
+        }
+        if sha:
+            data["sha"] = sha
+            
+        # d) Subir el archivo
+        put_res = requests.put(url, headers=headers, data=json.dumps(data))
+        
+        if put_res.status_code in [200, 201]:
+             print("[+] ¡ÉXITO! Agenda publicada en GitHub directamente.")
+        else:
+             print(f"[X] Error al subir a GitHub: {put_res.status_code} - {put_res.text}")
+             
     except Exception as e:
-        print(f"[X] Error al guardar el archivo: {e}")
+        print(f"[X] Error general al guardar/subir el archivo: {e}")
 
 if __name__ == "__main__":
     print("===================================================================")
-    print("   BOT GITHUB ACTIONS: EJECUCIÓN ÚNICA                             ")
+    print("   BOT GITHUB ACTIONS: EJECUCIÓN ÚNICA AUTOMÁTICA                  ")
     print("===================================================================")
     
     ahora = datetime.now().strftime("%H:%M:%S")
@@ -209,12 +265,10 @@ if __name__ == "__main__":
     
     datos = extraer_partidos()
     
-    # PARCHE DE SEGURIDAD:
-    # Si hubo error al extraer los datos, forzamos que datos sea un array vacío.
-    # Esto asegura que el archivo agenda.json SIEMPRE se cree, previniendo fallas críticas en GitHub Actions.
     if datos is None: 
         datos = []
         
     actualizar_nube(datos)
         
-    print("\n[*] Escaneo y guardado finalizado.")
+    print(f"\n[*] Escaneo y guardado finalizado a las {datetime.now().strftime('%H:%M:%S')}.")
+    # Se eliminó el bucle while True, ctypes y time.sleep()
