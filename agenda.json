@@ -1,7 +1,7 @@
 [
     {
         "datetime": "2026-06-10T17:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
+        "flagUrl": "https://flagcdn.com/w40/co.png",
         "league": "Torneo Maurice Revello Sub - 20",
         "homeTeam": "Colombia",
         "awayTeam": "Túnez",
@@ -18,8 +18,44 @@
         "id": 1
     },
     {
+        "datetime": "2026-06-10T18:00:00Z",
+        "flagUrl": "https://cdn-icons-png.flaticon.com/512/53/53283.png",
+        "league": "Torneo de Reserva",
+        "homeTeam": "Vélez Sársfield",
+        "awayTeam": "Tigre",
+        "servers": [
+            {
+                "name": "TNTSPORTS (Español)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=tntsports"
+            },
+            {
+                "name": "Opción ()",
+                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/tntsports2.html"
+            }
+        ],
+        "id": 2
+    },
+    {
+        "datetime": "2026-06-10T18:00:00Z",
+        "flagUrl": "https://cdn-icons-png.flaticon.com/512/53/53283.png",
+        "league": "Torneo de Reserva",
+        "homeTeam": "Sarmiento",
+        "awayTeam": "Talleres de Córdoba",
+        "servers": [
+            {
+                "name": "ESPN4 (español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=espn4"
+            },
+            {
+                "name": "DISNEY4 (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=disney4"
+            }
+        ],
+        "id": 3
+    },
+    {
         "datetime": "2026-06-10T19:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/espana_a8510f9b5f.png",
+        "flagUrl": "https://flagcdn.com/w40/es.png",
         "league": "LaLiga 2",
         "homeTeam": "Málaga",
         "awayTeam": "Las Palmas",
@@ -31,13 +67,17 @@
             {
                 "name": "DISNEY1 (Español)",
                 "url": "https://la18hd.com/vivo/canal.php?stream=disney1"
+            },
+            {
+                "name": "ESPNDEPORTES (español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=espndeportes"
             }
         ],
-        "id": 2
+        "id": 4
     },
     {
         "datetime": "2026-06-10T19:45:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/amistoso_paises_b9febc0d3c.png",
+        "flagUrl": "https://cdn-icons-png.flaticon.com/512/53/53283.png",
         "league": "Amistoso",
         "homeTeam": "Portugal",
         "awayTeam": "Nigeria",
@@ -49,26 +89,52 @@
             {
                 "name": "DISNEY2 (Español)",
                 "url": "https://la18hd.com/vivo/canal.php?stream=disney2"
+            },
+            {
+                "name": "SPORTV (Portugués)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=sportv"
             }
         ],
-        "id": 3
+        "id": 5
     },
     {
         "datetime": "2026-06-10T20:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/amistoso_paises_b9febc0d3c.png",
+        "flagUrl": "https://flagcdn.com/w40/gb-eng.png",
         "league": "Amistoso",
         "homeTeam": "Inglaterra",
         "awayTeam": "Costa Rica",
         "servers": [
             {
-                "name": "ESPN (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=espn"
-            },
-            {
                 "name": "DISNEY3 (Español)",
                 "url": "https://la18hd.com/vivo/canal.php?stream=disney3"
+            },
+            {
+                "name": "FOXSPORTS2 USA (Inglés)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=foxsports2_usa"
             }
         ],
-        "id": 4
+        "id": 6
+    },
+    {
+        "datetime": "2026-06-10T23:00:00Z",
+        "flagUrl": "https://cdn-icons-png.flaticon.com/512/53/53283.png",
+        "league": "Fútbol",
+        "homeTeam": "MLB – New York Mets",
+        "awayTeam": "St. Louis Cardinals",
+        "servers": [
+            {
+                "name": "ESPN5 (español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=espn5"
+            },
+            {
+                "name": "DISNEY5 (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=disney5"
+            },
+            {
+                "name": "Opción ()",
+                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/espn5tv.html"
+            }
+        ],
+        "id": 7
     }
 ]
