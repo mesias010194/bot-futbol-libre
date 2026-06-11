@@ -1,1 +1,28 @@
-[]
+[
+    {
+        "datetime": "2026-06-11T19:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
+        "league": "Copa del Mundo",
+        "homeTeam": "México",
+        "awayTeam": "Sur África",
+        "servers": [
+            {
+                "name": "DSPORTS (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=dsports"
+            },
+            {
+                "name": "DISNEY1 (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=disney1"
+            },
+            {
+                "name": "AMERICATV (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=americatv"
+            },
+            {
+                "name": "CARACOL (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=caracol"
+            }
+        ],
+        "id": 1
+    }
+]
