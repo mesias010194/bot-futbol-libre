@@ -1,1 +1,20 @@
-[]
+[
+    {
+        "datetime": "2026-06-12T19:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
+        "league": "Copa del Mundo",
+        "homeTeam": "Canadá",
+        "awayTeam": "Bosnia-Herzegovina",
+        "servers": [
+            {
+                "name": "DSPORTS (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=dsports"
+            },
+            {
+                "name": "VTVPLUS (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=vtvplus"
+            }
+        ],
+        "id": 1
+    }
+]
