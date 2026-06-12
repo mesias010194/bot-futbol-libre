@@ -67,6 +67,10 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=disney1"
             },
             {
+                "name": "Opción ()",
+                "url": "https://mpd.r2img-stock709.workers.dev/mpd/drm?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
+            },
+            {
                 "name": "DSPORTS (Español)",
                 "url": "https://la18hd.com/vivo/canal.php?stream=dsports"
             },
@@ -77,6 +81,18 @@
             {
                 "name": "AMERICATV (Español)",
                 "url": "https://la18hd.com/vivo/canal.php?stream=americatv"
+            },
+            {
+                "name": "TYCSPORTS (español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=tycsports"
+            },
+            {
+                "name": "CARACOL (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=caracol"
+            },
+            {
+                "name": "SPORTV (Portugués)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=sportv"
             }
         ],
         "id": 3
