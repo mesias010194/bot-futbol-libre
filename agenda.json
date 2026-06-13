@@ -1,1 +1,100 @@
-[]
+[
+    {
+        "datetime": "2026-06-13T12:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/logof2_5646b022e7.png",
+        "league": "F2",
+        "homeTeam": "GP de Barcelona - Carrera - Sprint",
+        "awayTeam": "",
+        "servers": [
+            {
+                "name": "ESPN2 (español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=espn2"
+            },
+            {
+                "name": "DISNEY1 (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=disney1"
+            }
+        ],
+        "id": 1
+    },
+    {
+        "datetime": "2026-06-13T13:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/moto_g_145967b8f1.png",
+        "league": "F1",
+        "homeTeam": "GP de Barcelona - Clasificación",
+        "awayTeam": "",
+        "servers": [
+            {
+                "name": "DISNEY2 (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=disney2"
+            },
+            {
+                "name": "FOXSPORTS (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=foxsports"
+            },
+            {
+                "name": "DISNEY3 (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=disney3"
+            },
+            {
+                "name": "DISNEY4 (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=disney4"
+            },
+            {
+                "name": "DISNEY5 (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=disney5"
+            }
+        ],
+        "id": 2
+    },
+    {
+        "datetime": "2026-06-13T16:30:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/chile_86c07a7b38.png",
+        "league": "Primera División de Chile",
+        "homeTeam": "Coquimbo Unido",
+        "awayTeam": "O'Higgins",
+        "servers": [
+            {
+                "name": "TNTSPORTSCHILE (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=tntsportschile"
+            }
+        ],
+        "id": 3
+    },
+    {
+        "datetime": "2026-06-13T19:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/chile_86c07a7b38.png",
+        "league": "Primera División de Chile",
+        "homeTeam": "Everton",
+        "awayTeam": "Palestino",
+        "servers": [
+            {
+                "name": "TNTSPORTSCHILE (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=tntsportschile"
+            }
+        ],
+        "id": 4
+    },
+    {
+        "datetime": "2026-06-13T19:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/logof2_5646b022e7.png",
+        "league": "Copa del Mundo",
+        "homeTeam": "",
+        "awayTeam": "",
+        "servers": [
+            {
+                "name": "Opción ()",
+                "url": "https://mpd.r2img-stock709.workers.dev/mpd/drm?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
+            },
+            {
+                "name": "DSPORTS (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=dsports"
+            },
+            {
+                "name": "WINSPORTS (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=winsports"
+            }
+        ],
+        "id": 5
+    }
+]
