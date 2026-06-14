@@ -1,47 +1,5 @@
 [
     {
-        "datetime": "2026-06-14T20:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
-        "league": "Copa del Mundo",
-        "homeTeam": "Países Bajos",
-        "awayTeam": "Japón",
-        "servers": [
-            {
-                "name": "Opción ()",
-                "url": "https://mpd.r2img-stock709.workers.dev/mpd/drm?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
-            },
-            {
-                "name": "DISNEY1 (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=disney1"
-            },
-            {
-                "name": "DSPORTSPLUS (español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=dsportsplus"
-            },
-            {
-                "name": "TYCSPORTS (español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=tycsports"
-            },
-            {
-                "name": "EVENTOS15 ()",
-                "url": "https://la18hd.com/vivo/canal.php?stream=eventos15"
-            },
-            {
-                "name": "TELEFE ()",
-                "url": "https://la18hd.com/vivo/canal.php?stream=telefe"
-            },
-            {
-                "name": "CARACOL (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=caracol"
-            },
-            {
-                "name": "SPORTV (Portugués)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=sportv"
-            }
-        ],
-        "id": 1
-    },
-    {
         "datetime": "2026-06-14T21:30:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/chile_86c07a7b38.png",
         "league": "Primera División de Chile",
@@ -57,7 +15,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=max1"
             }
         ],
-        "id": 2
+        "id": 1
     },
     {
         "datetime": "2026-06-14T23:00:00Z",
@@ -95,7 +53,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=sportv"
             }
         ],
-        "id": 3
+        "id": 2
     },
     {
         "datetime": "2026-06-15T02:00:00Z",
@@ -125,6 +83,6 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=sportv"
             }
         ],
-        "id": 4
+        "id": 3
     }
 ]
