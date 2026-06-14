@@ -1,53 +1,5 @@
 [
     {
-        "datetime": "2026-06-14T16:30:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/chile_86c07a7b38.png",
-        "league": "Primera División de Chile",
-        "homeTeam": "Deportes Concepción",
-        "awayTeam": "Deportes Limache",
-        "servers": [
-            {
-                "name": "TNTSPORTSCHILE (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=tntsportschile"
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-06-14T17:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
-        "league": "Copa del Mundo",
-        "homeTeam": "Alemania",
-        "awayTeam": "Curazao",
-        "servers": [
-            {
-                "name": "Opción ()",
-                "url": "https://mpd.r2img-stock709.workers.dev/mpd/drm?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
-            },
-            {
-                "name": "Opción (español)",
-                "url": "https://mpd.r2img-stock709.workers.dev/mpd/drm?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2xoci1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvNjJxZGtlZnY5Zi9vdXQvdjEvZjdkNWIzNTZlMDQ4NDk0YTgzMjU1NjNlODkxNmQ1MGIvY2VuYy5tcGQ=&k=ZmQ4NmRkZTBhZTNlMTRmZjUxYzhmYzhmMjQ4YTUwZGI6ZDEwNmFlNzhiMDg5M2RhMmU0MzkzZWNlOTk0MjBiYWE="
-            },
-            {
-                "name": "Opción ()",
-                "url": "https://mpd.r2img-stock709.workers.dev/mpd/drm?url=aHR0cHM6Ly9jOTg1MWVjLXJibS1oaWx2LWZzbHkuY2RuLnJlZGJlZS5saXZlL0wyNi82YjY0MGZhMi9hNzY1ZDA3NC5pc21sL2Rhc2gvLm1wZA==&k=YWRjYTI1Yjg3NzllNDE2OGEwY2Q3MTBmNTlmNjFjY2Y6YmU1MzgzZWQzY2Q4MDc5ZjRmZmU3OGFkMDY3ZjQ3NmE="
-            },
-            {
-                "name": "DSPORTS (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=dsports"
-            },
-            {
-                "name": "VTVPLUS (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=vtvplus"
-            },
-            {
-                "name": "Opción ()",
-                "url": "https://la18hd.com/mpd/drm.php?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2dydS1uaXRyby9saXZlL2NsaWVudHMvZGFzaC1zZC9lbmMvdHdydWxkamcyby9vdXQvdjEvMjlhNDM2MDM4MTU5NDYzMTgzZjYyNGNlODZkNmVkNGEvY2VuYy1zZC5tcGQ=&k=OWRkMzRhZTk3Y2YxNDdiYThmNTU2OTdmMzcyMTI4ODc6YzZlYTk1ZmZkNTdmYjc0NTMxZDVjYzIwNDZiOTc2MzY="
-            }
-        ],
-        "id": 2
-    },
-    {
         "datetime": "2026-06-14T19:00:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/chile_86c07a7b38.png",
         "league": "Primera División de Chile",
@@ -59,7 +11,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=tntsportschile"
             }
         ],
-        "id": 3
+        "id": 1
     },
     {
         "datetime": "2026-06-14T20:00:00Z",
@@ -69,12 +21,16 @@
         "awayTeam": "Japón",
         "servers": [
             {
-                "name": "DSPORTS (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=dsports"
-            },
-            {
                 "name": "Opción ()",
                 "url": "https://mpd.r2img-stock709.workers.dev/mpd/drm?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
+            },
+            {
+                "name": "DISNEY1 (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=disney1"
+            },
+            {
+                "name": "DSPORTS (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=dsports"
             },
             {
                 "name": "VTVPLUS (Español)",
@@ -101,7 +57,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=sportv"
             }
         ],
-        "id": 4
+        "id": 2
     },
     {
         "datetime": "2026-06-14T21:30:00Z",
@@ -115,7 +71,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=tntsportschile"
             }
         ],
-        "id": 5
+        "id": 3
     },
     {
         "datetime": "2026-06-14T23:00:00Z",
@@ -153,7 +109,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=sportv"
             }
         ],
-        "id": 6
+        "id": 4
     },
     {
         "datetime": "2026-06-15T02:00:00Z",
@@ -183,6 +139,6 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=sportv"
             }
         ],
-        "id": 7
+        "id": 5
     }
 ]
