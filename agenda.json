@@ -1,1 +1,228 @@
-[]
+[
+    {
+        "datetime": "2026-06-14T13:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/moto_g_145967b8f1.png",
+        "league": "F1 | GP de Barcelona",
+        "homeTeam": "Carrera",
+        "awayTeam": "",
+        "servers": [
+            {
+                "name": "DISNEY1 (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=disney1"
+            },
+            {
+                "name": "FOXSPORTS (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=foxsports"
+            },
+            {
+                "name": "DISNEY2 (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=disney2"
+            },
+            {
+                "name": "DISNEY3 (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=disney3"
+            },
+            {
+                "name": "DISNEY4 (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=disney4"
+            }
+        ],
+        "id": 1
+    },
+    {
+        "datetime": "2026-06-14T13:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/moto_g_145967b8f1.png",
+        "league": "F1 | GP de Barcelona",
+        "homeTeam": "RACE HUB",
+        "awayTeam": "",
+        "servers": [
+            {
+                "name": "DISNEY5 (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=disney5"
+            }
+        ],
+        "id": 2
+    },
+    {
+        "datetime": "2026-06-14T16:30:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/chile_86c07a7b38.png",
+        "league": "Primera División de Chile",
+        "homeTeam": "Deportes Concepción",
+        "awayTeam": "Deportes Limache",
+        "servers": [
+            {
+                "name": "TNTSPORTSCHILE (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=tntsportschile"
+            }
+        ],
+        "id": 3
+    },
+    {
+        "datetime": "2026-06-14T17:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
+        "league": "Copa del Mundo",
+        "homeTeam": "Alemania",
+        "awayTeam": "Curazao",
+        "servers": [
+            {
+                "name": "Opción ()",
+                "url": "https://mpd.r2img-stock709.workers.dev/mpd/drm?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
+            },
+            {
+                "name": "Opción (español)",
+                "url": "https://mpd.r2img-stock709.workers.dev/mpd/drm?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2xoci1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvNjJxZGtlZnY5Zi9vdXQvdjEvZjdkNWIzNTZlMDQ4NDk0YTgzMjU1NjNlODkxNmQ1MGIvY2VuYy5tcGQ=&k=ZmQ4NmRkZTBhZTNlMTRmZjUxYzhmYzhmMjQ4YTUwZGI6ZDEwNmFlNzhiMDg5M2RhMmU0MzkzZWNlOTk0MjBiYWE="
+            },
+            {
+                "name": "DSPORTS (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=dsports"
+            },
+            {
+                "name": "VTVPLUS (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=vtvplus"
+            },
+            {
+                "name": "Opción ()",
+                "url": "https://la18hd.com/mpd/drm.php?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2dydS1uaXRyby9saXZlL2NsaWVudHMvZGFzaC1zZC9lbmMvdHdydWxkamcyby9vdXQvdjEvMjlhNDM2MDM4MTU5NDYzMTgzZjYyNGNlODZkNmVkNGEvY2VuYy1zZC5tcGQ=&k=OWRkMzRhZTk3Y2YxNDdiYThmNTU2OTdmMzcyMTI4ODc6YzZlYTk1ZmZkNTdmYjc0NTMxZDVjYzIwNDZiOTc2MzY="
+            }
+        ],
+        "id": 4
+    },
+    {
+        "datetime": "2026-06-14T19:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/chile_86c07a7b38.png",
+        "league": "Primera División de Chile",
+        "homeTeam": "Unión La Calera",
+        "awayTeam": "Universidad Chile",
+        "servers": [
+            {
+                "name": "TNTSPORTSCHILE (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=tntsportschile"
+            }
+        ],
+        "id": 5
+    },
+    {
+        "datetime": "2026-06-14T20:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
+        "league": "Copa del Mundo",
+        "homeTeam": "Países Bajos",
+        "awayTeam": "Japón",
+        "servers": [
+            {
+                "name": "DSPORTS (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=dsports"
+            },
+            {
+                "name": "Opción ()",
+                "url": "https://mpd.r2img-stock709.workers.dev/mpd/drm?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
+            },
+            {
+                "name": "VTVPLUS (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=vtvplus"
+            },
+            {
+                "name": "TYCSPORTS (español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=tycsports"
+            },
+            {
+                "name": "AMERICATV (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=americatv"
+            },
+            {
+                "name": "TELEFE ()",
+                "url": "https://la18hd.com/vivo/canal.php?stream=telefe"
+            },
+            {
+                "name": "CARACOL (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=caracol"
+            },
+            {
+                "name": "SPORTV (Portugués)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=sportv"
+            }
+        ],
+        "id": 6
+    },
+    {
+        "datetime": "2026-06-14T21:30:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/chile_86c07a7b38.png",
+        "league": "Primera División de Chile",
+        "homeTeam": "Universidad Católica",
+        "awayTeam": "Univ. Concepción",
+        "servers": [
+            {
+                "name": "TNTSPORTSCHILE (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=tntsportschile"
+            }
+        ],
+        "id": 7
+    },
+    {
+        "datetime": "2026-06-14T23:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
+        "league": "Copa del Mundo",
+        "homeTeam": "Costa de Marfil",
+        "awayTeam": "Ecuador",
+        "servers": [
+            {
+                "name": "Opción ()",
+                "url": "https://mpd.r2img-stock709.workers.dev/mpd/drm?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
+            },
+            {
+                "name": "DISNEY1 (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=disney1"
+            },
+            {
+                "name": "DSPORTS (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=dsports"
+            },
+            {
+                "name": "VTVPLUS (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=vtvplus"
+            },
+            {
+                "name": "TELEFE ()",
+                "url": "https://la18hd.com/vivo/canal.php?stream=telefe"
+            },
+            {
+                "name": "WINSPORTS (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=winsports"
+            },
+            {
+                "name": "SPORTV (Portugués)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=sportv"
+            }
+        ],
+        "id": 8
+    },
+    {
+        "datetime": "2026-06-15T02:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
+        "league": "Copa del Mundo",
+        "homeTeam": "Suecia",
+        "awayTeam": "Túnez",
+        "servers": [
+            {
+                "name": "Opción ()",
+                "url": "https://mpd.r2img-stock709.workers.dev/mpd/drm?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
+            },
+            {
+                "name": "DSPORTS (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=dsports"
+            },
+            {
+                "name": "VTVPLUS (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=vtvplus"
+            },
+            {
+                "name": "TYCSPORTS (español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=tycsports"
+            },
+            {
+                "name": "SPORTV (Portugués)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=sportv"
+            }
+        ],
+        "id": 9
+    }
+]
