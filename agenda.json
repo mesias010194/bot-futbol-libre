@@ -1,39 +1,5 @@
 [
     {
-        "datetime": "2026-06-15T16:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
-        "league": "Copa del Mundo",
-        "homeTeam": "España",
-        "awayTeam": "Islas de Cabo Verde",
-        "servers": [
-            {
-                "name": "Opción ()",
-                "url": "https://mpd.r2img-stock709.workers.dev/mpd/drm?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
-            },
-            {
-                "name": "Opción (español)",
-                "url": "https://mpd.r2img-stock709.workers.dev/mpd/drm?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2xoci1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvNjJxZGtlZnY5Zi9vdXQvdjEvZjdkNWIzNTZlMDQ4NDk0YTgzMjU1NjNlODkxNmQ1MGIvY2VuYy5tcGQ=&k=ZmQ4NmRkZTBhZTNlMTRmZjUxYzhmYzhmMjQ4YTUwZGI6ZDEwNmFlNzhiMDg5M2RhMmU0MzkzZWNlOTk0MjBiYWE="
-            },
-            {
-                "name": "DSPORTS (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=dsports"
-            },
-            {
-                "name": "VTVPLUS (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=vtvplus"
-            },
-            {
-                "name": "CARACOL (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=caracol"
-            },
-            {
-                "name": "Opción ()",
-                "url": "https://la18hd.com/mpd/drm.php?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2dydS1uaXRyby9saXZlL2NsaWVudHMvZGFzaC1zZC9lbmMvdHdydWxkamcyby9vdXQvdjEvMjlhNDM2MDM4MTU5NDYzMTgzZjYyNGNlODZkNmVkNGEvY2VuYy1zZC5tcGQ=&k=OWRkMzRhZTk3Y2YxNDdiYThmNTU2OTdmMzcyMTI4ODc6YzZlYTk1ZmZkNTdmYjc0NTMxZDVjYzIwNDZiOTc2MzY="
-            }
-        ],
-        "id": 1
-    },
-    {
         "datetime": "2026-06-15T19:00:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
         "league": "Copa del Mundo",
@@ -69,7 +35,7 @@
                 "url": "https://la18hd.com/mpd/drm.php?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2dydS1uaXRyby9saXZlL2NsaWVudHMvZGFzaC1zZC9lbmMvdHdydWxkamcyby9vdXQvdjEvMjlhNDM2MDM4MTU5NDYzMTgzZjYyNGNlODZkNmVkNGEvY2VuYy1zZC5tcGQ=&k=OWRkMzRhZTk3Y2YxNDdiYThmNTU2OTdmMzcyMTI4ODc6YzZlYTk1ZmZkNTdmYjc0NTMxZDVjYzIwNDZiOTc2MzY="
             }
         ],
-        "id": 2
+        "id": 1
     },
     {
         "datetime": "2026-06-15T22:00:00Z",
@@ -107,7 +73,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=foxsports1_usa"
             }
         ],
-        "id": 3
+        "id": 2
     },
     {
         "datetime": "2026-06-16T01:00:00Z",
@@ -141,6 +107,6 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=foxsports1_usa"
             }
         ],
-        "id": 4
+        "id": 3
     }
 ]
