@@ -1,31 +1,5 @@
 [
     {
-        "datetime": "2026-06-18T16:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
-        "league": "Copa del Mundo",
-        "homeTeam": "República Checa",
-        "awayTeam": "Sur África",
-        "servers": [
-            {
-                "name": "DSPORTS (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=dsports"
-            },
-            {
-                "name": "VTVPLUS (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=vtvplus"
-            },
-            {
-                "name": "TELEMUNDO (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=telemundo"
-            },
-            {
-                "name": "TYCSPORTS (español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=tycsports"
-            }
-        ],
-        "id": 1
-    },
-    {
         "datetime": "2026-06-18T19:00:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
         "league": "Copa del Mundo",
@@ -65,7 +39,7 @@
                 "url": "https://mpd.r2img-stock709.workers.dev/mpd/drm?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2xoci1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvNjJxZGtlZnY5Zi9vdXQvdjEvZjdkNWIzNTZlMDQ4NDk0YTgzMjU1NjNlODkxNmQ1MGIvY2VuYy5tcGQ=&k=ZmQ4NmRkZTBhZTNlMTRmZjUxYzhmYzhmMjQ4YTUwZGI6ZDEwNmFlNzhiMDg5M2RhMmU0MzkzZWNlOTk0MjBiYWE="
             }
         ],
-        "id": 2
+        "id": 1
     },
     {
         "datetime": "2026-06-18T22:00:00Z",
@@ -95,7 +69,7 @@
                 "url": "https://la18hd.com/mpd/drm.php?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2dydS1uaXRyby9saXZlL2NsaWVudHMvZGFzaC1zZC9lbmMvdHdydWxkamcyby9vdXQvdjEvMjlhNDM2MDM4MTU5NDYzMTgzZjYyNGNlODZkNmVkNGEvY2VuYy1zZC5tcGQ=&k=OWRkMzRhZTk3Y2YxNDdiYThmNTU2OTdmMzcyMTI4ODc6YzZlYTk1ZmZkNTdmYjc0NTMxZDVjYzIwNDZiOTc2MzY="
             }
         ],
-        "id": 3
+        "id": 2
     },
     {
         "datetime": "2026-06-19T00:00:00Z",
@@ -109,7 +83,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=tntsportschile"
             }
         ],
-        "id": 4
+        "id": 3
     },
     {
         "datetime": "2026-06-19T01:00:00Z",
@@ -151,6 +125,6 @@
                 "url": "https://la16hd.com/drm.php?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2lhZC1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvOHU5Y3JlZ3dsdC9vdXQvdjEvNjg3ZjZiMmE1NTk5NDM1NDliZTI3MTUwNGE5NDhmZmQvY2VuYy5tcGQ=&k=MTcxMGFjMmJiZmNkMzAzMmQwZjY1MzM4NTA5NjhmNDc6ZDI1NDhkYWNjOGVmY2QxY2QwYWYwMzczMDYwYzgyZGM="
             }
         ],
-        "id": 5
+        "id": 4
     }
 ]
