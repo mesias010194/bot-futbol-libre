@@ -1,31 +1,5 @@
 [
     {
-        "datetime": "2026-06-17T23:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
-        "league": "Copa del Mundo",
-        "homeTeam": "Ghana",
-        "awayTeam": "Panamá",
-        "servers": [
-            {
-                "name": "DSPORTSPLUS (español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=dsportsplus"
-            },
-            {
-                "name": "EVENTOS15 ()",
-                "url": "https://la18hd.com/vivo/canal.php?stream=eventos15"
-            },
-            {
-                "name": "TYCSPORTS (español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=tycsports"
-            },
-            {
-                "name": "FOXSPORTS1 USA (Inglés)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=foxsports1_usa"
-            }
-        ],
-        "id": 1
-    },
-    {
         "datetime": "2026-06-18T02:00:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
         "league": "Copa del Mundo",
@@ -33,12 +7,8 @@
         "awayTeam": "Colombia",
         "servers": [
             {
-                "name": "Opción ()",
-                "url": "https://mpd.r2img-stock709.workers.dev/mpd/drm?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
-            },
-            {
                 "name": "Opción (Español)",
-                "url": "https://la18hd.com/mpd/drm.php?url=aHR0cHM6Ly9kbWJnYXo0eGY2anloLmNsb3VkZnJvbnQubmV0L2xpdmUtc3RyZWFtLWRhaS82OTY5MGNmY2NlMGRjMDMxODMwZTdjMWEvYzE0NjRkZDU4ZDUwNGNkMmEzMDk1YTFlMTNhZGMyOGMvZDk3NzQzZGUzNjIwYTg2NTg0OGZmZjdhOWRlMTRkZGExYmYyNDA5ZC9zZXNzaW9uLzgzOWVlZjFkLTliNTQtNDcyMi1hZTY2LWYyNmM4NDNlMTU2ZS9tYW5pZmVzdC5tcGQ/cGxheWVyPTY5OGQwMjViMWU3NTU4ZWVhMTE3YjRkZCZhY2Nlc3NfdG9rZW49WUJXcmdHajdjaDJzRjJhTm5VQ1BlV05Vd1lWaFNPY0w5c0RKTTdtc1hublJOenBEWXlzWExkYjAyUFBobk9Ib1RHcGlLRkRiT250JnVpZD04c2QzV0lRTzh1blJRd05hMVkxa0E3MlV1UEhjQWx1aSZzaWQ9UXZ1bmRuWTRmY0lwMzdBQlpVRE85ZjdvbWVNaW1vMU4mcGlkPUdyVHlvYUNoUUgyNkVzWDhRZkY3UFNza2sycW1iZllVJnJlZj1kaXR1LmNhcmFjb2x0di5jb20mZXh0X3BiPTAmZXM9ZG1iZ2F6NHhmNmp5aC5jbG91ZGZyb250Lm5ldCZwcm90bz1odHRwcyZwej11cyZ4cj11cy1lYXN0LTImbWFuaWZlc3RmaWx0ZXI9dmlkZW9faGVpZ2h0OjQ4MC0xMDgw&k=MWM2YmZkOGQxY2RkNGRmNjllYTVmYzRkZDJmMDI1YmI6YjZmZDkwMDI3ZGFjN2E5NGE5NDYxZjhiMjYzOGNiYjQ="
+                "url": "https://la18hd.com/mpd/drm.php?url=aHR0cHM6Ly9kbWJnYXo0eGY2anloLmNsb3VkZnJvbnQubmV0L2xpdmUtc3RyZWFtLWRhaS82OTY5MGNmY2NlMGRjMDMxODMwZTdjMWEvYzE0NjRkZDU4ZDUwNGNkMmEzMDk1YTFlMTNhZGMyOGMvZDk3NzQzZGUzNjIwYTg2NTg0OGZmZjdhOWRlMTRkZGExYmYyNDA5ZC9zZXNzaW9uLzk4ODU2MjE1LTExZGYtNDZlMi1hMTZjLWE0YWIxOWMzNGQxYy9tYW5pZmVzdC5tcGQ/cGxheWVyPTY5OGQwMjViMWU3NTU4ZWVhMTE3YjRkZCZhY2Nlc3NfdG9rZW49Wmk0WnNkWDZETXgzV0dVREF1YkM5a0N4ZGZwZk5IdUhiMFJNbTZiQ0tISmU5R05XUUNqVWpoUGhvM2pCbEdHRXB5cUlmb3dqOVJXJnVpZD04c2QzV0lRTzh1blJRd05hMVkxa0E3MlV1UEhjQWx1aSZzaWQ9UXZ1bmRuWTRmY0lwMzdBQlpVRE85ZjdvbWVNaW1vMU4mcGlkPUdyVHlvYUNoUUgyNkVzWDhRZkY3UFNza2sycW1iZllVJnJlZj1kaXR1LmNhcmFjb2x0di5jb20mZXh0X3BiPTAmZXM9ZG1iZ2F6NHhmNmp5aC5jbG91ZGZyb250Lm5ldCZwcm90bz1odHRwcyZwej11cyZ4cj11cy1lYXN0LTImbWFuaWZlc3RmaWx0ZXI9dmlkZW9faGVpZ2h0OjQ4MC0xMDgw&k=MWM2YmZkOGQxY2RkNGRmNjllYTVmYzRkZDJmMDI1YmI6YjZmZDkwMDI3ZGFjN2E5NGE5NDYxZjhiMjYzOGNiYjQ="
             },
             {
                 "name": "DSPORTS (Español)",
@@ -57,14 +27,10 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=caracol"
             },
             {
-                "name": "SPORTV (Portugués)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=sportv"
-            },
-            {
                 "name": "FOXSPORTS1 USA (Inglés)",
                 "url": "https://la18hd.com/vivo/canal.php?stream=foxsports1_usa"
             }
         ],
-        "id": 2
+        "id": 1
     }
 ]
