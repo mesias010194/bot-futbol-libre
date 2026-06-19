@@ -1,35 +1,5 @@
 [
     {
-        "datetime": "2026-06-19T19:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
-        "league": "Copa del Mundo",
-        "homeTeam": "EE. UU.",
-        "awayTeam": "Australia",
-        "servers": [
-            {
-                "name": "DSPORTS (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=dsports"
-            },
-            {
-                "name": "VTVPLUS (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=vtvplus"
-            },
-            {
-                "name": "TELEMUNDO (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=telemundo"
-            },
-            {
-                "name": "TYCSPORTS (español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=tycsports"
-            },
-            {
-                "name": "UNIVERSO (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=universo"
-            }
-        ],
-        "id": 1
-    },
-    {
         "datetime": "2026-06-19T21:00:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/uruguay_e2b9597af8.png",
         "league": "Segunda División",
@@ -41,7 +11,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=disney1"
             }
         ],
-        "id": 2
+        "id": 1
     },
     {
         "datetime": "2026-06-19T22:00:00Z",
@@ -53,10 +23,6 @@
             {
                 "name": "DSPORTS (Español)",
                 "url": "https://la18hd.com/vivo/canal.php?stream=dsports"
-            },
-            {
-                "name": "DISNEY2 (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=disney2"
             },
             {
                 "name": "VTVPLUS (Español)",
@@ -79,7 +45,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=telemundo"
             }
         ],
-        "id": 3
+        "id": 2
     },
     {
         "datetime": "2026-06-20T00:30:00Z",
@@ -109,7 +75,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=sportv"
             }
         ],
-        "id": 4
+        "id": 3
     },
     {
         "datetime": "2026-06-20T03:00:00Z",
@@ -143,6 +109,6 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=foxsports1_usa"
             }
         ],
-        "id": 5
+        "id": 4
     }
 ]
