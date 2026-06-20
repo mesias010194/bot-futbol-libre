@@ -28,6 +28,20 @@
         "id": 2
     },
     {
+        "datetime": "2026-06-20T16:30:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/chile_86c07a7b38.png",
+        "league": "Copa Chile",
+        "homeTeam": "Coquimbo Unido",
+        "awayTeam": "Deportes Iquique",
+        "servers": [
+            {
+                "name": "TNTSPORTSCHILE (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=tntsportschile"
+            }
+        ],
+        "id": 3
+    },
+    {
         "datetime": "2026-06-20T17:00:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
         "league": "Copa del Mundo",
@@ -59,7 +73,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=telemundo"
             }
         ],
-        "id": 3
+        "id": 4
     },
     {
         "datetime": "2026-06-20T19:00:00Z",
@@ -73,7 +87,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=disney3"
             }
         ],
-        "id": 4
+        "id": 5
     },
     {
         "datetime": "2026-06-20T19:00:00Z",
@@ -87,7 +101,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=disney5"
             }
         ],
-        "id": 5
+        "id": 6
     },
     {
         "datetime": "2026-06-20T19:00:00Z",
@@ -129,7 +143,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=sportv"
             }
         ],
-        "id": 6
+        "id": 7
     },
     {
         "datetime": "2026-06-20T22:00:00Z",
@@ -143,7 +157,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=disney7"
             }
         ],
-        "id": 7
+        "id": 8
     },
     {
         "datetime": "2026-06-21T00:00:00Z",
@@ -177,7 +191,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=foxsports1_usa"
             }
         ],
-        "id": 8
+        "id": 9
     },
     {
         "datetime": "2026-06-21T04:00:00Z",
@@ -211,6 +225,6 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=foxsports1_usa"
             }
         ],
-        "id": 9
+        "id": 10
     }
 ]
