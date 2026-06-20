@@ -1,57 +1,5 @@
 [
     {
-        "datetime": "2026-06-20T16:30:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/chile_86c07a7b38.png",
-        "league": "Copa Chile",
-        "homeTeam": "Coquimbo Unido",
-        "awayTeam": "Deportes Iquique",
-        "servers": [
-            {
-                "name": "TNTSPORTSCHILE (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=tntsportschile"
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-06-20T17:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
-        "league": "Copa del Mundo",
-        "homeTeam": "Países Bajos",
-        "awayTeam": "Suecia",
-        "servers": [
-            {
-                "name": "DSPORTS (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=dsports"
-            },
-            {
-                "name": "TELEMUNDO (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=telemundo"
-            },
-            {
-                "name": "VTVPLUS (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=vtvplus"
-            },
-            {
-                "name": "AMERICATV (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=americatv"
-            },
-            {
-                "name": "TYCSPORTS (español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=tycsports"
-            },
-            {
-                "name": "WINSPORTS (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=winsports"
-            },
-            {
-                "name": "Opción ()",
-                "url": "https://la18hd.com/mpd/drm.php?url=aHR0cHM6Ly9hYmt2MnB2YWFhYWFhYWFtY2NseW5nc2Zkem4zdC5iaWEtY2YubGl2ZS5wdi1jZG4ubmV0L2dydS1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvaWF5ZzBreXJvZi9vdXQvdjEvOTFkYzA0OTA3ZjU2NDE1Yjg5N2ZhY2NmYTlkMjUyZGEvY2VuYy5tcGQ=&k=MTIyM2Q1MTA1MzkyY2FiZjFiYjljMmMxZmRmNjUzOWE6MzQwYjQwOWY0YjhmNzhhMzQzZTAzNjNhNzkzOGRmMzg="
-            }
-        ],
-        "id": 2
-    },
-    {
         "datetime": "2026-06-20T19:00:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/chile_86c07a7b38.png",
         "league": "Copa Chile",
@@ -63,7 +11,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=tntsportschile"
             }
         ],
-        "id": 3
+        "id": 1
     },
     {
         "datetime": "2026-06-20T19:00:00Z",
@@ -73,11 +21,19 @@
         "awayTeam": "Málaga | Final 2/2",
         "servers": [
             {
+                "name": "ESPN5 (español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=espn5"
+            },
+            {
                 "name": "DISNEY3 (Español)",
                 "url": "https://la18hd.com/vivo/canal.php?stream=disney3"
+            },
+            {
+                "name": "Opción ()",
+                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/espn5tv.html"
             }
         ],
-        "id": 4
+        "id": 2
     },
     {
         "datetime": "2026-06-20T19:00:00Z",
@@ -91,10 +47,10 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=disney5"
             }
         ],
-        "id": 5
+        "id": 3
     },
     {
-        "datetime": "2026-06-20T19:00:00Z",
+        "datetime": "2026-06-20T20:00:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
         "league": "Copa del Mundo",
         "homeTeam": "Alemania",
@@ -133,7 +89,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=sportv"
             }
         ],
-        "id": 6
+        "id": 4
     },
     {
         "datetime": "2026-06-20T22:00:00Z",
@@ -147,7 +103,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=disney7"
             }
         ],
-        "id": 7
+        "id": 5
     },
     {
         "datetime": "2026-06-21T00:00:00Z",
@@ -181,7 +137,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=foxsports1_usa"
             }
         ],
-        "id": 8
+        "id": 6
     },
     {
         "datetime": "2026-06-21T04:00:00Z",
@@ -215,6 +171,6 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=foxsports1_usa"
             }
         ],
-        "id": 9
+        "id": 7
     }
 ]
