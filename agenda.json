@@ -1,53 +1,5 @@
 [
     {
-        "datetime": "2026-06-19T21:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/uruguay_e2b9597af8.png",
-        "league": "Segunda División",
-        "homeTeam": "Miramar Misiones",
-        "awayTeam": "Huracán",
-        "servers": [
-            {
-                "name": "DISNEY1 (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=disney1"
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-06-19T22:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
-        "league": "Copa del Mundo",
-        "homeTeam": "Escocia",
-        "awayTeam": "Marruecos",
-        "servers": [
-            {
-                "name": "DSPORTS (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=dsports"
-            },
-            {
-                "name": "VTVPLUS (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=vtvplus"
-            },
-            {
-                "name": "TYCSPORTS (español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=tycsports"
-            },
-            {
-                "name": "TELEFE ()",
-                "url": "https://la18hd.com/vivo/canal.php?stream=telefe"
-            },
-            {
-                "name": "CARACOL (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=caracol"
-            },
-            {
-                "name": "TELEMUNDO (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=telemundo"
-            }
-        ],
-        "id": 2
-    },
-    {
         "datetime": "2026-06-20T00:30:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
         "league": "Copa del Mundo",
@@ -75,7 +27,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=sportv"
             }
         ],
-        "id": 3
+        "id": 1
     },
     {
         "datetime": "2026-06-20T03:00:00Z",
@@ -109,6 +61,6 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=foxsports1_usa"
             }
         ],
-        "id": 4
+        "id": 2
     }
 ]
