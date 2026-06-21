@@ -50,5 +50,53 @@
             }
         ],
         "id": 2
+    },
+    {
+        "datetime": "2026-06-21T18:30:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/uruguay_e2b9597af8.png",
+        "league": "Segunda División",
+        "homeTeam": "Rentistas",
+        "awayTeam": "Uruguay Montevideo",
+        "servers": [
+            {
+                "name": "DISNEY3 (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=disney3"
+            }
+        ],
+        "id": 3
+    },
+    {
+        "datetime": "2026-06-21T19:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
+        "league": "Copa del Mundo",
+        "homeTeam": "Bélgica",
+        "awayTeam": "Irán",
+        "servers": [
+            {
+                "name": "DSPORTS (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=dsports"
+            },
+            {
+                "name": "VTVPLUS (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=vtvplus"
+            },
+            {
+                "name": "TELEFE ()",
+                "url": "https://la18hd.com/vivo/canal.php?stream=telefe"
+            },
+            {
+                "name": "CARACOL (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=caracol"
+            },
+            {
+                "name": "TELEMUNDO (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=telemundo"
+            },
+            {
+                "name": "FOXSPORTS1 USA (Inglés)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=foxsports1_usa"
+            }
+        ],
+        "id": 4
     }
 ]
