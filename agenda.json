@@ -1,57 +1,5 @@
 [
     {
-        "datetime": "2026-06-21T16:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
-        "league": "Copa del Mundo",
-        "homeTeam": "España",
-        "awayTeam": "Arabia Saudita",
-        "servers": [
-            {
-                "name": "DISNEY2 (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=disney2"
-            },
-            {
-                "name": "DSPORTS (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=dsports"
-            },
-            {
-                "name": "VTVPLUS (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=vtvplus"
-            },
-            {
-                "name": "AMERICATV (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=americatv"
-            },
-            {
-                "name": "WINSPORTS (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=winsports"
-            },
-            {
-                "name": "TELEMUNDO (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=telemundo"
-            },
-            {
-                "name": "UNIVERSO (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=universo"
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-06-21T16:30:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/chile_86c07a7b38.png",
-        "league": "Copa Chile",
-        "homeTeam": "Huachipato",
-        "awayTeam": "Puerto Montt",
-        "servers": [
-            {
-                "name": "TNTSPORTSCHILE (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=tntsportschile"
-            }
-        ],
-        "id": 2
-    },
-    {
         "datetime": "2026-06-21T18:30:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/uruguay_e2b9597af8.png",
         "league": "Segunda División",
@@ -63,7 +11,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=disney3"
             }
         ],
-        "id": 3
+        "id": 1
     },
     {
         "datetime": "2026-06-21T19:00:00Z",
@@ -97,7 +45,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=foxsports1_usa"
             }
         ],
-        "id": 4
+        "id": 2
     },
     {
         "datetime": "2026-06-21T19:00:00Z",
@@ -111,7 +59,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=tntsportschile"
             }
         ],
-        "id": 5
+        "id": 3
     },
     {
         "datetime": "2026-06-21T22:00:00Z",
@@ -149,6 +97,6 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=foxsports1_usa"
             }
         ],
-        "id": 6
+        "id": 4
     }
 ]
