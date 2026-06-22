@@ -1,1 +1,96 @@
-[]
+[
+    {
+        "datetime": "2026-06-22T17:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
+        "league": "Copa del Mundo",
+        "homeTeam": "Argentina",
+        "awayTeam": "Austria",
+        "servers": [
+            {
+                "name": "Opción (Español)",
+                "url": "https://la16hd.com/dsportsar.php"
+            },
+            {
+                "name": "DISNEY1 (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=disney1"
+            },
+            {
+                "name": "Opción (Español)",
+                "url": "https://la16hd.com/dsportslatam.php"
+            },
+            {
+                "name": "DSPORTS (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=dsports"
+            },
+            {
+                "name": "TYCSPORTS (español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=tycsports"
+            },
+            {
+                "name": "TELEFE ()",
+                "url": "https://la18hd.com/vivo/canal.php?stream=telefe"
+            },
+            {
+                "name": "TELEMUNDO (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=telemundo"
+            },
+            {
+                "name": "CARACOL (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=caracol"
+            },
+            {
+                "name": "UNIVERSO (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=universo"
+            },
+            {
+                "name": "SPORTV (Portugués)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=sportv"
+            }
+        ],
+        "id": 1
+    },
+    {
+        "datetime": "2026-06-22T21:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
+        "league": "Copa del Mundo",
+        "homeTeam": "Francia",
+        "awayTeam": "Iraq",
+        "servers": [
+            {
+                "name": "Opción (Español)",
+                "url": "https://la16hd.com/dsportsar.php"
+            },
+            {
+                "name": "Opción (Español)",
+                "url": "https://la16hd.com/dsportslatam.php"
+            },
+            {
+                "name": "DSPORTS (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=dsports"
+            },
+            {
+                "name": "TELEMUNDO (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=telemundo"
+            }
+        ],
+        "id": 2
+    },
+    {
+        "datetime": "2026-06-23T00:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
+        "league": "Copa del Mundo",
+        "homeTeam": "Noruega",
+        "awayTeam": "Senegal",
+        "servers": [
+            {
+                "name": "Opción (Español)",
+                "url": "https://la16hd.com/dsportsar.php"
+            },
+            {
+                "name": "Opción (Español)",
+                "url": "https://la16hd.com/dsportslatam.php"
+            }
+        ],
+        "id": 3
+    }
+]
