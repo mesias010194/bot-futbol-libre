@@ -1,43 +1,5 @@
 [
     {
-        "datetime": "2026-06-23T17:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
-        "league": "Copa del Mundo",
-        "homeTeam": "Portugal",
-        "awayTeam": "Uzbekistán",
-        "servers": [
-            {
-                "name": "Opción (Español)",
-                "url": "https://la16hd.com/dsportsar.php"
-            },
-            {
-                "name": "Opción (Español)",
-                "url": "https://la16hd.com/dsportslatam.php"
-            },
-            {
-                "name": "DSPORTS (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=dsports"
-            },
-            {
-                "name": "TYCSPORTS (español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=tycsports"
-            },
-            {
-                "name": "TELEFE ()",
-                "url": "https://la18hd.com/vivo/canal.php?stream=telefe"
-            },
-            {
-                "name": "TELEMUNDO (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=telemundo"
-            },
-            {
-                "name": "WINSPORTS (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=winsports"
-            }
-        ],
-        "id": 1
-    },
-    {
         "datetime": "2026-06-23T19:00:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/chile_86c07a7b38.png",
         "league": "Copa Chile",
@@ -53,7 +15,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=max1"
             }
         ],
-        "id": 2
+        "id": 1
     },
     {
         "datetime": "2026-06-23T20:00:00Z",
@@ -75,16 +37,12 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=disney2"
             },
             {
+                "name": "Opción (Español)",
+                "url": "https://la16hd.com/play.php?url=aHR0cHM6Ly9hNThsaXZlLXB2LXRhLWFtYXpvbi5ha2FtYWl6ZWQubmV0L2xoci1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvYzdkaTd6a2Rvci9vdXQvdjEvZjdkNWIzNTZlMDQ4NDk0YTgzMjU1NjNlODkxNmQ1MGIvY2VuYy5tcGQ=&ki=NzQ1Y2Q2ZWMzNGE1OGYyZjdhYzJhZjM1ZGMzZGE2ZDI=&k=YWUwMDhmMWU0N2U2NTY3ZmU0MjAxYTZmZjhmMWFlNTQ="
+            },
+            {
                 "name": "DSPORTS (Español)",
                 "url": "https://la18hd.com/vivo/canal.php?stream=dsports"
-            },
-            {
-                "name": "AMERICATV (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=americatv"
-            },
-            {
-                "name": "TELEFE ()",
-                "url": "https://la18hd.com/vivo/canal.php?stream=telefe"
             },
             {
                 "name": "TELEMUNDO (Español)",
@@ -95,7 +53,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=sportv"
             }
         ],
-        "id": 3
+        "id": 2
     },
     {
         "datetime": "2026-06-23T23:00:00Z",
@@ -125,7 +83,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=telemundo"
             }
         ],
-        "id": 4
+        "id": 3
     },
     {
         "datetime": "2026-06-24T00:30:00Z",
@@ -139,7 +97,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=tntsportschile"
             }
         ],
-        "id": 5
+        "id": 4
     },
     {
         "datetime": "2026-06-24T02:00:00Z",
@@ -181,6 +139,6 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=foxsports1_usa"
             }
         ],
-        "id": 6
+        "id": 5
     }
 ]
