@@ -1,14 +1,34 @@
 [
     {
-        "datetime": "2026-06-24T20:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/chile_86c07a7b38.png",
-        "league": "Copa Chile",
-        "homeTeam": "La Serena",
-        "awayTeam": "Cobresal",
+        "datetime": "2026-06-24T22:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
+        "league": "Copa del Mundo",
+        "homeTeam": "Marruecos",
+        "awayTeam": "Haití",
         "servers": [
             {
-                "name": "TNTSPORTSCHILE (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=tntsportschile"
+                "name": "DSPORTSPLUS (español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=dsportsplus"
+            },
+            {
+                "name": "EVENTOS15 ()",
+                "url": "https://la18hd.com/vivo/canal.php?stream=eventos15"
+            },
+            {
+                "name": "TYCSPORTS (español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=tycsports"
+            },
+            {
+                "name": "UNIVERSO (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=universo"
+            },
+            {
+                "name": "FOXSPORTS1 USA (Inglés)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=foxsports1_usa"
+            },
+            {
+                "name": "Opción ()",
+                "url": "https://la16hd.com/play.php?url=aHR0cHM6Ly9hMTFsaXZlLXB2LXRhLWFtYXpvbi5ha2FtYWl6ZWQubmV0L2R1Yi1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvZ2U2Z29udjdjeS9vdXQvdjEvYTIxODZjZTU1M2ZiNGEwOGIyODZhYWQzMjM3ZDUzMjgvY2VuYy5tcGQ=&ki=ODFhMDVjOWFmMDdlMTVmNTlkY2FjNTY4MDkwOTU2Zjk=&k=ZDczY2U1NDcxOGRlMjBkNTdlODdkODFjOTVkNTBiMGE="
             }
         ],
         "id": 1
@@ -57,46 +77,26 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=caracol"
             },
             {
-                "name": "Opción (Español)",
-                "url": "https://la16hd.com/play.php?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L3BkeC1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvYWpmb2VkZGtiei9vdXQvdjEvYjc4ODAwYjliMjMwNDg3OWIxNTg0M2Y0NTU4MzY4MjkvY2VuYy5tcGQ=&ki=ZjY1NjRlYzJhZWU4MTkwNDYzMjhhMGUxNTNiZTU3NGQ=&k=ZmY0NmE4YTEwMzFlYjI3ZWYyMjU3NmEwNzdjOThhYjc="
-            },
-            {
                 "name": "TELEMUNDO (Español)",
                 "url": "https://la18hd.com/vivo/canal.php?stream=telemundo"
+            },
+            {
+                "name": "Opción (Español)",
+                "url": "https://la16hd.com/play.php?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L3BkeC1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvYWpmb2VkZGtiei9vdXQvdjEvYjc4ODAwYjliMjMwNDg3OWIxNTg0M2Y0NTU4MzY4MjkvY2VuYy5tcGQ=&ki=ZjY1NjRlYzJhZWU4MTkwNDYzMjhhMGUxNTNiZTU3NGQ=&k=ZmY0NmE4YTEwMzFlYjI3ZWYyMjU3NmEwNzdjOThhYjc="
             }
         ],
         "id": 2
     },
     {
-        "datetime": "2026-06-24T22:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
-        "league": "Copa del Mundo",
-        "homeTeam": "Marruecos",
-        "awayTeam": "Haití",
+        "datetime": "2026-06-24T23:30:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/chile_86c07a7b38.png",
+        "league": "Copa Chile",
+        "homeTeam": "Unión La Calera",
+        "awayTeam": "Universidad Chile",
         "servers": [
             {
-                "name": "DSPORTSPLUS (español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=dsportsplus"
-            },
-            {
-                "name": "EVENTOS15 ()",
-                "url": "https://la18hd.com/vivo/canal.php?stream=eventos15"
-            },
-            {
-                "name": "TYCSPORTS (español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=tycsports"
-            },
-            {
-                "name": "UNIVERSO (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=universo"
-            },
-            {
-                "name": "FOXSPORTS1 USA (Inglés)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=foxsports1_usa"
-            },
-            {
-                "name": "Opción ()",
-                "url": "https://la16hd.com/play.php?url=aHR0cHM6Ly9hMTFsaXZlLXB2LXRhLWFtYXpvbi5ha2FtYWl6ZWQubmV0L2R1Yi1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvZ2U2Z29udjdjeS9vdXQvdjEvYTIxODZjZTU1M2ZiNGEwOGIyODZhYWQzMjM3ZDUzMjgvY2VuYy5tcGQ=&ki=ODFhMDVjOWFmMDdlMTVmNTlkY2FjNTY4MDkwOTU2Zjk=&k=ZDczY2U1NDcxOGRlMjBkNTdlODdkODFjOTVkNTBiMGE="
+                "name": "TNTSPORTSCHILE (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=tntsportschile"
             }
         ],
         "id": 3
@@ -119,6 +119,10 @@
             {
                 "name": "Opción (Español)",
                 "url": "https://la16hd.com/canal5mx.php"
+            },
+            {
+                "name": "Opción (Español)",
+                "url": "https://la16hd.com/play.php?url=aHR0cHM6Ly9saXZlLXB2LXRhLmFtYXpvbi5mYXN0bHktZWRnZS5jb20vaWFkLW5pdHJvL2xpdmUvY2xpZW50cy9kYXNoL2VuYy9vMnZ5NGFhaHNoL291dC92MS9lMjkzYzkzMjc0NWE0NGRjYWY4OTc1NzNkZmM1MzUzMi9jZW5jLm1wZA==&ki=NzYzY2UxZWJjYWYyMzUwMmM4Y2YzNTdjNmVmNDIzZTE=&k=MGM1ZTZjMDgyMGExZWEyODc1MzcyMWRiMDAyNzI0MTE="
             },
             {
                 "name": "TELEMUNDO (Español)",
