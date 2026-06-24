@@ -60,6 +60,20 @@
         "id": 2
     },
     {
+        "datetime": "2026-06-24T20:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/chile_86c07a7b38.png",
+        "league": "Copa Chile",
+        "homeTeam": "La Serena",
+        "awayTeam": "Cobresal",
+        "servers": [
+            {
+                "name": "TNTSPORTSCHILE (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=tntsportschile"
+            }
+        ],
+        "id": 3
+    },
+    {
         "datetime": "2026-06-24T22:00:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
         "league": "Copa del Mundo",
@@ -87,7 +101,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=foxsports1_usa"
             }
         ],
-        "id": 3
+        "id": 4
     },
     {
         "datetime": "2026-06-24T22:00:00Z",
@@ -137,7 +151,45 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=telemundo"
             }
         ],
-        "id": 4
+        "id": 5
+    },
+    {
+        "datetime": "2026-06-25T01:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
+        "league": "Copa del Mundo",
+        "homeTeam": "República Checa",
+        "awayTeam": "México",
+        "servers": [
+            {
+                "name": "Opción (Español)",
+                "url": "https://la16hd.com/dsportsar.php"
+            },
+            {
+                "name": "Opción (Español)",
+                "url": "https://la16hd.com/dsportslatam.php"
+            },
+            {
+                "name": "Opción (Español)",
+                "url": "https://la16hd.com/canal5mx.php"
+            },
+            {
+                "name": "TELEMUNDO (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=telemundo"
+            },
+            {
+                "name": "DSPORTS (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=dsports"
+            },
+            {
+                "name": "WINSPORTS (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=winsports"
+            },
+            {
+                "name": "SPORTV (Portugués)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=sportv"
+            }
+        ],
+        "id": 6
     },
     {
         "datetime": "2026-06-25T01:00:00Z",
@@ -163,6 +215,6 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=foxsports1_usa"
             }
         ],
-        "id": 5
+        "id": 7
     }
 ]
