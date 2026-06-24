@@ -138,5 +138,31 @@
             }
         ],
         "id": 4
+    },
+    {
+        "datetime": "2026-06-25T01:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
+        "league": "Copa del Mundo",
+        "homeTeam": "Sur África",
+        "awayTeam": "Corea del Sur",
+        "servers": [
+            {
+                "name": "DSPORTSPLUS (español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=dsportsplus"
+            },
+            {
+                "name": "TYCSPORTS (español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=tycsports"
+            },
+            {
+                "name": "UNIVERSO (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=universo"
+            },
+            {
+                "name": "FOXSPORTS1 USA (Inglés)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=foxsports1_usa"
+            }
+        ],
+        "id": 5
     }
 ]
