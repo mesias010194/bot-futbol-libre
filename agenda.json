@@ -1,115 +1,5 @@
 [
     {
-        "datetime": "2026-06-25T20:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
-        "league": "Copa del Mundo",
-        "homeTeam": "Curazao",
-        "awayTeam": "Costa de Marfil",
-        "servers": [
-            {
-                "name": "Opción (Español)",
-                "url": "https://la16hd.com/dsports2ar.php"
-            },
-            {
-                "name": "DSPORTS2 (español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=dsports2"
-            },
-            {
-                "name": "UNIVERSO (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=universo"
-            },
-            {
-                "name": "SPORTV2 (Portugués)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=sportv2"
-            },
-            {
-                "name": "FOXSPORTS1 USA (Inglés)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=foxsports1_usa"
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-06-25T20:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
-        "league": "Copa del Mundo",
-        "homeTeam": "Ecuador",
-        "awayTeam": "Alemania",
-        "servers": [
-            {
-                "name": "Opción (Español)",
-                "url": "https://la16hd.com/dsportsar.php"
-            },
-            {
-                "name": "Opción (Español)",
-                "url": "https://la16hd.com/dsportslatam.php"
-            },
-            {
-                "name": "Opción (Español)",
-                "url": "https://la16hd.com/canal5mx.php"
-            },
-            {
-                "name": "TYCSPORTS (español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=tycsports"
-            },
-            {
-                "name": "DSPORTS (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=dsports"
-            },
-            {
-                "name": "TELEFE ()",
-                "url": "https://la18hd.com/vivo/canal.php?stream=telefe"
-            },
-            {
-                "name": "CARACOL (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=caracol"
-            },
-            {
-                "name": "AMERICATV (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=americatv"
-            },
-            {
-                "name": "Opción (Español)",
-                "url": "https://la16hd.com/play.php?url=aHR0cHM6Ly9hNThsaXZlLXB2LXRhLWFtYXpvbi5ha2FtYWl6ZWQubmV0L2xoci1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvYzdkaTd6a2Rvci9vdXQvdjEvZjdkNWIzNTZlMDQ4NDk0YTgzMjU1NjNlODkxNmQ1MGIvY2VuYy5tcGQ=&ki=NzQ1Y2Q2ZWMzNGE1OGYyZjdhYzJhZjM1ZGMzZGE2ZDI=&k=YWUwMDhmMWU0N2U2NTY3ZmU0MjAxYTZmZjhmMWFlNTQ="
-            },
-            {
-                "name": "TELEMUNDO (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=telemundo"
-            }
-        ],
-        "id": 2
-    },
-    {
-        "datetime": "2026-06-25T23:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
-        "league": "Copa del Mundo",
-        "homeTeam": "Túnez",
-        "awayTeam": "Países Bajos",
-        "servers": [
-            {
-                "name": "Opción (Español)",
-                "url": "https://la16hd.com/dsportsar.php"
-            },
-            {
-                "name": "Opción (Español)",
-                "url": "https://la16hd.com/dsportslatam.php"
-            },
-            {
-                "name": "DSPORTS (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=dsports"
-            },
-            {
-                "name": "WINSPORTS (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=winsports"
-            },
-            {
-                "name": "TELEMUNDO (Español)",
-                "url": "https://la18hd.com/vivo/canal.php?stream=telemundo"
-            }
-        ],
-        "id": 3
-    },
-    {
         "datetime": "2026-06-25T23:00:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
         "league": "Copa del Mundo",
@@ -141,7 +31,41 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=foxsports1_usa"
             }
         ],
-        "id": 4
+        "id": 1
+    },
+    {
+        "datetime": "2026-06-25T23:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
+        "league": "Copa del Mundo",
+        "homeTeam": "Túnez",
+        "awayTeam": "Países Bajos",
+        "servers": [
+            {
+                "name": "Opción (Español)",
+                "url": "https://la16hd.com/dsportsar.php"
+            },
+            {
+                "name": "Opción (Español)",
+                "url": "https://la16hd.com/dsportslatam.php"
+            },
+            {
+                "name": "DSPORTS (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=dsports"
+            },
+            {
+                "name": "WINSPORTS (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=winsports"
+            },
+            {
+                "name": "TELEMUNDO (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=telemundo"
+            },
+            {
+                "name": "VTVPLUS (Español)",
+                "url": "https://la18hd.com/vivo/canal.php?stream=vtvplus"
+            }
+        ],
+        "id": 2
     },
     {
         "datetime": "2026-06-26T02:00:00Z",
@@ -171,7 +95,7 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=foxsports1_usa"
             }
         ],
-        "id": 5
+        "id": 3
     },
     {
         "datetime": "2026-06-26T02:00:00Z",
@@ -201,6 +125,6 @@
                 "url": "https://la18hd.com/vivo/canal.php?stream=telemundo"
             }
         ],
-        "id": 6
+        "id": 4
     }
 ]
