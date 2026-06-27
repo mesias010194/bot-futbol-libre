@@ -315,7 +315,30 @@ def extraer_partidos():
                         pass
                 
                 url_limpia = desencriptar_enlace(link)
-                url_segura = url_limpia.replace("\\/", "/").replace("canales.php", "canal.php")
+                url_segura = url_limpia.replace("\\/", "/")
+                
+                # ==========================================================
+                # TRUCO ANTI-ANUNCIOS DESDE EL BOT (Para PC, TV y Celulares)
+                # ==========================================================
+                # 1. Lista de dominios que sabemos que tienen mucha publicidad
+                dominios_sucios = [
+                    "pltvhd.com", "embed.pltvhd.com", 
+                    "agenda18.com", "embed.agenda18.com",
+                    "tiofutbol.com", "pirlotv.fr", "futbollibre.net"
+                ]
+                
+                # 2. Reemplazamos cualquier dominio sucio por el limpio (la18hd.com)
+                # Esto asegura que el celular reproduzca el video sin restricciones,
+                # pero usando el reproductor que tiene menos pop-ups inyectados.
+                for dominio in dominios_sucios:
+                    if dominio in url_segura:
+                        url_segura = url_segura.replace(dominio, "la18hd.com")
+                
+                # 3. Forzamos el uso de "canal.php" en lugar de "canales.php" o "embed.php"
+                # (Las versiones alternativas suelen tener menos scripts de anuncios)
+                url_segura = url_segura.replace("canales.php", "canal.php")
+                url_segura = url_segura.replace("embed.php", "canal.php")
+                # ==========================================================
                 
                 existe = False
                 for s in partidos_agrupados[match_key]["servers"]:
@@ -358,7 +381,7 @@ def actualizar_nube(datos):
         # === CONFIGURACIÓN GITHUB PARA GITHUB ACTIONS ===
         # Intenta leer el token desde los "Secrets" de GitHub Actions primero
         # Si no lo encuentra, usa el que pegues manualmente (cuidado: GitHub puede borrarlo si el repositorio es público)
-        github_token = os.environ.get("TOKEN_GITHUB", "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") 
+        github_token = os.environ.get("TOKEN_GITHUB", "PON_TU_NUEVO_TOKEN_AQUI_SI_NO_USAS_SECRETS") 
         
         repo = "mesias010194/bot-futbol-libre"
         file_path = "agenda.json"
