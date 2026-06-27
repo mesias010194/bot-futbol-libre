@@ -5,26 +5,38 @@ from datetime import datetime, timedelta, timezone
 import re
 import time
 import subprocess
+import urllib.parse 
 
 # ==========================================================
-# 1. CONFIGURACIÓN DE TU NUBE (JSONBIN.IO) - (Ya no se usa)
+# 1. CONFIGURACIÓN (Ya no se usa JSONBIN, se usa GitHub)
+# ==========================================================
 BIN_ID = "69d933e5aaba882197e5950b" 
 API_KEY = "$2a$10$fH2AVYqUAGOQm6KLrAcdk.fsTBsZPp7sTDWydhhsWtaYfrLlnAWv."
 
 # ==========================================================
-# 2. LOS LINKS DE LAS BÓVEDAS (AGENDA FRESCA + FOTOS)
+# 2. ENLACES Y RESPALDOS DE LA AGENDA
 # ==========================================================
-API_AGENDA = "https://la18hd.com/eventos/json/agenda123.json"
+# RED DE RESPALDOS: El bot probará una por una hasta encontrar una que funcione.
+FUENTES_AGENDA = [
+    "https://la18hd.com/eventos/json/agenda123.json",
+    "https://futbollibrehd.com.pe/eventos/json/agenda123.json",
+    "https://futbollibrehd.com.pe/agenda.json",
+    "https://pltvhd.com/diaries.json",               # NUEVO: Respaldo Pelota Libre
+    "https://agenda18.com/agenda.json",              # NUEVO: Respaldo Fubolazo
+    "https://librefutboltv.com/eventos/json/agenda123.json",
+    "https://futbollibretv.pe/eventos/json/agenda123.json"
+]
+
 API_BANDERAS = "https://agenda18.com/agenda.json"
 BASE_DOMAIN_IMG = "https://img.agenda18.com"
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
     "Accept": "application/json",
 }
 
 # ==========================================================
-# 3. CEREBRO DE BANDERAS (Respaldo por si Fubolazo falla)
+# 3. LÓGICA DE BANDERAS (Respaldo visual)
 # ==========================================================
 def obtener_bandera(liga, encuentro):
     texto = (liga + " " + encuentro).lower()
@@ -79,7 +91,7 @@ def procesar_fecha(fecha_str, hora_str):
 def extraer_partidos():
     timestamp = int(time.time() * 1000)
     
-    print(f"[*] FASE 1: Extrayendo imágenes originales de Fubolazo...")
+    print(f"[*] FASE 1: Extrayendo imágenes originales (Banderas)...")
     diccionario_banderas = {}
     try:
         res_banderas = requests.get(f"{API_BANDERAS}?_={timestamp}", headers=HEADERS, timeout=15)
@@ -97,38 +109,80 @@ def extraer_partidos():
                     pass
             print(f"    -> Memorizadas {len(diccionario_banderas)} banderas.")
     except Exception as e:
-        print(f"[!] Aviso: Error con banderas ({e})")
+        print(f"[!] Aviso: Error leyendo el servidor de banderas ({e})")
 
-    url_con_timestamp = f"{API_AGENDA}?_={timestamp}"
-    print(f"[*] FASE 2: Conectando a la agenda súper fresca: {url_con_timestamp[:50]}...")
-    try:
-        respuesta = requests.get(url_con_timestamp, headers=HEADERS, timeout=15)
-        respuesta.raise_for_status() 
-        datos_json = respuesta.json()
+    # =========================================================================
+    # FASE 2: EXTRACCIÓN DE AGENDA (CON RED DE RESPALDO Y PROTECCIÓN)
+    # =========================================================================
+    print(f"[*] FASE 2: Buscando agenda en la red de respaldos...")
+    datos_json = None
+    
+    for url_fuente in FUENTES_AGENDA:
+        url_con_timestamp = f"{url_fuente}?_={timestamp}"
+        print(f"    -> Intentando conectar a: {url_fuente[:50]}...")
+        try:
+            respuesta = requests.get(url_con_timestamp, headers=HEADERS, timeout=10)
+            respuesta.raise_for_status() 
+            posible_json = respuesta.json()
+            
+            # Protección extra: Si la web cambió de formato Lista a Diccionario, nos adaptamos
+            if isinstance(posible_json, dict):
+                posible_json = posible_json.get("data", posible_json.get("record", []))
+
+            if isinstance(posible_json, list) and len(posible_json) > 0:
+                print(f"    [+] ¡ÉXITO! Agenda descargada correctamente.")
+                datos_json = posible_json
+                break 
+            else:
+                print(f"    [!] Conectó, pero la agenda estaba vacía o en formato bloqueado.")
+                
+        except Exception as e:
+            print(f"    [X] Servidor caído o error de conexión. Pasando al siguiente respaldo...")
+            continue 
+
+    if not datos_json:
+        print("[X] ERROR CRÍTICO: Todas las páginas de la red de respaldo están caídas en este momento.")
+        return None
         
+    try:
         partidos_agrupados = {}
         
         for item in datos_json:
-            titulo_completo = item.get("title", "Partido en Vivo").strip()
-            fecha = item.get("date", "")
-            hora = item.get("time", "")
-            link = item.get("link", "")
-            idioma = item.get("language", "Español")
-            estado = item.get("status", "").lower()
+            # --- INTELIGENCIA DUAL: SOPORTE PARA PELOTA LIBRE Y FUTBOL LIBRE ---
+            if "attributes" in item:
+                # Formato Pelota Libre / Agenda18
+                data_item = item["attributes"]
+                titulo_completo = data_item.get("title", data_item.get("diary_description", "Partido en Vivo")).strip()
+                fecha = data_item.get("date", data_item.get("diary_date", ""))
+                hora = data_item.get("time", data_item.get("diary_time", ""))
+                link = data_item.get("link", "")
+                idioma = data_item.get("language", "Español")
+                estado = data_item.get("status", "").lower()
+                categoria = data_item.get("category", "")
+            else:
+                # Formato Clásico Fútbol Libre
+                titulo_completo = item.get("title", "Partido en Vivo").strip()
+                fecha = item.get("date", "")
+                hora = item.get("time", "")
+                link = item.get("link", "")
+                idioma = item.get("language", "Español")
+                estado = item.get("status", "").lower()
+                categoria = item.get("category", "")
             
             if "finalizado" in estado or "terminado" in estado:
                  continue
                  
             datetime_utc, fecha_obj_utc = procesar_fecha(fecha, hora)
             
-            # --- FILTRO RELOJ: 240 MINUTOS (4 HORAS) ---
+            # --- FILTRO DE LIMPIEZA: 160 MINUTOS ---
             ahora_utc = datetime.now(timezone.utc)
             minutos_transcurridos = (ahora_utc - fecha_obj_utc).total_seconds() / 60
             
             if minutos_transcurridos > 160:
                 continue
             
-            if not titulo_completo or "Futbol" not in item.get("category", ""):
+            # Si el título está vacío o no pertenece a la categoría Fútbol (opcional)
+            if not titulo_completo or ("futbol" not in str(categoria).lower() and "fútbol" not in str(categoria).lower()):
                 continue
                 
             match_key = f"{fecha}_{hora}_{titulo_completo}"
@@ -148,19 +202,16 @@ def extraer_partidos():
                     home_team = equipos[0].strip()
                     away_team = equipos[1].strip()
                 
-                # --- SISTEMA DE ASIGNACIÓN DE BANDERAS ---
                 bandera_magica = ""
                 
-                # 1. Buscamos primero en el tesoro robado de la competencia usando el título completo
+                # 1. Búsqueda de imágenes en el diccionario robado
                 titulo_busqueda = titulo_completo.lower()
-                
-                # Búsqueda más relajada: si una parte del título completo (ej. los equipos) está en la clave del diccionario
                 for clave_texto, url_logo in diccionario_banderas.items():
                      if (home_team.lower() in clave_texto and away_team.lower() in clave_texto) or (titulo_busqueda in clave_texto) or (clave_texto in titulo_busqueda):
                         bandera_magica = url_logo
                         break
                         
-                # 2. Si no lo encontramos ahí, usamos tu cerebro seguro local
+                # 2. Fallback de banderas si no se encontró arriba
                 if not bandera_magica:
                     bandera_magica = obtener_bandera(liga, encuentro)
 
@@ -196,7 +247,7 @@ def extraer_partidos():
             
         return partidos_extraidos
     except Exception as e:
-        print(f"[X] ERROR al procesar la API: {e}")
+        print(f"[X] ERROR procesando los datos de la agenda: {e}")
         return None
 
 def actualizar_nube(datos):
@@ -205,16 +256,14 @@ def actualizar_nube(datos):
         datos = []
         
     try:
-        # 1. Guardamos el archivo localmente
         with open('agenda.json', 'w', encoding='utf-8') as f:
             json.dump(datos, f, ensure_ascii=False, indent=4)
         print("[+] Archivo agenda.json guardado localmente.")
         
-        # 2. Subimos el archivo a GitHub usando la API REST (Sin Git instalado)
         print("[*] Conectando con GitHub API...")
         
         # === CONFIGURACIÓN GITHUB ===
-        github_token = "TU_NUEVO_TOKEN_AQUI" # ⚠️ RECUERDA PONER TU NUEVO TOKEN, NO EL EXPUESTO
+        github_token = "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" # ⚠️ RECUERDA PONER TU NUEVO TOKEN AQUÍ
         repo = "mesias010194/bot-futbol-libre"
         file_path = "agenda.json"
         url = f"https://api.github.com/repos/{repo}/contents/{file_path}"
@@ -224,18 +273,18 @@ def actualizar_nube(datos):
             "Accept": "application/vnd.github.v3+json"
         }
         
-        # a) Leer el contenido actual y pasarlo a base64
+        # a) Lectura del archivo actual
         with open('agenda.json', 'rb') as file:
             content = file.read()
             encoded_content = base64.b64encode(content).decode('utf-8')
             
-        # b) Obtener el 'sha' (identificador) del archivo anterior en GitHub para poder sobreescribirlo
+        # b) Extraer SHA del archivo anterior
         get_res = requests.get(url, headers=headers)
         sha = ""
         if get_res.status_code == 200:
             sha = get_res.json()['sha']
             
-        # c) Preparar el envío
+        # c) Preparar paquete de subida
         data = {
             "message": "Actualización automática de agenda 🔄",
             "content": encoded_content,
@@ -253,7 +302,62 @@ def actualizar_nube(datos):
              print(f"[X] Error al subir a GitHub: {put_res.status_code} - {put_res.text}")
              
     except Exception as e:
-        print(f"[X] Error general al guardar/subir el archivo: {e}")
+        print(f"[X] Error guardando en GitHub: {e}")
+
+# ==========================================================
+# CEREBRO DE TELEGRAM (CORREGIDO Y BLINDADO)
+# ==========================================================
+def notificar_telegram(datos):
+    if not datos:
+        return
+
+    print("\n[*] Preparando mensaje automático para Telegram...")
+    
+    # ⚠️ REEMPLAZA ESTO CON TUS DATOS REALES ⚠️
+    BOT_TOKEN = "8796529607:AAF8gjDi1u_akh1nTada4XnS7wUEtTm8T3Q" 
+    CANAL_ID = "@futbol_libre_tv_oficial"
+    
+    # NOTA: Cambiamos a HTML para evitar bloqueos por caracteres raros en los nombres de equipos.
+    mensaje = "🔥 <b>¡AGENDA DEL DÍA ACTUALIZADA!</b> 🔥\n\n"
+    
+    partidos_mostrados = 0
+    for partido in datos:
+        if partidos_mostrados >= 5:
+            break
+            
+        hora_local = partido['datetime'][11:16] 
+        
+        # Limpieza por seguridad: Evita que signos extraños rompan el mensaje de Telegram
+        liga = str(partido['league']).replace('<', '').replace('>', '').replace('&', 'y')
+        local = str(partido['homeTeam']).replace('<', '').replace('>', '').replace('&', 'y')
+        visita = str(partido['awayTeam']).replace('<', '').replace('>', '').replace('&', 'y')
+
+        mensaje += f"🏆 {liga}\n"
+        mensaje += f"⚽ {local} vs {visita}\n"
+        mensaje += f"⏰ {hora_local} (UTC)\n\n"
+        
+        partidos_mostrados += 1
+
+    mensaje += "👉 <b>¡Míralos todos EN VIVO y SIN CORTES aquí!</b>\n"
+    mensaje += "🔗 <a href='https://www.futbolibre.blog'>futbolibre.blog</a>"
+    
+    url_telegram = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
+    payload = {
+        "chat_id": CANAL_ID,
+        "text": mensaje,
+        "parse_mode": "HTML", # Usamos HTML, es 100% más estable que Markdown
+        "disable_web_page_preview": True 
+    }
+    
+    try:
+        res = requests.post(url_telegram, json=payload)
+        if res.status_code == 200:
+            print("[+] ¡Mensaje enviado a Telegram con éxito!")
+        else:
+            print(f"[X] Error API Telegram (Status {res.status_code}): {res.text}")
+    except Exception as e:
+        print(f"[X] Error de conexión enviando a Telegram: {e}")
+
 
 if __name__ == "__main__":
     print("===================================================================")
@@ -269,6 +373,8 @@ if __name__ == "__main__":
         datos = []
         
     actualizar_nube(datos)
+    
+    if datos:
+        notificar_telegram(datos)
         
-    print(f"\n[*] Escaneo y guardado finalizado a las {datetime.now().strftime('%H:%M:%S')}.")
-    # Se eliminó el bucle while True, ctypes y time.sleep()
+    print(f"\n[*] Escaneo y subida finalizada a las {datetime.now().strftime('%H:%M:%S')}.")
