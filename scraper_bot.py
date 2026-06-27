@@ -298,7 +298,7 @@ def actualizar_nube(datos):
         print("[*] Conectando con GitHub API...")
         
         # === CONFIGURACIÓN GITHUB ===
-        github_token = "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" 
+        github_token = "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" 
         repo = "mesias010194/bot-futbol-libre"
         file_path = "agenda.json"
         url = f"https://api.github.com/repos/{repo}/contents/{file_path}"
