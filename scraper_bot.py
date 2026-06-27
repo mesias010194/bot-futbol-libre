@@ -19,9 +19,8 @@ API_KEY = "$2a$10$fH2AVYqUAGOQm6KLrAcdk.fsTBsZPp7sTDWydhhsWtaYfrLlnAWv."
 # ==========================================================
 # RED DE RESPALDOS: El bot probará una por una hasta encontrar una que funcione.
 FUENTES_AGENDA = [
-    # "https://la18hd.com/eventos/json/agenda123.json", # <-- ELIMINADO PORQUE FUE INCAUTADO (SEIZED)
-    "https://pltvhd.com/diaries.json",               # NUEVO: Respaldo Pelota Libre / TioFutbol
-    "https://agenda18.com/agenda.json",              # NUEVO: Respaldo Fubolazo
+    "https://pltvhd.com/diaries.json",               # Respaldo Pelota Libre / TioFutbol
+    "https://agenda18.com/agenda.json",              # Respaldo Fubolazo
 ]
 
 API_BANDERAS = "https://agenda18.com/agenda.json"
@@ -33,7 +32,16 @@ HEADERS = {
 }
 
 # ==========================================================
-# 3. LÓGICA DE BANDERAS (Respaldo visual súper mejorado)
+# 3. TRUCO ANTI-ANUNCIOS (TRASPLANTE DE DOMINIO)
+# ==========================================================
+# Escribe aquí el dominio "limpio" de anuncios que encuentres en internet.
+# El bot reemplazará los enlaces sucios por este dominio automáticamente.
+# Ejemplos: "pirlotv.fr", "librefutbol.su", "pelotalibre.com".
+# Si lo dejas vacío "", usará los enlaces originales para que no se caiga la web.
+DOMINIO_LIMPIO_ACTUAL = "https://futbol-libres.su/" 
+
+# ==========================================================
+# 4. LÓGICA DE BANDERAS (Respaldo visual)
 # ==========================================================
 def obtener_bandera(liga, encuentro):
     texto = (liga + " " + encuentro).lower()
@@ -172,7 +180,6 @@ def extraer_partidos():
         partidos_agrupados = {}
         
         # === SOLUCIÓN DE DOMINIO PARA IMÁGENES EXACTAS ===
-        # Identificamos el servidor CDN correcto según de dónde sacamos el archivo JSON
         if "pltvhd.com" in url_fuente_exitosa:
             url_fuente_base = "https://cdn.ftvhd.com" # El CDN correcto para TioFutbol
         elif "agenda18.com" in url_fuente_exitosa:
@@ -278,10 +285,8 @@ def extraer_partidos():
                     away_team = equipos[1].strip()
                 
                 # --- ASIGNACIÓN DE BANDERA/ÍCONO ---
-                # 1. Asignamos primero la imagen REAL 100% extraída de la API fuente y combinada con el CDN correcto
                 bandera_magica = url_logo_directo
                 
-                # 2. Respaldo por diccionario
                 if not bandera_magica:
                     titulo_busqueda = titulo_completo.lower()
                     for clave_texto, url_logo in diccionario_banderas.items():
@@ -289,7 +294,6 @@ def extraer_partidos():
                             bandera_magica = url_logo
                             break
                             
-                # 3. Respaldo final con nuestra lista mejorada
                 if not bandera_magica:
                     bandera_magica = obtener_bandera(liga, encuentro)
 
@@ -318,12 +322,21 @@ def extraer_partidos():
                 url_segura = url_limpia.replace("\\/", "/")
                 
                 # ==========================================================
-                # NOTA: Se eliminó el reemplazo a la18hd.com porque el 
-                # dominio fue incautado. Mantenemos el reemplazo a canal.php
-                # que a veces reduce los popups internamente en algunos servers.
+                # EJECUCIÓN DEL TRUCO ANTI-ANUNCIOS
                 # ==========================================================
+                if DOMINIO_LIMPIO_ACTUAL:
+                    dominios_sucios = [
+                        "pltvhd.com", "embed.pltvhd.com", 
+                        "agenda18.com", "embed.agenda18.com",
+                        "tiofutbol.com"
+                    ]
+                    for dominio in dominios_sucios:
+                        if dominio in url_segura:
+                            url_segura = url_segura.replace(dominio, DOMINIO_LIMPIO_ACTUAL)
+
                 url_segura = url_segura.replace("canales.php", "canal.php")
                 url_segura = url_segura.replace("embed.php", "canal.php")
+                # ==========================================================
                 
                 existe = False
                 for s in partidos_agrupados[match_key]["servers"]:
@@ -364,8 +377,7 @@ def actualizar_nube(datos):
         print("[*] Conectando con GitHub API...")
         
         # === CONFIGURACIÓN GITHUB PARA GITHUB ACTIONS ===
-        # Intenta leer el token desde los "Secrets" de GitHub Actions primero
-        # Si no lo encuentra, usa el que pegues manualmente (cuidado: GitHub puede borrarlo si el repositorio es público)
+        # Intenta leer el token desde los "Secrets" de GitHub Actions
         github_token = os.environ.get("TOKEN_GITHUB", "PON_TU_NUEVO_TOKEN_AQUI_SI_NO_USAS_SECRETS") 
         
         repo = "mesias010194/bot-futbol-libre"
