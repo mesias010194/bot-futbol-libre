@@ -64,8 +64,8 @@ def obtener_bandera(liga, encuentro):
 
 def desencriptar_enlace(iframe_str):
     try:
-        if 'r=' in iframe_str:
-            b64_texto = iframe_str.split('r=')[1].split('&')[0]
+        if 'r=' in str(iframe_str):
+            b64_texto = str(iframe_str).split('r=')[1].split('&')[0].split('"')[0]
             url_real = base64.b64decode(b64_texto).decode('utf-8')
             return url_real
     except Exception as e:
@@ -144,20 +144,29 @@ def extraer_partidos():
         partidos_agrupados = {}
         
         for item in datos_json:
-            # --- INTELIGENCIA DUAL: SOPORTE PARA PELOTA LIBRE Y FUTBOL LIBRE ---
+            # --- INTELIGENCIA DUAL Y REPARACIÓN DE CANALES/LINKS ---
             if "attributes" in item:
                 data_item = item["attributes"]
                 titulo_completo = data_item.get("title", data_item.get("diary_description", "Partido en Vivo")).strip()
                 fecha = data_item.get("date", data_item.get("diary_date", ""))
                 hora = data_item.get("time", data_item.get("diary_time", ""))
-                link = data_item.get("link", "")
+                
+                # ¡CORRECCIÓN AQUÍ! Buscamos el link en múltiples variantes posibles.
+                link = data_item.get("link", data_item.get("url", data_item.get("embed_url", data_item.get("iframe", ""))))
+                # ¡CORRECCIÓN AQUÍ! Buscamos el nombre real del canal.
+                canal = data_item.get("channel", data_item.get("diary_channel", data_item.get("canal", "")))
+                
                 idioma = data_item.get("language", "Español")
                 estado = data_item.get("status", "").lower()
             else:
                 titulo_completo = item.get("title", "Partido en Vivo").strip()
                 fecha = item.get("date", "")
                 hora = item.get("time", "")
-                link = item.get("link", "")
+                
+                # ¡CORRECCIÓN AQUÍ!
+                link = item.get("link", item.get("url", item.get("embed_url", item.get("iframe", ""))))
+                canal = item.get("channel", item.get("canal", ""))
+                
                 idioma = item.get("language", "Español")
                 estado = item.get("status", "").lower()
             
@@ -173,8 +182,6 @@ def extraer_partidos():
             if minutos_transcurridos > 160:
                 continue
             
-            # SOLUCIÓN: Eliminamos el filtro de categoría que estaba rompiendo la agenda.
-            # Ahora solo validamos que el partido tenga un título válido.
             if not titulo_completo:
                 continue
                 
@@ -217,18 +224,28 @@ def extraer_partidos():
                     "servers": []
                 }
 
+            # Procesamiento de servidores/canales de forma robusta
             if link:
-                canal_nombre = f"Opción ({idioma})"
-                if "stream=" in link:
-                    canal_raw = link.split("stream=")[-1].replace("_", " ").upper()
-                    canal_nombre = f"{canal_raw} ({idioma})"
+                canal_nombre = str(canal).strip() if canal else f"Opción ({idioma})"
+                
+                # Si el canal sigue sin nombre, lo intentamos sacar de la propia URL
+                if ("Opción" in canal_nombre or not canal_nombre) and "stream=" in str(link):
+                    try:
+                        canal_raw = str(link).split("stream=")[-1].split('"')[0].split('&')[0].replace("_", " ").upper()
+                        canal_nombre = f"{canal_raw} ({idioma})"
+                    except:
+                        pass
                 
                 url_limpia = desencriptar_enlace(link)
                 url_segura = url_limpia.replace("\\/", "/").replace("canales.php", "canal.php")
                 
+                # Pasamos TODA la información para asegurar compatibilidad total en el Frontend
+                # Se envían: name, channel, url y el iframe original.
                 partidos_agrupados[match_key]["servers"].append({
                     "name": canal_nombre,
-                    "url": url_segura
+                    "channel": canal_nombre,  
+                    "url": url_segura,
+                    "iframe": link 
                 })
         
         partidos_extraidos = list(partidos_agrupados.values())
@@ -303,7 +320,7 @@ def notificar_telegram(datos):
     print("\n[*] Preparando mensaje automático para Telegram...")
     
     # ⚠️ REEMPLAZA ESTO CON TUS DATOS REALES ⚠️
-    BOT_TOKEN = "8796529607:AAF8gjDi1u_akh1nTada4XnS7wUEtTm8T3Q" 
+    BOT_TOKEN = "TU_TOKEN_DE_TELEGRAM_AQUI" 
     CANAL_ID = "@futbol_libre_tv_oficial"
     
     mensaje = "🔥 <b>¡AGENDA DEL DÍA ACTUALIZADA!</b> 🔥\n\n"
