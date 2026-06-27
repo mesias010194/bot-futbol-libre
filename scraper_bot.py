@@ -74,6 +74,8 @@ def desencriptar_enlace(iframe_str):
 
 def procesar_fecha(fecha_str, hora_str):
     try:
+        # Aseguramos que la hora tenga el formato correcto HH:MM eliminando los segundos si los trae (ej. 22:00:00 -> 22:00)
+        hora_str = str(hora_str)[:5] if hora_str else "00:00"
         fecha_hora_texto = f"{fecha_str} {hora_str}"
         fecha_obj = datetime.strptime(fecha_hora_texto, "%Y-%m-%d %H:%M")
         tz_origen = timezone(timedelta(hours=-5)) 
@@ -121,7 +123,6 @@ def extraer_partidos():
             respuesta.raise_for_status() 
             posible_json = respuesta.json()
             
-            # Protección extra: Si la web cambió de formato Lista a Diccionario, nos adaptamos
             if isinstance(posible_json, dict):
                 posible_json = posible_json.get("data", posible_json.get("record", posible_json.get("response", [])))
 
@@ -144,31 +145,48 @@ def extraer_partidos():
         partidos_agrupados = {}
         
         for item in datos_json:
-            # --- INTELIGENCIA DUAL Y REPARACIÓN DE CANALES/LINKS ---
+            servers_temporales = []
+            
+            # --- NUEVA LÓGICA: SOPORTE PARA EL ARREGLO 'embeds' DE PLTVHD Y AGENDA18 ---
             if "attributes" in item:
                 data_item = item["attributes"]
                 titulo_completo = data_item.get("title", data_item.get("diary_description", "Partido en Vivo")).strip()
-                fecha = data_item.get("date", data_item.get("diary_date", ""))
-                hora = data_item.get("time", data_item.get("diary_time", ""))
                 
-                # ¡CORRECCIÓN AQUÍ! Buscamos el link en múltiples variantes posibles.
-                link = data_item.get("link", data_item.get("url", data_item.get("embed_url", data_item.get("iframe", ""))))
-                # ¡CORRECCIÓN AQUÍ! Buscamos el nombre real del canal.
-                canal = data_item.get("channel", data_item.get("diary_channel", data_item.get("canal", "")))
-                
-                idioma = data_item.get("language", "Español")
+                # Extraemos fecha y hora usando las claves de las imágenes (date_diary, diary_hour)
+                fecha = data_item.get("date", data_item.get("diary_date", data_item.get("date_diary", "")))
+                hora = data_item.get("time", data_item.get("diary_time", data_item.get("diary_hour", "")))
                 estado = data_item.get("status", "").lower()
-            else:
-                titulo_completo = item.get("title", "Partido en Vivo").strip()
-                fecha = item.get("date", "")
-                hora = item.get("time", "")
                 
-                # ¡CORRECCIÓN AQUÍ!
+                # 1. Buscar en el arreglo anidado "embeds" -> "data" (Estructura de pltvhd)
+                if "embeds" in data_item and "data" in data_item["embeds"]:
+                    for embed in data_item["embeds"]["data"]:
+                        emb_attrs = embed.get("attributes", {})
+                        e_name = emb_attrs.get("embed_name", "Opción")
+                        e_iframe = emb_attrs.get("embed_iframe", "")
+                        if e_iframe:
+                            servers_temporales.append({"name": e_name, "iframe": e_iframe})
+                            
+                # 2. Buscar formato clásico directo (Por si acaso la web cambia a futuro)
+                else:
+                    link = data_item.get("link", data_item.get("url", data_item.get("embed_url", data_item.get("iframe", ""))))
+                    canal = data_item.get("channel", data_item.get("diary_channel", data_item.get("canal", "")))
+                    idioma = data_item.get("language", "Español")
+                    if link:
+                        c_name = str(canal).strip() if canal else f"Opción ({idioma})"
+                        servers_temporales.append({"name": c_name, "iframe": link})
+                        
+            else:
+                # Estructura sin "attributes" (clásica plana)
+                titulo_completo = item.get("title", "Partido en Vivo").strip()
+                fecha = item.get("date", item.get("date_diary", ""))
+                hora = item.get("time", item.get("diary_hour", ""))
+                estado = item.get("status", "").lower()
                 link = item.get("link", item.get("url", item.get("embed_url", item.get("iframe", ""))))
                 canal = item.get("channel", item.get("canal", ""))
-                
                 idioma = item.get("language", "Español")
-                estado = item.get("status", "").lower()
+                if link:
+                    c_name = str(canal).strip() if canal else f"Opción ({idioma})"
+                    servers_temporales.append({"name": c_name, "iframe": link})
             
             if "finalizado" in estado or "terminado" in estado:
                  continue
@@ -224,29 +242,36 @@ def extraer_partidos():
                     "servers": []
                 }
 
-            # Procesamiento de servidores/canales de forma robusta
-            if link:
-                canal_nombre = str(canal).strip() if canal else f"Opción ({idioma})"
+            # Procesamiento de todos los servidores/canales extraídos
+            for srv in servers_temporales:
+                canal_nombre = srv["name"]
+                link = srv["iframe"]
                 
                 # Si el canal sigue sin nombre, lo intentamos sacar de la propia URL
                 if ("Opción" in canal_nombre or not canal_nombre) and "stream=" in str(link):
                     try:
                         canal_raw = str(link).split("stream=")[-1].split('"')[0].split('&')[0].replace("_", " ").upper()
-                        canal_nombre = f"{canal_raw} ({idioma})"
+                        canal_nombre = f"{canal_raw}"
                     except:
                         pass
                 
                 url_limpia = desencriptar_enlace(link)
                 url_segura = url_limpia.replace("\\/", "/").replace("canales.php", "canal.php")
                 
-                # Pasamos TODA la información para asegurar compatibilidad total en el Frontend
-                # Se envían: name, channel, url y el iframe original.
-                partidos_agrupados[match_key]["servers"].append({
-                    "name": canal_nombre,
-                    "channel": canal_nombre,  
-                    "url": url_segura,
-                    "iframe": link 
-                })
+                # Evitar insertar canales duplicados exactos
+                existe = False
+                for s in partidos_agrupados[match_key]["servers"]:
+                    if s["url"] == url_segura and s["name"] == canal_nombre:
+                        existe = True
+                        break
+                        
+                if not existe:
+                    partidos_agrupados[match_key]["servers"].append({
+                        "name": canal_nombre,
+                        "channel": canal_nombre,  
+                        "url": url_segura,
+                        "iframe": link 
+                    })
         
         partidos_extraidos = list(partidos_agrupados.values())
         partidos_extraidos.sort(key=lambda x: x["datetime"])
