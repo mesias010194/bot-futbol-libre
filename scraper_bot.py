@@ -19,12 +19,8 @@ API_KEY = "$2a$10$fH2AVYqUAGOQm6KLrAcdk.fsTBsZPp7sTDWydhhsWtaYfrLlnAWv."
 # RED DE RESPALDOS: El bot probará una por una hasta encontrar una que funcione.
 FUENTES_AGENDA = [
     "https://la18hd.com/eventos/json/agenda123.json",
-    "https://futbollibrehd.com.pe/eventos/json/agenda123.json",
-    "https://futbollibrehd.com.pe/agenda.json",
     "https://pltvhd.com/diaries.json",               # NUEVO: Respaldo Pelota Libre
     "https://agenda18.com/agenda.json",              # NUEVO: Respaldo Fubolazo
-    "https://librefutboltv.com/eventos/json/agenda123.json",
-    "https://futbollibretv.pe/eventos/json/agenda123.json"
 ]
 
 API_BANDERAS = "https://agenda18.com/agenda.json"
