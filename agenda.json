@@ -1,1 +1,20 @@
-[]
+[
+    {
+        "datetime": "2026-06-27T04:38:23Z",
+        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
+        "league": "Copa del Mundo",
+        "homeTeam": "Egipto",
+        "awayTeam": "Irán",
+        "servers": [],
+        "id": 1
+    },
+    {
+        "datetime": "2026-06-27T04:38:23Z",
+        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
+        "league": "Copa del Mundo",
+        "homeTeam": "Nueva Zelanda",
+        "awayTeam": "Bélgica",
+        "servers": [],
+        "id": 2
+    }
+]
