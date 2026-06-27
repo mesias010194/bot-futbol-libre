@@ -19,7 +19,7 @@ API_KEY = "$2a$10$fH2AVYqUAGOQm6KLrAcdk.fsTBsZPp7sTDWydhhsWtaYfrLlnAWv."
 # ==========================================================
 # RED DE RESPALDOS: El bot probará una por una hasta encontrar una que funcione.
 FUENTES_AGENDA = [
-    "https://la18hd.com/eventos/json/agenda123.json",
+    # "https://la18hd.com/eventos/json/agenda123.json", # <-- ELIMINADO PORQUE FUE INCAUTADO (SEIZED)
     "https://pltvhd.com/diaries.json",               # NUEVO: Respaldo Pelota Libre / TioFutbol
     "https://agenda18.com/agenda.json",              # NUEVO: Respaldo Fubolazo
 ]
@@ -318,27 +318,12 @@ def extraer_partidos():
                 url_segura = url_limpia.replace("\\/", "/")
                 
                 # ==========================================================
-                # TRUCO ANTI-ANUNCIOS DESDE EL BOT (Para PC, TV y Celulares)
+                # NOTA: Se eliminó el reemplazo a la18hd.com porque el 
+                # dominio fue incautado. Mantenemos el reemplazo a canal.php
+                # que a veces reduce los popups internamente en algunos servers.
                 # ==========================================================
-                # 1. Lista de dominios que sabemos que tienen mucha publicidad
-                dominios_sucios = [
-                    "pltvhd.com", "embed.pltvhd.com", 
-                    "agenda18.com", "embed.agenda18.com",
-                    "tiofutbol.com", "pirlotv.fr", "futbollibre.net"
-                ]
-                
-                # 2. Reemplazamos cualquier dominio sucio por el limpio (la18hd.com)
-                # Esto asegura que el celular reproduzca el video sin restricciones,
-                # pero usando el reproductor que tiene menos pop-ups inyectados.
-                for dominio in dominios_sucios:
-                    if dominio in url_segura:
-                        url_segura = url_segura.replace(dominio, "la18hd.com")
-                
-                # 3. Forzamos el uso de "canal.php" en lugar de "canales.php" o "embed.php"
-                # (Las versiones alternativas suelen tener menos scripts de anuncios)
                 url_segura = url_segura.replace("canales.php", "canal.php")
                 url_segura = url_segura.replace("embed.php", "canal.php")
-                # ==========================================================
                 
                 existe = False
                 for s in partidos_agrupados[match_key]["servers"]:
