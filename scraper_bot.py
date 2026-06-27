@@ -345,7 +345,7 @@ def notificar_telegram(datos):
     print("\n[*] Preparando mensaje automático para Telegram...")
     
     # ⚠️ REEMPLAZA ESTO CON TUS DATOS REALES ⚠️
-    BOT_TOKEN = "8796529607:AAGUljC8x8ZEt6IeFjQh-dVcNVpMov4_WcM" 
+    BOT_TOKEN = "8796529607:AAE9lP4H9pQUZMaSXAlCTgmEZ160SYhUono" 
     CANAL_ID = "@futbol_libre_tv_oficial"
     
     mensaje = "🔥 <b>¡AGENDA DEL DÍA ACTUALIZADA!</b> 🔥\n\n"
