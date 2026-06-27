@@ -1,55 +1,23 @@
 [
     {
-        "datetime": "2026-06-27T19:00:00Z",
-        "flagUrl": "https://cdn.ftvhd.com/uploads/uruguay_e2b9597af8_6abda609fb.png",
-        "league": "Segunda División",
-        "homeTeam": "Huracán",
-        "awayTeam": "Rentistas",
-        "servers": [
-            {
-                "name": "Disney+",
-                "channel": "Disney+",
-                "url": "https://tvtvhd.com/canal.php?stream=espn",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lc3Bu"
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-06-27T19:00:00Z",
-        "flagUrl": "https://cdn.ftvhd.com/uploads/Rugby_f99a2b54da.png",
-        "league": "Fútbol",
-        "homeTeam": "Rugby – Top 14 – Toulouse",
-        "awayTeam": "Montpellier",
-        "servers": [
-            {
-                "name": "ESPN 4",
-                "channel": "ESPN 4",
-                "url": "https://tvhd2.com/canal.php?stream=espn4",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vY2FuYWxlcy5waHA/c3RyZWFtPWVzcG40"
-            },
-            {
-                "name": "ESPN 4 | OP2",
-                "channel": "ESPN 4 | OP2",
-                "url": "https://tvhd2.com/vivo/canal.php?stream=espn4",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vdml2by9jYW5hbC5waHA/c3RyZWFtPWVzcG40"
-            },
-            {
-                "name": "ESPN 4 | OP3",
-                "channel": "ESPN 4 | OP3",
-                "url": "https://tvhd2.com/vivo/canal.php?stream=espn4",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vdml2by9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjQ="
-            }
-        ],
-        "id": 2
-    },
-    {
         "datetime": "2026-06-27T21:00:00Z",
         "flagUrl": "https://cdn.ftvhd.com/uploads/copamundial_69c33e7ee4.png",
         "league": "Copa del Mundo",
         "homeTeam": "Croacia",
         "awayTeam": "Ghana",
         "servers": [
+            {
+                "name": "Tigo Sports 2",
+                "channel": "Tigo Sports 2",
+                "url": "https://tvhd2.com/online/canal.php?stream=even2",
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vb25saW5lL2NhbmFsZXMucGhwP3N0cmVhbT1ldmVuMg=="
+            },
+            {
+                "name": "Tigo Sports 2 HD",
+                "channel": "Tigo Sports 2 HD",
+                "url": "https://tvhd2.com/online/canal.php?stream=even2",
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vb25saW5lL2NhbmFsZXMucGhwP3N0cmVhbT1ldmVuMg=="
+            },
             {
                 "name": "Dsports 2",
                 "channel": "Dsports 2",
@@ -87,7 +55,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vY2FuYWxlcy5waHA/c3RyZWFtPWZveHNwb3J0czFfdXNh"
             }
         ],
-        "id": 3
+        "id": 1
     },
     {
         "datetime": "2026-06-27T21:00:00Z",
@@ -185,9 +153,15 @@
                 "channel": "Canal 5 MX",
                 "url": "https://tvhd2.com/canal.php?stream=canal5",
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vY2FuYWxlcy5waHA/c3RyZWFtPWNhbmFsNQ=="
+            },
+            {
+                "name": "Deportes TV. C",
+                "channel": "Deportes TV. C",
+                "url": "https://tvhd2.com/canal.php?stream=goltv",
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vY2FuYWxlcy5waHA/c3RyZWFtPWdvbHR2"
             }
         ],
-        "id": 4
+        "id": 2
     },
     {
         "datetime": "2026-06-27T22:00:00Z",
@@ -199,11 +173,11 @@
             {
                 "name": "Disney+",
                 "channel": "Disney+",
-                "url": "https://tvtvhd.com/canal.php?stream=espn",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lc3Bu"
+                "url": "https://tvhd2.com/canal.php?stream=espn",
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vY2FuYWxlcy5waHA/c3RyZWFtPWVzcG4="
             }
         ],
-        "id": 5
+        "id": 3
     },
     {
         "datetime": "2026-06-27T23:30:00Z",
@@ -285,7 +259,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vb25saW5lL2NhbmFsZXMucGhwP3N0cmVhbT1hbWVyaWNhdHY="
             }
         ],
-        "id": 6
+        "id": 4
     },
     {
         "datetime": "2026-06-27T23:30:00Z",
@@ -355,7 +329,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vY2FuYWxlcy5waHA/c3RyZWFtPWZveHNwb3J0czFfdXNh"
             }
         ],
-        "id": 7
+        "id": 5
     },
     {
         "datetime": "2026-06-28T02:00:00Z",
@@ -413,7 +387,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vY2FuYWxlcy5waHA/c3RyZWFtPWZveHNwb3J0czFfdXNh"
             }
         ],
-        "id": 8
+        "id": 6
     },
     {
         "datetime": "2026-06-28T02:00:00Z",
@@ -513,6 +487,6 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vb25saW5lL2NhbmFsZXMucGhwP3N0cmVhbT13aW5zcG9ydHM="
             }
         ],
-        "id": 9
+        "id": 7
     }
 ]
