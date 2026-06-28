@@ -1,39 +1,5 @@
 [
     {
-        "datetime": "2026-06-28T19:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
-        "league": "Copa del Mundo",
-        "homeTeam": "Sur África",
-        "awayTeam": "Canadá",
-        "servers": [
-            {
-                "name": "Opción (Español)",
-                "channel": "Opción (Español)",
-                "url": "https://la16hd.com/dsportsar.php",
-                "iframe": "https://la16hd.com/dsportsar.php"
-            },
-            {
-                "name": "DSPORTS",
-                "channel": "DSPORTS",
-                "url": "https://la20hd.com/vivo/canal.php?stream=dsports",
-                "iframe": "https://la20hd.com/vivo/canales.php?stream=dsports"
-            },
-            {
-                "name": "VTVPLUS",
-                "channel": "VTVPLUS",
-                "url": "https://la20hd.com/vivo/canal.php?stream=vtvplus",
-                "iframe": "https://la20hd.com/vivo/canales.php?stream=vtvplus"
-            },
-            {
-                "name": "TELEMUNDO",
-                "channel": "TELEMUNDO",
-                "url": "https://la20hd.com/vivo/canal.php?stream=telemundo",
-                "iframe": "https://la20hd.com/vivo/canales.php?stream=telemundo"
-            }
-        ],
-        "id": 1
-    },
-    {
         "datetime": "2026-06-28T21:00:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/uruguay_e2b9597af8.png",
         "league": "Segunda División",
@@ -47,6 +13,6 @@
                 "iframe": "https://la20hd.com/vivo/canales.php?stream=disney3"
             }
         ],
-        "id": 2
+        "id": 1
     }
 ]
