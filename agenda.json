@@ -1,33 +1,5 @@
 [
     {
-        "datetime": "2026-06-27T22:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/uruguay_e2b9597af8.png",
-        "league": "Segunda División",
-        "homeTeam": "Paysandu",
-        "awayTeam": "Miramar Misiones",
-        "servers": [
-            {
-                "name": "DISNEY4",
-                "channel": "DISNEY4",
-                "url": "https://la20hd.com/vivo/canal.php?stream=disney4",
-                "iframe": "https://la20hd.com/vivo/canales.php?stream=disney4"
-            },
-            {
-                "name": "Disney+",
-                "channel": "Disney+",
-                "url": "https://tvhd2.com/canal.php?stream=espn",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vY2FuYWxlcy5waHA/c3RyZWFtPWVzcG4="
-            },
-            {
-                "name": "Disney+",
-                "channel": "Disney+",
-                "url": "https://la20hd.com/vivo/canal.php?stream=disney4",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTIwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXk0"
-            }
-        ],
-        "id": 1
-    },
-    {
         "datetime": "2026-06-27T23:30:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
         "league": "Copa del Mundo",
@@ -45,12 +17,6 @@
                 "channel": "Opción (Español)",
                 "url": "https://la16hd.com/dsportsar.php",
                 "iframe": "https://la16hd.com/dsportsar.php"
-            },
-            {
-                "name": "Opción (Español)",
-                "channel": "Opción (Español)",
-                "url": "https://la16hd.com/dsportslatam.php",
-                "iframe": "https://la16hd.com/dsportslatam.php"
             },
             {
                 "name": "AMERICATV",
@@ -71,181 +37,13 @@
                 "iframe": "https://la18hd.com/vivo/canales.php?stream=disney5"
             },
             {
-                "name": "Opción (Español)",
-                "channel": "Opción (Español)",
-                "url": "https://la16hd.com/canal5mx.php",
-                "iframe": "https://la16hd.com/canal5mx.php"
-            },
-            {
-                "name": "Opción (Español)",
-                "channel": "Opción (Español)",
-                "url": "https://la16hd.com/la1tve.php",
-                "iframe": "https://la16hd.com/la1tve.php"
-            },
-            {
                 "name": "TELEMUNDO",
                 "channel": "TELEMUNDO",
                 "url": "https://la20hd.com/vivo/canal.php?stream=telemundo",
                 "iframe": "https://la20hd.com/vivo/canales.php?stream=telemundo"
-            },
-            {
-                "name": "DSports",
-                "channel": "DSports",
-                "url": "https://tvhd2.com/canal.php?stream=dsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vY2FuYWxlcy5waHA/c3RyZWFtPWRzcG9ydHM="
-            },
-            {
-                "name": "DSports | OP2",
-                "channel": "DSports | OP2",
-                "url": "https://tvhd2.com/vivo/canal.php?stream=dsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vdml2by9jYW5hbC5waHA/c3RyZWFtPWRzcG9ydHM="
-            },
-            {
-                "name": "DSports | OP3",
-                "channel": "DSports | OP3",
-                "url": "https://tvhd2.com/vivo/canal.php?stream=dsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vdml2by9jYW5hbGVzLnBocD9zdHJlYW09ZHNwb3J0cw=="
-            },
-            {
-                "name": "DSports HD",
-                "channel": "DSports HD",
-                "url": "https://tvhd2.com/online/canal.php?stream=dsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vb25saW5lL2NhbmFsZXMucGhwP3N0cmVhbT1kc3BvcnRz"
-            },
-            {
-                "name": "Tigo Sports",
-                "channel": "Tigo Sports",
-                "url": "https://tvhd2.com/online/canal.php?stream=even1",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vb25saW5lL2NhbmFsZXMucGhwP3N0cmVhbT1ldmVuMQ=="
-            },
-            {
-                "name": "Tigo Sports HD",
-                "channel": "Tigo Sports HD",
-                "url": "https://tvhd2.com/online/canal.php?stream=even1",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vb25saW5lL2NhbmFsZXMucGhwP3N0cmVhbT1ldmVuMQ=="
-            },
-            {
-                "name": "Sportv BR",
-                "channel": "Sportv BR",
-                "url": "https://tvtvhd.com/vivo/canal.php?stream=sportv",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPXNwb3J0dg=="
-            },
-            {
-                "name": "Telemundo",
-                "channel": "Telemundo",
-                "url": "https://tvhd2.com/canal.php?stream=telemundo",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vY2FuYWxlcy5waHA/c3RyZWFtPXRlbGVtdW5kbw=="
-            },
-            {
-                "name": "Telemundo HD",
-                "channel": "Telemundo HD",
-                "url": "https://tvhd2.com/online/canal.php?stream=telemundo",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vb25saW5lL2NhbmFsZXMucGhwP3N0cmVhbT10ZWxlbXVuZG8="
-            },
-            {
-                "name": "Sportv BR HD",
-                "channel": "Sportv BR HD",
-                "url": "https://tvtvhd.com/online/canal.php?stream=sportv",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09c3BvcnR2"
-            },
-            {
-                "name": "Caracol TV",
-                "channel": "Caracol TV",
-                "url": "https://tvhd2.com/canal.php?stream=caracol",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vY2FuYWxlcy5waHA/c3RyZWFtPWNhcmFjb2w="
-            },
-            {
-                "name": "Canal 5 MX",
-                "channel": "Canal 5 MX",
-                "url": "https://tvhd2.com/canal.php?stream=canal5",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vY2FuYWxlcy5waHA/c3RyZWFtPWNhbmFsNQ=="
-            },
-            {
-                "name": "America Television",
-                "channel": "America Television",
-                "url": "https://tvhd2.com/canal.php?stream=americatv",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vY2FuYWxlcy5waHA/c3RyZWFtPWFtZXJpY2F0dg=="
-            },
-            {
-                "name": "America TV | HD",
-                "channel": "America TV | HD",
-                "url": "https://tvhd2.com/online/canal.php?stream=americatv",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vb25saW5lL2NhbmFsZXMucGhwP3N0cmVhbT1hbWVyaWNhdHY="
-            },
-            {
-                "name": "Deportes TV. C",
-                "channel": "Deportes TV. C",
-                "url": "https://tvhd2.com/canal.php?stream=goltv",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vY2FuYWxlcy5waHA/c3RyZWFtPWdvbHR2"
-            },
-            {
-                "name": "Dsports",
-                "channel": "Dsports",
-                "url": "https://la20hd.com/vivo/canal.php?stream=dsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTIwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kc3BvcnRz"
-            },
-            {
-                "name": "Dsports HD",
-                "channel": "Dsports HD",
-                "url": "https://la16hd.com/dsportsar.php",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE2aGQuY29tL2RzcG9ydHNhci5waHA="
-            },
-            {
-                "name": "Dsports HD LATAM",
-                "channel": "Dsports HD LATAM",
-                "url": "https://la16hd.com/dsportslatam.php",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE2aGQuY29tL2RzcG9ydHNsYXRhbS5waHA="
-            },
-            {
-                "name": "Dsports Movil",
-                "channel": "Dsports Movil",
-                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/directvperu.html",
-                "iframe": "/embed/eventos?r=aHR0cHM6Ly9yb2phZGlyZWN0YXR2ZS5jb20vc3czLmh0bWw/Z2V0PWh0dHBzOi8vcm9qYWRpcmVjdGF0dmUuY29tL3JlcHJvL2RpcmVjdHZwZXJ1Lmh0bWw="
-            },
-            {
-                "name": "America TV",
-                "channel": "America TV",
-                "url": "https://la20hd.com/vivo/canal.php?stream=americatv",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTIwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1hbWVyaWNhdHY="
-            },
-            {
-                "name": "America TV Movil",
-                "channel": "America TV Movil",
-                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/americatv1.html",
-                "iframe": "/embed/eventos?r=aHR0cHM6Ly9yb2phZGlyZWN0YXR2ZS5jb20vc3czLmh0bWw/Z2V0PWh0dHBzOi8vcm9qYWRpcmVjdGF0dmUuY29tL3JlcHJvL2FtZXJpY2F0djEuaHRtbA=="
-            },
-            {
-                "name": "Caracol TV",
-                "channel": "Caracol TV",
-                "url": "https://la20hd.com/vivo/canal.php?stream=caracol",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTIwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1jYXJhY29s"
-            },
-            {
-                "name": "Disney+",
-                "channel": "Disney+",
-                "url": "https://la18hd.com/vivo/canal.php?stream=disney5",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXk1"
-            },
-            {
-                "name": "Canal 5 MX",
-                "channel": "Canal 5 MX",
-                "url": "https://la16hd.com/canal5mx.php",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE2aGQuY29tL2NhbmFsNW14LnBocA=="
-            },
-            {
-                "name": "TVE La 1  HD",
-                "channel": "TVE La 1  HD",
-                "url": "https://la16hd.com/la1tve.php",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE2aGQuY29tL2xhMXR2ZS5waHA="
-            },
-            {
-                "name": "Telemundo",
-                "channel": "Telemundo",
-                "url": "https://la20hd.com/vivo/canal.php?stream=telemundo",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTIwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT10ZWxlbXVuZG8="
             }
         ],
-        "id": 2
+        "id": 1
     },
     {
         "datetime": "2026-06-27T23:30:00Z",
@@ -283,123 +81,9 @@
                 "channel": "FOXSPORTS1 USA",
                 "url": "https://la20hd.com/vivo/canal.php?stream=foxsports1_usa",
                 "iframe": "https://la20hd.com/vivo/canales.php?stream=foxsports1_usa"
-            },
-            {
-                "name": "DSports +",
-                "channel": "DSports +",
-                "url": "https://tvhd2.com/canal.php?stream=dsportsplus",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vY2FuYWxlcy5waHA/c3RyZWFtPWRzcG9ydHNwbHVz"
-            },
-            {
-                "name": "DSports + I OP2",
-                "channel": "DSports + I OP2",
-                "url": "https://tvhd2.com/vivo/canal.php?stream=dsportsplus",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vdml2by9jYW5hbC5waHA/c3RyZWFtPWRzcG9ydHNwbHVz"
-            },
-            {
-                "name": "DSports + | OP3",
-                "channel": "DSports + | OP3",
-                "url": "https://tvhd2.com/vivo/canal.php?stream=dsportsplus",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vdml2by9jYW5hbGVzLnBocD9zdHJlYW09ZHNwb3J0c3BsdXM="
-            },
-            {
-                "name": "DSports + | HD",
-                "channel": "DSports + | HD",
-                "url": "https://tvhd2.com/online/canal.php?stream=dsportsplus",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vb25saW5lL2NhbmFsZXMucGhwP3N0cmVhbT1kc3BvcnRzcGx1cw=="
-            },
-            {
-                "name": "Tigo Sports 2",
-                "channel": "Tigo Sports 2",
-                "url": "https://tvhd2.com/online/canal.php?stream=even2",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vb25saW5lL2NhbmFsZXMucGhwP3N0cmVhbT1ldmVuMg=="
-            },
-            {
-                "name": "Tigo Sports 2 HD",
-                "channel": "Tigo Sports 2 HD",
-                "url": "https://tvhd2.com/online/canal.php?stream=even2",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vb25saW5lL2NhbmFsZXMucGhwP3N0cmVhbT1ldmVuMg=="
-            },
-            {
-                "name": "TYC Sports",
-                "channel": "TYC Sports",
-                "url": "https://tvhd2.com/canal.php?stream=tycsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vY2FuYWxlcy5waHA/c3RyZWFtPXR5Y3Nwb3J0cw=="
-            },
-            {
-                "name": "TyC Sports | OP2",
-                "channel": "TyC Sports | OP2",
-                "url": "https://tvhd2.com/vivo/canal.php?stream=tycsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vdml2by9jYW5hbC5waHA/c3RyZWFtPXR5Y3Nwb3J0cw=="
-            },
-            {
-                "name": "TYC Sports | OP3",
-                "channel": "TYC Sports | OP3",
-                "url": "https://tvhd2.com/vivo/canal.php?stream=tycsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vdml2by9jYW5hbGVzLnBocD9zdHJlYW09dHljc3BvcnRz"
-            },
-            {
-                "name": "TYC Sports HD",
-                "channel": "TYC Sports HD",
-                "url": "https://tvhd2.com/online/canal.php?stream=tycsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vb25saW5lL2NhbmFsZXMucGhwP3N0cmVhbT10eWNzcG9ydHM="
-            },
-            {
-                "name": "Universo",
-                "channel": "Universo",
-                "url": "https://tvhd2.com/canal.php?stream=universo",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vY2FuYWxlcy5waHA/c3RyZWFtPXVuaXZlcnNv"
-            },
-            {
-                "name": "FOX Sports 1 USA",
-                "channel": "FOX Sports 1 USA",
-                "url": "https://tvhd2.com/canal.php?stream=foxsports1_usa",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vY2FuYWxlcy5waHA/c3RyZWFtPWZveHNwb3J0czFfdXNh"
-            },
-            {
-                "name": "Dsports+",
-                "channel": "Dsports+",
-                "url": "https://la20hd.com/vivo/canal.php?stream=dsportsplus",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTIwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kc3BvcnRzcGx1cw=="
-            },
-            {
-                "name": "Dsports+ Movil",
-                "channel": "Dsports+ Movil",
-                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/dsportsplus.html",
-                "iframe": "/embed/eventos?r=aHR0cHM6Ly9yb2phZGlyZWN0YXR2ZS5jb20vc3czLmh0bWw/Z2V0PWh0dHBzOi8vcm9qYWRpcmVjdGF0dmUuY29tL3JlcHJvL2RzcG9ydHNwbHVzLmh0bWw="
-            },
-            {
-                "name": "Dsports+ | OP2",
-                "channel": "Dsports+ | OP2",
-                "url": "https://la20hd.com/vivo/canal.php?stream=eventos15",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTIwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1ldmVudG9zMTU="
-            },
-            {
-                "name": "TyC Sports",
-                "channel": "TyC Sports",
-                "url": "https://la20hd.com/vivo/canal.php?stream=tycsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTIwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT10eWNzcG9ydHM="
-            },
-            {
-                "name": "TyC Sports Movil",
-                "channel": "TyC Sports Movil",
-                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/tycsportsarg.html",
-                "iframe": "/embed/eventos?r=aHR0cHM6Ly9yb2phZGlyZWN0YXR2ZS5jb20vc3czLmh0bWw/Z2V0PWh0dHBzOi8vcm9qYWRpcmVjdGF0dmUuY29tL3JlcHJvL3R5Y3Nwb3J0c2FyZy5odG1s"
-            },
-            {
-                "name": "Universo",
-                "channel": "Universo",
-                "url": "https://la20hd.com/vivo/canal.php?stream=universo",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTIwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT11bml2ZXJzbw=="
-            },
-            {
-                "name": "FOX Sports 1 USA",
-                "channel": "FOX Sports 1 USA",
-                "url": "https://la20hd.com/vivo/canal.php?stream=foxsports1_usa",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTIwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1mb3hzcG9ydHMxX3VzYQ=="
             }
         ],
-        "id": 3
+        "id": 2
     },
     {
         "datetime": "2026-06-28T02:00:00Z",
@@ -431,87 +115,9 @@
                 "channel": "FOXSPORTS1 USA",
                 "url": "https://la20hd.com/vivo/canal.php?stream=foxsports1_usa",
                 "iframe": "https://la20hd.com/vivo/canales.php?stream=foxsports1_usa"
-            },
-            {
-                "name": "Dsports 2",
-                "channel": "Dsports 2",
-                "url": "https://tvhd2.com/vivo/canal.php?stream=dsports2",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vdml2by9jYW5hbC5waHA/c3RyZWFtPWRzcG9ydHMy"
-            },
-            {
-                "name": "Dsports 2 | OP2",
-                "channel": "Dsports 2 | OP2",
-                "url": "https://tvhd2.com/canal.php?stream=dsports2",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vY2FuYWxlcy5waHA/c3RyZWFtPWRzcG9ydHMy"
-            },
-            {
-                "name": "Dsports 2 | OP3",
-                "channel": "Dsports 2 | OP3",
-                "url": "https://tvhd2.com/vivo/canal.php?stream=dsports2",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vdml2by9jYW5hbGVzLnBocD9zdHJlYW09ZHNwb3J0czI="
-            },
-            {
-                "name": "Dsports 2 | HD",
-                "channel": "Dsports 2 | HD",
-                "url": "https://tvhd2.com/online/canal.php?stream=dsports2",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vb25saW5lL2NhbmFsZXMucGhwP3N0cmVhbT1kc3BvcnRzMg=="
-            },
-            {
-                "name": "Sportv BR",
-                "channel": "Sportv BR",
-                "url": "https://tvtvhd.com/vivo/canal.php?stream=sportv",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPXNwb3J0dg=="
-            },
-            {
-                "name": "Sportv BR HD",
-                "channel": "Sportv BR HD",
-                "url": "https://tvtvhd.com/online/canal.php?stream=sportv",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09c3BvcnR2"
-            },
-            {
-                "name": "Universo",
-                "channel": "Universo",
-                "url": "https://tvhd2.com/canal.php?stream=universo",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vY2FuYWxlcy5waHA/c3RyZWFtPXVuaXZlcnNv"
-            },
-            {
-                "name": "FOX Sports 1 USA",
-                "channel": "FOX Sports 1 USA",
-                "url": "https://tvhd2.com/canal.php?stream=foxsports1_usa",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vY2FuYWxlcy5waHA/c3RyZWFtPWZveHNwb3J0czFfdXNh"
-            },
-            {
-                "name": "Dsports 2 HD",
-                "channel": "Dsports 2 HD",
-                "url": "https://la16hd.com/dsports2ar.php",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE2aGQuY29tL2RzcG9ydHMyYXIucGhw"
-            },
-            {
-                "name": "Dsports 2",
-                "channel": "Dsports 2",
-                "url": "https://la20hd.com/vivo/canal.php?stream=dsports2",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTIwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kc3BvcnRzMg=="
-            },
-            {
-                "name": "Dsports 2 Movil",
-                "channel": "Dsports 2 Movil",
-                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/dsports2.html",
-                "iframe": "/embed/eventos?r=aHR0cHM6Ly9yb2phZGlyZWN0YXR2ZS5jb20vc3czLmh0bWw/Z2V0PWh0dHBzOi8vcm9qYWRpcmVjdGF0dmUuY29tL3JlcHJvL2RzcG9ydHMyLmh0bWw="
-            },
-            {
-                "name": "Universo",
-                "channel": "Universo",
-                "url": "https://la20hd.com/vivo/canal.php?stream=universo",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTIwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT11bml2ZXJzbw=="
-            },
-            {
-                "name": "FOX Sports 1 USA",
-                "channel": "FOX Sports 1 USA",
-                "url": "https://la20hd.com/vivo/canal.php?stream=foxsports1_usa",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTIwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1mb3hzcG9ydHMxX3VzYQ=="
             }
         ],
-        "id": 4
+        "id": 3
     },
     {
         "datetime": "2026-06-28T02:00:00Z",
@@ -525,12 +131,6 @@
                 "channel": "Opción (Español)",
                 "url": "https://la16hd.com/dsportsar.php",
                 "iframe": "https://la16hd.com/dsportsar.php"
-            },
-            {
-                "name": "Opción (Español)",
-                "channel": "Opción (Español)",
-                "url": "https://la16hd.com/dsportslatam.php",
-                "iframe": "https://la16hd.com/dsportslatam.php"
             },
             {
                 "name": "DSPORTS",
@@ -573,164 +173,8 @@
                 "channel": "TELEMUNDO",
                 "url": "https://la20hd.com/vivo/canal.php?stream=telemundo",
                 "iframe": "https://la20hd.com/vivo/canales.php?stream=telemundo"
-            },
-            {
-                "name": "DSports",
-                "channel": "DSports",
-                "url": "https://tvhd2.com/canal.php?stream=dsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vY2FuYWxlcy5waHA/c3RyZWFtPWRzcG9ydHM="
-            },
-            {
-                "name": "DSports | OP2",
-                "channel": "DSports | OP2",
-                "url": "https://tvhd2.com/vivo/canal.php?stream=dsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vdml2by9jYW5hbC5waHA/c3RyZWFtPWRzcG9ydHM="
-            },
-            {
-                "name": "DSports | OP3",
-                "channel": "DSports | OP3",
-                "url": "https://tvhd2.com/vivo/canal.php?stream=dsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vdml2by9jYW5hbGVzLnBocD9zdHJlYW09ZHNwb3J0cw=="
-            },
-            {
-                "name": "DSports HD",
-                "channel": "DSports HD",
-                "url": "https://tvhd2.com/online/canal.php?stream=dsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vb25saW5lL2NhbmFsZXMucGhwP3N0cmVhbT1kc3BvcnRz"
-            },
-            {
-                "name": "TYC Sports",
-                "channel": "TYC Sports",
-                "url": "https://tvhd2.com/canal.php?stream=tycsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vY2FuYWxlcy5waHA/c3RyZWFtPXR5Y3Nwb3J0cw=="
-            },
-            {
-                "name": "TyC Sports | OP2",
-                "channel": "TyC Sports | OP2",
-                "url": "https://tvhd2.com/vivo/canal.php?stream=tycsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vdml2by9jYW5hbC5waHA/c3RyZWFtPXR5Y3Nwb3J0cw=="
-            },
-            {
-                "name": "TYC Sports | OP3",
-                "channel": "TYC Sports | OP3",
-                "url": "https://tvhd2.com/vivo/canal.php?stream=tycsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vdml2by9jYW5hbGVzLnBocD9zdHJlYW09dHljc3BvcnRz"
-            },
-            {
-                "name": "TYC Sports HD",
-                "channel": "TYC Sports HD",
-                "url": "https://tvhd2.com/online/canal.php?stream=tycsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vb25saW5lL2NhbmFsZXMucGhwP3N0cmVhbT10eWNzcG9ydHM="
-            },
-            {
-                "name": "Telemundo",
-                "channel": "Telemundo",
-                "url": "https://tvhd2.com/canal.php?stream=telemundo",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vY2FuYWxlcy5waHA/c3RyZWFtPXRlbGVtdW5kbw=="
-            },
-            {
-                "name": "Telemundo HD",
-                "channel": "Telemundo HD",
-                "url": "https://tvhd2.com/online/canal.php?stream=telemundo",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vb25saW5lL2NhbmFsZXMucGhwP3N0cmVhbT10ZWxlbXVuZG8="
-            },
-            {
-                "name": "Telefe",
-                "channel": "Telefe",
-                "url": "https://tvhd2.com/canal.php?stream=telefe",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vY2FuYWxlcy5waHA/c3RyZWFtPXRlbGVmZQ=="
-            },
-            {
-                "name": "Win Sports",
-                "channel": "Win Sports",
-                "url": "https://tvhd2.com/canal.php?stream=winsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vY2FuYWxlcy5waHA/c3RyZWFtPXdpbnNwb3J0cw=="
-            },
-            {
-                "name": "Win Sports | OP2",
-                "channel": "Win Sports | OP2",
-                "url": "https://tvhd2.com/vivo/canal.php?stream=winsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vdml2by9jYW5hbC5waHA/c3RyZWFtPXdpbnNwb3J0cw=="
-            },
-            {
-                "name": "Win Sports ┃OP3",
-                "channel": "Win Sports ┃OP3",
-                "url": "https://tvhd2.com/vivo/canal.php?stream=winsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vdml2by9jYW5hbGVzLnBocD9zdHJlYW09d2luc3BvcnRz"
-            },
-            {
-                "name": "Win Sports HD",
-                "channel": "Win Sports HD",
-                "url": "https://tvhd2.com/online/canal.php?stream=winsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vb25saW5lL2NhbmFsZXMucGhwP3N0cmVhbT13aW5zcG9ydHM="
-            },
-            {
-                "name": "Dsports HD",
-                "channel": "Dsports HD",
-                "url": "https://la16hd.com/dsportsar.php",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE2aGQuY29tL2RzcG9ydHNhci5waHA="
-            },
-            {
-                "name": "Dsports HD LATAM",
-                "channel": "Dsports HD LATAM",
-                "url": "https://la16hd.com/dsportslatam.php",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE2aGQuY29tL2RzcG9ydHNsYXRhbS5waHA="
-            },
-            {
-                "name": "Dsports Movil",
-                "channel": "Dsports Movil",
-                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/directvperu.html",
-                "iframe": "/embed/eventos?r=aHR0cHM6Ly9yb2phZGlyZWN0YXR2ZS5jb20vc3czLmh0bWw/Z2V0PWh0dHBzOi8vcm9qYWRpcmVjdGF0dmUuY29tL3JlcHJvL2RpcmVjdHZwZXJ1Lmh0bWw="
-            },
-            {
-                "name": "Dsports",
-                "channel": "Dsports",
-                "url": "https://la20hd.com/vivo/canal.php?stream=dsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTIwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kc3BvcnRz"
-            },
-            {
-                "name": "Dsports | OP2",
-                "channel": "Dsports | OP2",
-                "url": "https://la20hd.com/vivo/canal.php?stream=vtvplus",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTIwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT12dHZwbHVz"
-            },
-            {
-                "name": "Disney+",
-                "channel": "Disney+",
-                "url": "https://la18hd.com/vivo/canal.php?stream=disney6",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXk2"
-            },
-            {
-                "name": "Telefe",
-                "channel": "Telefe",
-                "url": "https://la20hd.com/vivo/canal.php?stream=telefe",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTIwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT10ZWxlZmU="
-            },
-            {
-                "name": "TyC Sports",
-                "channel": "TyC Sports",
-                "url": "https://la20hd.com/vivo/canal.php?stream=tycsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTIwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT10eWNzcG9ydHM="
-            },
-            {
-                "name": "TyC Sports Movil",
-                "channel": "TyC Sports Movil",
-                "url": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/tycsportsarg.html",
-                "iframe": "/embed/eventos?r=aHR0cHM6Ly9yb2phZGlyZWN0YXR2ZS5jb20vc3czLmh0bWw/Z2V0PWh0dHBzOi8vcm9qYWRpcmVjdGF0dmUuY29tL3JlcHJvL3R5Y3Nwb3J0c2FyZy5odG1s"
-            },
-            {
-                "name": "Win Sports",
-                "channel": "Win Sports",
-                "url": "https://la20hd.com/vivo/canal.php?stream=winsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTIwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT13aW5zcG9ydHM="
-            },
-            {
-                "name": "Telemundo",
-                "channel": "Telemundo",
-                "url": "https://la20hd.com/vivo/canal.php?stream=telemundo",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTIwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT10ZWxlbXVuZG8="
             }
         ],
-        "id": 5
+        "id": 4
     }
 ]
