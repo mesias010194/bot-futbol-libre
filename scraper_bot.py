@@ -17,11 +17,12 @@ API_KEY = "$2a$10$fH2AVYqUAGOQm6KLrAcdk.fsTBsZPp7sTDWydhhsWtaYfrLlnAWv."
 # ==========================================================
 # 2. ENLACES Y RESPALDOS DE LA AGENDA
 # ==========================================================
-# RED DE BÚSQUEDA: El bot buscará en TODAS estas páginas y fusionará los resultados.
+# MODO "PRINCIPAL + RESPALDO": El bot intentará con la primera. 
+# Si funciona, se detiene ahí. Solo si falla pasará a las siguientes.
 FUENTES_AGENDA = [
-    "https://la20hd.com/eventos/json/agenda123.json", # NUEVA FUENTE PRINCIPAL
-    "https://pltvhd.com/diaries.json",               # Secundaria (Aportará partidos faltantes)
-    "https://agenda18.com/agenda.json",              # Secundaria (Aportará partidos faltantes)
+    "https://la20hd.com/eventos/json/agenda123.json", # FUENTE PRINCIPAL
+    "https://pltvhd.com/diaries.json",               # Respaldo 1 (Pelota Libre)
+    "https://agenda18.com/agenda.json",              # Respaldo 2 (Fubolazo)
 ]
 
 API_BANDERAS = "https://agenda18.com/agenda.json"
@@ -35,8 +36,8 @@ HEADERS = {
 # ==========================================================
 # 3. TRUCO ANTI-ANUNCIOS (TRASPLANTE DE DOMINIO)
 # ==========================================================
-# Este es el dominio "limpio" que se usará para reemplazar los enlaces llenos
-# de anuncios que vienen de las páginas secundarias.
+# Si el bot tiene que usar una fuente de respaldo sucia, usará este 
+# dominio para limpiar los reproductores.
 DOMINIO_LIMPIO_ACTUAL = "la20hd.com" 
 
 # ==========================================================
@@ -97,7 +98,7 @@ def desencriptar_enlace(iframe_str):
 
 def procesar_fecha(fecha_str, hora_str):
     try:
-        # Aseguramos que la hora tenga el formato correcto HH:MM eliminando los segundos si los trae (ej. 22:00:00 -> 22:00)
+        # Aseguramos que la hora tenga el formato correcto HH:MM
         hora_str = str(hora_str)[:5] if hora_str else "00:00"
         fecha_hora_texto = f"{fecha_str} {hora_str}"
         fecha_obj = datetime.strptime(fecha_hora_texto, "%Y-%m-%d %H:%M")
@@ -142,11 +143,11 @@ def extraer_partidos():
         print(f"[!] Aviso: Error leyendo el servidor de banderas ({e})")
 
     # =========================================================================
-    # FASE 2: EXTRACCIÓN Y FUSIÓN DE AGENDAS (MERGE)
+    # FASE 2: EXTRACCIÓN DE AGENDA (MODO: PRINCIPAL + RESPALDO)
     # =========================================================================
-    print(f"[*] FASE 2: Buscando agenda en las fuentes y fusionando datos...")
-    partidos_agrupados = {}
-    hubo_exito = False
+    print(f"[*] FASE 2: Buscando agenda (Modo Principal con Respaldo)...")
+    datos_json = None
+    url_fuente_exitosa = ""
     
     for url_fuente in FUENTES_AGENDA:
         url_con_timestamp = f"{url_fuente}?_={timestamp}"
@@ -160,198 +161,199 @@ def extraer_partidos():
                 posible_json = posible_json.get("data", posible_json.get("record", posible_json.get("response", [])))
 
             if isinstance(posible_json, list) and len(posible_json) > 0:
-                print(f"    [+] ¡ÉXITO! Se encontraron {len(posible_json)} eventos. Procesando...")
-                hubo_exito = True
-                
-                # === SOLUCIÓN DE DOMINIO PARA IMÁGENES EXACTAS DE ESTA FUENTE ===
-                if "pltvhd.com" in url_fuente:
-                    url_fuente_base = "https://cdn.ftvhd.com" 
-                elif "agenda18.com" in url_fuente:
-                    url_fuente_base = "https://img.agenda18.com"
-                else:
-                    url_fuente_base = "https://" + url_fuente.split("/")[2] if url_fuente else ""
-                
-                for item in posible_json:
-                    servers_temporales = []
-                    url_logo_directo = ""
-                    
-                    # --- LÓGICA DE EXTRACCIÓN (Strapi CMS) ---
-                    if "attributes" in item:
-                        data_item = item["attributes"]
-                        titulo_completo = data_item.get("title", data_item.get("diary_description", "Partido en Vivo")).strip()
-                        
-                        fecha = data_item.get("date", data_item.get("diary_date", data_item.get("date_diary", "")))
-                        hora = data_item.get("time", data_item.get("diary_time", data_item.get("diary_hour", "")))
-                        estado = data_item.get("status", "").lower()
-                        
-                        rutas_img = [
-                            obtener_anidado(data_item, "country", "data", "attributes", "image", "data", "attributes", "url"),
-                            obtener_anidado(data_item, "league", "data", "attributes", "image", "data", "attributes", "url"),
-                            obtener_anidado(data_item, "image", "data", "attributes", "url")
-                        ]
-                        for path in rutas_img:
-                            if path and isinstance(path, str) and len(path) > 5:
-                                if path.startswith("http"):
-                                    url_logo_directo = path
-                                else:
-                                    url_logo_directo = url_fuente_base + path if path.startswith("/") else url_fuente_base + "/" + path
-                                break
-                        
-                        if "embeds" in data_item and "data" in data_item["embeds"]:
-                            for embed in data_item["embeds"]["data"]:
-                                emb_attrs = embed.get("attributes", {})
-                                e_name = emb_attrs.get("embed_name", "Opción")
-                                e_iframe = emb_attrs.get("embed_iframe", "")
-                                if e_iframe:
-                                    servers_temporales.append({"name": e_name, "iframe": e_iframe})
-                                    
-                        else:
-                            link = data_item.get("link", data_item.get("url", data_item.get("embed_url", data_item.get("iframe", ""))))
-                            canal = data_item.get("channel", data_item.get("diary_channel", data_item.get("canal", "")))
-                            idioma = data_item.get("language", "Español")
-                            if link:
-                                c_name = str(canal).strip() if canal else f"Opción ({idioma})"
-                                servers_temporales.append({"name": c_name, "iframe": link})
-                                
-                    else:
-                        # Estructura plana
-                        titulo_completo = item.get("title", "Partido en Vivo").strip()
-                        fecha = item.get("date", item.get("date_diary", ""))
-                        hora = item.get("time", item.get("diary_hour", ""))
-                        estado = item.get("status", "").lower()
-                        
-                        rutas_img = [item.get("image"), item.get("country_image"), item.get("league_image")]
-                        for path in rutas_img:
-                            if path and isinstance(path, str) and len(path) > 5:
-                                if path.startswith("http"): url_logo_directo = path
-                                else: url_logo_directo = url_fuente_base + path if path.startswith("/") else url_fuente_base + "/" + path
-                                break
-
-                        link = item.get("link", item.get("url", item.get("embed_url", item.get("iframe", ""))))
-                        canal = item.get("channel", item.get("canal", ""))
-                        idioma = item.get("language", "Español")
-                        if link:
-                            c_name = str(canal).strip() if canal else f"Opción ({idioma})"
-                            servers_temporales.append({"name": c_name, "iframe": link})
-                    
-                    if "finalizado" in estado or "terminado" in estado:
-                         continue
-                         
-                    datetime_utc, fecha_obj_utc = procesar_fecha(fecha, hora)
-                    
-                    # --- FILTRO DE LIMPIEZA: 160 MINUTOS ---
-                    ahora_utc = datetime.now(timezone.utc)
-                    minutos_transcurridos = (ahora_utc - fecha_obj_utc).total_seconds() / 60
-                    
-                    if minutos_transcurridos > 160:
-                        continue
-                    
-                    if not titulo_completo:
-                        continue
-                        
-                    # NORMALIZACIÓN EXTREMA PARA EVITAR DUPLICADOS
-                    # Quitamos todos los espacios, signos y puntuaciones para que los nombres
-                    # sean idénticos (ej. "Copa del Mundo: Peru vs Brasil " -> "copadelmundoperuvsbrasil")
-                    titulo_para_clave = re.sub(r'[^a-z0-9]', '', titulo_completo.lower())
-                    match_key = f"{datetime_utc}_{titulo_para_clave}"
-                    
-                    # Si el partido no existe, lo creamos con todos sus datos visuales.
-                    # Si ya existe (porque lo descargamos de una página anterior), 
-                    # nos saltamos esto y pasamos directo a agregarle los links nuevos.
-                    if match_key not in partidos_agrupados:
-                        liga = "Fútbol"
-                        encuentro = titulo_completo
-                        if ":" in titulo_completo:
-                            partes = titulo_completo.split(":", 1)
-                            liga = partes[0].strip()
-                            encuentro = partes[1].strip()
-                            
-                        home_team = encuentro
-                        away_team = ""
-                        if " vs " in encuentro.lower():
-                            equipos = re.split(r'\s+vs\s+', encuentro, flags=re.IGNORECASE)
-                            home_team = equipos[0].strip()
-                            away_team = equipos[1].strip()
-                        
-                        bandera_magica = url_logo_directo
-                        
-                        if not bandera_magica:
-                            titulo_busqueda = titulo_completo.lower()
-                            for clave_texto, url_logo in diccionario_banderas.items():
-                                 if (home_team.lower() in clave_texto and away_team.lower() in clave_texto) or (titulo_busqueda in clave_texto) or (clave_texto in titulo_busqueda):
-                                    bandera_magica = url_logo
-                                    break
-                                    
-                        if not bandera_magica:
-                            bandera_magica = obtener_bandera(liga, encuentro)
-
-                        partidos_agrupados[match_key] = {
-                            "datetime": datetime_utc,
-                            "flagUrl": bandera_magica,
-                            "league": liga,
-                            "homeTeam": home_team,
-                            "awayTeam": away_team,
-                            "servers": []
-                        }
-
-                    # FUSIONANDO CANALES (Agregar los canales al evento)
-                    for srv in servers_temporales:
-                        canal_nombre = srv["name"]
-                        link = srv["iframe"]
-                        
-                        if ("Opción" in canal_nombre or not canal_nombre) and "stream=" in str(link):
-                            try:
-                                canal_raw = str(link).split("stream=")[-1].split('"')[0].split('&')[0].replace("_", " ").upper()
-                                canal_nombre = f"{canal_raw}"
-                            except:
-                                pass
-                        
-                        url_limpia = desencriptar_enlace(link)
-                        url_segura = url_limpia.replace("\\/", "/")
-                        
-                        # ==========================================================
-                        # EJECUCIÓN DEL TRUCO ANTI-ANUNCIOS
-                        # ==========================================================
-                        if DOMINIO_LIMPIO_ACTUAL:
-                            dominios_sucios = [
-                                "pltvhd.com", "embed.pltvhd.com", 
-                                "agenda18.com", "embed.agenda18.com",
-                                "tiofutbol.com"
-                            ]
-                            for dominio in dominios_sucios:
-                                if dominio in url_segura:
-                                    url_segura = url_segura.replace(dominio, DOMINIO_LIMPIO_ACTUAL)
-
-                        url_segura = url_segura.replace("canales.php", "canal.php")
-                        url_segura = url_segura.replace("embed.php", "canal.php")
-                        # ==========================================================
-                        
-                        # Evitar agregar enlaces duplicados para el mismo partido
-                        existe = False
-                        for s in partidos_agrupados[match_key]["servers"]:
-                            if s["url"] == url_segura and s["name"] == canal_nombre:
-                                existe = True
-                                break
-                                
-                        if not existe:
-                            partidos_agrupados[match_key]["servers"].append({
-                                "name": canal_nombre,
-                                "channel": canal_nombre,  
-                                "url": url_segura,
-                                "iframe": link 
-                            })
+                print(f"    [+] ¡ÉXITO! Agenda descargada correctamente desde: {url_fuente}")
+                datos_json = posible_json
+                url_fuente_exitosa = url_fuente
+                break # <--- LA MAGIA ESTÁ AQUÍ: Se detiene en la primera que funciona.
             else:
                 print(f"    [!] Conectó, pero la agenda estaba vacía.")
                 
         except Exception as e:
-            print(f"    [X] Servidor caído o error de conexión. Pasando al siguiente... ({e})")
+            print(f"    [X] Falló esta fuente. Pasando a la siguiente de respaldo... ({e})")
             continue 
 
-    if not hubo_exito:
-        print("[X] ERROR CRÍTICO: Todas las páginas de la red de respaldo están caídas en este momento.")
+    if not datos_json:
+        print("[X] ERROR CRÍTICO: Todas las páginas (Principal y Respaldos) están caídas.")
         return None
-        
+
     try:
+        partidos_agrupados = {}
+        
+        # === SOLUCIÓN DE DOMINIO PARA IMÁGENES EXACTAS DE ESTA FUENTE ===
+        if "pltvhd.com" in url_fuente_exitosa:
+            url_fuente_base = "https://cdn.ftvhd.com" 
+        elif "agenda18.com" in url_fuente_exitosa:
+            url_fuente_base = "https://img.agenda18.com"
+        else:
+            url_fuente_base = "https://" + url_fuente_exitosa.split("/")[2] if url_fuente_exitosa else ""
+        
+        for item in datos_json:
+            servers_temporales = []
+            url_logo_directo = ""
+            
+            # --- LÓGICA DE EXTRACCIÓN (Strapi CMS) ---
+            if "attributes" in item:
+                data_item = item["attributes"]
+                titulo_completo = data_item.get("title", data_item.get("diary_description", "Partido en Vivo")).strip()
+                
+                fecha = data_item.get("date", data_item.get("diary_date", data_item.get("date_diary", "")))
+                hora = data_item.get("time", data_item.get("diary_time", data_item.get("diary_hour", "")))
+                estado = data_item.get("status", "").lower()
+                
+                rutas_img = [
+                    obtener_anidado(data_item, "country", "data", "attributes", "image", "data", "attributes", "url"),
+                    obtener_anidado(data_item, "league", "data", "attributes", "image", "data", "attributes", "url"),
+                    obtener_anidado(data_item, "image", "data", "attributes", "url")
+                ]
+                for path in rutas_img:
+                    if path and isinstance(path, str) and len(path) > 5:
+                        if path.startswith("http"):
+                            url_logo_directo = path
+                        else:
+                            url_logo_directo = url_fuente_base + path if path.startswith("/") else url_fuente_base + "/" + path
+                        break
+                
+                if "embeds" in data_item and "data" in data_item["embeds"]:
+                    for embed in data_item["embeds"]["data"]:
+                        emb_attrs = embed.get("attributes", {})
+                        e_name = emb_attrs.get("embed_name", "Opción")
+                        e_iframe = emb_attrs.get("embed_iframe", "")
+                        if e_iframe:
+                            servers_temporales.append({"name": e_name, "iframe": e_iframe})
+                            
+                else:
+                    link = data_item.get("link", data_item.get("url", data_item.get("embed_url", data_item.get("iframe", ""))))
+                    canal = data_item.get("channel", data_item.get("diary_channel", data_item.get("canal", "")))
+                    idioma = data_item.get("language", "Español")
+                    if link:
+                        c_name = str(canal).strip() if canal else f"Opción ({idioma})"
+                        servers_temporales.append({"name": c_name, "iframe": link})
+                        
+            else:
+                # Estructura plana
+                titulo_completo = item.get("title", "Partido en Vivo").strip()
+                fecha = item.get("date", item.get("date_diary", ""))
+                hora = item.get("time", item.get("diary_hour", ""))
+                estado = item.get("status", "").lower()
+                
+                rutas_img = [item.get("image"), item.get("country_image"), item.get("league_image")]
+                for path in rutas_img:
+                    if path and isinstance(path, str) and len(path) > 5:
+                        if path.startswith("http"): url_logo_directo = path
+                        else: url_logo_directo = url_fuente_base + path if path.startswith("/") else url_fuente_base + "/" + path
+                        break
+
+                link = item.get("link", item.get("url", item.get("embed_url", item.get("iframe", ""))))
+                canal = item.get("channel", item.get("canal", ""))
+                idioma = item.get("language", "Español")
+                if link:
+                    c_name = str(canal).strip() if canal else f"Opción ({idioma})"
+                    servers_temporales.append({"name": c_name, "iframe": link})
+            
+            if "finalizado" in estado or "terminado" in estado:
+                 continue
+                 
+            datetime_utc, fecha_obj_utc = procesar_fecha(fecha, hora)
+            
+            # --- FILTRO DE LIMPIEZA: 160 MINUTOS ---
+            ahora_utc = datetime.now(timezone.utc)
+            minutos_transcurridos = (ahora_utc - fecha_obj_utc).total_seconds() / 60
+            
+            if minutos_transcurridos > 160:
+                continue
+            
+            if not titulo_completo:
+                continue
+                
+            # Normalización del título para agrupar 
+            titulo_para_clave = re.sub(r'[^a-z0-9]', '', titulo_completo.lower())
+            match_key = f"{datetime_utc}_{titulo_para_clave}"
+            
+            if match_key not in partidos_agrupados:
+                liga = "Fútbol"
+                encuentro = titulo_completo
+                if ":" in titulo_completo:
+                    partes = titulo_completo.split(":", 1)
+                    liga = partes[0].strip()
+                    encuentro = partes[1].strip()
+                    
+                home_team = encuentro
+                away_team = ""
+                if " vs " in encuentro.lower():
+                    equipos = re.split(r'\s+vs\s+', encuentro, flags=re.IGNORECASE)
+                    home_team = equipos[0].strip()
+                    away_team = equipos[1].strip()
+                
+                bandera_magica = url_logo_directo
+                
+                if not bandera_magica:
+                    titulo_busqueda = titulo_completo.lower()
+                    for clave_texto, url_logo in diccionario_banderas.items():
+                         if (home_team.lower() in clave_texto and away_team.lower() in clave_texto) or (titulo_busqueda in clave_texto) or (clave_texto in titulo_busqueda):
+                            bandera_magica = url_logo
+                            break
+                            
+                if not bandera_magica:
+                    bandera_magica = obtener_bandera(liga, encuentro)
+
+                partidos_agrupados[match_key] = {
+                    "datetime": datetime_utc,
+                    "flagUrl": bandera_magica,
+                    "league": liga,
+                    "homeTeam": home_team,
+                    "awayTeam": away_team,
+                    "servers": []
+                }
+
+            for srv in servers_temporales:
+                canal_nombre = srv["name"]
+                link = srv["iframe"]
+                
+                if ("Opción" in canal_nombre or not canal_nombre) and "stream=" in str(link):
+                    try:
+                        canal_raw = str(link).split("stream=")[-1].split('"')[0].split('&')[0].replace("_", " ").upper()
+                        canal_nombre = f"{canal_raw}"
+                    except:
+                        pass
+                
+                url_limpia = desencriptar_enlace(link)
+                url_segura = url_limpia.replace("\\/", "/")
+                
+                # TRUCO ANTI-ANUNCIOS
+                if DOMINIO_LIMPIO_ACTUAL:
+                    dominios_sucios = [
+                        "pltvhd.com", "embed.pltvhd.com", 
+                        "agenda18.com", "embed.agenda18.com",
+                        "tiofutbol.com"
+                    ]
+                    for dominio in dominios_sucios:
+                        if dominio in url_segura:
+                            url_segura = url_segura.replace(dominio, DOMINIO_LIMPIO_ACTUAL)
+
+                url_segura = url_segura.replace("canales.php", "canal.php")
+                url_segura = url_segura.replace("embed.php", "canal.php")
+                
+                # Normalización para Evitar duplicados (Ej. "DSports" vs "DSPORTS ")
+                canal_nombre_norm = re.sub(r'[^a-z0-9]', '', canal_nombre.lower())
+                url_segura_norm = re.sub(r'https?://', '', url_segura).strip('/')
+                
+                existe = False
+                for s in partidos_agrupados[match_key]["servers"]:
+                    s_name_norm = re.sub(r'[^a-z0-9]', '', s["name"].lower())
+                    s_url_norm = re.sub(r'https?://', '', s["url"]).strip('/')
+                    
+                    if url_segura_norm == s_url_norm or canal_nombre_norm == s_name_norm:
+                        existe = True
+                        break
+                        
+                if not existe:
+                    partidos_agrupados[match_key]["servers"].append({
+                        "name": canal_nombre,
+                        "channel": canal_nombre,  
+                        "url": url_segura,
+                        "iframe": link 
+                    })
+                    
         partidos_extraidos = list(partidos_agrupados.values())
         partidos_extraidos.sort(key=lambda x: x["datetime"])
         
@@ -360,8 +362,9 @@ def extraer_partidos():
             print(f"  -> {p['league']}: {p['homeTeam']} | {len(p['servers'])} links")
             
         return partidos_extraidos
+        
     except Exception as e:
-        print(f"[X] ERROR agrupando y ordenando los datos: {e}")
+        print(f"[X] ERROR procesando los datos de la agenda: {e}")
         return None
 
 def actualizar_nube(datos):
@@ -376,8 +379,6 @@ def actualizar_nube(datos):
         
         print("[*] Conectando con GitHub API...")
         
-        # === CONFIGURACIÓN GITHUB PARA GITHUB ACTIONS ===
-        # Intenta leer el token desde los "Secrets" de GitHub Actions
         github_token = os.environ.get("TOKEN_GITHUB", "PON_TU_NUEVO_TOKEN_AQUI_SI_NO_USAS_SECRETS") 
         
         repo = "mesias010194/bot-futbol-libre"
@@ -425,7 +426,6 @@ def notificar_telegram(datos):
 
     print("\n[*] Preparando mensaje automático para Telegram...")
     
-    # ⚠️ TUS DATOS REALES ⚠️
     BOT_TOKEN = "8796529607:AAE9lP4H9pQUZMaSXAlCTgmEZ160SYhUono" 
     CANAL_ID = "@futbol_libre_tv_oficial"
     
@@ -438,7 +438,6 @@ def notificar_telegram(datos):
             
         hora_local = partido['datetime'][11:16] 
         
-        # Limpieza por seguridad
         liga = str(partido['league']).replace('<', '').replace('>', '').replace('&', 'y')
         local = str(partido['homeTeam']).replace('<', '').replace('>', '').replace('&', 'y')
         visita = str(partido['awayTeam']).replace('<', '').replace('>', '').replace('&', 'y')
@@ -468,7 +467,6 @@ def notificar_telegram(datos):
             print(f"[X] Error API Telegram (Status {res.status_code}): {res.text}")
     except Exception as e:
         print(f"[X] Error de conexión enviando a Telegram: {e}")
-
 
 if __name__ == "__main__":
     print("===================================================================")
