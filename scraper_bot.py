@@ -424,7 +424,24 @@ def notificar_telegram(datos):
     if not datos:
         return
 
-    print("\n[*] Preparando mensaje automático para Telegram...")
+    # --- CONTROL DE HORARIOS PARA TELEGRAM ---
+    # Obtenemos la hora actual en Perú (UTC-5)
+    ahora_utc = datetime.now(timezone.utc)
+    tz_peru = timezone(timedelta(hours=-5))
+    ahora_peru = ahora_utc.astimezone(tz_peru)
+    
+    # Horas permitidas: 9 AM, 1 PM (13), 6 PM (18)
+    horas_permitidas = [9, 13, 18]
+    
+    # Verifica si estamos en la hora correcta y en los primeros 14 minutos.
+    # Si tu GitHub Action corre cada 15 min (ej. :00, :15, :30, :45),
+    # "ahora_peru.minute < 15" asegura que solo se envíe en la ejecución de la hora en punto (:00).
+    if ahora_peru.hour not in horas_permitidas or ahora_peru.minute >= 15:
+        print(f"[*] Telegram en pausa. Hora actual en tu país: {ahora_peru.strftime('%H:%M')}.")
+        print(f"    -> Solo se envían alertas a las 9:00 AM, 1:00 PM y 6:00 PM.")
+        return
+
+    print("\n[*] ¡Es la hora programada! Preparando mensaje automático para Telegram...")
     
     BOT_TOKEN = "8796529607:AAE9lP4H9pQUZMaSXAlCTgmEZ160SYhUono" 
     CANAL_ID = "@futbol_libre_tv_oficial"
