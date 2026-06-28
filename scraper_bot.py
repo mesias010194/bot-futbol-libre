@@ -249,7 +249,11 @@ def extraer_partidos():
                     if not titulo_completo:
                         continue
                         
-                    match_key = f"{fecha}_{hora}_{titulo_completo}"
+                    # NORMALIZACIÓN EXTREMA PARA EVITAR DUPLICADOS
+                    # Quitamos todos los espacios, signos y puntuaciones para que los nombres
+                    # sean idénticos (ej. "Copa del Mundo: Peru vs Brasil " -> "copadelmundoperuvsbrasil")
+                    titulo_para_clave = re.sub(r'[^a-z0-9]', '', titulo_completo.lower())
+                    match_key = f"{datetime_utc}_{titulo_para_clave}"
                     
                     # Si el partido no existe, lo creamos con todos sus datos visuales.
                     # Si ya existe (porque lo descargamos de una página anterior), 
