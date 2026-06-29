@@ -1,57 +1,5 @@
 [
     {
-        "datetime": "2026-06-29T17:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
-        "league": "Copa del Mundo",
-        "homeTeam": "Brasil",
-        "awayTeam": "Japón",
-        "servers": [
-            {
-                "name": "Opción (Español)",
-                "channel": "Opción (Español)",
-                "url": "https://la16hd.com/dsportsar.php",
-                "iframe": "https://la16hd.com/dsportsar.php"
-            },
-            {
-                "name": "DSPORTS",
-                "channel": "DSPORTS",
-                "url": "https://la20hd.com/vivo/canal.php?stream=dsports",
-                "iframe": "https://la20hd.com/vivo/canales.php?stream=dsports"
-            },
-            {
-                "name": "VTVPLUS",
-                "channel": "VTVPLUS",
-                "url": "https://la20hd.com/vivo/canal.php?stream=vtvplus",
-                "iframe": "https://la20hd.com/vivo/canales.php?stream=vtvplus"
-            },
-            {
-                "name": "TELEFE",
-                "channel": "TELEFE",
-                "url": "https://la20hd.com/vivo/canal.php?stream=telefe",
-                "iframe": "https://la20hd.com/vivo/canales.php?stream=telefe"
-            },
-            {
-                "name": "TELEMUNDO",
-                "channel": "TELEMUNDO",
-                "url": "https://la20hd.com/vivo/canal.php?stream=telemundo",
-                "iframe": "https://la20hd.com/vivo/canales.php?stream=telemundo"
-            },
-            {
-                "name": "CARACOL",
-                "channel": "CARACOL",
-                "url": "https://la20hd.com/vivo/canal.php?stream=caracol",
-                "iframe": "https://la20hd.com/vivo/canales.php?stream=caracol"
-            },
-            {
-                "name": "Opción ()",
-                "channel": "Opción ()",
-                "url": "https://la16hd.com/play.php?url=aHR0cHM6Ly9hMTFsaXZlLXB2LXRhLWFtYXpvbi5ha2FtYWl6ZWQubmV0L2R1Yi1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvZ2U2Z29udjdjeS9vdXQvdjEvYTIxODZjZTU1M2ZiNGEwOGIyODZhYWQzMjM3ZDUzMjgvY2VuYy5tcGQ=&ki=ODFhMDVjOWFmMDdlMTVmNTlkY2FjNTY4MDkwOTU2Zjk=&k=ZDczY2U1NDcxOGRlMjBkNTdlODdkODFjOTVkNTBiMGE=",
-                "iframe": "https://la16hd.com/play.php?url=aHR0cHM6Ly9hMTFsaXZlLXB2LXRhLWFtYXpvbi5ha2FtYWl6ZWQubmV0L2R1Yi1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvZ2U2Z29udjdjeS9vdXQvdjEvYTIxODZjZTU1M2ZiNGEwOGIyODZhYWQzMjM3ZDUzMjgvY2VuYy5tcGQ=&ki=ODFhMDVjOWFmMDdlMTVmNTlkY2FjNTY4MDkwOTU2Zjk=&k=ZDczY2U1NDcxOGRlMjBkNTdlODdkODFjOTVkNTBiMGE="
-            }
-        ],
-        "id": 1
-    },
-    {
         "datetime": "2026-06-29T20:30:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
         "league": "Copa del Mundo",
@@ -89,7 +37,7 @@
                 "iframe": "https://la20hd.com/vivo/canales.php?stream=telemundo"
             }
         ],
-        "id": 2
+        "id": 1
     },
     {
         "datetime": "2026-06-29T23:30:00Z",
@@ -105,7 +53,7 @@
                 "iframe": "https://la18hd.com/vivo/canales.php?stream=tntsportschile"
             }
         ],
-        "id": 3
+        "id": 2
     },
     {
         "datetime": "2026-06-30T01:00:00Z",
@@ -139,6 +87,6 @@
                 "iframe": "https://la20hd.com/vivo/canales.php?stream=telemundo"
             }
         ],
-        "id": 4
+        "id": 3
     }
 ]
