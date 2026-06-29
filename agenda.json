@@ -1,18 +1,74 @@
 [
     {
-        "datetime": "2026-06-28T21:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/uruguay_e2b9597af8.png",
-        "league": "Segunda División",
-        "homeTeam": "Oriental",
-        "awayTeam": "Deportivo Colonia",
+        "datetime": "2026-06-28T23:00:00Z",
+        "flagUrl": "https://cdn.ftvhd.com/uploads/mlb_f5711cc440_dde64767e4.png",
+        "league": "Fútbol",
+        "homeTeam": "MLB – Boston Red Sox",
+        "awayTeam": "New York Yankees",
         "servers": [
             {
-                "name": "DISNEY3",
-                "channel": "DISNEY3",
-                "url": "https://la20hd.com/vivo/canal.php?stream=disney3",
-                "iframe": "https://la20hd.com/vivo/canales.php?stream=disney3"
+                "name": "ESPN 2",
+                "channel": "ESPN 2",
+                "url": "https://tvhd2.com/canal.php?stream=espn2",
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vY2FuYWxlcy5waHA/c3RyZWFtPWVzcG4y"
+            },
+            {
+                "name": "ESPN 2 | OP2",
+                "channel": "ESPN 2 | OP2",
+                "url": "https://tvhd2.com/vivo/canal.php?stream=espn2",
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vdml2by9jYW5hbC5waHA/c3RyZWFtPWVzcG4y"
             }
         ],
         "id": 1
+    },
+    {
+        "datetime": "2026-06-28T23:00:00Z",
+        "flagUrl": "https://cdn.ftvhd.com/uploads/amistosos_bbe2ec4c17_02fd4e7093.png",
+        "league": "Fútbol",
+        "homeTeam": "WNBA – Golden State",
+        "awayTeam": "New York",
+        "servers": [
+            {
+                "name": "ESPN 3",
+                "channel": "ESPN 3",
+                "url": "https://tvhd2.com/canal.php?stream=espn3",
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vY2FuYWxlcy5waHA/c3RyZWFtPWVzcG4z"
+            },
+            {
+                "name": "ESPN 3 | OP2",
+                "channel": "ESPN 3 | OP2",
+                "url": "https://tvhd2.com/vivo/canal.php?stream=espn3",
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vdml2by9jYW5hbC5waHA/c3RyZWFtPWVzcG4z"
+            }
+        ],
+        "id": 2
+    },
+    {
+        "datetime": "2026-06-29T00:00:00Z",
+        "flagUrl": "https://cdn.ftvhd.com/uploads/chile_86c07a7b38_fad5126fd0.png",
+        "league": "Copa Chile",
+        "homeTeam": "Puerto Montt",
+        "awayTeam": "Deportes Concepción",
+        "servers": [
+            {
+                "name": "TNT Sports Premiun CL",
+                "channel": "TNT Sports Premiun CL",
+                "url": "https://tvhd2.com/canal.php?stream=tntsportschile",
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vY2FuYWxlcy5waHA/c3RyZWFtPXRudHNwb3J0c2NoaWxl"
+            },
+            {
+                "name": "TNT Sports Premiun CL OP2",
+                "channel": "TNT Sports Premiun CL OP2",
+                "url": "https://tvhd2.com/vivo/canal.php?stream=tntsportschile",
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vdml2by9jYW5hbC5waHA/c3RyZWFtPXRudHNwb3J0c2NoaWxl"
+            },
+            {
+                "name": "TNT Sports Premiun CL HD",
+                "channel": "TNT Sports Premiun CL HD",
+                "url": "https://tvhd2.com/online/canal.php?stream=tntsportschile",
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vb25saW5lL2NhbmFsZXMucGhwP3N0cmVhbT10bnRzcG9ydHNjaGlsZQ=="
+            }
+        ],
+        "id": 3
     }
 ]
