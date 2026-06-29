@@ -31,16 +31,22 @@
                 "iframe": "https://la20hd.com/vivo/canales.php?stream=telefe"
             },
             {
+                "name": "TELEMUNDO",
+                "channel": "TELEMUNDO",
+                "url": "https://la20hd.com/vivo/canal.php?stream=telemundo",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=telemundo"
+            },
+            {
                 "name": "CARACOL",
                 "channel": "CARACOL",
                 "url": "https://la20hd.com/vivo/canal.php?stream=caracol",
                 "iframe": "https://la20hd.com/vivo/canales.php?stream=caracol"
             },
             {
-                "name": "TELEMUNDO",
-                "channel": "TELEMUNDO",
-                "url": "https://la20hd.com/vivo/canal.php?stream=telemundo",
-                "iframe": "https://la20hd.com/vivo/canales.php?stream=telemundo"
+                "name": "Opción ()",
+                "channel": "Opción ()",
+                "url": "https://la16hd.com/play.php?url=aHR0cHM6Ly9hMTFsaXZlLXB2LXRhLWFtYXpvbi5ha2FtYWl6ZWQubmV0L2R1Yi1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvZ2U2Z29udjdjeS9vdXQvdjEvYTIxODZjZTU1M2ZiNGEwOGIyODZhYWQzMjM3ZDUzMjgvY2VuYy5tcGQ=&ki=ODFhMDVjOWFmMDdlMTVmNTlkY2FjNTY4MDkwOTU2Zjk=&k=ZDczY2U1NDcxOGRlMjBkNTdlODdkODFjOTVkNTBiMGE=",
+                "iframe": "https://la16hd.com/play.php?url=aHR0cHM6Ly9hMTFsaXZlLXB2LXRhLWFtYXpvbi5ha2FtYWl6ZWQubmV0L2R1Yi1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvZ2U2Z29udjdjeS9vdXQvdjEvYTIxODZjZTU1M2ZiNGEwOGIyODZhYWQzMjM3ZDUzMjgvY2VuYy5tcGQ=&ki=ODFhMDVjOWFmMDdlMTVmNTlkY2FjNTY4MDkwOTU2Zjk=&k=ZDczY2U1NDcxOGRlMjBkNTdlODdkODFjOTVkNTBiMGE="
             }
         ],
         "id": 1
