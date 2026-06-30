@@ -1,21 +1,5 @@
 [
     {
-        "datetime": "2026-06-29T23:30:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/chile_86c07a7b38.png",
-        "league": "Copa Chile",
-        "homeTeam": "Unión Española",
-        "awayTeam": "Colo-Colo",
-        "servers": [
-            {
-                "name": "TNTSPORTSCHILE",
-                "channel": "TNTSPORTSCHILE",
-                "url": "https://la18hd.com/vivo/canal.php?stream=tntsportschile",
-                "iframe": "https://la18hd.com/vivo/canales.php?stream=tntsportschile"
-            }
-        ],
-        "id": 1
-    },
-    {
         "datetime": "2026-06-30T01:00:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
         "league": "Copa del Mundo",
@@ -47,6 +31,6 @@
                 "iframe": "https://la20hd.com/vivo/canales.php?stream=telemundo"
             }
         ],
-        "id": 2
+        "id": 1
     }
 ]
