@@ -1,57 +1,5 @@
 [
     {
-        "datetime": "2026-07-01T20:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
-        "league": "Copa del Mundo",
-        "homeTeam": "Bélgica",
-        "awayTeam": "Senegal",
-        "servers": [
-            {
-                "name": "Opción (Español)",
-                "channel": "Opción (Español)",
-                "url": "https://la16hd.com/dsportsar.php",
-                "iframe": "https://la16hd.com/dsportsar.php"
-            },
-            {
-                "name": "DSPORTS",
-                "channel": "DSPORTS",
-                "url": "https://la20hd.com/vivo/canal.php?stream=dsports",
-                "iframe": "https://la20hd.com/vivo/canales.php?stream=dsports"
-            },
-            {
-                "name": "VTVPLUS",
-                "channel": "VTVPLUS",
-                "url": "https://la20hd.com/vivo/canal.php?stream=vtvplus",
-                "iframe": "https://la20hd.com/vivo/canales.php?stream=vtvplus"
-            },
-            {
-                "name": "AMERICATV",
-                "channel": "AMERICATV",
-                "url": "https://la20hd.com/vivo/canal.php?stream=americatv",
-                "iframe": "https://la20hd.com/vivo/canales.php?stream=americatv"
-            },
-            {
-                "name": "WINSPORTS",
-                "channel": "WINSPORTS",
-                "url": "https://la20hd.com/vivo/canal.php?stream=winsports",
-                "iframe": "https://la20hd.com/vivo/canales.php?stream=winsports"
-            },
-            {
-                "name": "TELEMUNDO",
-                "channel": "TELEMUNDO",
-                "url": "https://la20hd.com/vivo/canal.php?stream=telemundo",
-                "iframe": "https://la20hd.com/vivo/canales.php?stream=telemundo"
-            },
-            {
-                "name": "FOXSPORTS1 USA",
-                "channel": "FOXSPORTS1 USA",
-                "url": "https://la20hd.com/vivo/canal.php?stream=foxsports1_usa",
-                "iframe": "https://la20hd.com/vivo/canales.php?stream=foxsports1_usa"
-            }
-        ],
-        "id": 1
-    },
-    {
         "datetime": "2026-07-01T22:00:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/chile_86c07a7b38.png",
         "league": "Copa Chile",
@@ -61,11 +9,11 @@
             {
                 "name": "TNTSPORTSCHILE",
                 "channel": "TNTSPORTSCHILE",
-                "url": "https://la18hd.com/vivo/canal.php?stream=tntsportschile",
-                "iframe": "https://la18hd.com/vivo/canales.php?stream=tntsportschile"
+                "url": "https://la20hd.com/vivo/canal.php?stream=tntsportschile",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=tntsportschile"
             }
         ],
-        "id": 2
+        "id": 1
     },
     {
         "datetime": "2026-07-02T00:00:00Z",
@@ -77,11 +25,11 @@
             {
                 "name": "TNTSPORTSCHILE",
                 "channel": "TNTSPORTSCHILE",
-                "url": "https://la18hd.com/vivo/canal.php?stream=tntsportschile",
-                "iframe": "https://la18hd.com/vivo/canales.php?stream=tntsportschile"
+                "url": "https://la20hd.com/vivo/canal.php?stream=tntsportschile",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=tntsportschile"
             }
         ],
-        "id": 3
+        "id": 2
     },
     {
         "datetime": "2026-07-02T00:00:00Z",
@@ -127,6 +75,6 @@
                 "iframe": "https://la20hd.com/vivo/canales.php?stream=universo"
             }
         ],
-        "id": 4
+        "id": 3
     }
 ]
