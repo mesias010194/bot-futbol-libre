@@ -259,7 +259,7 @@ def extraer_partidos():
             ahora_utc = datetime.now(timezone.utc)
             minutos_transcurridos = (ahora_utc - fecha_obj_utc).total_seconds() / 60
             
-            if minutos_transcurridos > 300:
+            if minutos_transcurridos > 400:
                 continue
             
             if not titulo_completo:
