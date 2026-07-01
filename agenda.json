@@ -1,73 +1,5 @@
 [
     {
-        "datetime": "2026-06-30T21:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
-        "league": "Copa del Mundo",
-        "homeTeam": "Francia",
-        "awayTeam": "Suecia",
-        "servers": [
-            {
-                "name": "Opción (Español)",
-                "channel": "Opción (Español)",
-                "url": "https://la16hd.com/dsportsar.php",
-                "iframe": "https://la16hd.com/dsportsar.php"
-            },
-            {
-                "name": "DSPORTS",
-                "channel": "DSPORTS",
-                "url": "https://la20hd.com/vivo/canal.php?stream=dsports",
-                "iframe": "https://la20hd.com/vivo/canales.php?stream=dsports"
-            },
-            {
-                "name": "VTVPLUS",
-                "channel": "VTVPLUS",
-                "url": "https://la20hd.com/vivo/canal.php?stream=vtvplus",
-                "iframe": "https://la20hd.com/vivo/canales.php?stream=vtvplus"
-            },
-            {
-                "name": "TYCSPORTS",
-                "channel": "TYCSPORTS",
-                "url": "https://la20hd.com/vivo/canal.php?stream=tycsports",
-                "iframe": "https://la20hd.com/vivo/canales.php?stream=tycsports"
-            },
-            {
-                "name": "CARACOL",
-                "channel": "CARACOL",
-                "url": "https://la20hd.com/vivo/canal.php?stream=caracol",
-                "iframe": "https://la20hd.com/vivo/canales.php?stream=caracol"
-            },
-            {
-                "name": "AMERICATV",
-                "channel": "AMERICATV",
-                "url": "https://la20hd.com/vivo/canal.php?stream=americatv",
-                "iframe": "https://la20hd.com/vivo/canales.php?stream=americatv"
-            },
-            {
-                "name": "TELEMUNDO",
-                "channel": "TELEMUNDO",
-                "url": "https://la20hd.com/vivo/canal.php?stream=telemundo",
-                "iframe": "https://la20hd.com/vivo/canales.php?stream=telemundo"
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-06-30T22:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/chile_86c07a7b38.png",
-        "league": "Copa Chile",
-        "homeTeam": "Audax Italiano",
-        "awayTeam": "Palestino",
-        "servers": [
-            {
-                "name": "TNTSPORTSCHILE",
-                "channel": "TNTSPORTSCHILE",
-                "url": "https://la18hd.com/vivo/canal.php?stream=tntsportschile",
-                "iframe": "https://la18hd.com/vivo/canales.php?stream=tntsportschile"
-            }
-        ],
-        "id": 2
-    },
-    {
         "datetime": "2026-07-01T00:30:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/chile_86c07a7b38.png",
         "league": "Copa Chile",
@@ -81,7 +13,7 @@
                 "iframe": "https://la18hd.com/vivo/canales.php?stream=tntsportschile"
             }
         ],
-        "id": 3
+        "id": 1
     },
     {
         "datetime": "2026-07-01T01:00:00Z",
@@ -127,6 +59,6 @@
                 "iframe": "https://la20hd.com/vivo/canales.php?stream=universo"
             }
         ],
-        "id": 4
+        "id": 2
     }
 ]
