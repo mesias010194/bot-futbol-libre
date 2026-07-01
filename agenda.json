@@ -107,6 +107,24 @@
                 "channel": "VTVPLUS",
                 "url": "https://la20hd.com/vivo/canal.php?stream=vtvplus",
                 "iframe": "https://la20hd.com/vivo/canales.php?stream=vtvplus"
+            },
+            {
+                "name": "TYCSPORTS",
+                "channel": "TYCSPORTS",
+                "url": "https://la20hd.com/vivo/canal.php?stream=tycsports",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=tycsports"
+            },
+            {
+                "name": "TELEMUNDO",
+                "channel": "TELEMUNDO",
+                "url": "https://la20hd.com/vivo/canal.php?stream=telemundo",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=telemundo"
+            },
+            {
+                "name": "UNIVERSO",
+                "channel": "UNIVERSO",
+                "url": "https://la20hd.com/vivo/canal.php?stream=universo",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=universo"
             }
         ],
         "id": 4
