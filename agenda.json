@@ -1,5 +1,39 @@
 [
     {
+        "datetime": "2026-07-01T16:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
+        "league": "Copa del Mundo",
+        "homeTeam": "Inglaterra",
+        "awayTeam": "RD del Congo",
+        "servers": [
+            {
+                "name": "Opción (Español)",
+                "channel": "Opción (Español)",
+                "url": "https://la16hd.com/dsportsar.php",
+                "iframe": "https://la16hd.com/dsportsar.php"
+            },
+            {
+                "name": "DSPORTS",
+                "channel": "DSPORTS",
+                "url": "https://la20hd.com/vivo/canal.php?stream=dsports",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=dsports"
+            },
+            {
+                "name": "CARACOL",
+                "channel": "CARACOL",
+                "url": "https://la20hd.com/vivo/canal.php?stream=caracol",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=caracol"
+            },
+            {
+                "name": "TELEMUNDO",
+                "channel": "TELEMUNDO",
+                "url": "https://la20hd.com/vivo/canal.php?stream=telemundo",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=telemundo"
+            }
+        ],
+        "id": 1
+    },
+    {
         "datetime": "2026-07-01T22:00:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/chile_86c07a7b38.png",
         "league": "Copa Chile",
@@ -13,7 +47,7 @@
                 "iframe": "https://la18hd.com/vivo/canales.php?stream=tntsportschile"
             }
         ],
-        "id": 1
+        "id": 2
     },
     {
         "datetime": "2026-07-02T00:00:00Z",
@@ -29,6 +63,6 @@
                 "iframe": "https://la18hd.com/vivo/canales.php?stream=tntsportschile"
             }
         ],
-        "id": 2
+        "id": 3
     }
 ]
