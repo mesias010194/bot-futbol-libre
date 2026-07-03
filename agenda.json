@@ -1,7 +1,7 @@
 [
     {
         "datetime": "2026-07-03T18:00:00Z",
-        "flagUrl": "https://cdn-icons-png.flaticon.com/512/53/53283.png",
+        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
         "league": "Copa del Mundo",
         "homeTeam": "Australia",
         "awayTeam": "Egipto",
@@ -32,5 +32,73 @@
             }
         ],
         "id": 1
+    },
+    {
+        "datetime": "2026-07-03T22:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
+        "league": "Copa del Mundo",
+        "homeTeam": "Argentina",
+        "awayTeam": "Islas de Cabo Verde",
+        "servers": [
+            {
+                "name": "Opción (Español)",
+                "channel": "Opción (Español)",
+                "url": "https://la16hd.com/dsportsar.php",
+                "iframe": "https://la16hd.com/dsportsar.php"
+            },
+            {
+                "name": "DSPORTS",
+                "channel": "DSPORTS",
+                "url": "https://la20hd.com/vivo/canal.php?stream=dsports",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=dsports"
+            },
+            {
+                "name": "VTVPLUS",
+                "channel": "VTVPLUS",
+                "url": "https://la20hd.com/vivo/canal.php?stream=vtvplus",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=vtvplus"
+            },
+            {
+                "name": "TELEMUNDO",
+                "channel": "TELEMUNDO",
+                "url": "https://la20hd.com/vivo/canal.php?stream=telemundo",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=telemundo"
+            }
+        ],
+        "id": 2
+    },
+    {
+        "datetime": "2026-07-04T01:30:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
+        "league": "Copa del Mundo",
+        "homeTeam": "Colombia",
+        "awayTeam": "Ghana",
+        "servers": [
+            {
+                "name": "Opción (Español)",
+                "channel": "Opción (Español)",
+                "url": "https://la16hd.com/dsportsar.php",
+                "iframe": "https://la16hd.com/dsportsar.php"
+            },
+            {
+                "name": "DSPORTS",
+                "channel": "DSPORTS",
+                "url": "https://la20hd.com/vivo/canal.php?stream=dsports",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=dsports"
+            },
+            {
+                "name": "VTVPLUS",
+                "channel": "VTVPLUS",
+                "url": "https://la20hd.com/vivo/canal.php?stream=vtvplus",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=vtvplus"
+            },
+            {
+                "name": "TELEMUNDO",
+                "channel": "TELEMUNDO",
+                "url": "https://la20hd.com/vivo/canal.php?stream=telemundo",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=telemundo"
+            }
+        ],
+        "id": 3
     }
 ]
