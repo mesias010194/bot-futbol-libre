@@ -1,33 +1,5 @@
 [
     {
-        "datetime": "2026-07-03T05:15:00Z",
-        "flagUrl": "https://cdn.ftvhd.com/uploads/copamundial_69c33e7ee4.png",
-        "league": "Copa del Mundo",
-        "homeTeam": "Suiza",
-        "awayTeam": "Argelia",
-        "servers": [
-            {
-                "name": "Dsports HD1",
-                "channel": "Dsports HD1",
-                "url": "https://tvhd1.com/canales/dsportsar.php",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMS5jb20vY2FuYWxlcy9kc3BvcnRzYXIucGhw"
-            },
-            {
-                "name": "DSports HD",
-                "channel": "DSports HD",
-                "url": "https://tvhd2.com/online/canal.php?stream=dsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vb25saW5lL2NhbmFsZXMucGhwP3N0cmVhbT1kc3BvcnRz"
-            },
-            {
-                "name": "DSports",
-                "channel": "DSports",
-                "url": "https://tvhd2.com/canal.php?stream=dsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vY2FuYWxlcy5waHA/c3RyZWFtPWRzcG9ydHM="
-            }
-        ],
-        "id": 1
-    },
-    {
         "datetime": "2026-07-03T07:45:00Z",
         "flagUrl": "https://cdn.ftvhd.com/uploads/F2_a3360f82a5.jpg",
         "league": "Fútbol",
@@ -41,7 +13,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vdml2by9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjI="
             }
         ],
-        "id": 2
+        "id": 1
     },
     {
         "datetime": "2026-07-03T08:45:00Z",
@@ -57,7 +29,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vdml2by9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjI="
             }
         ],
-        "id": 3
+        "id": 2
     },
     {
         "datetime": "2026-07-03T10:00:00Z",
@@ -79,7 +51,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vdml2by9jYW5hbC5waHA/c3RyZWFtPWVzcG40"
             }
         ],
-        "id": 4
+        "id": 3
     },
     {
         "datetime": "2026-07-03T12:55:00Z",
@@ -95,7 +67,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vdml2by9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjM="
             }
         ],
-        "id": 5
+        "id": 4
     },
     {
         "datetime": "2026-07-03T13:40:00Z",
@@ -111,7 +83,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vdml2by9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjM="
             }
         ],
-        "id": 6
+        "id": 5
     },
     {
         "datetime": "2026-07-03T18:00:00Z",
@@ -181,7 +153,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vb25saW5lL2NhbmFsZXMucGhwP3N0cmVhbT10ZWxlbXVuZG8="
             }
         ],
-        "id": 7
+        "id": 6
     },
     {
         "datetime": "2026-07-03T21:30:00Z",
@@ -197,7 +169,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vdml2by9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjM="
             }
         ],
-        "id": 8
+        "id": 7
     },
     {
         "datetime": "2026-07-03T22:00:00Z",
@@ -309,7 +281,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vb25saW5lL2NhbmFsZXMucGhwP3N0cmVhbT10ZWxlbXVuZG8="
             }
         ],
-        "id": 9
+        "id": 8
     },
     {
         "datetime": "2026-07-03T23:00:00Z",
@@ -331,7 +303,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vdml2by9jYW5hbC5waHA/c3RyZWFtPWVzcG40"
             }
         ],
-        "id": 10
+        "id": 9
     },
     {
         "datetime": "2026-07-04T01:30:00Z",
@@ -407,6 +379,6 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vb25saW5lL2NhbmFsZXMucGhwP3N0cmVhbT10ZWxlbXVuZG8="
             }
         ],
-        "id": 11
+        "id": 10
     }
 ]
