@@ -99,10 +99,46 @@
                 "iframe": "https://la20hd.com/vivo/canales.php?stream=vtvplus"
             },
             {
+                "name": "DISNEY1",
+                "channel": "DISNEY1",
+                "url": "https://la20hd.com/vivo/canal.php?stream=disney1",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=disney1"
+            },
+            {
                 "name": "TELEMUNDO",
                 "channel": "TELEMUNDO",
                 "url": "https://la20hd.com/vivo/canal.php?stream=telemundo",
                 "iframe": "https://la20hd.com/vivo/canales.php?stream=telemundo"
+            },
+            {
+                "name": "CARACOL",
+                "channel": "CARACOL",
+                "url": "https://la20hd.com/vivo/canal.php?stream=caracol",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=caracol"
+            },
+            {
+                "name": "AMERICATV",
+                "channel": "AMERICATV",
+                "url": "https://la20hd.com/vivo/canal.php?stream=americatv",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=americatv"
+            },
+            {
+                "name": "TELEFE",
+                "channel": "TELEFE",
+                "url": "https://la20hd.com/vivo/canal.php?stream=telefe",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=telefe"
+            },
+            {
+                "name": "TYCSPORTS",
+                "channel": "TYCSPORTS",
+                "url": "https://la20hd.com/vivo/canal.php?stream=tycsports",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=tycsports"
+            },
+            {
+                "name": "SPORTV",
+                "channel": "SPORTV",
+                "url": "https://la20hd.com/vivo/canal.php?stream=sportv",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=sportv"
             }
         ],
         "id": 3
