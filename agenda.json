@@ -57,6 +57,12 @@
                 "channel": "TNTSPORTSCHILE",
                 "url": "https://la20hd.com/vivo/canal.php?stream=tntsportschile",
                 "iframe": "https://la20hd.com/vivo/canales.php?stream=tntsportschile"
+            },
+            {
+                "name": "MAX1",
+                "channel": "MAX1",
+                "url": "https://la20hd.com/vivo/canal.php?stream=max1",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=max1"
             }
         ],
         "id": 2
