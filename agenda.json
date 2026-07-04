@@ -95,10 +95,22 @@
                 "iframe": "https://la20hd.com/vivo/canales.php?stream=vtvplus"
             },
             {
+                "name": "CARACOL",
+                "channel": "CARACOL",
+                "url": "https://la20hd.com/vivo/canal.php?stream=caracol",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=caracol"
+            },
+            {
                 "name": "TELEMUNDO",
                 "channel": "TELEMUNDO",
                 "url": "https://la20hd.com/vivo/canal.php?stream=telemundo",
                 "iframe": "https://la20hd.com/vivo/canales.php?stream=telemundo"
+            },
+            {
+                "name": "AMERICATV",
+                "channel": "AMERICATV",
+                "url": "https://la20hd.com/vivo/canal.php?stream=americatv",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=americatv"
             }
         ],
         "id": 2
