@@ -60,5 +60,21 @@
             }
         ],
         "id": 2
+    },
+    {
+        "datetime": "2026-07-05T00:30:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/chile_86c07a7b38.png",
+        "league": "Copa Chile",
+        "homeTeam": "Universidad Católica",
+        "awayTeam": "Copiapó",
+        "servers": [
+            {
+                "name": "TNTSPORTSCHILE",
+                "channel": "TNTSPORTSCHILE",
+                "url": "https://la20hd.com/vivo/canal.php?stream=tntsportschile",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=tntsportschile"
+            }
+        ],
+        "id": 3
     }
 ]
