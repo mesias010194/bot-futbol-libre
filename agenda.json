@@ -14,5 +14,21 @@
             }
         ],
         "id": 1
+    },
+    {
+        "datetime": "2026-07-08T23:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/chile_86c07a7b38.png",
+        "league": "Copa de la Liga",
+        "homeTeam": "Unión La Calera",
+        "awayTeam": "Coquimbo Unido",
+        "servers": [
+            {
+                "name": "TNTSPORTSCHILE",
+                "channel": "TNTSPORTSCHILE",
+                "url": "https://la20hd.com/vivo/canal.php?stream=tntsportschile",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=tntsportschile"
+            }
+        ],
+        "id": 2
     }
 ]
