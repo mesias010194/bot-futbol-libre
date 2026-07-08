@@ -30,5 +30,21 @@
             }
         ],
         "id": 2
+    },
+    {
+        "datetime": "2026-07-09T00:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/amistosos_bbe2ec4c17.png",
+        "league": "Amistoso",
+        "homeTeam": "Boca juniors",
+        "awayTeam": "Paranaense",
+        "servers": [
+            {
+                "name": "DISNEY1",
+                "channel": "DISNEY1",
+                "url": "https://la20hd.com/vivo/canal.php?stream=disney1",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=disney1"
+            }
+        ],
+        "id": 3
     }
 ]
