@@ -7,10 +7,40 @@
         "awayTeam": "Marruecos",
         "servers": [
             {
-                "name": "Opción (Español)",
-                "channel": "Opción (Español)",
+                "name": "DSPORTSAR",
+                "channel": "DSPORTSAR",
                 "url": "https://la16hd.com/dsportsar.php",
                 "iframe": "https://la16hd.com/dsportsar.php"
+            },
+            {
+                "name": "DSPORTSLATAM",
+                "channel": "DSPORTSLATAM",
+                "url": "https://la16hd.com/dsportslatam.php",
+                "iframe": "https://la16hd.com/dsportslatam.php"
+            },
+            {
+                "name": "CANAL5MX",
+                "channel": "CANAL5MX",
+                "url": "https://la16hd.com/canal5mx.php",
+                "iframe": "https://la16hd.com/canal5mx.php"
+            },
+            {
+                "name": "LA1TVE",
+                "channel": "LA1TVE",
+                "url": "https://la16hd.com/la1tve.php",
+                "iframe": "https://la16hd.com/la1tve.php"
+            },
+            {
+                "name": "TUDNMAX",
+                "channel": "TUDNMAX",
+                "url": "https://la16hd.com/tudnmax.php",
+                "iframe": "https://la16hd.com/tudnmax.php"
+            },
+            {
+                "name": "DSPORTS",
+                "channel": "DSPORTS",
+                "url": "https://la20hd.com/vivo/canal.php?stream=dsports",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=dsports"
             },
             {
                 "name": "VTVPLUS",
