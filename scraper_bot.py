@@ -9,20 +9,18 @@ import urllib.parse
 import os
 
 # ==========================================================
-# 1. CONFIGURACIÓN (Ya no se usa JSONBIN, se usa GitHub)
+# 1. CONFIGURACIÓN (Se usa GitHub, no JSONBIN)
 # ==========================================================
 BIN_ID = "69d933e5aaba882197e5950b" 
 API_KEY = "$2a$10$fH2AVYqUAGOQm6KLrAcdk.fsTBsZPp7sTDWydhhsWtaYfrLlnAWv."
 
 # ==========================================================
-# 2. ENLACES Y RESPALDOS DE LA AGENDA
+# 2. ENLACES DE FUENTES Y RESPALDOS
 # ==========================================================
-# MODO "PRINCIPAL + RESPALDO": El bot intentará con la primera. 
-# Si funciona, se detiene ahí. Solo si falla pasará a las siguientes.
 FUENTES_AGENDA = [
     "https://la20hd.com/eventos/json/agenda123.json", # FUENTE PRINCIPAL
-    "https://pltvhd.com/diaries.json",               # Respaldo 1 (Pelota Libre)
-    "https://agenda18.com/agenda.json",              # Respaldo 2 (Fubolazo)
+    "https://pltvhd.com/diaries.json",               # Respaldo 1
+    "https://agenda18.com/agenda.json",              # Respaldo 2
 ]
 
 API_BANDERAS = "https://agenda18.com/agenda.json"
@@ -34,10 +32,8 @@ HEADERS = {
 }
 
 # ==========================================================
-# 3. TRUCO ANTI-ANUNCIOS (TRASPLANTE DE DOMINIO)
+# 3. TRUCO ANTI-ANUNCIOS (TRASPLANTE DOMINIO)
 # ==========================================================
-# Si el bot tiene que usar una fuente de respaldo sucia, usará este 
-# dominio para limpiar los reproductores.
 DOMINIO_LIMPIO_ACTUAL = "la20hd.com" 
 
 # ==========================================================
@@ -46,7 +42,7 @@ DOMINIO_LIMPIO_ACTUAL = "la20hd.com"
 def obtener_bandera(liga, encuentro):
     texto = (liga + " " + encuentro).lower()
     
-    # --- DEPORTES NO-FÚTBOL (Íconos especiales) ---
+    # --- DEPORTES NO-FÚTBOL ---
     if "f1 " in texto or "formula 1" in texto or "fórmula 1" in texto or "f2 " in texto: return "https://cdn-icons-png.flaticon.com/512/3753/3753230.png"
     if "motogp" in texto or "moto gp" in texto: return "https://cdn-icons-png.flaticon.com/512/3204/3204646.png"
     if "rugby" in texto: return "https://cdn-icons-png.flaticon.com/512/4163/4163653.png"
@@ -83,7 +79,6 @@ def obtener_bandera(liga, encuentro):
     if "francia" in texto or "ligue 1" in texto or "psg" in texto: return "https://flagcdn.com/w40/fr.png"
     if "arabia" in texto or "pro league" in texto or "al nassr" in texto: return "https://flagcdn.com/w40/sa.png"
     
-    # Balón por defecto
     return "https://cdn-icons-png.flaticon.com/512/53/53283.png"
 
 def desencriptar_enlace(iframe_str):
@@ -98,7 +93,6 @@ def desencriptar_enlace(iframe_str):
 
 def procesar_fecha(fecha_str, hora_str):
     try:
-        # Aseguramos que la hora tenga el formato correcto HH:MM
         hora_str = str(hora_str)[:5] if hora_str else "00:00"
         fecha_hora_texto = f"{fecha_str} {hora_str}"
         fecha_obj = datetime.strptime(fecha_hora_texto, "%Y-%m-%d %H:%M")
@@ -110,7 +104,6 @@ def procesar_fecha(fecha_str, hora_str):
         now_utc = datetime.now(timezone.utc)
         return now_utc.strftime("%Y-%m-%dT%H:%M:%SZ"), now_utc
 
-# Helper para extraer rutas anidadas en JSON sin errores
 def obtener_anidado(diccionario, *claves):
     for clave in claves:
         if isinstance(diccionario, dict):
@@ -119,10 +112,31 @@ def obtener_anidado(diccionario, *claves):
             return None
     return diccionario
 
+def limpiar_nombre_canal(url, titulo_original):
+    # 1. Buscar en el parámetro 'stream='
+    if "stream=" in url:
+        try:
+            partes = urllib.parse.parse_qs(urllib.parse.urlparse(url).query)
+            if "stream" in partes:
+                return partes["stream"][0].replace("_", " ").upper()
+        except:
+            pass
+    
+    # 2. Buscar al final de la URL (archivos .php o .html) - ESTO SOLUCIONA LO DE la16hd.com
+    try:
+        nombre_archivo = url.split('/')[-1].split('?')[0]
+        nombre_archivo = nombre_archivo.replace('.php', '').replace('.html', '').replace('_', ' ').upper()
+        if nombre_archivo and nombre_archivo.lower() not in ["canales", "eventos", "index", "mono", ""]:
+            return nombre_archivo
+    except:
+        pass
+        
+    return titulo_original if titulo_original else "Opción (Español)"
+
 def extraer_partidos():
     timestamp = int(time.time() * 1000)
     
-    print(f"[*] FASE 1: Extrayendo imágenes originales (Banderas)...")
+    print(f"[*] FASE 1: Buscando base de banderas...")
     diccionario_banderas = {}
     try:
         res_banderas = requests.get(f"{API_BANDERAS}?_={timestamp}", headers=HEADERS, timeout=15)
@@ -138,20 +152,20 @@ def extraer_partidos():
                         diccionario_banderas[titulo] = ruta_img if ruta_img.startswith("http") else BASE_DOMAIN_IMG + ruta_img
                 except:
                     pass
-            print(f"    -> Memorizadas {len(diccionario_banderas)} banderas.")
+            print(f"    -> Se guardaron {len(diccionario_banderas)} banderas.")
     except Exception as e:
-        print(f"[!] Aviso: Error leyendo el servidor de banderas ({e})")
+        print(f"[!] Aviso: No se pudo leer el servidor de banderas ({e})")
 
     # =========================================================================
-    # FASE 2: EXTRACCIÓN DE AGENDA (MODO: PRINCIPAL + RESPALDO)
+    # FASE 2: EXTRACCIÓN DE AGENDA (PRINCIPAL Y RESPALDOS)
     # =========================================================================
-    print(f"[*] FASE 2: Buscando agenda (Modo Principal con Respaldo)...")
+    print(f"[*] FASE 2: Buscando agenda (Modo cascada)...")
     datos_json = None
     url_fuente_exitosa = ""
     
     for url_fuente in FUENTES_AGENDA:
         url_con_timestamp = f"{url_fuente}?_={timestamp}"
-        print(f"    -> Intentando conectar a: {url_fuente[:50]}...")
+        print(f"    -> Intentando conectar: {url_fuente[:50]}...")
         try:
             respuesta = requests.get(url_con_timestamp, headers=HEADERS, timeout=10)
             respuesta.raise_for_status() 
@@ -164,22 +178,22 @@ def extraer_partidos():
                 print(f"    [+] ¡ÉXITO! Agenda descargada correctamente desde: {url_fuente}")
                 datos_json = posible_json
                 url_fuente_exitosa = url_fuente
-                break # <--- LA MAGIA ESTÁ AQUÍ: Se detiene en la primera que funciona.
+                break 
             else:
                 print(f"    [!] Conectó, pero la agenda estaba vacía.")
                 
         except Exception as e:
-            print(f"    [X] Falló esta fuente. Pasando a la siguiente de respaldo... ({e})")
+            print(f"    [X] Falló esta fuente. Pasando a la siguiente... ({e})")
             continue 
 
     if not datos_json:
-        print("[X] ERROR CRÍTICO: Todas las páginas (Principal y Respaldos) están caídas.")
+        print("[X] ERROR CRÍTICO: Todas las fuentes están caídas.")
         return None
 
     try:
         partidos_agrupados = {}
         
-        # === SOLUCIÓN DE DOMINIO PARA IMÁGENES EXACTAS DE ESTA FUENTE ===
+        # === SOLUCIÓN DE DOMINIO PARA IMÁGENES EXACTAS ===
         if "pltvhd.com" in url_fuente_exitosa:
             url_fuente_base = "https://cdn.ftvhd.com" 
         elif "agenda18.com" in url_fuente_exitosa:
@@ -191,7 +205,7 @@ def extraer_partidos():
             servers_temporales = []
             url_logo_directo = ""
             
-            # --- LÓGICA DE EXTRACCIÓN (Strapi CMS) ---
+            # --- LÓGICA EXTRACCIÓN (Strapi CMS) ---
             if "attributes" in item:
                 data_item = item["attributes"]
                 titulo_completo = data_item.get("title", data_item.get("diary_description", "Partido en Vivo")).strip()
@@ -230,7 +244,7 @@ def extraer_partidos():
                         servers_temporales.append({"name": c_name, "iframe": link})
                         
             else:
-                # Estructura plana
+                # Estructura plana (la20hd)
                 titulo_completo = item.get("title", "Partido en Vivo").strip()
                 fecha = item.get("date", item.get("date_diary", ""))
                 hora = item.get("time", item.get("diary_hour", ""))
@@ -249,13 +263,13 @@ def extraer_partidos():
                 if link:
                     c_name = str(canal).strip() if canal else f"Opción ({idioma})"
                     servers_temporales.append({"name": c_name, "iframe": link})
-            
+        
             if "finalizado" in estado or "terminado" in estado:
                  continue
                  
             datetime_utc, fecha_obj_utc = procesar_fecha(fecha, hora)
             
-            # --- FILTRO DE LIMPIEZA: 160 MINUTOS ---
+            # --- FILTRO DE LIMPIEZA: 400 MINUTOS ---
             ahora_utc = datetime.now(timezone.utc)
             minutos_transcurridos = (ahora_utc - fecha_obj_utc).total_seconds() / 60
             
@@ -265,7 +279,7 @@ def extraer_partidos():
             if not titulo_completo:
                 continue
                 
-            # Normalización del título para agrupar 
+            # Normalización para agrupar partidos iguales
             titulo_para_clave = re.sub(r'[^a-z0-9]', '', titulo_completo.lower())
             match_key = f"{datetime_utc}_{titulo_para_clave}"
             
@@ -309,15 +323,13 @@ def extraer_partidos():
                 canal_nombre = srv["name"]
                 link = srv["iframe"]
                 
-                if ("Opción" in canal_nombre or not canal_nombre) and "stream=" in str(link):
-                    try:
-                        canal_raw = str(link).split("stream=")[-1].split('"')[0].split('&')[0].replace("_", " ").upper()
-                        canal_nombre = f"{canal_raw}"
-                    except:
-                        pass
-                
                 url_limpia = desencriptar_enlace(link)
                 url_segura = url_limpia.replace("\\/", "/")
+                
+                # --- SOLUCIÓN PARA REPRODUCTORES la16hd.com ---
+                # Si el nombre es genérico ("Opción" o vacío), sacamos el nombre real de la URL
+                if "Opción" in canal_nombre or "Poravo" in canal_nombre or not canal_nombre:
+                    canal_nombre = limpiar_nombre_canal(url_segura, canal_nombre)
                 
                 # TRUCO ANTI-ANUNCIOS
                 if DOMINIO_LIMPIO_ACTUAL:
@@ -333,27 +345,30 @@ def extraer_partidos():
                 url_segura = url_segura.replace("canales.php", "canal.php")
                 url_segura = url_segura.replace("embed.php", "canal.php")
                 
-                # Normalización para Evitar duplicados (Ej. "DSports" vs "DSPORTS ")
-                canal_nombre_norm = re.sub(r'[^a-z0-9]', '', canal_nombre.lower())
+                # Normalización para Evitar duplicados
                 url_segura_norm = re.sub(r'https?://', '', url_segura).strip('/')
                 
                 existe = False
                 for s in partidos_agrupados[match_key]["servers"]:
-                    s_name_norm = re.sub(r'[^a-z0-9]', '', s["name"].lower())
                     s_url_norm = re.sub(r'https?://', '', s["url"]).strip('/')
                     
-                    if url_segura_norm == s_url_norm or canal_nombre_norm == s_name_norm:
+                    if url_segura_norm == s_url_norm:
                         existe = True
                         break
                         
                 if not existe:
+                    # Evitar nombres repetidos (ej. dos canales "ESPN")
+                    nombres_existentes = [s["name"] for s in partidos_agrupados[match_key]["servers"]]
+                    if canal_nombre in nombres_existentes:
+                        canal_nombre = f"{canal_nombre} {nombres_existentes.count(canal_nombre) + 1}"
+
                     partidos_agrupados[match_key]["servers"].append({
                         "name": canal_nombre,
                         "channel": canal_nombre,  
                         "url": url_segura,
                         "iframe": link 
                     })
-                    
+                
         partidos_extraidos = list(partidos_agrupados.values())
         partidos_extraidos.sort(key=lambda x: x["datetime"])
         
@@ -375,7 +390,7 @@ def actualizar_nube(datos):
     try:
         with open('agenda.json', 'w', encoding='utf-8') as f:
             json.dump(datos, f, ensure_ascii=False, indent=4)
-        print("[+] Archivo agenda.json guardado (GitHub Actions runner).")
+        print("[+] Archivo agenda.json guardado localmente.")
         
         print("[*] Conectando con GitHub API...")
         
@@ -418,30 +433,23 @@ def actualizar_nube(datos):
         print(f"[X] Error guardando en GitHub: {e}")
 
 # ==========================================================
-# CEREBRO DE TELEGRAM (CORREGIDO Y BLINDADO)
+# CEREBRO DE TELEGRAM
 # ==========================================================
 def notificar_telegram(datos):
     if not datos:
         return
 
-    # --- CONTROL DE HORARIOS PARA TELEGRAM ---
-    # Obtenemos la hora actual en Perú (UTC-5)
     ahora_utc = datetime.now(timezone.utc)
     tz_peru = timezone(timedelta(hours=-5))
     ahora_peru = ahora_utc.astimezone(tz_peru)
     
-    # Horas permitidas: 9 AM, 1 PM (13), 6 PM (18)
     horas_permitidas = [9, 13, 18]
     
-    # Verifica si estamos en la hora correcta y en los primeros 14 minutos.
-    # Si tu GitHub Action corre cada 15 min (ej. :00, :15, :30, :45),
-    # "ahora_peru.minute < 15" asegura que solo se envíe en la ejecución de la hora en punto (:00).
     if ahora_peru.hour not in horas_permitidas or ahora_peru.minute >= 15:
-        print(f"[*] Telegram en pausa. Hora actual en tu país: {ahora_peru.strftime('%H:%M')}.")
-        print(f"    -> Solo se envían alertas a las 9:00 AM, 1:00 PM y 6:00 PM.")
+        print(f"[*] Telegram en pausa. Hora actual: {ahora_peru.strftime('%H:%M')}.")
         return
 
-    print("\n[*] ¡Es la hora programada! Preparando mensaje automático para Telegram...")
+    print("\n[*] ¡Es la hora programada! Preparando mensaje...")
     
     BOT_TOKEN = "8796529607:AAE9lP4H9pQUZMaSXAlCTgmEZ160SYhUono" 
     CANAL_ID = "@futbol_libre_tv_oficial"
