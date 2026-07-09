@@ -7,10 +7,10 @@
         "awayTeam": "Coquimbo Unido",
         "servers": [
             {
-                "name": "TNTSPORTSCHILE",
-                "channel": "TNTSPORTSCHILE",
-                "url": "https://la20hd.com/vivo/canal.php?stream=tntsportschile",
-                "iframe": "https://la20hd.com/vivo/canales.php?stream=tntsportschile"
+                "name": "MAX1",
+                "channel": "MAX1",
+                "url": "https://la20hd.com/vivo/canal.php?stream=max1",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=max1"
             }
         ],
         "id": 1
@@ -27,6 +27,12 @@
                 "channel": "DISNEY1",
                 "url": "https://la20hd.com/vivo/canal.php?stream=disney1",
                 "iframe": "https://la20hd.com/vivo/canales.php?stream=disney1"
+            },
+            {
+                "name": "ESPN3MX",
+                "channel": "ESPN3MX",
+                "url": "https://la20hd.com/vivo/canal.php?stream=espn3mx",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=espn3mx"
             }
         ],
         "id": 2
