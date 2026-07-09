@@ -29,6 +29,18 @@
                 "channel": "TELEMUNDO",
                 "url": "https://la20hd.com/vivo/canal.php?stream=telemundo",
                 "iframe": "https://la20hd.com/vivo/canales.php?stream=telemundo"
+            },
+            {
+                "name": "CARACOL",
+                "channel": "CARACOL",
+                "url": "https://la20hd.com/vivo/canal.php?stream=caracol",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=caracol"
+            },
+            {
+                "name": "SPORTV",
+                "channel": "SPORTV",
+                "url": "https://la20hd.com/vivo/canal.php?stream=sportv",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=sportv"
             }
         ],
         "id": 1
