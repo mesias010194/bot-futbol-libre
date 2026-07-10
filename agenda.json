@@ -71,6 +71,12 @@
                 "channel": "CAZETV",
                 "url": "https://la16hd.com/cazetv.php",
                 "iframe": "https://la16hd.com/cazetv.php"
+            },
+            {
+                "name": "VIX1",
+                "channel": "VIX1",
+                "url": "https://la20hd.com/vivo/canal.php?stream=vix1",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=vix1"
             }
         ],
         "id": 1
