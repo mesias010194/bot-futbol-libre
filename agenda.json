@@ -1,6 +1,6 @@
 [
     {
-        "datetime": "2026-07-10T17:00:00Z",
+        "datetime": "2026-07-10T19:00:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
         "league": "Copa del Mundo",
         "homeTeam": "España",
@@ -41,8 +41,48 @@
                 "channel": "TELEMUNDO",
                 "url": "https://la20hd.com/vivo/canal.php?stream=telemundo",
                 "iframe": "https://la20hd.com/vivo/canales.php?stream=telemundo"
+            },
+            {
+                "name": "AMERICATV",
+                "channel": "AMERICATV",
+                "url": "https://la20hd.com/vivo/canal.php?stream=americatv",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=americatv"
+            },
+            {
+                "name": "TELEFE",
+                "channel": "TELEFE",
+                "url": "https://la20hd.com/vivo/canal.php?stream=telefe",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=telefe"
+            },
+            {
+                "name": "WINSPORTS",
+                "channel": "WINSPORTS",
+                "url": "https://la20hd.com/vivo/canal.php?stream=winsports",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=winsports"
+            },
+            {
+                "name": "SPORTV",
+                "channel": "SPORTV",
+                "url": "https://la20hd.com/vivo/canal.php?stream=sportv",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=sportv"
             }
         ],
         "id": 1
+    },
+    {
+        "datetime": "2026-07-10T22:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/uruguay_e2b9597af8.png",
+        "league": "Primera División",
+        "homeTeam": "Deportivo Maldonado",
+        "awayTeam": "Albion",
+        "servers": [
+            {
+                "name": "DISNEY1",
+                "channel": "DISNEY1",
+                "url": "https://la20hd.com/vivo/canal.php?stream=disney1",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=disney1"
+            }
+        ],
+        "id": 2
     }
 ]
