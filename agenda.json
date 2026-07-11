@@ -1,19 +1,35 @@
 [
     {
-        "datetime": "2026-07-11T18:00:00Z",
+        "datetime": "2026-07-11T21:00:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/uruguay_e2b9597af8.png",
         "league": "Primera División",
-        "homeTeam": "Danubio",
-        "awayTeam": "Nacional",
+        "homeTeam": "Huracán",
+        "awayTeam": "Deportivo Colonia",
         "servers": [
             {
-                "name": "DISNEY3",
-                "channel": "DISNEY3",
-                "url": "https://la18hd.su/vivo/canal.php?stream=disney3",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney3"
+                "name": "DISNEY5",
+                "channel": "DISNEY5",
+                "url": "https://la18hd.com/vivo/canal.php?stream=disney5",
+                "iframe": "https://la18hd.com/vivo/canales.php?stream=disney5"
             }
         ],
         "id": 1
+    },
+    {
+        "datetime": "2026-07-11T21:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/uruguay_e2b9597af8.png",
+        "league": "Primera División",
+        "homeTeam": "Wanderers",
+        "awayTeam": "Progreso",
+        "servers": [
+            {
+                "name": "DISNEY4",
+                "channel": "DISNEY4",
+                "url": "https://la18hd.su/vivo/canal.php?stream=disney4",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney4"
+            }
+        ],
+        "id": 2
     },
     {
         "datetime": "2026-07-11T21:00:00Z",
@@ -63,41 +79,15 @@
                 "channel": "VTVPLUS",
                 "url": "https://la20hd.com/vivo/canal.php?stream=vtvplus",
                 "iframe": "https://la20hd.com/vivo/canales.php?stream=vtvplus"
-            }
-        ],
-        "id": 2
-    },
-    {
-        "datetime": "2026-07-11T21:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/uruguay_e2b9597af8.png",
-        "league": "Primera División",
-        "homeTeam": "Huracán",
-        "awayTeam": "Deportivo Colonia",
-        "servers": [
+            },
             {
-                "name": "DISNEY5",
-                "channel": "DISNEY5",
-                "url": "https://la18hd.com/vivo/canal.php?stream=disney5",
-                "iframe": "https://la18hd.com/vivo/canales.php?stream=disney5"
+                "name": "CAZETV",
+                "channel": "CAZETV",
+                "url": "https://la16hd.com/cazetv.php",
+                "iframe": "https://la16hd.com/cazetv.php"
             }
         ],
         "id": 3
-    },
-    {
-        "datetime": "2026-07-11T21:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/uruguay_e2b9597af8.png",
-        "league": "Primera División",
-        "homeTeam": "Wanderers",
-        "awayTeam": "Progreso",
-        "servers": [
-            {
-                "name": "DISNEY4",
-                "channel": "DISNEY4",
-                "url": "https://la18hd.su/vivo/canal.php?stream=disney4",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney4"
-            }
-        ],
-        "id": 4
     },
     {
         "datetime": "2026-07-12T01:00:00Z",
@@ -153,8 +143,14 @@
                 "channel": "TELEMUNDO",
                 "url": "https://la20hd.com/vivo/canal.php?stream=telemundo",
                 "iframe": "https://la20hd.com/vivo/canales.php?stream=telemundo"
+            },
+            {
+                "name": "CAZETV",
+                "channel": "CAZETV",
+                "url": "https://la16hd.com/cazetv.php",
+                "iframe": "https://la16hd.com/cazetv.php"
             }
         ],
-        "id": 5
+        "id": 4
     }
 ]
