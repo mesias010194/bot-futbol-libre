@@ -1,27 +1,5 @@
 [
     {
-        "datetime": "2026-07-11T08:45:00Z",
-        "flagUrl": "https://cdn.ftvhd.com/uploads/motogp_modified_10d300b047_8484f8e991.png",
-        "league": "Fútbol",
-        "homeTeam": "Moto GP – GP de Alemania – Clasificación",
-        "awayTeam": "",
-        "servers": [
-            {
-                "name": "ESPN 3",
-                "channel": "ESPN 3",
-                "url": "https://fltvhd.com/canal.php?stream=even3",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1ldmVuMw=="
-            },
-            {
-                "name": "ESPN 3 | OP2",
-                "channel": "ESPN 3 | OP2",
-                "url": "https://fltvhd.com/vivo/canal.php?stream=espn3",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BuMw=="
-            }
-        ],
-        "id": 1
-    },
-    {
         "datetime": "2026-07-11T10:00:00Z",
         "flagUrl": "https://cdn.ftvhd.com/uploads/Rugby_f99a2b54da.png",
         "league": "Fútbol",
@@ -33,15 +11,9 @@
                 "channel": "ESPN 2",
                 "url": "https://fltvhd.com/canal.php?stream=even2",
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1ldmVuMg=="
-            },
-            {
-                "name": "ESPN 2 | OP2",
-                "channel": "ESPN 2 | OP2",
-                "url": "https://fltvhd.com/vivo/canal.php?stream=even2",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1ldmVuMg=="
             }
         ],
-        "id": 2
+        "id": 1
     },
     {
         "datetime": "2026-07-11T11:00:00Z",
@@ -63,7 +35,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BuNQ=="
             }
         ],
-        "id": 3
+        "id": 2
     },
     {
         "datetime": "2026-07-11T12:30:00Z",
@@ -85,7 +57,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1ldmVuMg=="
             }
         ],
-        "id": 4
+        "id": 3
     },
     {
         "datetime": "2026-07-11T13:00:00Z",
@@ -101,7 +73,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kaXNuZXkx"
             }
         ],
-        "id": 5
+        "id": 4
     },
     {
         "datetime": "2026-07-11T13:00:00Z",
@@ -113,17 +85,11 @@
             {
                 "name": "ESPN 3",
                 "channel": "ESPN 3",
-                "url": "https://fltvhd.com/canal.php?stream=even3",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1ldmVuMw=="
-            },
-            {
-                "name": "ESPN 3 | OP2",
-                "channel": "ESPN 3 | OP2",
-                "url": "https://fltvhd.com/vivo/canal.php?stream=espn3",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BuMw=="
+                "url": "https://fltvhd.com/online/canal.php?stream=even3",
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09ZXZlbjM="
             }
         ],
-        "id": 6
+        "id": 5
     },
     {
         "datetime": "2026-07-11T13:30:00Z",
@@ -135,17 +101,11 @@
             {
                 "name": "ESPN 4",
                 "channel": "ESPN 4",
-                "url": "https://fltvhd.com/online/canal.php?stream=even2",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09ZXZlbjI="
-            },
-            {
-                "name": "ESPN 4 | OP2",
-                "channel": "ESPN 4 | OP2",
-                "url": "https://fltvhd.com/vivo/canal.php?stream=even2",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1ldmVuMg=="
+                "url": "https://fltvhd.com/online/canal.php?stream=even4",
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09ZXZlbjQ="
             }
         ],
-        "id": 7
+        "id": 6
     },
     {
         "datetime": "2026-07-11T14:25:00Z",
@@ -167,7 +127,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BuNw=="
             }
         ],
-        "id": 8
+        "id": 7
     },
     {
         "datetime": "2026-07-11T15:00:00Z",
@@ -189,7 +149,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1ldmVuMg=="
             }
         ],
-        "id": 9
+        "id": 8
     },
     {
         "datetime": "2026-07-11T16:30:00Z",
@@ -205,7 +165,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vY2FuYWxlcy5waHA/c3RyZWFtPWVzcG4="
             }
         ],
-        "id": 10
+        "id": 9
     },
     {
         "datetime": "2026-07-11T16:50:00Z",
@@ -217,17 +177,11 @@
             {
                 "name": "ESPN 3",
                 "channel": "ESPN 3",
-                "url": "https://fltvhd.com/canal.php?stream=even3",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1ldmVuMw=="
-            },
-            {
-                "name": "ESPN 3 | OP2",
-                "channel": "ESPN 3 | OP2",
-                "url": "https://fltvhd.com/vivo/canal.php?stream=espn3",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BuMw=="
+                "url": "https://fltvhd.com/online/canal.php?stream=even3",
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09ZXZlbjM="
             }
         ],
-        "id": 11
+        "id": 10
     },
     {
         "datetime": "2026-07-11T17:00:00Z",
@@ -249,7 +203,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BuNQ=="
             }
         ],
-        "id": 12
+        "id": 11
     },
     {
         "datetime": "2026-07-11T17:00:00Z",
@@ -265,7 +219,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lY2RmX2xpZ2Fwcm8="
             }
         ],
-        "id": 13
+        "id": 12
     },
     {
         "datetime": "2026-07-11T18:00:00Z",
@@ -281,7 +235,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vY2FuYWxlcy5waHA/c3RyZWFtPWVzcG4="
             }
         ],
-        "id": 14
+        "id": 13
     },
     {
         "datetime": "2026-07-11T18:30:00Z",
@@ -309,7 +263,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09c3BvcnR2"
             }
         ],
-        "id": 15
+        "id": 14
     },
     {
         "datetime": "2026-07-11T18:30:00Z",
@@ -321,17 +275,11 @@
             {
                 "name": "ESPN 3",
                 "channel": "ESPN 3",
-                "url": "https://fltvhd.com/canal.php?stream=even3",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1ldmVuMw=="
-            },
-            {
-                "name": "ESPN 3 | OP2",
-                "channel": "ESPN 3 | OP2",
-                "url": "https://fltvhd.com/vivo/canal.php?stream=espn3",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BuMw=="
+                "url": "https://fltvhd.com/online/canal.php?stream=even3",
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09ZXZlbjM="
             }
         ],
-        "id": 16
+        "id": 15
     },
     {
         "datetime": "2026-07-11T19:00:00Z",
@@ -347,7 +295,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vb25saW5lL2NhbmFsZXMucGhwP3N0cmVhbT1ldmVuMQ=="
             }
         ],
-        "id": 17
+        "id": 16
     },
     {
         "datetime": "2026-07-11T19:00:00Z",
@@ -375,7 +323,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09dG50c3BvcnRzY2hpbGU="
             }
         ],
-        "id": 18
+        "id": 17
     },
     {
         "datetime": "2026-07-11T19:10:00Z",
@@ -391,7 +339,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lY2RmX2xpZ2Fwcm8="
             }
         ],
-        "id": 19
+        "id": 18
     },
     {
         "datetime": "2026-07-11T21:00:00Z",
@@ -407,53 +355,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vY2FuYWxlcy5waHA/c3RyZWFtPWVzcG4="
             }
         ],
-        "id": 20
-    },
-    {
-        "datetime": "2026-07-11T21:00:00Z",
-        "flagUrl": "https://cdn.ftvhd.com/uploads/copamundial_69c33e7ee4.png",
-        "league": "Copa del Mundo",
-        "homeTeam": "Noruega",
-        "awayTeam": "Inglaterra",
-        "servers": [
-            {
-                "name": "DSports",
-                "channel": "DSports",
-                "url": "https://fltvhd.com/canal.php?stream=dsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kc3BvcnRz"
-            },
-            {
-                "name": "DSports | OP2",
-                "channel": "DSports | OP2",
-                "url": "https://fltvhd.com/vivo/canal.php?stream=dsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kc3BvcnRz"
-            },
-            {
-                "name": "DSports | HD",
-                "channel": "DSports | HD",
-                "url": "https://fltvhd.com/online/canal.php?stream=dsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09ZHNwb3J0cw=="
-            },
-            {
-                "name": "Canal 5 MX",
-                "channel": "Canal 5 MX",
-                "url": "https://fltvhd.com/canal.php?stream=canal5",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1jYW5hbDU="
-            },
-            {
-                "name": "Telemundo",
-                "channel": "Telemundo",
-                "url": "https://fltvhd.com/canal.php?stream=telemundo",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT10ZWxlbXVuZG8="
-            },
-            {
-                "name": "Telemundo | HD",
-                "channel": "Telemundo | HD",
-                "url": "https://fltvhd.com/online/canal.php?stream=telemundo",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09dGVsZW11bmRv"
-            }
-        ],
-        "id": 21
+        "id": 19
     },
     {
         "datetime": "2026-07-11T21:00:00Z",
@@ -469,7 +371,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20vY2FuYWxlcy5waHA/c3RyZWFtPWVzcG4="
             }
         ],
-        "id": 22
+        "id": 20
     },
     {
         "datetime": "2026-07-11T21:30:00Z",
@@ -497,7 +399,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09dG50c3BvcnRzY2hpbGU="
             }
         ],
-        "id": 23
+        "id": 21
     },
     {
         "datetime": "2026-07-11T22:00:00Z",
@@ -509,8 +411,8 @@
             {
                 "name": "ESPN 3",
                 "channel": "ESPN 3",
-                "url": "https://fltvhd.com/canal.php?stream=even3",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1ldmVuMw=="
+                "url": "https://fltvhd.com/online/canal.php?stream=even3",
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09ZXZlbjM="
             },
             {
                 "name": "ESPN 3 | OP2",
@@ -519,7 +421,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BuMw=="
             }
         ],
-        "id": 24
+        "id": 22
     },
     {
         "datetime": "2026-07-11T23:00:00Z",
@@ -535,7 +437,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lY2RmX2xpZ2Fwcm8="
             }
         ],
-        "id": 25
+        "id": 23
     },
     {
         "datetime": "2026-07-12T01:00:00Z",
@@ -623,6 +525,6 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09dGVsZWZl"
             }
         ],
-        "id": 26
+        "id": 24
     }
 ]
