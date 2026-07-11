@@ -51,6 +51,18 @@
                 "iframe": "https://la16hd.com/dsportslatam.php"
             },
             {
+                "name": "CANAL5MX",
+                "channel": "CANAL5MX",
+                "url": "https://la16hd.com/canal5mx.php",
+                "iframe": "https://la16hd.com/canal5mx.php"
+            },
+            {
+                "name": "TUDNMAX",
+                "channel": "TUDNMAX",
+                "url": "https://la16hd.com/tudnmax.php",
+                "iframe": "https://la16hd.com/tudnmax.php"
+            },
+            {
                 "name": "TELEMUNDO",
                 "channel": "TELEMUNDO",
                 "url": "https://la20hd.com/vivo/canal.php?stream=telemundo",
