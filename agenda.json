@@ -1,170 +1,98 @@
 [
     {
         "datetime": "2026-07-12T01:00:00Z",
-        "flagUrl": "https://cdn.ftvhd.com/uploads/copamundial_69c33e7ee4.png",
-        "league": "Copa del Mundo",
-        "homeTeam": "Argentina",
-        "awayTeam": "Suiza",
+        "flagUrl": "https://img.agenda18.com/uploads/ufc_00fbf49648.png",
+        "league": "UFC",
+        "homeTeam": "Conor McGregor vs. Max Holloway",
+        "awayTeam": "",
         "servers": [
             {
-                "name": "Dsports HD1",
-                "channel": "Dsports HD1",
-                "url": "https://tvhd1.com/canales/dsportsar.php",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMS5jb20vY2FuYWxlcy9kc3BvcnRzYXIucGhw"
-            },
-            {
-                "name": "Dsports (AR/PE/CO/EC/CL/UY)",
-                "channel": "Dsports (AR/PE/CO/EC/CL/UY)",
-                "url": "https://tvhd1.com/canales/dsportslatam.php",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMS5jb20vY2FuYWxlcy9kc3BvcnRzbGF0YW0ucGhw"
-            },
-            {
-                "name": "CTV HD1",
-                "channel": "CTV HD1",
-                "url": "https://tvhd1.com/canales/ctv.php",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMS5jb20vY2FuYWxlcy9jdHYucGhw"
-            },
-            {
-                "name": "FOX ONE HD1",
-                "channel": "FOX ONE HD1",
-                "url": "https://tvhd1.com/canales/foxone.php",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dmhkMS5jb20vY2FuYWxlcy9mb3hvbmUucGhw"
-            },
-            {
-                "name": "DSports | HD",
-                "channel": "DSports | HD",
-                "url": "https://fltvhd.com/online/canal.php?stream=dsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09ZHNwb3J0cw=="
-            },
-            {
-                "name": "TV Publica Argentina HD",
-                "channel": "TV Publica Argentina HD",
-                "url": "https://fltvhd.com/online/canal.php?stream=even4",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09ZXZlbjQ="
-            },
-            {
-                "name": "TYC Sports TV HD",
-                "channel": "TYC Sports TV HD",
-                "url": "https://fltvhd.com/online/canal.php?stream=even1",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09ZXZlbjE="
-            },
-            {
-                "name": "TYC Sports | HD",
-                "channel": "TYC Sports | HD",
-                "url": "https://fltvhd.com/online/canal.php?stream=tycsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09dHljc3BvcnRz"
-            },
-            {
-                "name": "Telefe | HD",
-                "channel": "Telefe | HD",
-                "url": "https://fltvhd.com/online/canal.php?stream=telefe",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09dGVsZWZl"
-            },
-            {
-                "name": "CHILEVISION HD",
-                "channel": "CHILEVISION HD",
-                "url": "https://fltvhd.com/online/canal.php?stream=even2",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09ZXZlbjI="
-            },
-            {
-                "name": "AMERICA HD",
-                "channel": "AMERICA HD",
-                "url": "https://fltvhd.com/online/canal.php?stream=even3",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09ZXZlbjM="
-            },
-            {
-                "name": "America TV | HD",
-                "channel": "America TV | HD",
-                "url": "https://fltvhd.com/online/canal.php?stream=americatv",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09YW1lcmljYXR2"
-            },
-            {
-                "name": "DSports",
-                "channel": "DSports",
-                "url": "https://fltvhd.com/canal.php?stream=dsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kc3BvcnRz"
-            },
-            {
-                "name": "DSports | OP2",
-                "channel": "DSports | OP2",
-                "url": "https://fltvhd.com/vivo/canal.php?stream=dsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kc3BvcnRz"
-            },
-            {
-                "name": "TYC Sports",
-                "channel": "TYC Sports",
-                "url": "https://fltvhd.com/canal.php?stream=tycsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT10eWNzcG9ydHM="
-            },
-            {
-                "name": "TyC Sports | OP2",
-                "channel": "TyC Sports | OP2",
-                "url": "https://fltvhd.com/vivo/canal.php?stream=tycsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT10eWNzcG9ydHM="
-            },
-            {
-                "name": "Disney+",
-                "channel": "Disney+",
-                "url": "https://fltvhd.com/canal.php?stream=disney1",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kaXNuZXkx"
-            },
-            {
-                "name": "Caracol TV",
-                "channel": "Caracol TV",
-                "url": "https://fltvhd.com/canal.php?stream=caracol",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1jYXJhY29s"
-            },
-            {
-                "name": "Telemundo | HD",
-                "channel": "Telemundo | HD",
-                "url": "https://fltvhd.com/online/canal.php?stream=telemundo",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09dGVsZW11bmRv"
-            },
-            {
-                "name": "Caracol TV  | HD",
-                "channel": "Caracol TV  | HD",
-                "url": "https://fltvhd.com/online/canal.php?stream=caracol",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09Y2FyYWNvbA=="
-            },
-            {
-                "name": "America Television",
-                "channel": "America Television",
-                "url": "https://fltvhd.com/canal.php?stream=americatv",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1hbWVyaWNhdHY="
-            },
-            {
-                "name": "Telemundo",
-                "channel": "Telemundo",
-                "url": "https://fltvhd.com/canal.php?stream=telemundo",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT10ZWxlbXVuZG8="
-            },
-            {
-                "name": "Deportes TV. C",
-                "channel": "Deportes TV. C",
-                "url": "https://fltvhd.com/canal.php?stream=goltv",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1nb2x0dg=="
+                "name": "PARAMOUNT1",
+                "channel": "PARAMOUNT1",
+                "url": "https://la20hd.com/vivo/canal.php?stream=paramount1",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=paramount1"
             }
         ],
         "id": 1
     },
     {
         "datetime": "2026-07-12T01:00:00Z",
-        "flagUrl": "https://cdn.ftvhd.com/uploads/ufc_b17258502e.png",
-        "league": "UFC",
-        "homeTeam": "Conor McGregor vs. Max Holloway",
-        "awayTeam": "",
+        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
+        "league": "Copa del Mundo",
+        "homeTeam": "Argentina",
+        "awayTeam": "Suiza",
         "servers": [
             {
-                "name": "Paramount+",
-                "channel": "Paramount+",
-                "url": "https://fltvhd.com/online/canal.php?stream=paramount1",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbC5waHA/c3RyZWFtPXBhcmFtb3VudDE="
+                "name": "DSPORTSAR",
+                "channel": "DSPORTSAR",
+                "url": "https://la16hd.com/dsportsar.php",
+                "iframe": "https://la16hd.com/dsportsar.php"
             },
             {
-                "name": "Paramount+ 2",
-                "channel": "Paramount+ 2",
-                "url": "https://fltvhd.com/canal.php?stream=paramount1",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1wYXJhbW91bnQx"
+                "name": "DSPORTSLATAM",
+                "channel": "DSPORTSLATAM",
+                "url": "https://la16hd.com/dsportslatam.php",
+                "iframe": "https://la16hd.com/dsportslatam.php"
+            },
+            {
+                "name": "FOXONE",
+                "channel": "FOXONE",
+                "url": "https://la16hd.com/foxone.php",
+                "iframe": "https://la16hd.com/foxone.php"
+            },
+            {
+                "name": "DSPORTS",
+                "channel": "DSPORTS",
+                "url": "https://la20hd.com/vivo/canal.php?stream=dsports",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=dsports"
+            },
+            {
+                "name": "TELEFE",
+                "channel": "TELEFE",
+                "url": "https://la20hd.com/vivo/canal.php?stream=telefe",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=telefe"
+            },
+            {
+                "name": "VTVPLUS",
+                "channel": "VTVPLUS",
+                "url": "https://la20hd.com/vivo/canal.php?stream=vtvplus",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=vtvplus"
+            },
+            {
+                "name": "DISNEY1",
+                "channel": "DISNEY1",
+                "url": "https://la18hd.su/vivo/canal.php?stream=disney1",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney1"
+            },
+            {
+                "name": "VIX1",
+                "channel": "VIX1",
+                "url": "https://la20hd.com/vivo/canal.php?stream=vix1",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=vix1"
+            },
+            {
+                "name": "TYCSPORTS",
+                "channel": "TYCSPORTS",
+                "url": "https://la20hd.com/vivo/canal.php?stream=tycsports",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=tycsports"
+            },
+            {
+                "name": "TELEMUNDO",
+                "channel": "TELEMUNDO",
+                "url": "https://la20hd.com/vivo/canal.php?stream=telemundo",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=telemundo"
+            },
+            {
+                "name": "AMERICATV",
+                "channel": "AMERICATV",
+                "url": "https://la20hd.com/vivo/canal.php?stream=americatv",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=americatv"
+            },
+            {
+                "name": "CARACOL",
+                "channel": "CARACOL",
+                "url": "https://la20hd.com/vivo/canal.php?stream=caracol",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=caracol"
             }
         ],
         "id": 2
