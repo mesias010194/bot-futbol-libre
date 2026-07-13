@@ -1,21 +1,5 @@
 [
     {
-        "datetime": "2026-07-12T20:30:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/amistosos_bbe2ec4c17.png",
-        "league": "Partido Amistoso",
-        "homeTeam": "Alianza Lima vs. Deportivo Cali",
-        "awayTeam": "",
-        "servers": [
-            {
-                "name": "AMERICATV",
-                "channel": "AMERICATV",
-                "url": "https://la20hd.com/vivo/canal.php?stream=americatv",
-                "iframe": "https://la20hd.com/vivo/canales.php?stream=americatv"
-            }
-        ],
-        "id": 1
-    },
-    {
         "datetime": "2026-07-12T21:30:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/uruguay_e2b9597af8.png",
         "league": "Primera División",
@@ -29,7 +13,7 @@
                 "iframe": "https://la18hd.com/vivo/canales.php?stream=disney6"
             }
         ],
-        "id": 2
+        "id": 1
     },
     {
         "datetime": "2026-07-13T00:00:00Z",
@@ -45,6 +29,6 @@
                 "iframe": "https://la20hd.com/vivo/canales.php?stream=tntsportschile"
             }
         ],
-        "id": 3
+        "id": 2
     }
 ]
