@@ -79,6 +79,12 @@
                 "iframe": "https://la20hd.com/vivo/canales.php?stream=americatv"
             },
             {
+                "name": "VIX1",
+                "channel": "VIX1",
+                "url": "https://la20hd.com/vivo/canal.php?stream=vix1",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=vix1"
+            },
+            {
                 "name": "TELEFE",
                 "channel": "TELEFE",
                 "url": "https://la20hd.com/vivo/canal.php?stream=telefe",
@@ -95,6 +101,12 @@
                 "channel": "SPORTV",
                 "url": "https://la20hd.com/vivo/canal.php?stream=sportv",
                 "iframe": "https://la20hd.com/vivo/canales.php?stream=sportv"
+            },
+            {
+                "name": "CAZETV",
+                "channel": "CAZETV",
+                "url": "https://la16hd.com/cazetv.php",
+                "iframe": "https://la16hd.com/cazetv.php"
             }
         ],
         "id": 1
