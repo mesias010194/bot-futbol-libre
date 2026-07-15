@@ -1,101 +1,5 @@
 [
     {
-        "datetime": "2026-07-14T21:30:00Z",
-        "flagUrl": "https://cdn.ftvhd.com/uploads/ecuador_6b5e87e044_2fd81bc301.png",
-        "league": "Serie A",
-        "homeTeam": "Macará",
-        "awayTeam": "Mushuc Runa",
-        "servers": [
-            {
-                "name": "ECDF LigaPro",
-                "channel": "ECDF LigaPro",
-                "url": "https://fltvhd.com/canal.php?stream=ecdf_ligapro",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lY2RmX2xpZ2Fwcm8="
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-07-14T22:00:00Z",
-        "flagUrl": "https://cdn.ftvhd.com/uploads/bolivia_png_81cfc9f71f.png",
-        "league": "Primera División",
-        "homeTeam": "Real Oruro",
-        "awayTeam": "Always Ready",
-        "servers": [
-            {
-                "name": "Entel TV PLUS+",
-                "channel": "Entel TV PLUS+",
-                "url": "https://fltvhd.com/online/canal.php?stream=even1",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09ZXZlbjE="
-            }
-        ],
-        "id": 2
-    },
-    {
-        "datetime": "2026-07-14T23:00:00Z",
-        "flagUrl": "https://cdn.ftvhd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
-        "league": "Fútbol",
-        "homeTeam": "NBA Summer League – Golden State Warriors",
-        "awayTeam": "Memphis Grizzlies",
-        "servers": [
-            {
-                "name": "ESPN 3",
-                "channel": "ESPN 3",
-                "url": "https://fltvhd.com/online/canal.php?stream=even3",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbC5waHA/c3RyZWFtPWV2ZW4z"
-            }
-        ],
-        "id": 3
-    },
-    {
-        "datetime": "2026-07-15T00:00:00Z",
-        "flagUrl": "https://cdn.ftvhd.com/uploads/ecuador_6b5e87e044_2fd81bc301.png",
-        "league": "Serie A",
-        "homeTeam": "Manta",
-        "awayTeam": "Delfin",
-        "servers": [
-            {
-                "name": "ECDF LigaPro",
-                "channel": "ECDF LigaPro",
-                "url": "https://fltvhd.com/canal.php?stream=ecdf_ligapro",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lY2RmX2xpZ2Fwcm8="
-            }
-        ],
-        "id": 4
-    },
-    {
-        "datetime": "2026-07-15T00:00:00Z",
-        "flagUrl": "https://cdn.ftvhd.com/uploads/mlb_f5711cc440_dde64767e4.png",
-        "league": "Fútbol",
-        "homeTeam": "MLB – All Star Game – National League",
-        "awayTeam": "American League",
-        "servers": [
-            {
-                "name": "ESPN 2",
-                "channel": "ESPN 2",
-                "url": "https://fltvhd.com/online/canal.php?stream=even2",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbC5waHA/c3RyZWFtPWV2ZW4y"
-            }
-        ],
-        "id": 5
-    },
-    {
-        "datetime": "2026-07-15T00:00:00Z",
-        "flagUrl": "https://cdn.ftvhd.com/uploads/bolivia_png_81cfc9f71f.png",
-        "league": "Primera División",
-        "homeTeam": "Blooming",
-        "awayTeam": "Gualberto Villarroel SJ",
-        "servers": [
-            {
-                "name": "Entel TV PLUS+",
-                "channel": "Entel TV PLUS+",
-                "url": "https://fltvhd.com/online/canal.php?stream=even1",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09ZXZlbjE="
-            }
-        ],
-        "id": 6
-    },
-    {
         "datetime": "2026-07-15T01:00:00Z",
         "flagUrl": "https://cdn.ftvhd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
         "league": "Fútbol",
@@ -109,6 +13,6 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbC5waHA/c3RyZWFtPWV2ZW4z"
             }
         ],
-        "id": 7
+        "id": 1
     }
 ]
