@@ -1,117 +1,5 @@
 [
     {
-        "datetime": "2026-07-15T22:00:00Z",
-        "flagUrl": "https://cdn.ftvhd.com/uploads/bolivia_png_81cfc9f71f.png",
-        "league": "Primera División",
-        "homeTeam": "Real Potosí",
-        "awayTeam": "San Antonio Bulo Bulo",
-        "servers": [
-            {
-                "name": "Entel TV PLUS+",
-                "channel": "Entel TV PLUS+",
-                "url": "https://fltvhd.com/online/canal.php?stream=even1",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09ZXZlbjE="
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-07-15T22:00:00Z",
-        "flagUrl": "https://cdn.ftvhd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
-        "league": "Fútbol",
-        "homeTeam": "NBA Summer League – Equipos a Confirmar",
-        "awayTeam": "",
-        "servers": [
-            {
-                "name": "ESPN 3",
-                "channel": "ESPN 3",
-                "url": "https://fltvhd.com/online/canal.php?stream=even3",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbC5waHA/c3RyZWFtPWV2ZW4z"
-            }
-        ],
-        "id": 2
-    },
-    {
-        "datetime": "2026-07-15T22:00:00Z",
-        "flagUrl": "https://cdn.ftvhd.com/uploads/ecuador_6b5e87e044_2fd81bc301.png",
-        "league": "Serie A",
-        "homeTeam": "Universidad Católica",
-        "awayTeam": "LDU Quito",
-        "servers": [
-            {
-                "name": "ECDF LigaPro",
-                "channel": "ECDF LigaPro",
-                "url": "https://fltvhd.com/canal.php?stream=ecdf_ligapro",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lY2RmX2xpZ2Fwcm8="
-            }
-        ],
-        "id": 3
-    },
-    {
-        "datetime": "2026-07-16T00:00:00Z",
-        "flagUrl": "https://cdn.ftvhd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
-        "league": "Fútbol",
-        "homeTeam": "NBA Summer League – Equipos a Confirmar",
-        "awayTeam": "",
-        "servers": [
-            {
-                "name": "ESPN 3",
-                "channel": "ESPN 3",
-                "url": "https://fltvhd.com/online/canal.php?stream=even3",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbC5waHA/c3RyZWFtPWV2ZW4z"
-            }
-        ],
-        "id": 4
-    },
-    {
-        "datetime": "2026-07-16T00:00:00Z",
-        "flagUrl": "https://cdn.ftvhd.com/uploads/bolivia_png_81cfc9f71f.png",
-        "league": "Primera División",
-        "homeTeam": "The Strongest",
-        "awayTeam": "Oriente Petrolero",
-        "servers": [
-            {
-                "name": "Entel TV PLUS+",
-                "channel": "Entel TV PLUS+",
-                "url": "https://fltvhd.com/online/canal.php?stream=even1",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09ZXZlbjE="
-            }
-        ],
-        "id": 5
-    },
-    {
-        "datetime": "2026-07-16T00:00:00Z",
-        "flagUrl": "https://cdn.ftvhd.com/uploads/amistosos_bbe2ec4c17_02fd4e7093.png",
-        "league": "Fútbol",
-        "homeTeam": "ESPYS 2026",
-        "awayTeam": "",
-        "servers": [
-            {
-                "name": "ESPN 2",
-                "channel": "ESPN 2",
-                "url": "https://fltvhd.com/online/canal.php?stream=even2",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbC5waHA/c3RyZWFtPWV2ZW4y"
-            }
-        ],
-        "id": 6
-    },
-    {
-        "datetime": "2026-07-16T00:30:00Z",
-        "flagUrl": "https://cdn.ftvhd.com/uploads/ecuador_6b5e87e044_2fd81bc301.png",
-        "league": "Serie A",
-        "homeTeam": "Barcelona",
-        "awayTeam": "Guayaquil City",
-        "servers": [
-            {
-                "name": "ECDF LigaPro",
-                "channel": "ECDF LigaPro",
-                "url": "https://fltvhd.com/canal.php?stream=ecdf_ligapro",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lY2RmX2xpZ2Fwcm8="
-            }
-        ],
-        "id": 7
-    },
-    {
         "datetime": "2026-07-16T02:30:00Z",
         "flagUrl": "https://cdn.ftvhd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
         "league": "Fútbol",
@@ -121,10 +9,10 @@
             {
                 "name": "ESPN 3",
                 "channel": "ESPN 3",
-                "url": "https://fltvhd.com/online/canal.php?stream=even3",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbC5waHA/c3RyZWFtPWV2ZW4z"
+                "url": "https://fltvhd.com/online/canal.php?stream=even7",
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbC5waHA/c3RyZWFtPWV2ZW43"
             }
         ],
-        "id": 8
+        "id": 1
     }
 ]
