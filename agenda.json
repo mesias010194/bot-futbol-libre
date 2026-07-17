@@ -1,43 +1,5 @@
 [
     {
-        "datetime": "2026-07-17T18:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/peru_ddc4e685cf.png",
-        "league": "Liga 1",
-        "homeTeam": "FC Cajamarca",
-        "awayTeam": "Juan Pablo II College",
-        "servers": [
-            {
-                "name": "LIGA1MAX",
-                "channel": "LIGA1MAX",
-                "url": "https://la18hd.su/vivo/canal.php?stream=liga1max",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=liga1max"
-            },
-            {
-                "name": "LIGAPERU",
-                "channel": "LIGAPERU",
-                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/ligaperu.html",
-                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/ligaperu.html"
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-07-17T18:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/uruguay_e2b9597af8.png",
-        "league": "Primera División",
-        "homeTeam": "Albion",
-        "awayTeam": "Juventud",
-        "servers": [
-            {
-                "name": "DISNEY1",
-                "channel": "DISNEY1",
-                "url": "https://la18hd.su/vivo/canal.php?stream=disney1",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney1"
-            }
-        ],
-        "id": 2
-    },
-    {
         "datetime": "2026-07-17T20:15:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/peru_ddc4e685cf.png",
         "league": "Liga 1",
@@ -57,7 +19,7 @@
                 "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/ligaperu.html"
             }
         ],
-        "id": 3
+        "id": 1
     },
     {
         "datetime": "2026-07-17T21:45:00Z",
@@ -73,7 +35,7 @@
                 "iframe": "https://la20hd.com/vivo/canales.php?stream=tycsports"
             }
         ],
-        "id": 4
+        "id": 2
     },
     {
         "datetime": "2026-07-17T22:00:00Z",
@@ -89,7 +51,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=premiere4"
             }
         ],
-        "id": 5
+        "id": 3
     },
     {
         "datetime": "2026-07-17T22:30:00Z",
@@ -105,7 +67,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=premiere2"
             }
         ],
-        "id": 6
+        "id": 4
     },
     {
         "datetime": "2026-07-17T22:30:00Z",
@@ -121,7 +83,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=disney2"
             }
         ],
-        "id": 7
+        "id": 5
     },
     {
         "datetime": "2026-07-17T23:00:00Z",
@@ -137,6 +99,6 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=premiere3"
             }
         ],
-        "id": 8
+        "id": 6
     }
 ]
