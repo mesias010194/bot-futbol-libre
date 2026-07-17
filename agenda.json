@@ -100,5 +100,107 @@
             }
         ],
         "id": 6
+    },
+    {
+        "datetime": "2026-07-17T23:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/brasil_25a533e5f7.png",
+        "league": "Brasileirão",
+        "homeTeam": "Fluminense",
+        "awayTeam": "RB Bragantino",
+        "servers": [
+            {
+                "name": "PREMIERE1",
+                "channel": "PREMIERE1",
+                "url": "https://la18hd.su/vivo/canal.php?stream=premiere1",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=premiere1"
+            }
+        ],
+        "id": 7
+    },
+    {
+        "datetime": "2026-07-18T00:15:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/estados_unidos_de_america_b400fc18c4.png",
+        "league": "Major League Soccer",
+        "homeTeam": "Nashville SC",
+        "awayTeam": "Atlanta United",
+        "servers": [
+            {
+                "name": "FOXDEPORTES",
+                "channel": "FOXDEPORTES",
+                "url": "https://la18hd.su/vivo/canal.php?stream=foxdeportes",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=foxdeportes"
+            }
+        ],
+        "id": 8
+    },
+    {
+        "datetime": "2026-07-18T00:45:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/argentina_2bd748026e.png",
+        "league": "Copa Argentina",
+        "homeTeam": "River Plate",
+        "awayTeam": "Aldosivi",
+        "servers": [
+            {
+                "name": "TYCSPORTS",
+                "channel": "TYCSPORTS",
+                "url": "https://la20hd.com/vivo/canal.php?stream=tycsports",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=tycsports"
+            }
+        ],
+        "id": 9
+    },
+    {
+        "datetime": "2026-07-18T01:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/peru_ddc4e685cf.png",
+        "league": "Liga 1",
+        "homeTeam": "Cienciano",
+        "awayTeam": "Melgar",
+        "servers": [
+            {
+                "name": "LIGA1MAX",
+                "channel": "LIGA1MAX",
+                "url": "https://la18hd.su/vivo/canal.php?stream=liga1max",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=liga1max"
+            },
+            {
+                "name": "LIGAPERU",
+                "channel": "LIGAPERU",
+                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/ligaperu.html",
+                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/ligaperu.html"
+            }
+        ],
+        "id": 10
+    },
+    {
+        "datetime": "2026-07-18T01:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/bandera_fbc29cb609.png",
+        "league": "Liga MX",
+        "homeTeam": "León",
+        "awayTeam": "Atlas",
+        "servers": [
+            {
+                "name": "TUDN",
+                "channel": "TUDN",
+                "url": "https://la18hd.su/vivo/canal.php?stream=tudn",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=tudn"
+            }
+        ],
+        "id": 11
+    },
+    {
+        "datetime": "2026-07-18T03:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/bandera_fbc29cb609.png",
+        "league": "Liga MX",
+        "homeTeam": "Juárez",
+        "awayTeam": "Puebla",
+        "servers": [
+            {
+                "name": "UNIVERSO",
+                "channel": "UNIVERSO",
+                "url": "https://la20hd.com/vivo/canal.php?stream=universo",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=universo"
+            }
+        ],
+        "id": 12
     }
 ]
