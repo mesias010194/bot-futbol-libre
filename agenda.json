@@ -1,69 +1,5 @@
 [
     {
-        "datetime": "2026-07-16T21:45:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/argentina_2bd748026e.png",
-        "league": "Copa Argentina",
-        "homeTeam": "Racing Club",
-        "awayTeam": "Defensa y Justicia",
-        "servers": [
-            {
-                "name": "TYCSPORTS",
-                "channel": "TYCSPORTS",
-                "url": "https://la20hd.com/vivo/canal.php?stream=tycsports",
-                "iframe": "https://la20hd.com/vivo/canales.php?stream=tycsports"
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-07-16T22:30:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/brasil_25a533e5f7.png",
-        "league": "Brasileirão",
-        "homeTeam": "Vitória",
-        "awayTeam": "Vasco da Gama",
-        "servers": [
-            {
-                "name": "PREMIERE1",
-                "channel": "PREMIERE1",
-                "url": "https://la18hd.su/vivo/canal.php?stream=premiere1",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=premiere1"
-            }
-        ],
-        "id": 2
-    },
-    {
-        "datetime": "2026-07-16T22:30:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/brasil_25a533e5f7.png",
-        "league": "Brasileirão",
-        "homeTeam": "Botafogo",
-        "awayTeam": "Santos",
-        "servers": [
-            {
-                "name": "PREMIERE2",
-                "channel": "PREMIERE2",
-                "url": "https://la18hd.su/vivo/canal.php?stream=premiere2",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=premiere2"
-            }
-        ],
-        "id": 3
-    },
-    {
-        "datetime": "2026-07-17T00:45:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/argentina_2bd748026e.png",
-        "league": "Copa Argentina",
-        "homeTeam": "Sarmiento",
-        "awayTeam": "Boca Juniors",
-        "servers": [
-            {
-                "name": "TYCSPORTS",
-                "channel": "TYCSPORTS",
-                "url": "https://la20hd.com/vivo/canal.php?stream=tycsports",
-                "iframe": "https://la20hd.com/vivo/canales.php?stream=tycsports"
-            }
-        ],
-        "id": 4
-    },
-    {
         "datetime": "2026-07-17T01:00:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/bandera_fbc29cb609.png",
         "league": "Liga MX",
@@ -77,7 +13,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=foxdeportes"
             }
         ],
-        "id": 5
+        "id": 1
     },
     {
         "datetime": "2026-07-17T03:00:00Z",
@@ -93,6 +29,6 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=tudn"
             }
         ],
-        "id": 6
+        "id": 2
     }
 ]
