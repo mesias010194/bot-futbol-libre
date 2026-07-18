@@ -54,7 +54,7 @@
         "id": 3
     },
     {
-        "datetime": "2026-07-18T18:00:00Z",
+        "datetime": "2026-07-18T18:15:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/peru_ddc4e685cf.png",
         "league": "Liga 1",
         "homeTeam": "ADT",
@@ -93,22 +93,6 @@
     },
     {
         "datetime": "2026-07-18T20:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/amistosos_bbe2ec4c17.png",
-        "league": "Partido Amistoso",
-        "homeTeam": "Millonarios",
-        "awayTeam": "Colo-Colo",
-        "servers": [
-            {
-                "name": "DISNEY5",
-                "channel": "DISNEY5",
-                "url": "https://la18hd.com/vivo/canal.php?stream=disney5",
-                "iframe": "https://la18hd.com/vivo/canales.php?stream=disney5"
-            }
-        ],
-        "id": 6
-    },
-    {
-        "datetime": "2026-07-18T20:00:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/peru_ddc4e685cf.png",
         "league": "Liga 1",
         "homeTeam": "Atlético Grau",
@@ -127,7 +111,7 @@
                 "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/ligaperu.html"
             }
         ],
-        "id": 7
+        "id": 6
     },
     {
         "datetime": "2026-07-18T21:00:00Z",
@@ -189,6 +173,22 @@
                 "channel": "UNIVERSO",
                 "url": "https://la20hd.com/vivo/canal.php?stream=universo",
                 "iframe": "https://la20hd.com/vivo/canales.php?stream=universo"
+            }
+        ],
+        "id": 7
+    },
+    {
+        "datetime": "2026-07-18T22:45:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/amistosos_bbe2ec4c17.png",
+        "league": "Partido Amistoso",
+        "homeTeam": "Millonarios",
+        "awayTeam": "Colo-Colo",
+        "servers": [
+            {
+                "name": "DISNEY5",
+                "channel": "DISNEY5",
+                "url": "https://la18hd.com/vivo/canal.php?stream=disney5",
+                "iframe": "https://la18hd.com/vivo/canales.php?stream=disney5"
             }
         ],
         "id": 8
