@@ -1,139 +1,5 @@
 [
     {
-        "datetime": "2026-07-18T21:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
-        "league": "Copa Mundial de la FIFA",
-        "homeTeam": "Francia",
-        "awayTeam": "Inglaterra | 3er. Puesto",
-        "servers": [
-            {
-                "name": "DSPORTSAR",
-                "channel": "DSPORTSAR",
-                "url": "https://la16hd.com/dsportsar.php",
-                "iframe": "https://la16hd.com/dsportsar.php"
-            },
-            {
-                "name": "DSPORTSLATAM",
-                "channel": "DSPORTSLATAM",
-                "url": "https://la16hd.com/dsportslatam.php",
-                "iframe": "https://la16hd.com/dsportslatam.php"
-            },
-            {
-                "name": "LA1TVE",
-                "channel": "LA1TVE",
-                "url": "https://la16hd.com/la1tve.php",
-                "iframe": "https://la16hd.com/la1tve.php"
-            },
-            {
-                "name": "DSPORTS",
-                "channel": "DSPORTS",
-                "url": "https://la18hd.su/vivo/canal.php?stream=dsports",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=dsports"
-            },
-            {
-                "name": "VTVPLUS",
-                "channel": "VTVPLUS",
-                "url": "https://la18hd.su/vivo/canal.php?stream=vtvplus",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=vtvplus"
-            },
-            {
-                "name": "CARACOL",
-                "channel": "CARACOL",
-                "url": "https://la20hd.com/vivo/canal.php?stream=caracol",
-                "iframe": "https://la20hd.com/vivo/canales.php?stream=caracol"
-            },
-            {
-                "name": "TELEMUNDO",
-                "channel": "TELEMUNDO",
-                "url": "https://la18hd.su/vivo/canal.php?stream=telemundo",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=telemundo"
-            },
-            {
-                "name": "UNIVERSO",
-                "channel": "UNIVERSO",
-                "url": "https://la20hd.com/vivo/canal.php?stream=universo",
-                "iframe": "https://la20hd.com/vivo/canales.php?stream=universo"
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-07-18T22:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/chile_86c07a7b38.png",
-        "league": "17",
-        "homeTeam": "00 - Primera Division: Coquimbo Unido",
-        "awayTeam": "O'Higgins",
-        "servers": [
-            {
-                "name": "TNTSPORTSCHILE",
-                "channel": "TNTSPORTSCHILE",
-                "url": "https://la20hd.com/vivo/canal.php?stream=tntsportschile",
-                "iframe": "https://la20hd.com/vivo/canales.php?stream=tntsportschile"
-            }
-        ],
-        "id": 2
-    },
-    {
-        "datetime": "2026-07-18T22:45:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/amistosos_bbe2ec4c17.png",
-        "league": "Partido Amistoso",
-        "homeTeam": "Millonarios",
-        "awayTeam": "Colo-Colo",
-        "servers": [
-            {
-                "name": "DISNEY5",
-                "channel": "DISNEY5",
-                "url": "https://la18hd.com/vivo/canal.php?stream=disney5",
-                "iframe": "https://la18hd.com/vivo/canales.php?stream=disney5"
-            }
-        ],
-        "id": 3
-    },
-    {
-        "datetime": "2026-07-18T23:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/bandera_fbc29cb609.png",
-        "league": "Liga MX",
-        "homeTeam": "Pumas UNAM",
-        "awayTeam": "Pachuca",
-        "servers": [
-            {
-                "name": "TUDNMAX",
-                "channel": "TUDNMAX",
-                "url": "https://la16hd.com/tudnmax.php",
-                "iframe": "https://la16hd.com/tudnmax.php"
-            },
-            {
-                "name": "CANAL5MX",
-                "channel": "CANAL5MX",
-                "url": "https://la16hd.com/canal5mx.php",
-                "iframe": "https://la16hd.com/canal5mx.php"
-            }
-        ],
-        "id": 4
-    },
-    {
-        "datetime": "2026-07-18T23:30:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/peru_ddc4e685cf.png",
-        "league": "Liga 1",
-        "homeTeam": "Cusco",
-        "awayTeam": "Alianza Atlético",
-        "servers": [
-            {
-                "name": "LIGA1MAX",
-                "channel": "LIGA1MAX",
-                "url": "https://la18hd.su/vivo/canal.php?stream=liga1max",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=liga1max"
-            },
-            {
-                "name": "LIGAPERU",
-                "channel": "LIGAPERU",
-                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/ligaperu.html",
-                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/ligaperu.html"
-            }
-        ],
-        "id": 5
-    },
-    {
         "datetime": "2026-07-19T01:00:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/bandera_fbc29cb609.png",
         "league": "Liga MX",
@@ -165,7 +31,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=univision"
             }
         ],
-        "id": 6
+        "id": 1
     },
     {
         "datetime": "2026-07-19T01:00:00Z",
@@ -179,9 +45,15 @@
                 "channel": "TELEMUNDO",
                 "url": "https://la18hd.su/vivo/canal.php?stream=telemundo",
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=telemundo"
+            },
+            {
+                "name": "UNIVERSO",
+                "channel": "UNIVERSO",
+                "url": "https://la20hd.com/vivo/canal.php?stream=universo",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=universo"
             }
         ],
-        "id": 7
+        "id": 2
     },
     {
         "datetime": "2026-07-19T03:00:00Z",
@@ -203,6 +75,28 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=univision"
             }
         ],
-        "id": 8
+        "id": 3
+    },
+    {
+        "datetime": "2026-07-19T03:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/ufc_00fbf49648.png",
+        "league": "UFC",
+        "homeTeam": "Dricus Du Plessis",
+        "awayTeam": "Kamaru Usman",
+        "servers": [
+            {
+                "name": "PARAMOUNT1",
+                "channel": "PARAMOUNT1",
+                "url": "https://la20hd.com/vivo/canal.php?stream=paramount1",
+                "iframe": "https://la20hd.com/vivo/canales.php?stream=paramount1"
+            },
+            {
+                "name": "PARAMOUNT2",
+                "channel": "PARAMOUNT2",
+                "url": "https://la18hd.su/vivo/canal.php?stream=paramount2",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=paramount2"
+            }
+        ],
+        "id": 4
     }
 ]
