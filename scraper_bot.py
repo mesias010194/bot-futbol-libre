@@ -19,7 +19,7 @@ API_KEY = "$2a$10$fH2AVYqUAGOQm6KLrAcdk.fsTBsZPp7sTDWydhhsWtaYfrLlnAWv."
 # ==========================================================
 FUENTES_AGENDA = [
     "https://la20hd.com/eventos/json/agenda123.json", # FUENTE PRINCIPAL
-    "https://pltvhd.com/diaries.json",               # Respaldo 1
+    "https://futbollibres.net/js/agenda.js",               # Respaldo 1
     "https://agenda18.com/agenda.json",              # Respaldo 2
 ]
 
