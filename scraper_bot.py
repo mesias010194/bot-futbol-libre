@@ -193,8 +193,8 @@ def extraer_partidos():
     try:
         partidos_agrupados = {}
         
-        # === SOLUCIÓN DE DOMINIO PARA IMÁGENES EXACTAS ===
-if "pltvhd.com" in url_fuente_exitosa or "ftvhd.com" in url_fuente_exitosa:
+        # === NORMALIZACIÓN DEL DOMINIO PARA EXTRAER IMÁGENES EXACTAS ===
+        if "pltvhd.com" in url_fuente_exitosa:
             url_fuente_base = "https://cdn.ftvhd.com" 
         elif "agenda18.com" in url_fuente_exitosa:
             url_fuente_base = "https://img.agenda18.com"
