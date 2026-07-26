@@ -1,233 +1,5 @@
 [
     {
-        "datetime": "2026-07-25T21:00:00Z",
-        "flagUrl": "https://ftvhd.com/uploads/amistosos_bbe2ec4c17_02fd4e7093.png",
-        "league": "Primera División",
-        "homeTeam": "Atlético Balboa",
-        "awayTeam": "Inter",
-        "servers": [],
-        "id": 1
-    },
-    {
-        "datetime": "2026-07-25T21:00:00Z",
-        "flagUrl": "https://ftvhd.com/uploads/colombia_dcf9cc2637_a1661b26da.png",
-        "league": "Primera A",
-        "homeTeam": "Boyacá Chicó",
-        "awayTeam": "Atlético Nacional",
-        "servers": [
-            {
-                "name": "Win Sports + | HD",
-                "channel": "Win Sports + | HD",
-                "url": "https://fltvhd.com/online/canal.php?stream=winsports2",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09d2luc3BvcnRzMg=="
-            },
-            {
-                "name": "Win Sports +",
-                "channel": "Win Sports +",
-                "url": "https://fltvhd.com/canal.php?stream=winsports2",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT13aW5zcG9ydHMy"
-            },
-            {
-                "name": "Win Sports + | OP2",
-                "channel": "Win Sports + | OP2",
-                "url": "https://fltvhd.com/vivo/canal.php?stream=winsports2",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT13aW5zcG9ydHMy"
-            }
-        ],
-        "id": 2
-    },
-    {
-        "datetime": "2026-07-25T21:00:00Z",
-        "flagUrl": "https://ftvhd.com/uploads/amistosos_bbe2ec4c17_02fd4e7093.png",
-        "league": "Primera División",
-        "homeTeam": "Cacahuatique",
-        "awayTeam": "Isidro Metapán",
-        "servers": [],
-        "id": 3
-    },
-    {
-        "datetime": "2026-07-25T21:00:00Z",
-        "flagUrl": "https://ftvhd.com/uploads/uruguay_e2b9597af8_6abda609fb.png",
-        "league": "Primera División",
-        "homeTeam": "Defensor Sporting",
-        "awayTeam": "Liverpool",
-        "servers": [
-            {
-                "name": "Disney+",
-                "channel": "Disney+",
-                "url": "https://fltvhd.com/canal.php?stream=disney6",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kaXNuZXk2"
-            }
-        ],
-        "id": 4
-    },
-    {
-        "datetime": "2026-07-25T21:05:00Z",
-        "flagUrl": "https://ftvhd.com/uploads/colombia_dcf9cc2637_a1661b26da.png",
-        "league": "Primera A",
-        "homeTeam": "Medellín",
-        "awayTeam": "Deportivo Pasto",
-        "servers": [
-            {
-                "name": "Win Sports HD",
-                "channel": "Win Sports HD",
-                "url": "https://fltvhd.com/online/canal.php?stream=winsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09d2luc3BvcnRz"
-            },
-            {
-                "name": "Win Sports",
-                "channel": "Win Sports",
-                "url": "https://fltvhd.com/canal.php?stream=winsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT13aW5zcG9ydHM="
-            },
-            {
-                "name": "Win Sports | OP2",
-                "channel": "Win Sports | OP2",
-                "url": "https://fltvhd.com/vivo/canal.php?stream=winsports",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT13aW5zcG9ydHM="
-            }
-        ],
-        "id": 5
-    },
-    {
-        "datetime": "2026-07-25T21:15:00Z",
-        "flagUrl": "https://ftvhd.com/uploads/bolivia_png_81cfc9f71f.png",
-        "league": "Primera División",
-        "homeTeam": "Guabirá",
-        "awayTeam": "Real Oruro",
-        "servers": [
-            {
-                "name": "Entel TV PLUS+",
-                "channel": "Entel TV PLUS+",
-                "url": "https://fltvhd.com/online/canal.php?stream=even1",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09ZXZlbjE="
-            }
-        ],
-        "id": 6
-    },
-    {
-        "datetime": "2026-07-25T21:30:00Z",
-        "flagUrl": "https://ftvhd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
-        "league": "Brasileirão",
-        "homeTeam": "Santos",
-        "awayTeam": "Chapecoense",
-        "servers": [
-            {
-                "name": "Sportv BR HD",
-                "channel": "Sportv BR HD",
-                "url": "https://fltvhd.com/online/canal.php?stream=sportv",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09c3BvcnR2"
-            },
-            {
-                "name": "Premiere BR | HD",
-                "channel": "Premiere BR | HD",
-                "url": "https://fltvhd.com/online/canal.php?stream=premiere1",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09cHJlbWllcmUx"
-            },
-            {
-                "name": "Sportv BR",
-                "channel": "Sportv BR",
-                "url": "https://fltvhd.com/canal.php?stream=sportv",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1zcG9ydHY="
-            },
-            {
-                "name": "Premiere BR ",
-                "channel": "Premiere BR ",
-                "url": "https://fltvhd.com/canal.php?stream=premiere1",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1wcmVtaWVyZTE="
-            }
-        ],
-        "id": 7
-    },
-    {
-        "datetime": "2026-07-25T21:30:00Z",
-        "flagUrl": "https://ftvhd.com/uploads/chile_86c07a7b38_fad5126fd0.png",
-        "league": "Primera División",
-        "homeTeam": "Huachipato",
-        "awayTeam": "Cobresal",
-        "servers": [
-            {
-                "name": "TNT Sports Premiun CL HD",
-                "channel": "TNT Sports Premiun CL HD",
-                "url": "https://fltvhd.com/online/canal.php?stream=tntsportschile",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09dG50c3BvcnRzY2hpbGU="
-            },
-            {
-                "name": "TNT Sports Premiun CL",
-                "channel": "TNT Sports Premiun CL",
-                "url": "https://fltvhd.com/canal.php?stream=tntsportschile",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT10bnRzcG9ydHNjaGlsZQ=="
-            },
-            {
-                "name": "TNT Sports Premiun CL OP2",
-                "channel": "TNT Sports Premiun CL OP2",
-                "url": "https://fltvhd.com/vivo/canal.php?stream=tntsportschile",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT10bnRzcG9ydHNjaGlsZQ=="
-            }
-        ],
-        "id": 8
-    },
-    {
-        "datetime": "2026-07-25T21:30:00Z",
-        "flagUrl": "https://ftvhd.com/uploads/paraguay_fc9dd78de7_fda39878d0.png",
-        "league": "Copa de Primera",
-        "homeTeam": "Sportivo Ameliano",
-        "awayTeam": "Nacional Asunción",
-        "servers": [
-            {
-                "name": "fanatiz 08",
-                "channel": "fanatiz 08",
-                "url": "https://fltvhd.com/canal.php?stream=fanatiz8",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1mYW5hdGl6OA=="
-            }
-        ],
-        "id": 9
-    },
-    {
-        "datetime": "2026-07-25T21:30:00Z",
-        "flagUrl": "https://ftvhd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
-        "league": "Brasileirão",
-        "homeTeam": "Athletico-PR",
-        "awayTeam": "Internacional",
-        "servers": [
-            {
-                "name": "Amazon Prime C",
-                "channel": "Amazon Prime C",
-                "url": "https://fltvhd.com/canal.php?stream=amazon_prime1",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1hbWF6b25fcHJpbWUx"
-            }
-        ],
-        "id": 10
-    },
-    {
-        "datetime": "2026-07-25T22:00:00Z",
-        "flagUrl": "https://ftvhd.com/uploads/amistoso_paises_b9febc0d3c_e1d457d1ee.png",
-        "league": "Partido Amistoso",
-        "homeTeam": "Liverpool",
-        "awayTeam": "Sunderland",
-        "servers": [
-            {
-                "name": "ESPN Deportes  | HD",
-                "channel": "ESPN Deportes  | HD",
-                "url": "https://fltvhd.com/online/canal.php?stream=espndeportes",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbmRlcG9ydGVz"
-            },
-            {
-                "name": "ESPN Deportes",
-                "channel": "ESPN Deportes",
-                "url": "https://fltvhd.com/canal.php?stream=espndeportes",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuZGVwb3J0ZXM="
-            },
-            {
-                "name": "ESPN Deportes  | OP2",
-                "channel": "ESPN Deportes  | OP2",
-                "url": "https://fltvhd.com/vivo/canal.php?stream=espndeportes",
-                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BuZGVwb3J0ZXM="
-            }
-        ],
-        "id": 11
-    },
-    {
         "datetime": "2026-07-25T22:15:00Z",
         "flagUrl": "https://ftvhd.com/uploads/argentina_2bd748026e_628913fc18.png",
         "league": "Liga Profesional",
@@ -271,7 +43,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT10bnRzcG9ydHM="
             }
         ],
-        "id": 12
+        "id": 1
     },
     {
         "datetime": "2026-07-25T23:00:00Z",
@@ -287,7 +59,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09ZnV0dg=="
             }
         ],
-        "id": 13
+        "id": 2
     },
     {
         "datetime": "2026-07-25T23:00:00Z",
@@ -315,7 +87,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BubXg="
             }
         ],
-        "id": 14
+        "id": 3
     },
     {
         "datetime": "2026-07-25T23:05:00Z",
@@ -349,7 +121,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT11bml2ZXJzbw=="
             }
         ],
-        "id": 15
+        "id": 4
     },
     {
         "datetime": "2026-07-25T23:10:00Z",
@@ -377,7 +149,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT13aW5zcG9ydHMy"
             }
         ],
-        "id": 16
+        "id": 5
     },
     {
         "datetime": "2026-07-25T23:15:00Z",
@@ -399,7 +171,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1mb3hzcG9ydHMyX3VzYQ=="
             }
         ],
-        "id": 17
+        "id": 6
     },
     {
         "datetime": "2026-07-25T23:30:00Z",
@@ -427,7 +199,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BuZGVwb3J0ZXM="
             }
         ],
-        "id": 18
+        "id": 7
     },
     {
         "datetime": "2026-07-25T23:30:00Z",
@@ -443,7 +215,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09ZXZlbjE="
             }
         ],
-        "id": 19
+        "id": 8
     },
     {
         "datetime": "2026-07-25T23:30:00Z",
@@ -465,7 +237,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1wcmVtaWVyZTI="
             }
         ],
-        "id": 20
+        "id": 9
     },
     {
         "datetime": "2026-07-26T00:00:00Z",
@@ -474,7 +246,7 @@
         "homeTeam": "UMECIT",
         "awayTeam": "Alianza",
         "servers": [],
-        "id": 21
+        "id": 10
     },
     {
         "datetime": "2026-07-26T00:00:00Z",
@@ -483,7 +255,7 @@
         "homeTeam": "Inca Aruba",
         "awayTeam": "Alianza",
         "servers": [],
-        "id": 22
+        "id": 11
     },
     {
         "datetime": "2026-07-26T00:00:00Z",
@@ -511,7 +283,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT10bnRzcG9ydHNjaGlsZQ=="
             }
         ],
-        "id": 23
+        "id": 12
     },
     {
         "datetime": "2026-07-26T00:00:00Z",
@@ -539,7 +311,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lY2RmX2xpZ2Fwcm8="
             }
         ],
-        "id": 24
+        "id": 13
     },
     {
         "datetime": "2026-07-26T00:30:00Z",
@@ -561,7 +333,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BucHJlbWl1bQ=="
             }
         ],
-        "id": 25
+        "id": 14
     },
     {
         "datetime": "2026-07-26T00:30:00Z",
@@ -607,7 +379,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT11bml2aXNpb24="
             }
         ],
-        "id": 26
+        "id": 15
     },
     {
         "datetime": "2026-07-26T01:00:00Z",
@@ -635,7 +407,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1saWdhMW1heA=="
             }
         ],
-        "id": 27
+        "id": 16
     },
     {
         "datetime": "2026-07-26T01:15:00Z",
@@ -663,7 +435,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT13aW5zcG9ydHMy"
             }
         ],
-        "id": 28
+        "id": 17
     },
     {
         "datetime": "2026-07-26T01:30:00Z",
@@ -679,7 +451,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1mb3hzcG9ydHMxX3VzYQ=="
             }
         ],
-        "id": 29
+        "id": 18
     },
     {
         "datetime": "2026-07-26T02:00:00Z",
@@ -695,7 +467,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09ZnV0dg=="
             }
         ],
-        "id": 30
+        "id": 19
     },
     {
         "datetime": "2026-07-26T03:00:00Z",
@@ -723,7 +495,7 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BubXg="
             }
         ],
-        "id": 31
+        "id": 20
     },
     {
         "datetime": "2026-07-26T03:00:00Z",
@@ -733,13 +505,19 @@
         "awayTeam": "Tottenham Hotspur",
         "servers": [
             {
+                "name": "CLARO SPORTS HD",
+                "channel": "CLARO SPORTS HD",
+                "url": "https://fltvhd.com/online/canal.php?stream=even10",
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL29ubGluZS9jYW5hbGVzLnBocD9zdHJlYW09ZXZlbjEw"
+            },
+            {
                 "name": "Claro Sports ",
                 "channel": "Claro Sports ",
                 "url": "https://fltvhd.com/canal.php?stream=clarosports",
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1jbGFyb3Nwb3J0cw=="
             }
         ],
-        "id": 32
+        "id": 21
     },
     {
         "datetime": "2026-07-26T03:00:00Z",
@@ -809,6 +587,6 @@
                 "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9mbHR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1mb3hkZXBvcnRlcw=="
             }
         ],
-        "id": 33
+        "id": 22
     }
 ]
