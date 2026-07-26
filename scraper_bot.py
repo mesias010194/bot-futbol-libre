@@ -18,7 +18,7 @@ API_KEY = "$2a$10$fH2AVYqUAGOQm6KLrAcdk.fsTBsZPp7sTDWydhhsWtaYfrLlnAWv."
 # 2. ENLACES DE FUENTES Y RESPALDOS
 # ==========================================================
 FUENTES_AGENDA = [
-    "https://la20hd.com/eventos/json/agenda123.json", # FUENTE PRINCIPAL
+    "https://la18hd.su//eventos/json/agenda123.json", # FUENTE PRINCIPAL
     "https://ftvhd.com/diaries.json",               # Respaldo 1
     "https://agenda18.com/agenda.json",              # Respaldo 2
 ]
