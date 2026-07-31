@@ -7,12 +7,6 @@
         "awayTeam": "Barcelona",
         "servers": [
             {
-                "name": "DSPORTS EVENTOS",
-                "channel": "DSPORTS EVENTOS",
-                "url": "https://la18hd.su/vivo/canal.php?stream=dsports_eventos",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=dsports_eventos"
-            },
-            {
                 "name": "DSPORTS",
                 "channel": "DSPORTS",
                 "url": "https://la18hd.su/vivo/canal.php?stream=dsports",
