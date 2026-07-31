@@ -1,1 +1,150 @@
-[]
+[
+    {
+        "datetime": "2026-07-31T19:15:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/amistosos_bbe2ec4c17.png",
+        "league": "Amistoso",
+        "homeTeam": "Birmingham City",
+        "awayTeam": "Barcelona",
+        "servers": [
+            {
+                "name": "DSPORTS EVENTOS",
+                "channel": "DSPORTS EVENTOS",
+                "url": "https://la18hd.su/vivo/canal.php?stream=dsports_eventos",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=dsports_eventos"
+            },
+            {
+                "name": "DSPORTS",
+                "channel": "DSPORTS",
+                "url": "https://la18hd.su/vivo/canal.php?stream=dsports",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=dsports"
+            },
+            {
+                "name": "VTVPLUS",
+                "channel": "VTVPLUS",
+                "url": "https://la18hd.su/vivo/canal.php?stream=vtvplus",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=vtvplus"
+            },
+            {
+                "name": "CLAROSPORTS1",
+                "channel": "CLAROSPORTS1",
+                "url": "https://la18hd.su/vivo/canal.php?stream=clarosports1",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=clarosports1"
+            }
+        ],
+        "id": 1
+    },
+    {
+        "datetime": "2026-07-31T20:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/peru_ddc4e685cf.png",
+        "league": "Liga 1",
+        "homeTeam": "Los Chankas",
+        "awayTeam": "Comerciantes Unidos",
+        "servers": [
+            {
+                "name": "LIGA1MAX",
+                "channel": "LIGA1MAX",
+                "url": "https://la18hd.su/vivo/canal.php?stream=liga1max",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=liga1max"
+            },
+            {
+                "name": "LIGAPERU",
+                "channel": "LIGAPERU",
+                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/ligaperu.html",
+                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/ligaperu.html"
+            }
+        ],
+        "id": 2
+    },
+    {
+        "datetime": "2026-07-31T21:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/images_d754c79ab2.png",
+        "league": "Campeonato Sub-20",
+        "homeTeam": "El Salvador",
+        "awayTeam": "Haití",
+        "servers": [
+            {
+                "name": "DISNEY2",
+                "channel": "DISNEY2",
+                "url": "https://la18hd.su/vivo/canal.php?stream=disney2",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney2"
+            }
+        ],
+        "id": 3
+    },
+    {
+        "datetime": "2026-07-31T22:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/uruguay_e2b9597af8.png",
+        "league": "Liga Uruguay",
+        "homeTeam": "Torque",
+        "awayTeam": "Wanderers",
+        "servers": [
+            {
+                "name": "DISNEY1",
+                "channel": "DISNEY1",
+                "url": "https://la18hd.su/vivo/canal.php?stream=disney1",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney1"
+            }
+        ],
+        "id": 4
+    },
+    {
+        "datetime": "2026-07-31T23:30:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/estados_unidos_de_america_b400fc18c4.png",
+        "league": "MLS",
+        "homeTeam": "New York City",
+        "awayTeam": "Toronto FC",
+        "servers": [
+            {
+                "name": "MLS1ES",
+                "channel": "MLS1ES",
+                "url": "https://la18hd.su/vivo/canal.php?stream=mls1es",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=mls1es"
+            }
+        ],
+        "id": 5
+    },
+    {
+        "datetime": "2026-08-01T00:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/chile_86c07a7b38.png",
+        "league": "Liga Chile",
+        "homeTeam": "Univ. Concepción",
+        "awayTeam": "Audax Italiano",
+        "servers": [
+            {
+                "name": "TNTSPORTSCHILE",
+                "channel": "TNTSPORTSCHILE",
+                "url": "https://la18hd.su/vivo/canal.php?stream=tntsportschile",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=tntsportschile"
+            }
+        ],
+        "id": 6
+    },
+    {
+        "datetime": "2026-08-01T01:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/colombia_dcf9cc2637.png",
+        "league": "Liga Colombia",
+        "homeTeam": "Fortaleza CEIF",
+        "awayTeam": "Deportivo Pereira",
+        "servers": [
+            {
+                "name": "WINSPORTSPLUS",
+                "channel": "WINSPORTSPLUS",
+                "url": "https://la18hd.su/vivo/canal.php?stream=winsportsplus",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=winsportsplus"
+            },
+            {
+                "name": "WINSPORTS2",
+                "channel": "WINSPORTS2",
+                "url": "https://la18hd.su/vivo/canal.php?stream=winsports2",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=winsports2"
+            },
+            {
+                "name": "WINSPORTS",
+                "channel": "WINSPORTS",
+                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/winsports.html",
+                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/winsports.html"
+            }
+        ],
+        "id": 7
+    }
+]
