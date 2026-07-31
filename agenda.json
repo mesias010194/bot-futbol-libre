@@ -1,16 +1,16 @@
 [
     {
-        "datetime": "2026-07-31T19:15:00Z",
+        "datetime": "2026-07-31T18:45:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/amistosos_bbe2ec4c17.png",
         "league": "Amistoso",
         "homeTeam": "Birmingham City",
         "awayTeam": "Barcelona",
         "servers": [
             {
-                "name": "DSPORTS",
-                "channel": "DSPORTS",
-                "url": "https://la18hd.su/vivo/canal.php?stream=dsports",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=dsports"
+                "name": "DSPORTS EVENTOS",
+                "channel": "DSPORTS EVENTOS",
+                "url": "https://la18hd.su/vivo/canal.php?stream=dsports_eventos",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=dsports_eventos"
             },
             {
                 "name": "VTVPLUS",
@@ -19,10 +19,10 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=vtvplus"
             },
             {
-                "name": "CLAROSPORTS1",
-                "channel": "CLAROSPORTS1",
-                "url": "https://la18hd.su/vivo/canal.php?stream=clarosports1",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=clarosports1"
+                "name": "DSPORTS",
+                "channel": "DSPORTS",
+                "url": "https://la18hd.su/vivo/canal.php?stream=dsports",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=dsports"
             }
         ],
         "id": 1
