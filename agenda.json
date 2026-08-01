@@ -1,109 +1,5 @@
 [
     {
-        "datetime": "2026-07-31T22:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/uruguay_e2b9597af8.png",
-        "league": "Liga Uruguay",
-        "homeTeam": "Torque",
-        "awayTeam": "Wanderers",
-        "servers": [
-            {
-                "name": "DISNEY1",
-                "channel": "DISNEY1",
-                "url": "https://la18hd.su/vivo/canal.php?stream=disney1",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney1"
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-07-31T23:30:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/estados_unidos_de_america_b400fc18c4.png",
-        "league": "MLS",
-        "homeTeam": "New York City",
-        "awayTeam": "Toronto FC",
-        "servers": [
-            {
-                "name": "MLS1ES",
-                "channel": "MLS1ES",
-                "url": "https://la18hd.su/vivo/canal.php?stream=mls1es",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=mls1es"
-            }
-        ],
-        "id": 2
-    },
-    {
-        "datetime": "2026-08-01T00:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/chile_86c07a7b38.png",
-        "league": "Liga Chile",
-        "homeTeam": "Univ. Concepción",
-        "awayTeam": "Audax Italiano",
-        "servers": [
-            {
-                "name": "TNTSPORTSCHILE",
-                "channel": "TNTSPORTSCHILE",
-                "url": "https://la18hd.su/vivo/canal.php?stream=tntsportschile",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=tntsportschile"
-            }
-        ],
-        "id": 3
-    },
-    {
-        "datetime": "2026-08-01T01:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/colombia_dcf9cc2637.png",
-        "league": "Liga Colombia",
-        "homeTeam": "Fortaleza CEIF",
-        "awayTeam": "Deportivo Pereira",
-        "servers": [
-            {
-                "name": "WINSPORTSPLUS",
-                "channel": "WINSPORTSPLUS",
-                "url": "https://la18hd.su/vivo/canal.php?stream=winsportsplus",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=winsportsplus"
-            },
-            {
-                "name": "WINSPORTS2",
-                "channel": "WINSPORTS2",
-                "url": "https://la18hd.su/vivo/canal.php?stream=winsports2",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=winsports2"
-            },
-            {
-                "name": "WINSPORTS",
-                "channel": "WINSPORTS",
-                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/winsports.html",
-                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/winsports.html"
-            }
-        ],
-        "id": 4
-    },
-    {
-        "datetime": "2026-08-01T01:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/bandera_fbc29cb609.png",
-        "league": "Liga MX",
-        "homeTeam": "Puebla",
-        "awayTeam": "Guadalajara",
-        "servers": [
-            {
-                "name": "TUDN",
-                "channel": "TUDN",
-                "url": "https://la18hd.su/vivo/canal.php?stream=tudn",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=tudn"
-            },
-            {
-                "name": "AZTECA7",
-                "channel": "AZTECA7",
-                "url": "https://la18hd.su/vivo/canal.php?stream=azteca7",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=azteca7"
-            },
-            {
-                "name": "ESPNMX",
-                "channel": "ESPNMX",
-                "url": "https://la18hd.su/vivo/canal.php?stream=espnmx",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=espnmx"
-            }
-        ],
-        "id": 5
-    },
-    {
         "datetime": "2026-08-01T03:00:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/bandera_fbc29cb609.png",
         "league": "Liga MX",
@@ -129,7 +25,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=foxsports2_usa"
             }
         ],
-        "id": 6
+        "id": 1
     },
     {
         "datetime": "2026-08-01T03:00:00Z",
@@ -151,6 +47,6 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=espnmx"
             }
         ],
-        "id": 7
+        "id": 2
     }
 ]
