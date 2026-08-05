@@ -1,1 +1,142 @@
-[]
+[
+    {
+        "datetime": "2026-08-05T11:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/amistosos_bbe2ec4c17.png",
+        "league": "Amistoso",
+        "homeTeam": "K-league Stars",
+        "awayTeam": "Manchester City",
+        "servers": [
+            {
+                "name": "ESPN2",
+                "channel": "ESPN2",
+                "url": "https://la18hd.su/vivo/canal.php?stream=espn2",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=espn2"
+            },
+            {
+                "name": "DISNEY1",
+                "channel": "DISNEY1",
+                "url": "https://la18hd.su/vivo/canal.php?stream=disney1",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney1"
+            },
+            {
+                "name": "ESPNMX",
+                "channel": "ESPNMX",
+                "url": "https://la18hd.su/vivo/canal.php?stream=espnmx",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=espnmx"
+            }
+        ],
+        "id": 1
+    },
+    {
+        "datetime": "2026-08-05T11:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/amistoso_paises_b9febc0d3c.png",
+        "league": "Amistoso",
+        "homeTeam": "Milan",
+        "awayTeam": "Inter",
+        "servers": [
+            {
+                "name": "DSPORTSAR",
+                "channel": "DSPORTSAR",
+                "url": "https://la16hd.com/dsportsar.php",
+                "iframe": "https://la16hd.com/dsportsar.php"
+            },
+            {
+                "name": "DSPORTS EVENTOS",
+                "channel": "DSPORTS EVENTOS",
+                "url": "https://la18hd.su/vivo/canal.php?stream=dsports_eventos",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=dsports_eventos"
+            },
+            {
+                "name": "VTVPLUS",
+                "channel": "VTVPLUS",
+                "url": "https://la18hd.su/vivo/canal.php?stream=vtvplus",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=vtvplus"
+            },
+            {
+                "name": "DSPORTS",
+                "channel": "DSPORTS",
+                "url": "https://la18hd.su/vivo/canal.php?stream=dsports",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=dsports"
+            },
+            {
+                "name": "FOXDEPORTES",
+                "channel": "FOXDEPORTES",
+                "url": "https://la18hd.su/vivo/canal.php?stream=foxdeportes",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=foxdeportes"
+            }
+        ],
+        "id": 2
+    },
+    {
+        "datetime": "2026-08-05T11:30:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/amistosos_bbe2ec4c17.png",
+        "league": "Amistoso",
+        "homeTeam": "Chelsea",
+        "awayTeam": "Juventus",
+        "servers": [
+            {
+                "name": "CLAROSPORTS1",
+                "channel": "CLAROSPORTS1",
+                "url": "https://la18hd.su/vivo/canal.php?stream=clarosports1",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=clarosports1"
+            }
+        ],
+        "id": 3
+    },
+    {
+        "datetime": "2026-08-05T18:30:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/amistoso_paises_b9febc0d3c.png",
+        "league": "Amistoso",
+        "homeTeam": "Arsenal",
+        "awayTeam": "Real Betis",
+        "servers": [
+            {
+                "name": "FOXDEPORTES",
+                "channel": "FOXDEPORTES",
+                "url": "https://la18hd.su/vivo/canal.php?stream=foxdeportes",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=foxdeportes"
+            },
+            {
+                "name": "CLAROSPORTS1",
+                "channel": "CLAROSPORTS1",
+                "url": "https://la18hd.su/vivo/canal.php?stream=clarosports1",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=clarosports1"
+            }
+        ],
+        "id": 4
+    },
+    {
+        "datetime": "2026-08-05T19:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/amistosos_bbe2ec4c17.png",
+        "league": "Amistoso",
+        "homeTeam": "Mallorca",
+        "awayTeam": "PSG",
+        "servers": [
+            {
+                "name": "DSPORTSAR",
+                "channel": "DSPORTSAR",
+                "url": "https://la16hd.com/dsportsar.php",
+                "iframe": "https://la16hd.com/dsportsar.php"
+            },
+            {
+                "name": "DSPORTS EVENTOS",
+                "channel": "DSPORTS EVENTOS",
+                "url": "https://la18hd.su/vivo/canal.php?stream=dsports_eventos",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=dsports_eventos"
+            },
+            {
+                "name": "VTVPLUS",
+                "channel": "VTVPLUS",
+                "url": "https://la18hd.su/vivo/canal.php?stream=vtvplus",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=vtvplus"
+            },
+            {
+                "name": "DSPORTS",
+                "channel": "DSPORTS",
+                "url": "https://la18hd.su/vivo/canal.php?stream=dsports",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=dsports"
+            }
+        ],
+        "id": 5
+    }
+]
