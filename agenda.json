@@ -1,61 +1,5 @@
 [
     {
-        "datetime": "2026-08-05T18:30:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/amistoso_paises_b9febc0d3c.png",
-        "league": "Amistoso",
-        "homeTeam": "Arsenal",
-        "awayTeam": "Real Betis",
-        "servers": [
-            {
-                "name": "FOXDEPORTES",
-                "channel": "FOXDEPORTES",
-                "url": "https://la18hd.su/vivo/canal.php?stream=foxdeportes",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=foxdeportes"
-            },
-            {
-                "name": "CLAROSPORTS1",
-                "channel": "CLAROSPORTS1",
-                "url": "https://la18hd.su/vivo/canal.php?stream=clarosports1",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=clarosports1"
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-08-05T19:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/amistosos_bbe2ec4c17.png",
-        "league": "Amistoso",
-        "homeTeam": "Mallorca",
-        "awayTeam": "PSG",
-        "servers": [
-            {
-                "name": "DSPORTSAR",
-                "channel": "DSPORTSAR",
-                "url": "https://la16hd.com/dsportsar.php",
-                "iframe": "https://la16hd.com/dsportsar.php"
-            },
-            {
-                "name": "DSPORTS EVENTOS",
-                "channel": "DSPORTS EVENTOS",
-                "url": "https://la18hd.su/vivo/canal.php?stream=dsports_eventos",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=dsports_eventos"
-            },
-            {
-                "name": "VTVPLUS",
-                "channel": "VTVPLUS",
-                "url": "https://la18hd.su/vivo/canal.php?stream=vtvplus",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=vtvplus"
-            },
-            {
-                "name": "DSPORTS",
-                "channel": "DSPORTS",
-                "url": "https://la18hd.su/vivo/canal.php?stream=dsports",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=dsports"
-            }
-        ],
-        "id": 2
-    },
-    {
         "datetime": "2026-08-05T22:00:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/argentina_2bd748026e.png",
         "league": "Liga Profesional",
@@ -99,7 +43,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=fanatiz1"
             }
         ],
-        "id": 3
+        "id": 1
     },
     {
         "datetime": "2026-08-05T22:00:00Z",
@@ -115,7 +59,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=tntsportschile"
             }
         ],
-        "id": 4
+        "id": 2
     },
     {
         "datetime": "2026-08-05T22:00:00Z",
@@ -131,7 +75,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=premiere1"
             }
         ],
-        "id": 5
+        "id": 3
     },
     {
         "datetime": "2026-08-05T22:30:00Z",
@@ -147,23 +91,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=amazon_prime1"
             }
         ],
-        "id": 6
-    },
-    {
-        "datetime": "2026-08-05T23:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/uruguay_e2b9597af8.png",
-        "league": "Primera División",
-        "homeTeam": "Peñarol",
-        "awayTeam": "Wanderers",
-        "servers": [
-            {
-                "name": "DISNEY4",
-                "channel": "DISNEY4",
-                "url": "https://la18hd.su/vivo/canal.php?stream=disney4",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney4"
-            }
-        ],
-        "id": 7
+        "id": 4
     },
     {
         "datetime": "2026-08-05T23:00:00Z",
@@ -197,7 +125,23 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=fanatiz2"
             }
         ],
-        "id": 8
+        "id": 5
+    },
+    {
+        "datetime": "2026-08-05T23:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/uruguay_e2b9597af8.png",
+        "league": "Primera División",
+        "homeTeam": "Peñarol",
+        "awayTeam": "Wanderers",
+        "servers": [
+            {
+                "name": "DISNEY4",
+                "channel": "DISNEY4",
+                "url": "https://la18hd.su/vivo/canal.php?stream=disney4",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney4"
+            }
+        ],
+        "id": 6
     },
     {
         "datetime": "2026-08-05T23:30:00Z",
@@ -213,7 +157,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=mls1es"
             }
         ],
-        "id": 9
+        "id": 7
     },
     {
         "datetime": "2026-08-05T23:30:00Z",
@@ -229,7 +173,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=mls2en"
             }
         ],
-        "id": 10
+        "id": 8
     },
     {
         "datetime": "2026-08-06T00:00:00Z",
@@ -245,7 +189,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=disney5"
             }
         ],
-        "id": 11
+        "id": 9
     },
     {
         "datetime": "2026-08-06T00:00:00Z",
@@ -261,7 +205,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=disney6"
             }
         ],
-        "id": 12
+        "id": 10
     },
     {
         "datetime": "2026-08-06T00:15:00Z",
@@ -289,7 +233,7 @@
                 "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espnpremium2.html"
             }
         ],
-        "id": 13
+        "id": 11
     },
     {
         "datetime": "2026-08-06T00:30:00Z",
@@ -305,7 +249,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=mls3en"
             }
         ],
-        "id": 14
+        "id": 12
     },
     {
         "datetime": "2026-08-06T00:30:00Z",
@@ -321,7 +265,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=mls4en"
             }
         ],
-        "id": 15
+        "id": 13
     },
     {
         "datetime": "2026-08-06T00:30:00Z",
@@ -337,7 +281,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=premiere2"
             }
         ],
-        "id": 16
+        "id": 14
     },
     {
         "datetime": "2026-08-06T00:30:00Z",
@@ -371,7 +315,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=dsports"
             }
         ],
-        "id": 17
+        "id": 15
     },
     {
         "datetime": "2026-08-06T00:30:00Z",
@@ -387,6 +331,6 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=tntsportschile"
             }
         ],
-        "id": 18
+        "id": 16
     }
 ]
