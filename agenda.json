@@ -1,69 +1,5 @@
 [
     {
-        "datetime": "2026-08-07T00:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/leagues_cup_f7b23c5e8d.png",
-        "league": "Leagues Cup",
-        "homeTeam": "Cruz Azul",
-        "awayTeam": "Philadelphia Union",
-        "servers": [
-            {
-                "name": "MLS2EN",
-                "channel": "MLS2EN",
-                "url": "https://la18hd.su/vivo/canal.php?stream=mls2en",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=mls2en"
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-08-07T00:30:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/leagues_cup_f7b23c5e8d.png",
-        "league": "Leagues Cup",
-        "homeTeam": "Chicago Fire",
-        "awayTeam": "Necaxa",
-        "servers": [
-            {
-                "name": "MLS3EN",
-                "channel": "MLS3EN",
-                "url": "https://la18hd.su/vivo/canal.php?stream=mls3en",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=mls3en"
-            }
-        ],
-        "id": 2
-    },
-    {
-        "datetime": "2026-08-07T01:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/copa_centroamericana_59d23aa32c.png",
-        "league": "Copa Centroamericana de CONCACAF",
-        "homeTeam": "Hankook Verdes",
-        "awayTeam": "Municipal",
-        "servers": [
-            {
-                "name": "DISNEY2",
-                "channel": "DISNEY2",
-                "url": "https://la18hd.su/vivo/canal.php?stream=disney2",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney2"
-            }
-        ],
-        "id": 3
-    },
-    {
-        "datetime": "2026-08-07T01:15:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/leagues_cup_f7b23c5e8d.png",
-        "league": "Leagues Cup",
-        "homeTeam": "Austin",
-        "awayTeam": "Tijuana",
-        "servers": [
-            {
-                "name": "MLS4EN",
-                "channel": "MLS4EN",
-                "url": "https://la18hd.su/vivo/canal.php?stream=mls4en",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=mls4en"
-            }
-        ],
-        "id": 4
-    },
-    {
         "datetime": "2026-08-07T02:00:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/leagues_cup_f7b23c5e8d.png",
         "league": "Leagues Cup",
@@ -71,13 +7,13 @@
         "awayTeam": "San Diego",
         "servers": [
             {
-                "name": "MLS5EN",
-                "channel": "MLS5EN",
+                "name": "MLS05EN",
+                "channel": "MLS05EN",
                 "url": "https://la18hd.su/vivo/canal.php?stream=mls5en",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=mls5en"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPW1sczVlbg=="
             }
         ],
-        "id": 5
+        "id": 1
     },
     {
         "datetime": "2026-08-07T02:30:00Z",
@@ -87,13 +23,13 @@
         "awayTeam": "Puebla",
         "servers": [
             {
-                "name": "MLS6EN",
-                "channel": "MLS6EN",
+                "name": "MLS06EN",
+                "channel": "MLS06EN",
                 "url": "https://la18hd.su/vivo/canal.php?stream=mls6en",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=mls6en"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPW1sczZlbg=="
             }
         ],
-        "id": 6
+        "id": 2
     },
     {
         "datetime": "2026-08-07T03:00:00Z",
@@ -103,12 +39,12 @@
         "awayTeam": "FAS",
         "servers": [
             {
-                "name": "DISNEY3",
-                "channel": "DISNEY3",
+                "name": "Disney+",
+                "channel": "Disney+",
                 "url": "https://la18hd.su/vivo/canal.php?stream=disney3",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney3"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWRpc25leTM="
             }
         ],
-        "id": 7
+        "id": 3
     }
 ]
