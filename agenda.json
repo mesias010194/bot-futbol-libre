@@ -1,21 +1,5 @@
 [
     {
-        "datetime": "2026-08-08T13:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/uruguay_e2b9597af8.png",
-        "league": "Segunda Uruguay",
-        "homeTeam": "Uruguay Montevideo",
-        "awayTeam": "Paysandú FC",
-        "servers": [
-            {
-                "name": "DISNEY2",
-                "channel": "DISNEY2",
-                "url": "https://la18hd.su/vivo/canal.php?stream=disney2",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney2"
-            }
-        ],
-        "id": 1
-    },
-    {
         "datetime": "2026-08-08T14:00:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/inglaterra_823176495f.png",
         "league": "EFL Cup",
@@ -29,7 +13,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=paramount1"
             }
         ],
-        "id": 2
+        "id": 1
     },
     {
         "datetime": "2026-08-08T14:00:00Z",
@@ -45,7 +29,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=paramount3"
             }
         ],
-        "id": 3
+        "id": 2
     },
     {
         "datetime": "2026-08-08T14:00:00Z",
@@ -61,7 +45,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=disney1"
             }
         ],
-        "id": 4
+        "id": 3
     },
     {
         "datetime": "2026-08-08T14:00:00Z",
@@ -77,7 +61,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=paramount2"
             }
         ],
-        "id": 5
+        "id": 4
     },
     {
         "datetime": "2026-08-08T14:00:00Z",
@@ -93,7 +77,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=paramount4"
             }
         ],
-        "id": 6
+        "id": 5
     },
     {
         "datetime": "2026-08-08T14:00:00Z",
@@ -109,7 +93,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=paramount5"
             }
         ],
-        "id": 7
+        "id": 6
     },
     {
         "datetime": "2026-08-08T14:30:00Z",
@@ -125,7 +109,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=espn2_nl"
             }
         ],
-        "id": 8
+        "id": 7
     },
     {
         "datetime": "2026-08-08T16:00:00Z",
@@ -141,7 +125,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=disney4"
             }
         ],
-        "id": 9
+        "id": 8
     },
     {
         "datetime": "2026-08-08T16:30:00Z",
@@ -157,7 +141,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=disney3"
             }
         ],
-        "id": 10
+        "id": 9
     },
     {
         "datetime": "2026-08-08T17:00:00Z",
@@ -203,7 +187,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=espnar"
             }
         ],
-        "id": 11
+        "id": 10
     },
     {
         "datetime": "2026-08-08T17:45:00Z",
@@ -231,7 +215,7 @@
                 "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espnpremium2.html"
             }
         ],
-        "id": 12
+        "id": 11
     },
     {
         "datetime": "2026-08-08T17:45:00Z",
@@ -257,6 +241,22 @@
                 "channel": "FANATIZ2",
                 "url": "https://la18hd.su/vivo/canal.php?stream=fanatiz2",
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=fanatiz2"
+            }
+        ],
+        "id": 12
+    },
+    {
+        "datetime": "2026-08-08T18:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/amistosos_bbe2ec4c17.png",
+        "league": "Amistoso",
+        "homeTeam": "Torneo Friuli Venezia Giulia (Barcelona, Udinese, Nottingham Forest)",
+        "awayTeam": "",
+        "servers": [
+            {
+                "name": "DISNEY7",
+                "channel": "DISNEY7",
+                "url": "https://la18hd.su/vivo/canal.php?stream=disney7",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney7"
             }
         ],
         "id": 13
@@ -314,5 +314,303 @@
             }
         ],
         "id": 16
+    },
+    {
+        "datetime": "2026-08-08T18:30:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/alemania_e50aa475de.png",
+        "league": "Bundesliga2",
+        "homeTeam": "Wolfsburg",
+        "awayTeam": "Kaiserslautern",
+        "servers": [
+            {
+                "name": "DISNEY8",
+                "channel": "DISNEY8",
+                "url": "https://la18hd.su/vivo/canal.php?stream=disney8",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney8"
+            },
+            {
+                "name": "FOXSPORTS2",
+                "channel": "FOXSPORTS2",
+                "url": "https://la18hd.su/vivo/canal.php?stream=foxsports2",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=foxsports2"
+            }
+        ],
+        "id": 17
+    },
+    {
+        "datetime": "2026-08-08T19:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/paraguay_fc9dd78de7.png",
+        "league": "Liga Paraguay",
+        "homeTeam": "Sportivo Ameliano",
+        "awayTeam": "Cerro Porteño",
+        "servers": [
+            {
+                "name": "FANATIZ6",
+                "channel": "FANATIZ6",
+                "url": "https://la18hd.su/vivo/canal.php?stream=fanatiz6",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=fanatiz6"
+            }
+        ],
+        "id": 18
+    },
+    {
+        "datetime": "2026-08-08T19:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/brasil_25a533e5f7.png",
+        "league": "Brasileirão",
+        "homeTeam": "Grêmio",
+        "awayTeam": "São Paulo",
+        "servers": [
+            {
+                "name": "PREMIERE1",
+                "channel": "PREMIERE1",
+                "url": "https://la18hd.su/vivo/canal.php?stream=premiere1",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=premiere1"
+            },
+            {
+                "name": "FANATIZ5",
+                "channel": "FANATIZ5",
+                "url": "https://la18hd.su/vivo/canal.php?stream=fanatiz5",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=fanatiz5"
+            }
+        ],
+        "id": 19
+    },
+    {
+        "datetime": "2026-08-08T19:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/chile_86c07a7b38.png",
+        "league": "Primera División",
+        "homeTeam": "Huachipato",
+        "awayTeam": "Everton",
+        "servers": [
+            {
+                "name": "TNTSPORTSCHILE",
+                "channel": "TNTSPORTSCHILE",
+                "url": "https://la18hd.su/vivo/canal.php?stream=tntsportschile",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=tntsportschile"
+            }
+        ],
+        "id": 20
+    },
+    {
+        "datetime": "2026-08-08T19:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/colombia_dcf9cc2637.png",
+        "league": "Primera A",
+        "homeTeam": "Santa Fe",
+        "awayTeam": "Boyacá Chicó",
+        "servers": [
+            {
+                "name": "WINSPORTS",
+                "channel": "WINSPORTS",
+                "url": "https://la18hd.su/vivo/canal.php?stream=winsports",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=winsports"
+            },
+            {
+                "name": "WINSPORTSPLUS",
+                "channel": "WINSPORTSPLUS",
+                "url": "https://la18hd.su/vivo/canal.php?stream=winsportsplus",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=winsportsplus"
+            },
+            {
+                "name": "WINSPORTS2",
+                "channel": "WINSPORTS2",
+                "url": "https://la18hd.su/vivo/canal.php?stream=winsports2",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=winsports2"
+            },
+            {
+                "name": "WINSPORTS 2",
+                "channel": "WINSPORTS 2",
+                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/winsports.html",
+                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/winsports.html"
+            }
+        ],
+        "id": 21
+    },
+    {
+        "datetime": "2026-08-08T19:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/paises_bajos_f773e994b9.png",
+        "league": "Eredivisie",
+        "homeTeam": "AZ",
+        "awayTeam": "ADO Den Haag",
+        "servers": [
+            {
+                "name": "DISNEY9",
+                "channel": "DISNEY9",
+                "url": "https://la18hd.su/vivo/canal.php?stream=disney9",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney9"
+            }
+        ],
+        "id": 22
+    },
+    {
+        "datetime": "2026-08-08T19:45:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/portugal_914accbdd5.png",
+        "league": "Primeira Liga",
+        "homeTeam": "Estrela",
+        "awayTeam": "Sporting CP",
+        "servers": [
+            {
+                "name": "FANATIZ7",
+                "channel": "FANATIZ7",
+                "url": "https://la18hd.su/vivo/canal.php?stream=fanatiz7",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=fanatiz7"
+            }
+        ],
+        "id": 23
+    },
+    {
+        "datetime": "2026-08-08T20:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/argentina_2bd748026e.png",
+        "league": "Liga Profesional",
+        "homeTeam": "Tigre",
+        "awayTeam": "River Plate",
+        "servers": [
+            {
+                "name": "TNTSPORTS",
+                "channel": "TNTSPORTS",
+                "url": "https://la18hd.su/vivo/canal.php?stream=tntsports",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=tntsports"
+            },
+            {
+                "name": "DISNEY10",
+                "channel": "DISNEY10",
+                "url": "https://la18hd.su/vivo/canal.php?stream=disney10",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney10"
+            },
+            {
+                "name": "ESPN",
+                "channel": "ESPN",
+                "url": "https://la18hd.su/vivo/canal.php?stream=espn",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=espn"
+            },
+            {
+                "name": "TNTSPORTS2",
+                "channel": "TNTSPORTS2",
+                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/tntsports2.html",
+                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/tntsports2.html"
+            },
+            {
+                "name": "FANATIZ8",
+                "channel": "FANATIZ8",
+                "url": "https://la18hd.su/vivo/canal.php?stream=fanatiz8",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=fanatiz8"
+            }
+        ],
+        "id": 24
+    },
+    {
+        "datetime": "2026-08-08T20:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/ufc_00fbf49648.png",
+        "league": "UFC",
+        "homeTeam": "Mateusz Gamrot",
+        "awayTeam": "Quillan Salkilld",
+        "servers": [
+            {
+                "name": "PARAMOUNT1",
+                "channel": "PARAMOUNT1",
+                "url": "https://la18hd.su/vivo/canal.php?stream=paramount1",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=paramount1"
+            },
+            {
+                "name": "PARAMOUNT2",
+                "channel": "PARAMOUNT2",
+                "url": "https://la18hd.su/vivo/canal.php?stream=paramount2",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=paramount2"
+            },
+            {
+                "name": "PARAMOUNT3",
+                "channel": "PARAMOUNT3",
+                "url": "https://la18hd.su/vivo/canal.php?stream=paramount3",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=paramount3"
+            }
+        ],
+        "id": 25
+    },
+    {
+        "datetime": "2026-08-08T20:30:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/peru_ddc4e685cf.png",
+        "league": "Liga 1",
+        "homeTeam": "Juan Pablo II College",
+        "awayTeam": "Atlético Grau",
+        "servers": [
+            {
+                "name": "LIGA1MAX",
+                "channel": "LIGA1MAX",
+                "url": "https://la18hd.su/vivo/canal.php?stream=liga1max",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=liga1max"
+            },
+            {
+                "name": "LIGAPERU",
+                "channel": "LIGAPERU",
+                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/ligaperu.html",
+                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/ligaperu.html"
+            }
+        ],
+        "id": 26
+    },
+    {
+        "datetime": "2026-08-08T21:20:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/colombia_dcf9cc2637.png",
+        "league": "Primera A",
+        "homeTeam": "Fortaleza CEIF",
+        "awayTeam": "Cúcuta Deportivo",
+        "servers": [
+            {
+                "name": "WINSPORTS",
+                "channel": "WINSPORTS",
+                "url": "https://la18hd.su/vivo/canal.php?stream=winsports",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=winsports"
+            },
+            {
+                "name": "WINSPORTSPLUS",
+                "channel": "WINSPORTSPLUS",
+                "url": "https://la18hd.su/vivo/canal.php?stream=winsportsplus",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=winsportsplus"
+            },
+            {
+                "name": "WINSPORTS2",
+                "channel": "WINSPORTS2",
+                "url": "https://la18hd.su/vivo/canal.php?stream=winsports2",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=winsports2"
+            },
+            {
+                "name": "WINSPORTS 2",
+                "channel": "WINSPORTS 2",
+                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/winsports.html",
+                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/winsports.html"
+            }
+        ],
+        "id": 27
+    },
+    {
+        "datetime": "2026-08-08T21:30:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/leagues_cup_f7b23c5e8d.png",
+        "league": "Leagues Cup",
+        "homeTeam": "New England",
+        "awayTeam": "Houston Dynamo",
+        "servers": [
+            {
+                "name": "MLS1ES",
+                "channel": "MLS1ES",
+                "url": "https://la18hd.su/vivo/canal.php?stream=mls1es",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=mls1es"
+            }
+        ],
+        "id": 28
+    },
+    {
+        "datetime": "2026-08-08T21:30:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/chile_86c07a7b38.png",
+        "league": "Primera División",
+        "homeTeam": "Coquimbo Unido",
+        "awayTeam": "La Serena",
+        "servers": [
+            {
+                "name": "TNTSPORTSCHILE",
+                "channel": "TNTSPORTSCHILE",
+                "url": "https://la18hd.su/vivo/canal.php?stream=tntsportschile",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=tntsportschile"
+            }
+        ],
+        "id": 29
     }
 ]
