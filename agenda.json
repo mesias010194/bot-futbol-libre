@@ -1,1 +1,68 @@
-[]
+[
+    {
+        "datetime": "2026-08-08T11:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/amistosos_bbe2ec4c17.png",
+        "league": "Amistoso Internacional",
+        "homeTeam": "Juventus",
+        "awayTeam": "Internazionale",
+        "servers": [
+            {
+                "name": "DSPORTSAR",
+                "channel": "DSPORTSAR",
+                "url": "https://la16hd.com/dsportsar.php",
+                "iframe": "https://la16hd.com/dsportsar.php"
+            },
+            {
+                "name": "DSPORTS EVENTOS",
+                "channel": "DSPORTS EVENTOS",
+                "url": "https://la18hd.su/vivo/canal.php?stream=dsports_eventos",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=dsports_eventos"
+            },
+            {
+                "name": "VTVPLUS",
+                "channel": "VTVPLUS",
+                "url": "https://la18hd.su/vivo/canal.php?stream=vtvplus",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=vtvplus"
+            }
+        ],
+        "id": 1
+    },
+    {
+        "datetime": "2026-08-08T12:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/amistosos_bbe2ec4c17.png",
+        "league": "Amistoso Internacional",
+        "homeTeam": "Chelsea",
+        "awayTeam": "Milan",
+        "servers": [
+            {
+                "name": "FOXDEPORTES",
+                "channel": "FOXDEPORTES",
+                "url": "https://la18hd.su/vivo/canal.php?stream=foxdeportes",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=foxdeportes"
+            },
+            {
+                "name": "CLAROSPORTS1",
+                "channel": "CLAROSPORTS1",
+                "url": "https://la18hd.su/vivo/canal.php?stream=clarosports1",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=clarosports1"
+            }
+        ],
+        "id": 2
+    },
+    {
+        "datetime": "2026-08-08T14:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/uruguay_e2b9597af8.png",
+        "league": "Primera División",
+        "homeTeam": "Central Español",
+        "awayTeam": "Progreso",
+        "servers": [
+            {
+                "name": "DISNEY1",
+                "channel": "DISNEY1",
+                "url": "https://la18hd.su/vivo/canal.php?stream=disney1",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney1"
+            }
+        ],
+        "id": 3
+    }
+]
