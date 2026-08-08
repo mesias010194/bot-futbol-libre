@@ -1,59 +1,5 @@
 [
     {
-        "datetime": "2026-08-07T23:30:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/leagues_cup_f7b23c5e8d.png",
-        "league": "Leagues Cup",
-        "homeTeam": "Columbus Crew",
-        "awayTeam": "Pachuca",
-        "servers": [
-            {
-                "name": "MLS1ES",
-                "channel": "MLS1ES",
-                "url": "https://la18hd.su/vivo/canal.php?stream=mls1es",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=mls1es"
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-08-07T23:30:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/leagues_cup_f7b23c5e8d.png",
-        "league": "Leagues Cup",
-        "homeTeam": "Charlotte",
-        "awayTeam": "Atlas",
-        "servers": [
-            {
-                "name": "MLS2EN",
-                "channel": "MLS2EN",
-                "url": "https://la18hd.su/vivo/canal.php?stream=mls2en",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=mls2en"
-            }
-        ],
-        "id": 2
-    },
-    {
-        "datetime": "2026-08-08T00:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/leagues_cup_f7b23c5e8d.png",
-        "league": "Leagues Cup",
-        "homeTeam": "Cincinnati",
-        "awayTeam": "Pumas UNAM",
-        "servers": [
-            {
-                "name": "MLS3EN",
-                "channel": "MLS3EN",
-                "url": "https://la18hd.su/vivo/canal.php?stream=mls3en",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=mls3en"
-            },
-            {
-                "name": "TUDN",
-                "channel": "TUDN",
-                "url": "https://la18hd.su/vivo/canal.php?stream=tudn",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=tudn"
-            }
-        ],
-        "id": 3
-    },
-    {
         "datetime": "2026-08-08T00:30:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/leagues_cup_f7b23c5e8d.png",
         "league": "Leagues Cup",
@@ -67,7 +13,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=mls4en"
             }
         ],
-        "id": 4
+        "id": 1
     },
     {
         "datetime": "2026-08-08T00:30:00Z",
@@ -83,7 +29,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=tntsportschile"
             }
         ],
-        "id": 5
+        "id": 2
     },
     {
         "datetime": "2026-08-08T00:30:00Z",
@@ -111,7 +57,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=fanatiz5"
             }
         ],
-        "id": 6
+        "id": 3
     },
     {
         "datetime": "2026-08-08T01:30:00Z",
@@ -133,7 +79,7 @@
                 "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/ligaperu.html"
             }
         ],
-        "id": 7
+        "id": 4
     },
     {
         "datetime": "2026-08-08T02:30:00Z",
@@ -149,6 +95,6 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=mls5en"
             }
         ],
-        "id": 8
+        "id": 5
     }
 ]
