@@ -57,22 +57,6 @@
     },
     {
         "datetime": "2026-08-08T18:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/amistosos_bbe2ec4c17.png",
-        "league": "Amistoso",
-        "homeTeam": "Torneo Friuli Venezia Giulia (Barcelona, Udinese, Nottingham Forest)",
-        "awayTeam": "",
-        "servers": [
-            {
-                "name": "DISNEY7",
-                "channel": "DISNEY7",
-                "url": "https://la18hd.su/vivo/canal.php?stream=disney7",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney7"
-            }
-        ],
-        "id": 3
-    },
-    {
-        "datetime": "2026-08-08T18:00:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/peru_ddc4e685cf.png",
         "league": "Liga 1",
         "homeTeam": "UTC Cajamarca",
@@ -91,7 +75,7 @@
                 "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/ligaperu.html"
             }
         ],
-        "id": 4
+        "id": 3
     },
     {
         "datetime": "2026-08-08T18:00:00Z",
@@ -107,7 +91,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=disney6"
             }
         ],
-        "id": 5
+        "id": 4
     },
     {
         "datetime": "2026-08-08T18:30:00Z",
@@ -123,7 +107,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=clarosports1"
             }
         ],
-        "id": 6
+        "id": 5
     },
     {
         "datetime": "2026-08-08T18:30:00Z",
@@ -145,7 +129,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=foxsports2"
             }
         ],
-        "id": 7
+        "id": 6
     },
     {
         "datetime": "2026-08-08T19:00:00Z",
@@ -161,7 +145,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=fanatiz6"
             }
         ],
-        "id": 8
+        "id": 7
     },
     {
         "datetime": "2026-08-08T19:00:00Z",
@@ -183,7 +167,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=fanatiz5"
             }
         ],
-        "id": 9
+        "id": 8
     },
     {
         "datetime": "2026-08-08T19:00:00Z",
@@ -199,7 +183,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=tntsportschile"
             }
         ],
-        "id": 10
+        "id": 9
     },
     {
         "datetime": "2026-08-08T19:00:00Z",
@@ -233,7 +217,7 @@
                 "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/winsports.html"
             }
         ],
-        "id": 11
+        "id": 10
     },
     {
         "datetime": "2026-08-08T19:00:00Z",
@@ -249,7 +233,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=disney9"
             }
         ],
-        "id": 12
+        "id": 11
     },
     {
         "datetime": "2026-08-08T19:45:00Z",
@@ -265,6 +249,34 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=fanatiz7"
             }
         ],
+        "id": 12
+    },
+    {
+        "datetime": "2026-08-08T20:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/ufc_00fbf49648.png",
+        "league": "UFC",
+        "homeTeam": "Mateusz Gamrot",
+        "awayTeam": "Quillan Salkilld",
+        "servers": [
+            {
+                "name": "PARAMOUNT1",
+                "channel": "PARAMOUNT1",
+                "url": "https://la18hd.su/vivo/canal.php?stream=paramount1",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=paramount1"
+            },
+            {
+                "name": "PARAMOUNT2",
+                "channel": "PARAMOUNT2",
+                "url": "https://la18hd.su/vivo/canal.php?stream=paramount2",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=paramount2"
+            },
+            {
+                "name": "PARAMOUNT3",
+                "channel": "PARAMOUNT3",
+                "url": "https://la18hd.su/vivo/canal.php?stream=paramount3",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=paramount3"
+            }
+        ],
         "id": 13
     },
     {
@@ -275,16 +287,16 @@
         "awayTeam": "River Plate",
         "servers": [
             {
-                "name": "TNTSPORTS",
-                "channel": "TNTSPORTS",
-                "url": "https://la18hd.su/vivo/canal.php?stream=tntsports",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=tntsports"
-            },
-            {
                 "name": "DISNEY10",
                 "channel": "DISNEY10",
                 "url": "https://la18hd.su/vivo/canal.php?stream=disney10",
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=disney10"
+            },
+            {
+                "name": "TNTSPORTS",
+                "channel": "TNTSPORTS",
+                "url": "https://la18hd.su/vivo/canal.php?stream=tntsports",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=tntsports"
             },
             {
                 "name": "ESPN",
@@ -314,29 +326,17 @@
         "id": 14
     },
     {
-        "datetime": "2026-08-08T20:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/ufc_00fbf49648.png",
-        "league": "UFC",
-        "homeTeam": "Mateusz Gamrot",
-        "awayTeam": "Quillan Salkilld",
+        "datetime": "2026-08-08T20:15:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/amistosos_bbe2ec4c17.png",
+        "league": "Amistoso",
+        "homeTeam": "Torneo Friuli Venezia Giulia (Barcelona, Udinese, Nottingham Forest)",
+        "awayTeam": "",
         "servers": [
             {
-                "name": "PARAMOUNT1",
-                "channel": "PARAMOUNT1",
-                "url": "https://la18hd.su/vivo/canal.php?stream=paramount1",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=paramount1"
-            },
-            {
-                "name": "PARAMOUNT2",
-                "channel": "PARAMOUNT2",
-                "url": "https://la18hd.su/vivo/canal.php?stream=paramount2",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=paramount2"
-            },
-            {
-                "name": "PARAMOUNT3",
-                "channel": "PARAMOUNT3",
-                "url": "https://la18hd.su/vivo/canal.php?stream=paramount3",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=paramount3"
+                "name": "DISNEY7",
+                "channel": "DISNEY7",
+                "url": "https://la18hd.su/vivo/canal.php?stream=disney7",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney7"
             }
         ],
         "id": 15
