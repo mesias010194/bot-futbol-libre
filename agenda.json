@@ -136,5 +136,93 @@
             }
         ],
         "id": 6
+    },
+    {
+        "datetime": "2026-08-14T19:15:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/italia_cb19445d70.png",
+        "league": "Copa Italia",
+        "homeTeam": "Fiorentina",
+        "awayTeam": "Benevento",
+        "servers": [
+            {
+                "name": "DSPORTSAR",
+                "channel": "DSPORTSAR",
+                "url": "https://la16hd.com/dsportsar.php",
+                "iframe": "https://la16hd.com/dsportsar.php"
+            },
+            {
+                "name": "DSPORTS EVENTOS",
+                "channel": "DSPORTS EVENTOS",
+                "url": "https://la18hd.su/vivo/canal.php?stream=dsports_eventos",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=dsports_eventos"
+            },
+            {
+                "name": "VTVPLUS",
+                "channel": "VTVPLUS",
+                "url": "https://la18hd.su/vivo/canal.php?stream=vtvplus",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=vtvplus"
+            },
+            {
+                "name": "DSPORTS",
+                "channel": "DSPORTS",
+                "url": "https://la18hd.su/vivo/canal.php?stream=dsports",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=dsports"
+            }
+        ],
+        "id": 7
+    },
+    {
+        "datetime": "2026-08-14T20:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/peru_ddc4e685cf.png",
+        "league": "Liga 1",
+        "homeTeam": "Atlético Grau",
+        "awayTeam": "Comerciantes Unidos",
+        "servers": [
+            {
+                "name": "LIGA1MAX",
+                "channel": "LIGA1MAX",
+                "url": "https://la18hd.su/vivo/canal.php?stream=liga1max",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=liga1max"
+            },
+            {
+                "name": "LIGAPERU",
+                "channel": "LIGAPERU",
+                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/ligaperu.html",
+                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/ligaperu.html"
+            }
+        ],
+        "id": 8
+    },
+    {
+        "datetime": "2026-08-14T21:30:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/paraguay_fc9dd78de7.png",
+        "league": "Primera Division",
+        "homeTeam": "Deportivo Recoleta",
+        "awayTeam": "2 de Mayo",
+        "servers": [
+            {
+                "name": "FANATIZ2",
+                "channel": "FANATIZ2",
+                "url": "https://la18hd.su/vivo/canal.php?stream=fanatiz2",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=fanatiz2"
+            }
+        ],
+        "id": 9
+    },
+    {
+        "datetime": "2026-08-14T22:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/uruguay_e2b9597af8.png",
+        "league": "Primera Division",
+        "homeTeam": "Boston River",
+        "awayTeam": "Danubio",
+        "servers": [
+            {
+                "name": "DISNEY4",
+                "channel": "DISNEY4",
+                "url": "https://la18hd.su/vivo/canal.php?stream=disney4",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney4"
+            }
+        ],
+        "id": 10
     }
 ]
