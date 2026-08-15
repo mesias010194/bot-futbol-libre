@@ -9,6 +9,40 @@ import urllib.parse
 import os
 
 # ==========================================================
+# 1. PANEL DE CONFIGURACIÓN GENERAL (¡MODIFICA ESTO PARA CADA BOT!)
+# ==========================================================
+
+# 1.1 - Datos del Repositorio de GitHub
+REPO_GITHUB = "mesias010194/bot-futbol-libre" # Cambiar para cada bot (ej: mesias010194/bot-pirlotv)
+
+# 1.2 - Datos de Promoción en Telegram
+NOMBRE_MARCA = "Fútbol Libre TV"
+DOMINIO_PRINCIPAL = "www.verfutbollibre.online" # El que saldrá en el enlace del mensaje
+BOT_TOKEN_TELEGRAM = "8796529607:AAE9lP4H9pQUZMaSXAlCTgmEZ160SYhUono" 
+CANAL_ID_TELEGRAM = "@futbol_libre_tv_oficial" # Cambiar para Pirlo o RojaDirecta
+
+# 1.3 - Lista de Dominios para IndexNow
+# Agrega aquí todos los dominios que maneja ESTE bot específico.
+# Recuerda que debes crear la "página falsa" en Blogger para cada uno y obtener su Key.
+DOMINIOS_INDEXNOW = [
+    {
+        "host": "www.verfutbollibre.online",
+        "key": "391254a6e96a48188f3b6bb64a85220b",
+        "keyLocation": "https://www.verfutbollibre.online/p/391254a6e96a48188f3b6bb64a85220b.html"
+    },
+    {
+        "host": "www.futbollibre-vivo.online",
+        "key": "b0fb4526395e43b684ad48ba4c6a7902", 
+        "keyLocation": "https://www.futbollibre-vivo.online/p/b0fb4526395e43b684ad48ba4c6a7902.html"
+    },
+    {
+        "host": "www.futbollibre-hoy.site",
+        "key": "d6e9e3bad3ca42828e74cdeba215d5e7", 
+        "keyLocation": "https://www.futbollibre-hoy.site/d6e9e3bad3ca42828e74cdeba215d5e7"
+    }
+]
+
+# ==========================================================
 # 1. CONFIGURACIÓN (Se usa GitHub, no JSONBIN)
 # ==========================================================
 BIN_ID = "69d933e5aaba882197e5950b" 
