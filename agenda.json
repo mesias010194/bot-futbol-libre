@@ -625,6 +625,30 @@
                 "channel": "AZTECA7",
                 "url": "https://la18hd.su/vivo/canal.php?stream=azteca7",
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=azteca7"
+            },
+            {
+                "name": "ESPNMX",
+                "channel": "ESPNMX",
+                "url": "https://la18hd.su/vivo/canal.php?stream=espnmx",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=espnmx"
+            },
+            {
+                "name": "ESPNMX.1",
+                "channel": "ESPNMX.1",
+                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espnmx.1.html",
+                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espnmx.1.html"
+            },
+            {
+                "name": "TUDN",
+                "channel": "TUDN",
+                "url": "https://la18hd.su/vivo/canal.php?stream=tudn",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=tudn"
+            },
+            {
+                "name": "UNIVISION",
+                "channel": "UNIVISION",
+                "url": "https://la18hd.su/vivo/canal.php?stream=univision",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=univision"
             }
         ],
         "id": 27
