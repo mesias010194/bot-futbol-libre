@@ -326,5 +326,183 @@
             }
         ],
         "id": 13
+    },
+    {
+        "datetime": "2026-08-16T16:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/peru_ddc4e685cf.png",
+        "league": "Liga 1",
+        "homeTeam": "Sporting Cristal",
+        "awayTeam": "Sport Huancayo",
+        "servers": [
+            {
+                "name": "LIGA1MAX",
+                "channel": "LIGA1MAX",
+                "url": "https://la18hd.su/vivo/canal.php?stream=liga1max",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=liga1max"
+            },
+            {
+                "name": "LIGAPERU",
+                "channel": "LIGAPERU",
+                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/ligaperu.html",
+                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/ligaperu.html"
+            }
+        ],
+        "id": 14
+    },
+    {
+        "datetime": "2026-08-16T16:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/italia_cb19445d70.png",
+        "league": "Copa de Italia",
+        "homeTeam": "Frosinone",
+        "awayTeam": "Juve Stabia",
+        "servers": [
+            {
+                "name": "EVENTOS15",
+                "channel": "EVENTOS15",
+                "url": "https://la18hd.su/vivo/canal.php?stream=eventos15",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=eventos15"
+            },
+            {
+                "name": "DSPORTSPLUS",
+                "channel": "DSPORTSPLUS",
+                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/dsportsplus.html",
+                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/dsportsplus.html"
+            },
+            {
+                "name": "DSPORTSPLUS 2",
+                "channel": "DSPORTSPLUS 2",
+                "url": "https://la18hd.su/vivo/canal.php?stream=dsportsplus",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=dsportsplus"
+            }
+        ],
+        "id": 15
+    },
+    {
+        "datetime": "2026-08-16T16:30:00Z",
+        "flagUrl": "https://flagcdn.com/w40/it.png",
+        "league": "Copa de Italia",
+        "homeTeam": "Genoa",
+        "awayTeam": "Ascoli",
+        "servers": [
+            {
+                "name": "DSPORTS2",
+                "channel": "DSPORTS2",
+                "url": "https://la18hd.su/vivo/canal.php?stream=dsports2",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=dsports2"
+            },
+            {
+                "name": "DSPORTS2 2",
+                "channel": "DSPORTS2 2",
+                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/dsports2.html",
+                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/dsports2.html"
+            }
+        ],
+        "id": 16
+    },
+    {
+        "datetime": "2026-08-16T16:30:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/chile_86c07a7b38.png",
+        "league": "Primera División",
+        "homeTeam": "Ñublense",
+        "awayTeam": "Unión La Calera",
+        "servers": [
+            {
+                "name": "TNTSPORTSCHILE",
+                "channel": "TNTSPORTSCHILE",
+                "url": "https://la18hd.su/vivo/canal.php?stream=tntsportschile",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=tntsportschile"
+            }
+        ],
+        "id": 17
+    },
+    {
+        "datetime": "2026-08-16T17:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/amistosos_bbe2ec4c17.png",
+        "league": "Partido Amistoso",
+        "homeTeam": "Liverpool",
+        "awayTeam": "Como",
+        "servers": [
+            {
+                "name": "TYCSPORTS",
+                "channel": "TYCSPORTS",
+                "url": "https://la18hd.su/vivo/canal.php?stream=tycsports",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=tycsports"
+            },
+            {
+                "name": "CLAROSPORTS1",
+                "channel": "CLAROSPORTS1",
+                "url": "https://la18hd.su/vivo/canal.php?stream=clarosports1",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=clarosports1"
+            }
+        ],
+        "id": 18
+    },
+    {
+        "datetime": "2026-08-16T17:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/espana_a8510f9b5f.png",
+        "league": "LaLiga",
+        "homeTeam": "Espanyol",
+        "awayTeam": "Levante",
+        "servers": [
+            {
+                "name": "DSPORTSAR",
+                "channel": "DSPORTSAR",
+                "url": "https://la16hd.com/dsportsar.php",
+                "iframe": "https://la16hd.com/dsportsar.php"
+            },
+            {
+                "name": "DSPORTS EVENTOS",
+                "channel": "DSPORTS EVENTOS",
+                "url": "https://la18hd.su/vivo/canal.php?stream=dsports_eventos",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=dsports_eventos"
+            },
+            {
+                "name": "DIRECTVPERU",
+                "channel": "DIRECTVPERU",
+                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/directvperu.html",
+                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/directvperu.html"
+            },
+            {
+                "name": "VTVPLUS",
+                "channel": "VTVPLUS",
+                "url": "https://la18hd.su/vivo/canal.php?stream=vtvplus",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=vtvplus"
+            },
+            {
+                "name": "DSPORTS",
+                "channel": "DSPORTS",
+                "url": "https://la18hd.su/vivo/canal.php?stream=dsports",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=dsports"
+            },
+            {
+                "name": "SKY SPORTS LALIGA",
+                "channel": "SKY SPORTS LALIGA",
+                "url": "https://la18hd.su/vivo/canal.php?stream=sky_sports_laliga",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=sky_sports_laliga"
+            },
+            {
+                "name": "ESPNDEPORTES",
+                "channel": "ESPNDEPORTES",
+                "url": "https://la18hd.su/vivo/canal.php?stream=espndeportes",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=espndeportes"
+            }
+        ],
+        "id": 19
+    },
+    {
+        "datetime": "2026-08-16T17:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/espana_a8510f9b5f.png",
+        "league": "LaLiga 2",
+        "homeTeam": "Girona",
+        "awayTeam": "Leganés",
+        "servers": [
+            {
+                "name": "HYPERMOTION1",
+                "channel": "HYPERMOTION1",
+                "url": "https://la18hd.su/vivo/canal.php?stream=hypermotion1",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=hypermotion1"
+            }
+        ],
+        "id": 20
     }
 ]
