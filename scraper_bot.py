@@ -28,12 +28,12 @@ DOMINIOS_INDEXNOW = [
     {
         "host": "www.verfutbollibre.online",
         "key": "391254a6e96a48188f3b6bb64a85220b",
-        "keyLocation": "https://www.verfutbollibre.online/p/391254a6e96a48188f3b6bb64a85220b.html"
+        "keyLocation": "https://www.verfutbollibre.online/391254a6e96a48188f3b6bb64a85220b"
     },
     {
         "host": "www.futbollibre-vivo.online",
         "key": "b0fb4526395e43b684ad48ba4c6a7902", 
-        "keyLocation": "https://www.futbollibre-vivo.online/p/b0fb4526395e43b684ad48ba4c6a7902.html"
+        "keyLocation": "https://www.futbollibre-vivo.online/b0fb4526395e43b684ad48ba4c6a7902"
     },
     {
         "host": "www.futbollibre-hoy.site",
