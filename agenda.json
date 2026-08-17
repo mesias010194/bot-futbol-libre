@@ -1,37 +1,5 @@
 [
     {
-        "datetime": "2026-08-17T19:15:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/portugal_914accbdd5.png",
-        "league": "Primeira Liga",
-        "homeTeam": "Casa Pia",
-        "awayTeam": "Benfica",
-        "servers": [
-            {
-                "name": "SPORTTV1",
-                "channel": "SPORTTV1",
-                "url": "https://la18hd.su/vivo/canal.php?stream=sporttv1",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=sporttv1"
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-08-17T19:30:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/espana_a8510f9b5f.png",
-        "league": "LaLiga SmartBank",
-        "homeTeam": "Almería",
-        "awayTeam": "Eldense",
-        "servers": [
-            {
-                "name": "HYPERMOTION1",
-                "channel": "HYPERMOTION1",
-                "url": "https://la18hd.su/vivo/canal.php?stream=hypermotion1",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=hypermotion1"
-            }
-        ],
-        "id": 2
-    },
-    {
         "datetime": "2026-08-17T20:00:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/argentina_2bd748026e.png",
         "league": "Liga Profesional",
@@ -57,7 +25,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=fanatiz2"
             }
         ],
-        "id": 3
+        "id": 1
     },
     {
         "datetime": "2026-08-17T22:15:00Z",
@@ -85,7 +53,7 @@
                 "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/tntsports2.html"
             }
         ],
-        "id": 4
+        "id": 2
     },
     {
         "datetime": "2026-08-17T23:00:00Z",
@@ -101,6 +69,84 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=premiere1"
             }
         ],
+        "id": 3
+    },
+    {
+        "datetime": "2026-08-18T00:30:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/argentina_2bd748026e.png",
+        "league": "Liga Profesional",
+        "homeTeam": "Gimnasia Mendoza",
+        "awayTeam": "Talleres Córdoba",
+        "servers": [
+            {
+                "name": "ESPN",
+                "channel": "ESPN",
+                "url": "https://la18hd.su/vivo/canal.php?stream=espn",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=espn"
+            },
+            {
+                "name": "DISNEY4",
+                "channel": "DISNEY4",
+                "url": "https://la18hd.su/vivo/canal.php?stream=disney4",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney4"
+            },
+            {
+                "name": "ESPN1TV",
+                "channel": "ESPN1TV",
+                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn1tv.html",
+                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn1tv.html"
+            },
+            {
+                "name": "ESPNPREMIUM",
+                "channel": "ESPNPREMIUM",
+                "url": "https://la18hd.su/vivo/canal.php?stream=espnpremium",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=espnpremium"
+            },
+            {
+                "name": "ESPNPREMIUM2",
+                "channel": "ESPNPREMIUM2",
+                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espnpremium2.html",
+                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espnpremium2.html"
+            },
+            {
+                "name": "FANATIZ6",
+                "channel": "FANATIZ6",
+                "url": "https://la18hd.su/vivo/canal.php?stream=fanatiz6",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=fanatiz6"
+            }
+        ],
+        "id": 4
+    },
+    {
+        "datetime": "2026-08-18T00:30:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/chile_86c07a7b38.png",
+        "league": "Liga Chile",
+        "homeTeam": "Palestino",
+        "awayTeam": "Huachipato",
+        "servers": [
+            {
+                "name": "TNTSPORTSCHILE",
+                "channel": "TNTSPORTSCHILE",
+                "url": "https://la18hd.su/vivo/canal.php?stream=tntsportschile",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=tntsportschile"
+            }
+        ],
         "id": 5
+    },
+    {
+        "datetime": "2026-08-18T01:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/bandera_fbc29cb609.png",
+        "league": "Liga MX",
+        "homeTeam": "Necaxa",
+        "awayTeam": "León",
+        "servers": [
+            {
+                "name": "FOXDEPORTES",
+                "channel": "FOXDEPORTES",
+                "url": "https://la18hd.su/vivo/canal.php?stream=foxdeportes",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=foxdeportes"
+            }
+        ],
+        "id": 6
     }
 ]
