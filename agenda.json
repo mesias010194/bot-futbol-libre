@@ -1,95 +1,5 @@
 [
     {
-        "datetime": "2026-08-17T18:45:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/italia_cb19445d70.png",
-        "league": "Copa de Italia",
-        "homeTeam": "Cremonese",
-        "awayTeam": "Sampdoria",
-        "servers": [
-            {
-                "name": "DSPORTS2",
-                "channel": "DSPORTS2",
-                "url": "https://la18hd.su/vivo/canal.php?stream=dsports2",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=dsports2"
-            },
-            {
-                "name": "DSPORTS2 2",
-                "channel": "DSPORTS2 2",
-                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/dsports2.html",
-                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/dsports2.html"
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-08-17T19:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/espana_a8510f9b5f.png",
-        "league": "LaLiga",
-        "homeTeam": "Deportivo La Coruña",
-        "awayTeam": "Elche",
-        "servers": [
-            {
-                "name": "DSPORTS EVENTOS",
-                "channel": "DSPORTS EVENTOS",
-                "url": "https://la18hd.su/vivo/canal.php?stream=dsports_eventos",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=dsports_eventos"
-            },
-            {
-                "name": "VTVPLUS",
-                "channel": "VTVPLUS",
-                "url": "https://la18hd.su/vivo/canal.php?stream=vtvplus",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=vtvplus"
-            },
-            {
-                "name": "DIRECTVPERU",
-                "channel": "DIRECTVPERU",
-                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/directvperu.html",
-                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/directvperu.html"
-            },
-            {
-                "name": "DSPORTS",
-                "channel": "DSPORTS",
-                "url": "https://la18hd.su/vivo/canal.php?stream=dsports",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=dsports"
-            },
-            {
-                "name": "ESPNDEPORTES",
-                "channel": "ESPNDEPORTES",
-                "url": "https://la18hd.su/vivo/canal.php?stream=espndeportes",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=espndeportes"
-            },
-            {
-                "name": "SKY SPORTS LALIGA",
-                "channel": "SKY SPORTS LALIGA",
-                "url": "https://la18hd.su/vivo/canal.php?stream=sky_sports_laliga",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=sky_sports_laliga"
-            }
-        ],
-        "id": 2
-    },
-    {
-        "datetime": "2026-08-17T19:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/inglaterra_823176495f.png",
-        "league": "Championship",
-        "homeTeam": "Cardiff City",
-        "awayTeam": "Wrexham",
-        "servers": [
-            {
-                "name": "DISNEY2",
-                "channel": "DISNEY2",
-                "url": "https://la18hd.su/vivo/canal.php?stream=disney2",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney2"
-            },
-            {
-                "name": "FOXSPORTS",
-                "channel": "FOXSPORTS",
-                "url": "https://la18hd.su/vivo/canal.php?stream=foxsports",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=foxsports"
-            }
-        ],
-        "id": 3
-    },
-    {
         "datetime": "2026-08-17T19:15:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/portugal_914accbdd5.png",
         "league": "Primeira Liga",
@@ -103,7 +13,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=sporttv1"
             }
         ],
-        "id": 4
+        "id": 1
     },
     {
         "datetime": "2026-08-17T19:30:00Z",
@@ -119,7 +29,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=hypermotion1"
             }
         ],
-        "id": 5
+        "id": 2
     },
     {
         "datetime": "2026-08-17T20:00:00Z",
@@ -147,7 +57,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=fanatiz2"
             }
         ],
-        "id": 6
+        "id": 3
     },
     {
         "datetime": "2026-08-17T22:15:00Z",
@@ -175,6 +85,22 @@
                 "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/tntsports2.html"
             }
         ],
-        "id": 7
+        "id": 4
+    },
+    {
+        "datetime": "2026-08-17T23:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/brasil_25a533e5f7.png",
+        "league": "Brasileirão",
+        "homeTeam": "Internacional",
+        "awayTeam": "Remo",
+        "servers": [
+            {
+                "name": "PREMIERE1",
+                "channel": "PREMIERE1",
+                "url": "https://la18hd.su/vivo/canal.php?stream=premiere1",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=premiere1"
+            }
+        ],
+        "id": 5
     }
 ]
