@@ -1,1 +1,18 @@
-[]
+[
+    {
+        "datetime": "2026-08-20T18:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/arabia_saudita_82c6f9c376.png",
+        "league": "Liga Profesional Saudí",
+        "homeTeam": "Al-Fayha",
+        "awayTeam": "Al Hilal",
+        "servers": [
+            {
+                "name": "FOXDEPORTES",
+                "channel": "FOXDEPORTES",
+                "url": "https://la18hd.su/vivo/canal.php?stream=foxdeportes",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=foxdeportes"
+            }
+        ],
+        "id": 1
+    }
+]
