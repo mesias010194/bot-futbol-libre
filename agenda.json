@@ -1,115 +1,5 @@
 [
     {
-        "datetime": "2026-08-22T00:30:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/chile_86c07a7b38.png",
-        "league": "Primera División",
-        "homeTeam": "Audax Italiano",
-        "awayTeam": "Unión La Calera",
-        "servers": [
-            {
-                "name": "TNTSPORTSCHILE",
-                "channel": "TNTSPORTSCHILE",
-                "url": "https://la18hd.su/vivo/canal.php?stream=tntsportschile",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=tntsportschile"
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-08-22T00:30:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/colombia_dcf9cc2637.png",
-        "league": "Liga BetPlay",
-        "homeTeam": "Alianza",
-        "awayTeam": "Deportivo Pereira",
-        "servers": [
-            {
-                "name": "WINSPORTSPLUS",
-                "channel": "WINSPORTSPLUS",
-                "url": "https://la18hd.su/vivo/canal.php?stream=winsportsplus",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=winsportsplus"
-            },
-            {
-                "name": "WINSPORTS2",
-                "channel": "WINSPORTS2",
-                "url": "https://la18hd.su/vivo/canal.php?stream=winsports2",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=winsports2"
-            },
-            {
-                "name": "WINSPORTS",
-                "channel": "WINSPORTS",
-                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/winsports.html",
-                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/winsports.html"
-            }
-        ],
-        "id": 2
-    },
-    {
-        "datetime": "2026-08-22T01:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/NFL_840ecc1d05.png",
-        "league": "NFL Pretemporada",
-        "homeTeam": "Packers",
-        "awayTeam": "Broncos",
-        "servers": [
-            {
-                "name": "FOXSPORTS2MX",
-                "channel": "FOXSPORTS2MX",
-                "url": "https://la18hd.su/vivo/canal.php?stream=foxsports2mx",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=foxsports2mx"
-            }
-        ],
-        "id": 3
-    },
-    {
-        "datetime": "2026-08-22T01:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/bandera_fbc29cb609.png",
-        "league": "Liga MX",
-        "homeTeam": "Tigres UANL",
-        "awayTeam": "Atlante",
-        "servers": [
-            {
-                "name": "AZTECA7",
-                "channel": "AZTECA7",
-                "url": "https://la18hd.su/vivo/canal.php?stream=azteca7",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=azteca7"
-            },
-            {
-                "name": "FOXDEPORTES",
-                "channel": "FOXDEPORTES",
-                "url": "https://la18hd.su/vivo/canal.php?stream=foxdeportes",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=foxdeportes"
-            },
-            {
-                "name": "FOXSPORTS2 USA",
-                "channel": "FOXSPORTS2 USA",
-                "url": "https://la18hd.su/vivo/canal.php?stream=foxsports2_usa",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=foxsports2_usa"
-            }
-        ],
-        "id": 4
-    },
-    {
-        "datetime": "2026-08-22T01:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/bandera_fbc29cb609.png",
-        "league": "Liga MX",
-        "homeTeam": "León",
-        "awayTeam": "Monterrey",
-        "servers": [
-            {
-                "name": "TUDN",
-                "channel": "TUDN",
-                "url": "https://la18hd.su/vivo/canal.php?stream=tudn",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=tudn"
-            },
-            {
-                "name": "UNIVISION",
-                "channel": "UNIVISION",
-                "url": "https://la18hd.su/vivo/canal.php?stream=univision",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=univision"
-            }
-        ],
-        "id": 5
-    },
-    {
         "datetime": "2026-08-22T03:00:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/bandera_fbc29cb609.png",
         "league": "Liga MX",
@@ -129,7 +19,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=azteca7"
             }
         ],
-        "id": 6
+        "id": 1
     },
     {
         "datetime": "2026-08-22T03:00:00Z",
@@ -151,6 +41,6 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=univision"
             }
         ],
-        "id": 7
+        "id": 2
     }
 ]
