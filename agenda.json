@@ -7,10 +7,10 @@
         "awayTeam": "Burgos",
         "servers": [
             {
-                "name": "HYPERMOTION1",
-                "channel": "HYPERMOTION1",
+                "name": "LaLiga TV Hypermotion",
+                "channel": "LaLiga TV Hypermotion",
                 "url": "https://la18hd.su/vivo/canal.php?stream=hypermotion1",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=hypermotion1"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWh5cGVybW90aW9uMQ=="
             }
         ],
         "id": 1
@@ -23,10 +23,10 @@
         "awayTeam": "Sabadell",
         "servers": [
             {
-                "name": "HYPERMOTION2",
-                "channel": "HYPERMOTION2",
+                "name": "LaLiga TV Hypermotion 2",
+                "channel": "LaLiga TV Hypermotion 2",
                 "url": "https://la18hd.su/vivo/canal.php?stream=hypermotion2",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=hypermotion2"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWh5cGVybW90aW9uMg=="
             }
         ],
         "id": 2
@@ -42,25 +42,31 @@
                 "name": "ESPN4",
                 "channel": "ESPN4",
                 "url": "https://la18hd.su/vivo/canal.php?stream=espn4",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=espn4"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWVzcG40"
             },
             {
-                "name": "DISNEY15",
-                "channel": "DISNEY15",
+                "name": "Disney+",
+                "channel": "Disney+",
                 "url": "https://la18hd.su/vivo/canal.php?stream=disney15",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney15"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWRpc25leTE1"
             },
             {
-                "name": "ESPNDEPORTES",
-                "channel": "ESPNDEPORTES",
+                "name": "ESPN4 Movil",
+                "channel": "ESPN4 Movil",
+                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn4tv.html",
+                "iframe": "/embed/eventos?r=aHR0cHM6Ly93d3cudGFyamV0YXJvaml0YS54eXovc3czLmh0bWw/Z2V0PWh0dHBzOi8vd3d3LnRhcmpldGFyb2ppdGEueHl6L3JlcHJvL2VzcG40dHYuaHRtbA=="
+            },
+            {
+                "name": "ESPN Deportes",
+                "channel": "ESPN Deportes",
                 "url": "https://la18hd.su/vivo/canal.php?stream=espndeportes",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=espndeportes"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWVzcG5kZXBvcnRlcw=="
             },
             {
-                "name": "ESPNPLUS2",
-                "channel": "ESPNPLUS2",
+                "name": "Espn+",
+                "channel": "Espn+",
                 "url": "https://la18hd.com/vivo/canal.php?stream=espnplus2",
-                "iframe": "https://la18hd.com/vivo/canales.php?stream=espnplus2"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BucGx1czI="
             }
         ],
         "id": 3
@@ -73,22 +79,22 @@
         "awayTeam": "Estudiantes LP",
         "servers": [
             {
-                "name": "TNTSPORTS",
-                "channel": "TNTSPORTS",
+                "name": "TNT Sports",
+                "channel": "TNT Sports",
                 "url": "https://la18hd.su/vivo/canal.php?stream=tntsports",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=tntsports"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPXRudHNwb3J0cw=="
             },
             {
-                "name": "FANATIZ3",
-                "channel": "FANATIZ3",
+                "name": "Fanatiz03",
+                "channel": "Fanatiz03",
                 "url": "https://la18hd.su/vivo/canal.php?stream=fanatiz3",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=fanatiz3"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWZhbmF0aXoz"
             },
             {
-                "name": "TNTSPORTS2",
-                "channel": "TNTSPORTS2",
+                "name": "TNT Sports Movil",
+                "channel": "TNT Sports Movil",
                 "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/tntsports2.html",
-                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/tntsports2.html"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly93d3cudGFyamV0YXJvaml0YS54eXovc3czLmh0bWw/Z2V0PWh0dHBzOi8vd3d3LnRhcmpldGFyb2ppdGEueHl6L3JlcHJvL3RudHNwb3J0czIuaHRtbA=="
             }
         ],
         "id": 4
@@ -101,22 +107,22 @@
         "awayTeam": "Platense",
         "servers": [
             {
-                "name": "ESPNPREMIUM",
-                "channel": "ESPNPREMIUM",
+                "name": "ESPN Premium",
+                "channel": "ESPN Premium",
                 "url": "https://la18hd.su/vivo/canal.php?stream=espnpremium",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=espnpremium"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWVzcG5wcmVtaXVt"
             },
             {
-                "name": "FANATIZ4",
-                "channel": "FANATIZ4",
+                "name": "Fanatiz04",
+                "channel": "Fanatiz04",
                 "url": "https://la18hd.su/vivo/canal.php?stream=fanatiz4",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=fanatiz4"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWZhbmF0aXo0"
             },
             {
-                "name": "ESPNPREMIUM2",
-                "channel": "ESPNPREMIUM2",
+                "name": "ESPN Premium Movil",
+                "channel": "ESPN Premium Movil",
                 "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espnpremium2.html",
-                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espnpremium2.html"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly93d3cudGFyamV0YXJvaml0YS54eXovc3czLmh0bWw/Z2V0PWh0dHBzOi8vd3d3LnRhcmpldGFyb2ppdGEueHl6L3JlcHJvL2VzcG5wcmVtaXVtMi5odG1s"
             }
         ],
         "id": 5
@@ -129,16 +135,16 @@
         "awayTeam": "Cienciano",
         "servers": [
             {
-                "name": "LIGA1MAX",
-                "channel": "LIGA1MAX",
+                "name": "Liga1max",
+                "channel": "Liga1max",
                 "url": "https://la18hd.su/vivo/canal.php?stream=liga1max",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=liga1max"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWxpZ2ExbWF4"
             },
             {
-                "name": "LIGAPERU",
-                "channel": "LIGAPERU",
+                "name": "Liga1max Movil",
+                "channel": "Liga1max Movil",
                 "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/ligaperu.html",
-                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/ligaperu.html"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly93d3cudGFyamV0YXJvaml0YS54eXovc3czLmh0bWw/Z2V0PWh0dHBzOi8vd3d3LnRhcmpldGFyb2ppdGEueHl6L3JlcHJvL2xpZ2FwZXJ1Lmh0bWw="
             }
         ],
         "id": 6
@@ -151,10 +157,10 @@
         "awayTeam": "Wanderers",
         "servers": [
             {
-                "name": "DISNEY16",
-                "channel": "DISNEY16",
+                "name": "Disney+",
+                "channel": "Disney+",
                 "url": "https://la18hd.su/vivo/canal.php?stream=disney16",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney16"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWRpc25leTE2"
             }
         ],
         "id": 7
@@ -167,16 +173,16 @@
         "awayTeam": "Beşiktaş",
         "servers": [
             {
-                "name": "DISNEY17",
-                "channel": "DISNEY17",
+                "name": "Disney+",
+                "channel": "Disney+",
                 "url": "https://la18hd.su/vivo/canal.php?stream=disney17",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney17"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWRpc25leTE3"
             },
             {
-                "name": "FOXSPORTS2",
-                "channel": "FOXSPORTS2",
+                "name": "Fox Sports 2",
+                "channel": "Fox Sports 2",
                 "url": "https://la18hd.su/vivo/canal.php?stream=foxsports2",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=foxsports2"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWZveHNwb3J0czI="
             }
         ],
         "id": 8
@@ -189,10 +195,10 @@
         "awayTeam": "Sassuolo",
         "servers": [
             {
-                "name": "DISNEY19",
-                "channel": "DISNEY19",
+                "name": "Disney+",
+                "channel": "Disney+",
                 "url": "https://la18hd.su/vivo/canal.php?stream=disney19",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney19"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWRpc25leTE5"
             }
         ],
         "id": 9
@@ -208,37 +214,37 @@
                 "name": "ESPN2",
                 "channel": "ESPN2",
                 "url": "https://la18hd.su/vivo/canal.php?stream=espn2",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=espn2"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWVzcG4y"
             },
             {
-                "name": "DISNEY20",
-                "channel": "DISNEY20",
+                "name": "Disney+",
+                "channel": "Disney+",
                 "url": "https://la18hd.su/vivo/canal.php?stream=disney20",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney20"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWRpc25leTIw"
             },
             {
-                "name": "ESPN2TV",
-                "channel": "ESPN2TV",
+                "name": "ESPN2 Movil",
+                "channel": "ESPN2 Movil",
                 "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn2tv.html",
-                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn2tv.html"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly93d3cudGFyamV0YXJvaml0YS54eXovc3czLmh0bWw/Z2V0PWh0dHBzOi8vd3d3LnRhcmpldGFyb2ppdGEueHl6L3JlcHJvL2VzcG4ydHYuaHRtbA=="
             },
             {
-                "name": "TELEMUNDO",
-                "channel": "TELEMUNDO",
+                "name": "Telemundo",
+                "channel": "Telemundo",
                 "url": "https://la18hd.su/vivo/canal.php?stream=telemundo",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=telemundo"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPXRlbGVtdW5kbw=="
             },
             {
-                "name": "ESPNMX",
-                "channel": "ESPNMX",
+                "name": "ESPN MX",
+                "channel": "ESPN MX",
                 "url": "https://la18hd.su/vivo/canal.php?stream=espnmx",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=espnmx"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWVzcG5teA=="
             },
             {
-                "name": "ESPNMX.1",
-                "channel": "ESPNMX.1",
+                "name": "ESPN MX MOVIL",
+                "channel": "ESPN MX MOVIL",
                 "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espnmx.1.html",
-                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espnmx.1.html"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly93d3cudGFyamV0YXJvaml0YS54eXovc3czLmh0bWw/Z2V0PWh0dHBzOi8vd3d3LnRhcmpldGFyb2ppdGEueHl6L3JlcHJvL2VzcG5teC4xLmh0bWw="
             }
         ],
         "id": 10
@@ -254,19 +260,25 @@
                 "name": "ESPN4",
                 "channel": "ESPN4",
                 "url": "https://la18hd.su/vivo/canal.php?stream=espn4",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=espn4"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWVzcG40"
             },
             {
-                "name": "DISNEY18",
-                "channel": "DISNEY18",
+                "name": "Disney+",
+                "channel": "Disney+",
                 "url": "https://la18hd.su/vivo/canal.php?stream=disney18",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney18"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWRpc25leTE4"
             },
             {
-                "name": "BEINSPORTES",
-                "channel": "BEINSPORTES",
+                "name": "ESPN4 Movil",
+                "channel": "ESPN4 Movil",
+                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn4tv.html",
+                "iframe": "/embed/eventos?r=aHR0cHM6Ly93d3cudGFyamV0YXJvaml0YS54eXovc3czLmh0bWw/Z2V0PWh0dHBzOi8vd3d3LnRhcmpldGFyb2ppdGEueHl6L3JlcHJvL2VzcG40dHYuaHRtbA=="
+            },
+            {
+                "name": "beIN Sports Ñ",
+                "channel": "beIN Sports Ñ",
                 "url": "https://la18hd.su/vivo/canal.php?stream=beinsportes",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=beinsportes"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWJlaW5zcG9ydGVz"
             }
         ],
         "id": 11
@@ -279,22 +291,22 @@
         "awayTeam": "Vasco da Gama",
         "servers": [
             {
-                "name": "PREMIERE1",
-                "channel": "PREMIERE1",
+                "name": "Premiere BR",
+                "channel": "Premiere BR",
                 "url": "https://la18hd.su/vivo/canal.php?stream=premiere1",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=premiere1"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPXByZW1pZXJlMQ=="
             },
             {
-                "name": "WINSPORTS",
-                "channel": "WINSPORTS",
+                "name": "Win Sports",
+                "channel": "Win Sports",
                 "url": "https://la18hd.su/vivo/canal.php?stream=winsports",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=winsports"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPXdpbnNwb3J0cw=="
             },
             {
-                "name": "FANATIZ8",
-                "channel": "FANATIZ8",
+                "name": "Fanatiz08",
+                "channel": "Fanatiz08",
                 "url": "https://la18hd.su/vivo/canal.php?stream=fanatiz8",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=fanatiz8"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWZhbmF0aXo4"
             }
         ],
         "id": 12
@@ -307,16 +319,16 @@
         "awayTeam": "Bahia",
         "servers": [
             {
-                "name": "PREMIERE4",
-                "channel": "PREMIERE4",
+                "name": "Premiere 4 BR",
+                "channel": "Premiere 4 BR",
                 "url": "https://la18hd.su/vivo/canal.php?stream=premiere4",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=premiere4"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPXByZW1pZXJlNA=="
             },
             {
-                "name": "FANATIZ7",
-                "channel": "FANATIZ7",
+                "name": "Fanatiz07",
+                "channel": "Fanatiz07",
                 "url": "https://la18hd.su/vivo/canal.php?stream=fanatiz7",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=fanatiz7"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWZhbmF0aXo3"
             }
         ],
         "id": 13
@@ -329,16 +341,16 @@
         "awayTeam": "Grêmio",
         "servers": [
             {
-                "name": "PREMIERE3",
-                "channel": "PREMIERE3",
+                "name": "Premiere 3 BR ",
+                "channel": "Premiere 3 BR ",
                 "url": "https://la18hd.su/vivo/canal.php?stream=premiere3",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=premiere3"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPXByZW1pZXJlMw=="
             },
             {
-                "name": "FANATIZ9",
-                "channel": "FANATIZ9",
+                "name": "Fanatiz09",
+                "channel": "Fanatiz09",
                 "url": "https://la18hd.su/vivo/canal.php?stream=fanatiz9",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=fanatiz9"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWZhbmF0aXo5"
             }
         ],
         "id": 14
@@ -351,10 +363,16 @@
         "awayTeam": "Colo-Colo",
         "servers": [
             {
-                "name": "TNTSPORTSCHILE",
-                "channel": "TNTSPORTSCHILE",
+                "name": "TNT Sports Premium CL",
+                "channel": "TNT Sports Premium CL",
                 "url": "https://la18hd.su/vivo/canal.php?stream=tntsportschile",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=tntsportschile"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPXRudHNwb3J0c2NoaWxl"
+            },
+            {
+                "name": "TNT Sports Premium CL Movil",
+                "channel": "TNT Sports Premium CL Movil",
+                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/tntchile.html",
+                "iframe": "/embed/eventos?r=aHR0cHM6Ly93d3cudGFyamV0YXJvaml0YS54eXovc3czLmh0bWw/Z2V0PWh0dHBzOi8vd3d3LnRhcmpldGFyb2ppdGEueHl6L3JlcHJvL3RudGNoaWxlLmh0bWw="
             }
         ],
         "id": 15
@@ -367,65 +385,25 @@
         "awayTeam": "Atlético Nacional",
         "servers": [
             {
-                "name": "WINSPORTSPLUS",
-                "channel": "WINSPORTSPLUS",
+                "name": "Win Sports +",
+                "channel": "Win Sports +",
                 "url": "https://la18hd.su/vivo/canal.php?stream=winsportsplus",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=winsportsplus"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPXdpbnNwb3J0c3BsdXM="
             },
             {
-                "name": "WINSPORTS2",
-                "channel": "WINSPORTS2",
+                "name": "Win Sports + HD",
+                "channel": "Win Sports + HD",
                 "url": "https://la18hd.su/vivo/canal.php?stream=winsports2",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=winsports2"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPXdpbnNwb3J0czI="
             },
             {
-                "name": "WINSPORTS",
-                "channel": "WINSPORTS",
+                "name": "Win Sports + |  opc3",
+                "channel": "Win Sports + |  opc3",
                 "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/winsports.html",
-                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/winsports.html"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly93d3cudGFyamV0YXJvaml0YS54eXovc3czLmh0bWw/Z2V0PWh0dHBzOi8vd3d3LnRhcmpldGFyb2ppdGEueHl6L3JlcHJvL3dpbnNwb3J0cy5odG1s"
             }
         ],
         "id": 16
-    },
-    {
-        "datetime": "2026-08-23T19:30:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/espana_a8510f9b5f.png",
-        "league": "LaLiga",
-        "homeTeam": "Elche",
-        "awayTeam": "Barcelona",
-        "servers": [
-            {
-                "name": "ESPN",
-                "channel": "ESPN",
-                "url": "https://la18hd.su/vivo/canal.php?stream=espn",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=espn"
-            },
-            {
-                "name": "DISNEY1",
-                "channel": "DISNEY1",
-                "url": "https://la18hd.su/vivo/canal.php?stream=disney1",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney1"
-            },
-            {
-                "name": "ESPN1TV",
-                "channel": "ESPN1TV",
-                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn1tv.html",
-                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn1tv.html"
-            },
-            {
-                "name": "ESPNDEPORTES",
-                "channel": "ESPNDEPORTES",
-                "url": "https://la18hd.su/vivo/canal.php?stream=espndeportes",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=espndeportes"
-            },
-            {
-                "name": "ESPNPLUS3",
-                "channel": "ESPNPLUS3",
-                "url": "https://la18hd.su/vivo/canal.php?stream=espnplus3",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=espnplus3"
-            }
-        ],
-        "id": 17
     },
     {
         "datetime": "2026-08-23T19:30:00Z",
@@ -435,13 +413,13 @@
         "awayTeam": "Almería",
         "servers": [
             {
-                "name": "HYPERMOTION1",
-                "channel": "HYPERMOTION1",
+                "name": "LaLiga TV Hypermotion",
+                "channel": "LaLiga TV Hypermotion",
                 "url": "https://la18hd.su/vivo/canal.php?stream=hypermotion1",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=hypermotion1"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWh5cGVybW90aW9uMQ=="
             }
         ],
-        "id": 18
+        "id": 17
     },
     {
         "datetime": "2026-08-23T19:30:00Z",
@@ -451,16 +429,68 @@
         "awayTeam": "Arouca",
         "servers": [
             {
-                "name": "DSPORTS2",
-                "channel": "DSPORTS2",
+                "name": "Dsports 2",
+                "channel": "Dsports 2",
                 "url": "https://la18hd.su/vivo/canal.php?stream=dsports2",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=dsports2"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWRzcG9ydHMy"
             },
             {
-                "name": "DSPORTS2 2",
-                "channel": "DSPORTS2 2",
+                "name": "Dsports 2 Movil",
+                "channel": "Dsports 2 Movil",
                 "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/dsports2.html",
-                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/dsports2.html"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly93d3cudGFyamV0YXJvaml0YS54eXovc3czLmh0bWw/Z2V0PWh0dHBzOi8vd3d3LnRhcmpldGFyb2ppdGEueHl6L3JlcHJvL2RzcG9ydHMyLmh0bWw="
+            }
+        ],
+        "id": 18
+    },
+    {
+        "datetime": "2026-08-23T19:30:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/espana_a8510f9b5f.png",
+        "league": "LaLiga",
+        "homeTeam": "Elche",
+        "awayTeam": "Barcelona",
+        "servers": [
+            {
+                "name": "CazeTV",
+                "channel": "CazeTV",
+                "url": "https://la16hd.com/cazetv.php",
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE2aGQuY29tL2NhemV0di5waHA="
+            },
+            {
+                "name": "ESPN",
+                "channel": "ESPN",
+                "url": "https://la18hd.su/vivo/canal.php?stream=espn",
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWVzcG4="
+            },
+            {
+                "name": "Disney+",
+                "channel": "Disney+",
+                "url": "https://la18hd.su/vivo/canal.php?stream=disney1",
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWRpc25leTE="
+            },
+            {
+                "name": "ESPN Movil",
+                "channel": "ESPN Movil",
+                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn1tv.html",
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly93d3cudGFyamV0YXJvaml0YS54eXovc3czLmh0bWw/Z2V0PWh0dHBzOi8vd3d3LnRhcmpldGFyb2ppdGEueHl6L3JlcHJvL2VzcG4xdHYuaHRtbA=="
+            },
+            {
+                "name": "ESPN Deportes",
+                "channel": "ESPN Deportes",
+                "url": "https://la18hd.su/vivo/canal.php?stream=espndeportes",
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWVzcG5kZXBvcnRlcw=="
+            },
+            {
+                "name": "Espn+",
+                "channel": "Espn+",
+                "url": "https://la18hd.su/vivo/canal.php?stream=espnplus3",
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWVzcG5wbHVzMw=="
+            },
+            {
+                "name": "LaLiga TV UK",
+                "channel": "LaLiga TV UK",
+                "url": "https://tv.la20tv.com/mpd/drm?url=aHR0cHM6Ly9vdHRlLmJpYS1jZi5saXZlLnB2LWNkbi5uZXQvcGR4LW5pdHJvL2xpdmUvY2xpZW50cy9kYXNoL2VuYy9rMGR1emdmZWpnL291dC92MS83MGE1MGIxYmRhOTQ0NjI4YjhlN2U2NmFiNDA2OTQxOS9jZW5jLm1wZA==&k=NjIwZTUxYjgyNTk2NDc1NTE3YTI3YWE0MjVjNTIyODA6MmI5YmE4MTFlOWM1YWVhZmM4YWUxYjcxY2RjYTRkNmE=",
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly90di5sYTIwdHYuY29tL21wZC9kcm0/dXJsPWFIUjBjSE02THk5dmRIUmxMbUpwWVMxalppNXNhWFpsTG5CMkxXTmtiaTV1WlhRdmNHUjRMVzVwZEhKdkwyeHBkbVV2WTJ4cFpXNTBjeTlrWVhOb0wyVnVZeTlyTUdSMWVtZG1aV3BuTDI5MWRDOTJNUzgzTUdFMU1HSXhZbVJoT1RRME5qSTRZamhsTjJVMk5tRmlOREEyT1RReE9TOWpaVzVqTG0xd1pBPT0maz1Oakl3WlRVeFlqZ3lOVGsyTkRjMU5URTNZVEkzWVdFME1qVmpOVEl5T0RBNk1tSTVZbUU0TVRGbE9XTTFZV1ZoWm1NNFlXVXhZamN4WTJSallUUmtObUU9"
             }
         ],
         "id": 19
@@ -473,16 +503,16 @@
         "awayTeam": "Defensa y Justicia",
         "servers": [
             {
-                "name": "ESPNPREMIUM",
-                "channel": "ESPNPREMIUM",
+                "name": "ESPN Premium",
+                "channel": "ESPN Premium",
                 "url": "https://la18hd.su/vivo/canal.php?stream=espnpremium",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=espnpremium"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWVzcG5wcmVtaXVt"
             },
             {
-                "name": "ESPNPREMIUM2",
-                "channel": "ESPNPREMIUM2",
+                "name": "ESPN Premium Movil",
+                "channel": "ESPN Premium Movil",
                 "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espnpremium2.html",
-                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espnpremium2.html"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly93d3cudGFyamV0YXJvaml0YS54eXovc3czLmh0bWw/Z2V0PWh0dHBzOi8vd3d3LnRhcmpldGFyb2ppdGEueHl6L3JlcHJvL2VzcG5wcmVtaXVtMi5odG1s"
             }
         ],
         "id": 20
@@ -495,16 +525,16 @@
         "awayTeam": "Alianza Lima",
         "servers": [
             {
-                "name": "LIGA1MAX",
-                "channel": "LIGA1MAX",
+                "name": "Liga1max",
+                "channel": "Liga1max",
                 "url": "https://la18hd.su/vivo/canal.php?stream=liga1max",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=liga1max"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWxpZ2ExbWF4"
             },
             {
-                "name": "LIGAPERU",
-                "channel": "LIGAPERU",
+                "name": "Liga1max Movil",
+                "channel": "Liga1max Movil",
                 "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/ligaperu.html",
-                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/ligaperu.html"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly93d3cudGFyamV0YXJvaml0YS54eXovc3czLmh0bWw/Z2V0PWh0dHBzOi8vd3d3LnRhcmpldGFyb2ppdGEueHl6L3JlcHJvL2xpZ2FwZXJ1Lmh0bWw="
             }
         ],
         "id": 21
@@ -517,10 +547,10 @@
         "awayTeam": "New York City",
         "servers": [
             {
-                "name": "MLS1ES",
-                "channel": "MLS1ES",
+                "name": "MLS01ES",
+                "channel": "MLS01ES",
                 "url": "https://la18hd.su/vivo/canal.php?stream=mls1es",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=mls1es"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPW1sczFlcw=="
             }
         ],
         "id": 22
@@ -533,22 +563,22 @@
         "awayTeam": "Llaneros",
         "servers": [
             {
-                "name": "WINSPORTSPLUS",
-                "channel": "WINSPORTSPLUS",
+                "name": "Win Sports +",
+                "channel": "Win Sports +",
                 "url": "https://la18hd.su/vivo/canal.php?stream=winsportsplus",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=winsportsplus"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPXdpbnNwb3J0c3BsdXM="
             },
             {
-                "name": "WINSPORTS2",
-                "channel": "WINSPORTS2",
+                "name": "Win Sports + HD",
+                "channel": "Win Sports + HD",
                 "url": "https://la18hd.su/vivo/canal.php?stream=winsports2",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=winsports2"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPXdpbnNwb3J0czI="
             },
             {
-                "name": "WINSPORTS",
-                "channel": "WINSPORTS",
+                "name": "Win Sports + |  opc3",
+                "channel": "Win Sports + |  opc3",
                 "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/winsports.html",
-                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/winsports.html"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly93d3cudGFyamV0YXJvaml0YS54eXovc3czLmh0bWw/Z2V0PWh0dHBzOi8vd3d3LnRhcmpldGFyb2ppdGEueHl6L3JlcHJvL3dpbnNwb3J0cy5odG1s"
             }
         ],
         "id": 23
@@ -561,16 +591,16 @@
         "awayTeam": "Mirassol",
         "servers": [
             {
-                "name": "PREMIERE3",
-                "channel": "PREMIERE3",
+                "name": "Premiere 3 BR ",
+                "channel": "Premiere 3 BR ",
                 "url": "https://la18hd.su/vivo/canal.php?stream=premiere3",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=premiere3"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPXByZW1pZXJlMw=="
             },
             {
-                "name": "FANATIZ1",
-                "channel": "FANATIZ1",
+                "name": "Fanatiz01",
+                "channel": "Fanatiz01",
                 "url": "https://la18hd.su/vivo/canal.php?stream=fanatiz1",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=fanatiz1"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWZhbmF0aXox"
             }
         ],
         "id": 24
@@ -583,16 +613,16 @@
         "awayTeam": "São Paulo",
         "servers": [
             {
-                "name": "PREMIERE4",
-                "channel": "PREMIERE4",
+                "name": "Premiere 4 BR",
+                "channel": "Premiere 4 BR",
                 "url": "https://la18hd.su/vivo/canal.php?stream=premiere4",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=premiere4"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPXByZW1pZXJlNA=="
             },
             {
-                "name": "FANATIZ2",
-                "channel": "FANATIZ2",
+                "name": "Fanatiz02",
+                "channel": "Fanatiz02",
                 "url": "https://la18hd.su/vivo/canal.php?stream=fanatiz2",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=fanatiz2"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWZhbmF0aXoy"
             }
         ],
         "id": 25
@@ -605,10 +635,10 @@
         "awayTeam": "Progreso",
         "servers": [
             {
-                "name": "DISNEY2",
-                "channel": "DISNEY2",
+                "name": "Disney+",
+                "channel": "Disney+",
                 "url": "https://la18hd.su/vivo/canal.php?stream=disney2",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney2"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWRpc25leTI="
             }
         ],
         "id": 26
@@ -624,43 +654,43 @@
                 "name": "ESPN",
                 "channel": "ESPN",
                 "url": "https://la18hd.su/vivo/canal.php?stream=espn",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=espn"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWVzcG4="
             },
             {
-                "name": "DISNEY3",
-                "channel": "DISNEY3",
+                "name": "Disney+",
+                "channel": "Disney+",
                 "url": "https://la18hd.su/vivo/canal.php?stream=disney3",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney3"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWRpc25leTM="
             },
             {
-                "name": "ESPN1TV",
-                "channel": "ESPN1TV",
+                "name": "ESPN Movil",
+                "channel": "ESPN Movil",
                 "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn1tv.html",
-                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn1tv.html"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly93d3cudGFyamV0YXJvaml0YS54eXovc3czLmh0bWw/Z2V0PWh0dHBzOi8vd3d3LnRhcmpldGFyb2ppdGEueHl6L3JlcHJvL2VzcG4xdHYuaHRtbA=="
             },
             {
-                "name": "TNTSPORTS",
-                "channel": "TNTSPORTS",
+                "name": "TNT Sports",
+                "channel": "TNT Sports",
                 "url": "https://la18hd.su/vivo/canal.php?stream=tntsports",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=tntsports"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPXRudHNwb3J0cw=="
             },
             {
-                "name": "TNTSPORTS2",
-                "channel": "TNTSPORTS2",
+                "name": "TNT Sports Movil",
+                "channel": "TNT Sports Movil",
                 "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/tntsports2.html",
-                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/tntsports2.html"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly93d3cudGFyamV0YXJvaml0YS54eXovc3czLmh0bWw/Z2V0PWh0dHBzOi8vd3d3LnRhcmpldGFyb2ppdGEueHl6L3JlcHJvL3RudHNwb3J0czIuaHRtbA=="
             },
             {
-                "name": "FANATIZ1",
-                "channel": "FANATIZ1",
+                "name": "Fanatiz01",
+                "channel": "Fanatiz01",
                 "url": "https://la18hd.su/vivo/canal.php?stream=fanatiz1",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=fanatiz1"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWZhbmF0aXox"
             },
             {
-                "name": "FANATIZ3",
-                "channel": "FANATIZ3",
+                "name": "Fanatiz03",
+                "channel": "Fanatiz03",
                 "url": "https://la18hd.su/vivo/canal.php?stream=fanatiz3",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=fanatiz3"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWZhbmF0aXoz"
             }
         ],
         "id": 27
@@ -673,16 +703,16 @@
         "awayTeam": "Corinthians",
         "servers": [
             {
-                "name": "PREMIERE1",
-                "channel": "PREMIERE1",
+                "name": "Premiere BR",
+                "channel": "Premiere BR",
                 "url": "https://la18hd.su/vivo/canal.php?stream=premiere1",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=premiere1"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPXByZW1pZXJlMQ=="
             },
             {
-                "name": "FANATIZ4",
-                "channel": "FANATIZ4",
+                "name": "Fanatiz04",
+                "channel": "Fanatiz04",
                 "url": "https://la18hd.su/vivo/canal.php?stream=fanatiz4",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=fanatiz4"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPWZhbmF0aXo0"
             }
         ],
         "id": 28
@@ -695,10 +725,16 @@
         "awayTeam": "Palestino",
         "servers": [
             {
-                "name": "TNTSPORTSCHILE",
-                "channel": "TNTSPORTSCHILE",
+                "name": "TNT Sports Premium CL",
+                "channel": "TNT Sports Premium CL",
                 "url": "https://la18hd.su/vivo/canal.php?stream=tntsportschile",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=tntsportschile"
+                "iframe": "/embed/eventos.html?r=aHR0cHM6Ly9sYTE4aGQuc3Uvdml2by9jYW5hbC5waHA/c3RyZWFtPXRudHNwb3J0c2NoaWxl"
+            },
+            {
+                "name": "TNT Sports Premium CL Movil",
+                "channel": "TNT Sports Premium CL Movil",
+                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/tntchile.html",
+                "iframe": "/embed/eventos?r=aHR0cHM6Ly93d3cudGFyamV0YXJvaml0YS54eXovc3czLmh0bWw/Z2V0PWh0dHBzOi8vd3d3LnRhcmpldGFyb2ppdGEueHl6L3JlcHJvL3RudGNoaWxlLmh0bWw="
             }
         ],
         "id": 29
