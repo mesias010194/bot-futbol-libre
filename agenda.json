@@ -1,7 +1,7 @@
 [
     {
         "datetime": "2026-08-25T18:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/arabia_saudita_82c6f9c376.png",
+        "flagUrl": "https://flagcdn.com/w40/ar.png",
         "league": "Liga Profesional Saudí",
         "homeTeam": "Al Ittifaq",
         "awayTeam": "Al Nassr",
@@ -17,7 +17,7 @@
     },
     {
         "datetime": "2026-08-25T18:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/inglaterra_823176495f.png",
+        "flagUrl": "https://flagcdn.com/w40/gb-eng.png",
         "league": "EFL Cup",
         "homeTeam": "Cardiff City",
         "awayTeam": "Norwich City",
