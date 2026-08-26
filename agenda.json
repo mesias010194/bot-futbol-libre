@@ -139,28 +139,6 @@
     },
     {
         "datetime": "2026-08-26T19:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/inglaterra_823176495f.png",
-        "league": "EFL Cup",
-        "homeTeam": "Preston North End",
-        "awayTeam": "Everton",
-        "servers": [
-            {
-                "name": "DISNEY2",
-                "channel": "DISNEY2",
-                "url": "https://la18hd.su/vivo/canal.php?stream=disney2",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney2"
-            },
-            {
-                "name": "PARAMOUNT4",
-                "channel": "PARAMOUNT4",
-                "url": "https://la18hd.su/vivo/canal.php?stream=paramount4",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=paramount4"
-            }
-        ],
-        "id": 7
-    },
-    {
-        "datetime": "2026-08-26T19:00:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/espana_a8510f9b5f.png",
         "league": "LaLiga",
         "homeTeam": "Real Madrid",
@@ -195,12 +173,28 @@
                 "channel": "ESPNPLUS1",
                 "url": "https://la18hd.su/vivo/canal.php?stream=espnplus1",
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=espnplus1"
+            }
+        ],
+        "id": 7
+    },
+    {
+        "datetime": "2026-08-26T19:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/inglaterra_823176495f.png",
+        "league": "EFL Cup",
+        "homeTeam": "Preston North End",
+        "awayTeam": "Everton",
+        "servers": [
+            {
+                "name": "DISNEY2",
+                "channel": "DISNEY2",
+                "url": "https://la18hd.su/vivo/canal.php?stream=disney2",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney2"
             },
             {
-                "name": "SKY SPORTS LALIGA",
-                "channel": "SKY SPORTS LALIGA",
-                "url": "https://la18hd.su/vivo/canal.php?stream=sky_sports_laliga",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=sky_sports_laliga"
+                "name": "PARAMOUNT4",
+                "channel": "PARAMOUNT4",
+                "url": "https://la18hd.su/vivo/canal.php?stream=paramount4",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=paramount4"
             }
         ],
         "id": 8
