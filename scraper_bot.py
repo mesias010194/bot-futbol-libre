@@ -53,7 +53,7 @@ API_KEY = "$2a$10$fH2AVYqUAGOQm6KLrAcdk.fsTBsZPp7sTDWydhhsWtaYfrLlnAWv."
 # ==========================================================
 FUENTES_AGENDA = [
     "https://la18hd.su//eventos/json/agenda123.json", # FUENTE PRINCIPAL
-    "https://ftvhd.com/diaries.json",               # Respaldo 1
+    "https://futbollibretv.org.pe/diaries.json?v",               # Respaldo 1
     "https://agenda18.com/agenda.json",              # Respaldo 2
 ]
 
