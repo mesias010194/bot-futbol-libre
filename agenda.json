@@ -1,81 +1,5 @@
 [
     {
-        "datetime": "2026-08-29T01:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/bandera_fbc29cb609.png",
-        "league": "Liga MX",
-        "homeTeam": "Atlante",
-        "awayTeam": "León",
-        "servers": [
-            {
-                "name": "TUDN",
-                "channel": "TUDN",
-                "url": "https://la18hd.su/vivo/canal.php?stream=tudn",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=tudn"
-            },
-            {
-                "name": "ESPNMX",
-                "channel": "ESPNMX",
-                "url": "https://la18hd.su/vivo/canal.php?stream=espnmx",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=espnmx"
-            },
-            {
-                "name": "ESPNMX.1",
-                "channel": "ESPNMX.1",
-                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espnmx.1.html",
-                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espnmx.1.html"
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-08-29T01:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/bandera_fbc29cb609.png",
-        "league": "Liga MX",
-        "homeTeam": "Necaxa",
-        "awayTeam": "Cruz Azul",
-        "servers": [
-            {
-                "name": "FOXDEPORTES",
-                "channel": "FOXDEPORTES",
-                "url": "https://la18hd.su/vivo/canal.php?stream=foxdeportes",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=foxdeportes"
-            }
-        ],
-        "id": 2
-    },
-    {
-        "datetime": "2026-08-29T01:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/bandera_fbc29cb609.png",
-        "league": "Liga de Expansión MX",
-        "homeTeam": "Dorados",
-        "awayTeam": "Atlético Morelia",
-        "servers": [
-            {
-                "name": "DISNEY12",
-                "channel": "DISNEY12",
-                "url": "https://la18hd.su/vivo/canal.php?stream=disney12",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney12"
-            }
-        ],
-        "id": 3
-    },
-    {
-        "datetime": "2026-08-29T01:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/bandera_fbc29cb609.png",
-        "league": "Liga de Expansión MX",
-        "homeTeam": "Correcaminos UAT",
-        "awayTeam": "Durango",
-        "servers": [
-            {
-                "name": "DISNEY13",
-                "channel": "DISNEY13",
-                "url": "https://la18hd.su/vivo/canal.php?stream=disney13",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney13"
-            }
-        ],
-        "id": 4
-    },
-    {
         "datetime": "2026-08-29T03:10:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/bandera_fbc29cb609.png",
         "league": "Liga MX",
@@ -89,6 +13,6 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=tudn"
             }
         ],
-        "id": 5
+        "id": 1
     }
 ]
