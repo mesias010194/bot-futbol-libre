@@ -25,22 +25,6 @@
         "datetime": "2026-08-30T11:30:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/alemania_e50aa475de.png",
         "league": "Bundesliga 2",
-        "homeTeam": "Darmstadt 98",
-        "awayTeam": "Hannover 96",
-        "servers": [
-            {
-                "name": "DISNEY2",
-                "channel": "DISNEY2",
-                "url": "https://la18hd.su/vivo/canal.php?stream=disney2",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney2"
-            }
-        ],
-        "id": 2
-    },
-    {
-        "datetime": "2026-08-30T11:30:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/alemania_e50aa475de.png",
-        "league": "Bundesliga 2",
         "homeTeam": "St. Pauli",
         "awayTeam": "Kaiserslautern",
         "servers": [
@@ -49,6 +33,28 @@
                 "channel": "DISNEY4",
                 "url": "https://la18hd.su/vivo/canal.php?stream=disney4",
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=disney4"
+            }
+        ],
+        "id": 2
+    },
+    {
+        "datetime": "2026-08-30T11:30:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/alemania_e50aa475de.png",
+        "league": "Bundesliga 2",
+        "homeTeam": "Darmstadt 98",
+        "awayTeam": "Hannover 96",
+        "servers": [
+            {
+                "name": "DISNEY2",
+                "channel": "DISNEY2",
+                "url": "https://la18hd.su/vivo/canal.php?stream=disney2",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney2"
+            },
+            {
+                "name": "FOXSPORTS",
+                "channel": "FOXSPORTS",
+                "url": "https://la18hd.su/vivo/canal.php?stream=foxsports",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=foxsports"
             }
         ],
         "id": 3
