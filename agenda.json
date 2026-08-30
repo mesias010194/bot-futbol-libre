@@ -17,6 +17,18 @@
                 "channel": "DISNEY1",
                 "url": "https://la18hd.su/vivo/canal.php?stream=disney1",
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=disney1"
+            },
+            {
+                "name": "ESPNMX",
+                "channel": "ESPNMX",
+                "url": "https://la18hd.su/vivo/canal.php?stream=espnmx",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=espnmx"
+            },
+            {
+                "name": "ESPNMX.1",
+                "channel": "ESPNMX.1",
+                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espnmx.1.html",
+                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espnmx.1.html"
             }
         ],
         "id": 1
@@ -74,5 +86,21 @@
             }
         ],
         "id": 4
+    },
+    {
+        "datetime": "2026-08-30T12:30:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/paises_bajos_f773e994b9.png",
+        "league": "Eredivisie",
+        "homeTeam": "Feyenoord",
+        "awayTeam": "ADO Den Haag",
+        "servers": [
+            {
+                "name": "DISNEY5",
+                "channel": "DISNEY5",
+                "url": "https://la18hd.su/vivo/canal.php?stream=disney5",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney5"
+            }
+        ],
+        "id": 5
     }
 ]
