@@ -638,5 +638,59 @@
             }
         ],
         "id": 25
+    },
+    {
+        "datetime": "2026-08-30T18:15:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/peru_ddc4e685cf.png",
+        "league": "Liga 1",
+        "homeTeam": "ADT",
+        "awayTeam": "Sport Huancayo",
+        "servers": [
+            {
+                "name": "LIGA1MAX",
+                "channel": "LIGA1MAX",
+                "url": "https://la18hd.su/vivo/canal.php?stream=liga1max",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=liga1max"
+            },
+            {
+                "name": "LIGAPERU",
+                "channel": "LIGAPERU",
+                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/ligaperu.html",
+                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/ligaperu.html"
+            }
+        ],
+        "id": 26
+    },
+    {
+        "datetime": "2026-08-30T18:30:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/uruguay_e2b9597af8.png",
+        "league": "Primera División",
+        "homeTeam": "Peñarol",
+        "awayTeam": "Nacional",
+        "servers": [
+            {
+                "name": "DISNEY19",
+                "channel": "DISNEY19",
+                "url": "https://la18hd.su/vivo/canal.php?stream=disney19",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney19"
+            }
+        ],
+        "id": 27
+    },
+    {
+        "datetime": "2026-08-30T18:30:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/pavo_980d87b7ad.png",
+        "league": "Super Lig",
+        "homeTeam": "Samsunspor",
+        "awayTeam": "Fenerbahçe",
+        "servers": [
+            {
+                "name": "DISNEY20",
+                "channel": "DISNEY20",
+                "url": "https://la18hd.su/vivo/canal.php?stream=disney20",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney20"
+            }
+        ],
+        "id": 28
     }
 ]
