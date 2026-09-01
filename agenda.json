@@ -257,6 +257,12 @@
                 "channel": "VTVPLUS",
                 "url": "https://la18hd.su/vivo/canal.php?stream=vtvplus",
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=vtvplus"
+            },
+            {
+                "name": "FOXDEPORTES",
+                "channel": "FOXDEPORTES",
+                "url": "https://la18hd.su/vivo/canal.php?stream=foxdeportes",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=foxdeportes"
             }
         ],
         "id": 10
