@@ -1,21 +1,5 @@
 [
     {
-        "datetime": "2026-09-01T00:45:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/chile_86c07a7b38.png",
-        "league": "Primera División",
-        "homeTeam": "Universidad Católica",
-        "awayTeam": "O'Higgins",
-        "servers": [
-            {
-                "name": "TNTSPORTSCHILE",
-                "channel": "TNTSPORTSCHILE",
-                "url": "https://la18hd.su/vivo/canal.php?stream=tntsportschile",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=tntsportschile"
-            }
-        ],
-        "id": 1
-    },
-    {
         "datetime": "2026-09-01T01:00:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/colombia_dcf9cc2637.png",
         "league": "Liga BetPlay",
@@ -47,6 +31,6 @@
                 "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/winsports.html"
             }
         ],
-        "id": 2
+        "id": 1
     }
 ]
