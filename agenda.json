@@ -1,51 +1,5 @@
 [
     {
-        "datetime": "2026-09-02T00:30:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/brasil_25a533e5f7.png",
-        "league": "Copa do Brasil",
-        "homeTeam": "Atlético Mineiro",
-        "awayTeam": "Cruzeiro",
-        "servers": [
-            {
-                "name": "DSPORTSAR",
-                "channel": "DSPORTSAR",
-                "url": "https://la16hd.com/dsportsar.php",
-                "iframe": "https://la16hd.com/dsportsar.php"
-            },
-            {
-                "name": "DSPORTS EVENTOS",
-                "channel": "DSPORTS EVENTOS",
-                "url": "https://la18hd.su/vivo/canal.php?stream=dsports_eventos",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=dsports_eventos"
-            },
-            {
-                "name": "DIRECTVPERU",
-                "channel": "DIRECTVPERU",
-                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/directvperu.html",
-                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/directvperu.html"
-            },
-            {
-                "name": "DSPORTS",
-                "channel": "DSPORTS",
-                "url": "https://la18hd.su/vivo/canal.php?stream=dsports",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=dsports"
-            },
-            {
-                "name": "VTVPLUS",
-                "channel": "VTVPLUS",
-                "url": "https://la18hd.su/vivo/canal.php?stream=vtvplus",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=vtvplus"
-            },
-            {
-                "name": "FOXDEPORTES",
-                "channel": "FOXDEPORTES",
-                "url": "https://la18hd.su/vivo/canal.php?stream=foxdeportes",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=foxdeportes"
-            }
-        ],
-        "id": 1
-    },
-    {
         "datetime": "2026-09-02T01:00:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/colombia_dcf9cc2637.png",
         "league": "Liga BetPlay",
@@ -71,6 +25,6 @@
                 "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/winsports.html"
             }
         ],
-        "id": 2
+        "id": 1
     }
 ]
