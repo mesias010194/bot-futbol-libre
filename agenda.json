@@ -1,55 +1,5 @@
 [
     {
-        "datetime": "2026-09-03T01:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/colombia_dcf9cc2637.png",
-        "league": "Liga BetPlay",
-        "homeTeam": "Santa Fe",
-        "awayTeam": "Millonarios",
-        "servers": [
-            {
-                "name": "WINSPORTSPLUS",
-                "channel": "WINSPORTSPLUS",
-                "url": "https://la18hd.su/vivo/canal.php?stream=winsportsplus",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=winsportsplus"
-            },
-            {
-                "name": "WINSPORTS2",
-                "channel": "WINSPORTS2",
-                "url": "https://la18hd.su/vivo/canal.php?stream=winsports2",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=winsports2"
-            },
-            {
-                "name": "WINSPORTS",
-                "channel": "WINSPORTS",
-                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/winsports.html",
-                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/winsports.html"
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-09-03T01:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/leagues_cup_f7b23c5e8d.png",
-        "league": "Leagues Cup",
-        "homeTeam": "Toluca",
-        "awayTeam": "León",
-        "servers": [
-            {
-                "name": "MLS1ES",
-                "channel": "MLS1ES",
-                "url": "https://la18hd.su/vivo/canal.php?stream=mls1es",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=mls1es"
-            },
-            {
-                "name": "EVENTOS",
-                "channel": "EVENTOS",
-                "url": "https://la18hd.su/vivo/canal.php?stream=eventos",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=eventos"
-            }
-        ],
-        "id": 2
-    },
-    {
         "datetime": "2026-09-03T03:00:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/leagues_cup_f7b23c5e8d.png",
         "league": "Leagues Cup",
@@ -75,6 +25,6 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=mls2en"
             }
         ],
-        "id": 3
+        "id": 1
     }
 ]
