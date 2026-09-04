@@ -508,7 +508,7 @@ def notificar_telegram(datos):
         partidos_mostrados += 1
 
     mensaje += "👉 <b>¡Míralos todos EN VIVO y SIN CORTES aquí!</b>\n"
-    mensaje += "🔗 <a href='https://www.verfutbollibre.online'>verfutbollibre.online</a>"
+    mensaje += "🔗 <a href='https://www.pelotalibre.cloud/'>pelotalibre.cloud</a>"
     
     url_telegram = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
     payload = {
