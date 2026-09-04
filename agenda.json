@@ -1,77 +1,5 @@
 [
     {
-        "datetime": "2026-09-04T18:30:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/espana_a8510f9b5f.png",
-        "league": "LaLiga 2",
-        "homeTeam": "Las Palmas",
-        "awayTeam": "Leganés",
-        "servers": [
-            {
-                "name": "HYPERMOTION1",
-                "channel": "HYPERMOTION1",
-                "url": "https://la18hd.su/vivo/canal.php?stream=hypermotion1",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=hypermotion1"
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-09-04T18:30:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/alemania_e50aa475de.png",
-        "league": "Bundesliga",
-        "homeTeam": "Stuttgart",
-        "awayTeam": "Köln",
-        "servers": [
-            {
-                "name": "ESPN5",
-                "channel": "ESPN5",
-                "url": "https://la18hd.su/vivo/canal.php?stream=espn5",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=espn5"
-            },
-            {
-                "name": "DISNEY5",
-                "channel": "DISNEY5",
-                "url": "https://la18hd.su/vivo/canal.php?stream=disney5",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney5"
-            },
-            {
-                "name": "ESPN5TV",
-                "channel": "ESPN5TV",
-                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn5tv.html",
-                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn5tv.html"
-            },
-            {
-                "name": "UNIVERSO",
-                "channel": "UNIVERSO",
-                "url": "https://la18hd.su/vivo/canal.php?stream=universo",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=universo"
-            }
-        ],
-        "id": 2
-    },
-    {
-        "datetime": "2026-09-04T18:45:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/italia_cb19445d70.png",
-        "league": "Serie A",
-        "homeTeam": "Genoa",
-        "awayTeam": "Como",
-        "servers": [
-            {
-                "name": "DISNEY6",
-                "channel": "DISNEY6",
-                "url": "https://la18hd.su/vivo/canal.php?stream=disney6",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney6"
-            },
-            {
-                "name": "ESPN4MX",
-                "channel": "ESPN4MX",
-                "url": "https://la18hd.su/vivo/canal.php?stream=espn4mx",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=espn4mx"
-            }
-        ],
-        "id": 3
-    },
-    {
         "datetime": "2026-09-04T19:00:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/inglaterra_823176495f.png",
         "league": "Premier League",
@@ -91,7 +19,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=max1"
             }
         ],
-        "id": 4
+        "id": 1
     },
     {
         "datetime": "2026-09-04T19:00:00Z",
@@ -131,7 +59,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=espndeportes"
             }
         ],
-        "id": 5
+        "id": 2
     },
     {
         "datetime": "2026-09-04T19:00:00Z",
@@ -147,7 +75,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=disney9"
             }
         ],
-        "id": 6
+        "id": 3
     },
     {
         "datetime": "2026-09-04T19:00:00Z",
@@ -181,7 +109,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=fanatiz3"
             }
         ],
-        "id": 7
+        "id": 4
     },
     {
         "datetime": "2026-09-04T19:15:00Z",
@@ -221,7 +149,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=vtvplus"
             }
         ],
-        "id": 8
+        "id": 5
     },
     {
         "datetime": "2026-09-04T19:45:00Z",
@@ -243,7 +171,7 @@
                 "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espnpremium2.html"
             }
         ],
-        "id": 9
+        "id": 6
     },
     {
         "datetime": "2026-09-04T20:15:00Z",
@@ -265,7 +193,7 @@
                 "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/ligaperu.html"
             }
         ],
-        "id": 10
+        "id": 7
     },
     {
         "datetime": "2026-09-04T22:00:00Z",
@@ -287,7 +215,7 @@
                 "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/tntsports2.html"
             }
         ],
-        "id": 11
+        "id": 8
     },
     {
         "datetime": "2026-09-04T22:00:00Z",
@@ -309,7 +237,7 @@
                 "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espnpremium2.html"
             }
         ],
-        "id": 12
+        "id": 9
     },
     {
         "datetime": "2026-09-04T22:00:00Z",
@@ -325,7 +253,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=disney11"
             }
         ],
-        "id": 13
+        "id": 10
     },
     {
         "datetime": "2026-09-04T23:30:00Z",
@@ -341,6 +269,50 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=mls1es"
             }
         ],
-        "id": 14
+        "id": 11
+    },
+    {
+        "datetime": "2026-09-05T00:30:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/chile_86c07a7b38.png",
+        "league": "Primera División",
+        "homeTeam": "Deportes Concepción",
+        "awayTeam": "Audax Italiano",
+        "servers": [
+            {
+                "name": "TNTSPORTSCHILE",
+                "channel": "TNTSPORTSCHILE",
+                "url": "https://la18hd.su/vivo/canal.php?stream=tntsportschile",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=tntsportschile"
+            }
+        ],
+        "id": 12
+    },
+    {
+        "datetime": "2026-09-05T01:45:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/bandera_fbc29cb609.png",
+        "league": "Liga MX",
+        "homeTeam": "Juárez",
+        "awayTeam": "Pachuca",
+        "servers": [
+            {
+                "name": "TUDN",
+                "channel": "TUDN",
+                "url": "https://la18hd.su/vivo/canal.php?stream=tudn",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=tudn"
+            },
+            {
+                "name": "FOXDEPORTES",
+                "channel": "FOXDEPORTES",
+                "url": "https://la18hd.su/vivo/canal.php?stream=foxdeportes",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=foxdeportes"
+            },
+            {
+                "name": "UNIVERSO",
+                "channel": "UNIVERSO",
+                "url": "https://la18hd.su/vivo/canal.php?stream=universo",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=universo"
+            }
+        ],
+        "id": 13
     }
 ]
