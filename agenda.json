@@ -1,91 +1,5 @@
 [
     {
-        "datetime": "2026-09-05T13:30:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/alemania_e50aa475de.png",
-        "league": "Bundesliga",
-        "homeTeam": "Borussia M'gladbach",
-        "awayTeam": "Elversberg",
-        "servers": [
-            {
-                "name": "DISNEY8",
-                "channel": "DISNEY8",
-                "url": "https://la18hd.su/vivo/canal.php?stream=disney8",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney8"
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-09-05T13:30:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/alemania_e50aa475de.png",
-        "league": "Bundesliga",
-        "homeTeam": "Hoffenheim",
-        "awayTeam": "Borussia Dortmund",
-        "servers": [
-            {
-                "name": "DISNEY9",
-                "channel": "DISNEY9",
-                "url": "https://la18hd.su/vivo/canal.php?stream=disney9",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney9"
-            },
-            {
-                "name": "UNIVERSO",
-                "channel": "UNIVERSO",
-                "url": "https://la18hd.su/vivo/canal.php?stream=universo",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=universo"
-            }
-        ],
-        "id": 2
-    },
-    {
-        "datetime": "2026-09-05T13:30:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/alemania_e50aa475de.png",
-        "league": "Bundesliga",
-        "homeTeam": "Paderborn",
-        "awayTeam": "Freiburg",
-        "servers": [
-            {
-                "name": "DISNEY10",
-                "channel": "DISNEY10",
-                "url": "https://la18hd.su/vivo/canal.php?stream=disney10",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney10"
-            }
-        ],
-        "id": 3
-    },
-    {
-        "datetime": "2026-09-05T13:30:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/alemania_e50aa475de.png",
-        "league": "Bundesliga",
-        "homeTeam": "Bayer Leverkusen",
-        "awayTeam": "Union Berlin",
-        "servers": [
-            {
-                "name": "DISNEY7",
-                "channel": "DISNEY7",
-                "url": "https://la18hd.su/vivo/canal.php?stream=disney7",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney7"
-            }
-        ],
-        "id": 4
-    },
-    {
-        "datetime": "2026-09-05T13:30:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/alemania_e50aa475de.png",
-        "league": "Bundesliga",
-        "homeTeam": "Werder Bremen",
-        "awayTeam": "RB Leipzig",
-        "servers": [
-            {
-                "name": "DISNEY11",
-                "channel": "DISNEY11",
-                "url": "https://la18hd.su/vivo/canal.php?stream=disney11",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney11"
-            }
-        ],
-        "id": 5
-    },
-    {
         "datetime": "2026-09-05T14:00:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/alemania_e50aa475de.png",
         "league": "Premier League",
@@ -99,7 +13,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=disney13"
             }
         ],
-        "id": 6
+        "id": 1
     },
     {
         "datetime": "2026-09-05T14:00:00Z",
@@ -127,7 +41,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=foxsports2"
             }
         ],
-        "id": 7
+        "id": 2
     },
     {
         "datetime": "2026-09-05T14:00:00Z",
@@ -143,7 +57,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=paramount1"
             }
         ],
-        "id": 8
+        "id": 3
     },
     {
         "datetime": "2026-09-05T14:00:00Z",
@@ -159,7 +73,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=disney14"
             }
         ],
-        "id": 9
+        "id": 4
     },
     {
         "datetime": "2026-09-05T14:00:00Z",
@@ -175,7 +89,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=paramount2"
             }
         ],
-        "id": 10
+        "id": 5
     },
     {
         "datetime": "2026-09-05T14:00:00Z",
@@ -215,7 +129,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=telemundo"
             }
         ],
-        "id": 11
+        "id": 6
     },
     {
         "datetime": "2026-09-05T14:00:00Z",
@@ -231,7 +145,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=disney15"
             }
         ],
-        "id": 12
+        "id": 7
     },
     {
         "datetime": "2026-09-05T14:00:00Z",
@@ -247,7 +161,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=disney16"
             }
         ],
-        "id": 13
+        "id": 8
     },
     {
         "datetime": "2026-09-05T14:15:00Z",
@@ -281,7 +195,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=espndeportes"
             }
         ],
-        "id": 14
+        "id": 9
     },
     {
         "datetime": "2026-09-05T14:15:00Z",
@@ -297,7 +211,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=hypermotion1"
             }
         ],
-        "id": 15
+        "id": 10
     },
     {
         "datetime": "2026-09-05T14:30:00Z",
@@ -319,7 +233,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=espn4mx"
             }
         ],
-        "id": 16
+        "id": 11
     },
     {
         "datetime": "2026-09-05T15:00:00Z",
@@ -335,7 +249,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=paramount3"
             }
         ],
-        "id": 17
+        "id": 12
     },
     {
         "datetime": "2026-09-05T15:15:00Z",
@@ -357,7 +271,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=beinsportes"
             }
         ],
-        "id": 18
+        "id": 13
     },
     {
         "datetime": "2026-09-05T16:00:00Z",
@@ -397,7 +311,7 @@
                 "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espnmx.1.html"
             }
         ],
-        "id": 19
+        "id": 14
     },
     {
         "datetime": "2026-09-05T16:00:00Z",
@@ -413,7 +327,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=tudn_mx"
             }
         ],
-        "id": 20
+        "id": 15
     },
     {
         "datetime": "2026-09-05T16:00:00Z",
@@ -429,7 +343,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=clarosports1"
             }
         ],
-        "id": 21
+        "id": 16
     },
     {
         "datetime": "2026-09-05T16:30:00Z",
@@ -463,7 +377,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=telemundo"
             }
         ],
-        "id": 22
+        "id": 17
     },
     {
         "datetime": "2026-09-05T16:30:00Z",
@@ -479,7 +393,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=hypermotion1"
             }
         ],
-        "id": 23
+        "id": 18
     },
     {
         "datetime": "2026-09-05T16:30:00Z",
@@ -519,7 +433,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=espndeportes"
             }
         ],
-        "id": 24
+        "id": 19
     },
     {
         "datetime": "2026-09-05T16:30:00Z",
@@ -535,7 +449,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=hypermotion2"
             }
         ],
-        "id": 25
+        "id": 20
     },
     {
         "datetime": "2026-09-05T16:30:00Z",
@@ -551,7 +465,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=disney2"
             }
         ],
-        "id": 26
+        "id": 21
     },
     {
         "datetime": "2026-09-05T16:30:00Z",
@@ -579,7 +493,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=fanatiz1"
             }
         ],
-        "id": 27
+        "id": 22
     },
     {
         "datetime": "2026-09-05T17:00:00Z",
@@ -601,7 +515,7 @@
                 "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/dsports2.html"
             }
         ],
-        "id": 28
+        "id": 23
     },
     {
         "datetime": "2026-09-05T17:00:00Z",
@@ -611,10 +525,10 @@
         "awayTeam": "Beşiktaş",
         "servers": [
             {
-                "name": "ESPN5",
-                "channel": "ESPN5",
-                "url": "https://la18hd.su/vivo/canal.php?stream=espn5",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=espn5"
+                "name": "ESPN7",
+                "channel": "ESPN7",
+                "url": "https://la18hd.su/vivo/canal.php?stream=espn7",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=espn7"
             },
             {
                 "name": "DISNEY4",
@@ -623,19 +537,13 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=disney4"
             },
             {
-                "name": "ESPN5TV",
-                "channel": "ESPN5TV",
-                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn5tv.html",
-                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn5tv.html"
-            },
-            {
                 "name": "FOXSPORTS",
                 "channel": "FOXSPORTS",
                 "url": "https://la18hd.su/vivo/canal.php?stream=foxsports",
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=foxsports"
             }
         ],
-        "id": 29
+        "id": 24
     },
     {
         "datetime": "2026-09-05T17:30:00Z",
@@ -663,7 +571,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=fanatiz3"
             }
         ],
-        "id": 30
+        "id": 25
     },
     {
         "datetime": "2026-09-05T18:00:00Z",
@@ -703,7 +611,7 @@
                 "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espnmx.1.html"
             }
         ],
-        "id": 31
+        "id": 26
     },
     {
         "datetime": "2026-09-05T18:00:00Z",
@@ -719,6 +627,82 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=disney6"
             }
         ],
-        "id": 32
+        "id": 27
+    },
+    {
+        "datetime": "2026-09-05T18:30:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/alemania_e50aa475de.png",
+        "league": "2. Bundesliga",
+        "homeTeam": "Dynamo Dresden",
+        "awayTeam": "Bochum",
+        "servers": [
+            {
+                "name": "DISNEY7",
+                "channel": "DISNEY7",
+                "url": "https://la18hd.su/vivo/canal.php?stream=disney7",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney7"
+            },
+            {
+                "name": "FOXSPORTS3",
+                "channel": "FOXSPORTS3",
+                "url": "https://la14hd.com/vivo/canal.php?stream=foxsports3",
+                "iframe": "https://la14hd.com/vivo/canales.php?stream=foxsports3"
+            }
+        ],
+        "id": 28
+    },
+    {
+        "datetime": "2026-09-05T18:45:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/francia_e9d1a8ab33.png",
+        "league": "Ligue 1",
+        "homeTeam": "Nice",
+        "awayTeam": "Le Mans",
+        "servers": [
+            {
+                "name": "DISNEY10",
+                "channel": "DISNEY10",
+                "url": "https://la18hd.su/vivo/canal.php?stream=disney10",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney10"
+            }
+        ],
+        "id": 29
+    },
+    {
+        "datetime": "2026-09-05T18:45:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/francia_e9d1a8ab33.png",
+        "league": "Serie A",
+        "homeTeam": "Roma",
+        "awayTeam": "Atalanta",
+        "servers": [
+            {
+                "name": "DISNEY8",
+                "channel": "DISNEY8",
+                "url": "https://la18hd.su/vivo/canal.php?stream=disney8",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney8"
+            },
+            {
+                "name": "TELEMUNDO",
+                "channel": "TELEMUNDO",
+                "url": "https://la18hd.su/vivo/canal.php?stream=telemundo",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=telemundo"
+            }
+        ],
+        "id": 30
+    },
+    {
+        "datetime": "2026-09-05T18:45:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/francia_e9d1a8ab33.png",
+        "league": "Ligue 1",
+        "homeTeam": "Le Havre",
+        "awayTeam": "Brest",
+        "servers": [
+            {
+                "name": "DISNEY9",
+                "channel": "DISNEY9",
+                "url": "https://la18hd.su/vivo/canal.php?stream=disney9",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney9"
+            }
+        ],
+        "id": 31
     }
 ]
