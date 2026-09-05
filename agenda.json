@@ -145,6 +145,12 @@
                 "channel": "VTVPLUS",
                 "url": "https://la18hd.su/vivo/canal.php?stream=vtvplus",
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=vtvplus"
+            },
+            {
+                "name": "FOXSPORTS2 USA",
+                "channel": "FOXSPORTS2 USA",
+                "url": "https://la18hd.su/vivo/canal.php?stream=foxsports2_usa",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=foxsports2_usa"
             }
         ],
         "id": 6
