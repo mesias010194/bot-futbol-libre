@@ -215,10 +215,10 @@
     },
     {
         "datetime": "2026-09-06T13:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/inglaterra_823176495f.png",
+        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
         "league": "Copa Mundial Femenina",
-        "homeTeam": "",
-        "awayTeam": "",
+        "homeTeam": "Francia Sub-20",
+        "awayTeam": "Corea del Sur Sub-20",
         "servers": [
             {
                 "name": "TUDN MX",
