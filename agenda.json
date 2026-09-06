@@ -1,33 +1,5 @@
 [
     {
-        "datetime": "2026-09-06T01:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/bandera_fbc29cb609.png",
-        "league": "Liga MX",
-        "homeTeam": "Tigres UANL",
-        "awayTeam": "Necaxa",
-        "servers": [
-            {
-                "name": "FOXDEPORTES",
-                "channel": "FOXDEPORTES",
-                "url": "https://la18hd.su/vivo/canal.php?stream=foxdeportes",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=foxdeportes"
-            },
-            {
-                "name": "TELEMUNDO",
-                "channel": "TELEMUNDO",
-                "url": "https://la18hd.su/vivo/canal.php?stream=telemundo",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=telemundo"
-            },
-            {
-                "name": "AZTECA7",
-                "channel": "AZTECA7",
-                "url": "https://la18hd.su/vivo/canal.php?stream=azteca7",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=azteca7"
-            }
-        ],
-        "id": 1
-    },
-    {
         "datetime": "2026-09-06T01:30:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/peru_ddc4e685cf.png",
         "league": "Liga 1",
@@ -47,7 +19,7 @@
                 "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/ligaperu.html"
             }
         ],
-        "id": 2
+        "id": 1
     },
     {
         "datetime": "2026-09-06T01:30:00Z",
@@ -75,7 +47,7 @@
                 "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/winsports.html"
             }
         ],
-        "id": 3
+        "id": 2
     },
     {
         "datetime": "2026-09-06T03:00:00Z",
@@ -103,6 +75,6 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=tudn_mx"
             }
         ],
-        "id": 4
+        "id": 3
     }
 ]
