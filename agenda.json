@@ -1,73 +1,5 @@
 [
     {
-        "datetime": "2026-09-08T13:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
-        "league": "Copa Mundial Femenina",
-        "homeTeam": "Benín Sub-20",
-        "awayTeam": "Argentina Sub-20",
-        "servers": [
-            {
-                "name": "DSPORTS EVENTOS",
-                "channel": "DSPORTS EVENTOS",
-                "url": "https://la18hd.su/vivo/canal.php?stream=dsports_eventos",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=dsports_eventos"
-            },
-            {
-                "name": "DSPORTS",
-                "channel": "DSPORTS",
-                "url": "https://la18hd.su/vivo/canal.php?stream=dsports",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=dsports"
-            },
-            {
-                "name": "DIRECTVPERU",
-                "channel": "DIRECTVPERU",
-                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/directvperu.html",
-                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/directvperu.html"
-            },
-            {
-                "name": "VTVPLUS",
-                "channel": "VTVPLUS",
-                "url": "https://la18hd.su/vivo/canal.php?stream=vtvplus",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=vtvplus"
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-09-08T13:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
-        "league": "Copa Mundial Femenina",
-        "homeTeam": "Brasil Sub-20",
-        "awayTeam": "Canadá Sub-20",
-        "servers": [
-            {
-                "name": "DSPORTS2",
-                "channel": "DSPORTS2",
-                "url": "https://la18hd.su/vivo/canal.php?stream=dsports2",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=dsports2"
-            },
-            {
-                "name": "DSPORTS2 2",
-                "channel": "DSPORTS2 2",
-                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/dsports2.html",
-                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/dsports2.html"
-            },
-            {
-                "name": "TUDN MX",
-                "channel": "TUDN MX",
-                "url": "https://la18hd.su/vivo/canal.php?stream=tudn_mx",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=tudn_mx"
-            },
-            {
-                "name": "FOXSPORTS2 USA",
-                "channel": "FOXSPORTS2 USA",
-                "url": "https://la18hd.su/vivo/canal.php?stream=foxsports2_usa",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=foxsports2_usa"
-            }
-        ],
-        "id": 2
-    },
-    {
         "datetime": "2026-09-08T14:00:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/uefa_yl_d039de5f74.png",
         "league": "UEFA Youth League",
@@ -81,7 +13,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=disney2"
             }
         ],
-        "id": 3
+        "id": 1
     },
     {
         "datetime": "2026-09-08T16:00:00Z",
@@ -103,7 +35,7 @@
                 "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/dsports2.html"
             }
         ],
-        "id": 4
+        "id": 2
     },
     {
         "datetime": "2026-09-08T16:00:00Z",
@@ -131,7 +63,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=foxsports2_usa"
             }
         ],
-        "id": 5
+        "id": 3
     },
     {
         "datetime": "2026-09-08T16:45:00Z",
@@ -171,7 +103,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=paramount2"
             }
         ],
-        "id": 6
+        "id": 4
     },
     {
         "datetime": "2026-09-08T16:45:00Z",
@@ -205,7 +137,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=paramount1"
             }
         ],
-        "id": 7
+        "id": 5
     },
     {
         "datetime": "2026-09-08T18:45:00Z",
@@ -221,7 +153,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=disney5"
             }
         ],
-        "id": 8
+        "id": 6
     },
     {
         "datetime": "2026-09-08T18:45:00Z",
@@ -237,7 +169,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=disney6"
             }
         ],
-        "id": 9
+        "id": 7
     },
     {
         "datetime": "2026-09-08T18:45:00Z",
@@ -253,7 +185,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=disney7"
             }
         ],
-        "id": 10
+        "id": 8
     },
     {
         "datetime": "2026-09-08T19:00:00Z",
@@ -299,7 +231,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=max1"
             }
         ],
-        "id": 11
+        "id": 9
     },
     {
         "datetime": "2026-09-08T19:00:00Z",
@@ -333,7 +265,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=foxsports"
             }
         ],
-        "id": 12
+        "id": 10
     },
     {
         "datetime": "2026-09-08T19:00:00Z",
@@ -355,7 +287,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=disney9"
             }
         ],
-        "id": 13
+        "id": 11
     },
     {
         "datetime": "2026-09-08T19:00:00Z",
@@ -371,7 +303,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=disney12"
             }
         ],
-        "id": 14
+        "id": 12
     },
     {
         "datetime": "2026-09-08T19:00:00Z",
@@ -387,7 +319,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=disney13"
             }
         ],
-        "id": 15
+        "id": 13
     },
     {
         "datetime": "2026-09-08T19:00:00Z",
@@ -409,7 +341,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=disney10"
             }
         ],
-        "id": 16
+        "id": 14
     },
     {
         "datetime": "2026-09-08T22:00:00Z",
@@ -449,6 +381,6 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=beinsportes"
             }
         ],
-        "id": 17
+        "id": 15
     }
 ]
