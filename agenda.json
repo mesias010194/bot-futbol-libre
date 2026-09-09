@@ -1,91 +1,5 @@
 [
     {
-        "datetime": "2026-09-08T22:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/copa_libertadores_f60faf808a.png",
-        "league": "Copa Libertadores",
-        "homeTeam": "Fluminense",
-        "awayTeam": "Platense",
-        "servers": [
-            {
-                "name": "ESPN",
-                "channel": "ESPN",
-                "url": "https://la18hd.su/vivo/canal.php?stream=espn",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=espn"
-            },
-            {
-                "name": "DISNEY14",
-                "channel": "DISNEY14",
-                "url": "https://la18hd.su/vivo/canal.php?stream=disney14",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney14"
-            },
-            {
-                "name": "ESPN1TV",
-                "channel": "ESPN1TV",
-                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn1tv.html",
-                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn1tv.html"
-            },
-            {
-                "name": "FOXSPORTS",
-                "channel": "FOXSPORTS",
-                "url": "https://la18hd.su/vivo/canal.php?stream=foxsports",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=foxsports"
-            },
-            {
-                "name": "FANATIZ2",
-                "channel": "FANATIZ2",
-                "url": "https://la18hd.su/vivo/canal.php?stream=fanatiz2",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=fanatiz2"
-            },
-            {
-                "name": "BEINSPORTES",
-                "channel": "BEINSPORTES",
-                "url": "https://la18hd.su/vivo/canal.php?stream=beinsportes",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=beinsportes"
-            }
-        ],
-        "id": 1
-    },
-    {
-        "datetime": "2026-09-08T22:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/image_modified_f8ce531f01.png",
-        "league": "Copa Sudamericana",
-        "homeTeam": "Santa Fe",
-        "awayTeam": "Vasco da Gama",
-        "servers": [
-            {
-                "name": "DSPORTS EVENTOS",
-                "channel": "DSPORTS EVENTOS",
-                "url": "https://la18hd.su/vivo/canal.php?stream=dsports_eventos",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=dsports_eventos"
-            },
-            {
-                "name": "DSPORTS",
-                "channel": "DSPORTS",
-                "url": "https://la18hd.su/vivo/canal.php?stream=dsports",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=dsports"
-            },
-            {
-                "name": "DIRECTVPERU",
-                "channel": "DIRECTVPERU",
-                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/directvperu.html",
-                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/directvperu.html"
-            },
-            {
-                "name": "VTVPLUS",
-                "channel": "VTVPLUS",
-                "url": "https://la18hd.su/vivo/canal.php?stream=vtvplus",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=vtvplus"
-            },
-            {
-                "name": "FANATIZ1",
-                "channel": "FANATIZ1",
-                "url": "https://la18hd.su/vivo/canal.php?stream=fanatiz1",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=fanatiz1"
-            }
-        ],
-        "id": 2
-    },
-    {
         "datetime": "2026-09-09T00:30:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/image_modified_f8ce531f01.png",
         "league": "Copa Sudamericana",
@@ -117,6 +31,6 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=fanatiz3"
             }
         ],
-        "id": 3
+        "id": 1
     }
 ]
