@@ -1,27 +1,5 @@
 [
     {
-        "datetime": "2026-09-09T23:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/colombia_dcf9cc2637.png",
-        "league": "Copa Colombia",
-        "homeTeam": "América de Cali",
-        "awayTeam": "Deportivo Pereira",
-        "servers": [
-            {
-                "name": "WINSPORTS2",
-                "channel": "WINSPORTS2",
-                "url": "https://la18hd.su/vivo/canal.php?stream=winsports2",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=winsports2"
-            },
-            {
-                "name": "WINSPORTS",
-                "channel": "WINSPORTS",
-                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/winsports.html",
-                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/winsports.html"
-            }
-        ],
-        "id": 1
-    },
-    {
         "datetime": "2026-09-09T23:45:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/estados_unidos_de_america_b400fc18c4.png",
         "league": "MLS",
@@ -41,7 +19,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=foxdeportes"
             }
         ],
-        "id": 2
+        "id": 1
     },
     {
         "datetime": "2026-09-10T00:30:00Z",
@@ -87,7 +65,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=beinsportes"
             }
         ],
-        "id": 3
+        "id": 2
     },
     {
         "datetime": "2026-09-10T01:00:00Z",
@@ -103,7 +81,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=disney13"
             }
         ],
-        "id": 4
+        "id": 3
     },
     {
         "datetime": "2026-09-10T03:00:00Z",
@@ -119,6 +97,6 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=disney14"
             }
         ],
-        "id": 5
+        "id": 4
     }
 ]
