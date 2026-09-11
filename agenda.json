@@ -477,6 +477,44 @@
     },
     {
         "datetime": "2026-09-12T00:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/brasil_25a533e5f7.png",
+        "league": "Brasileirão",
+        "homeTeam": "Coritiba",
+        "awayTeam": "Athletico-PR",
+        "servers": [
+            {
+                "name": "PREMIERE1",
+                "channel": "PREMIERE1",
+                "url": "https://la18hd.su/vivo/canal.php?stream=premiere1",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=premiere1"
+            },
+            {
+                "name": "SPORTV",
+                "channel": "SPORTV",
+                "url": "https://la18hd.su/vivo/canal.php?stream=sportv",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=sportv"
+            }
+        ],
+        "id": 21
+    },
+    {
+        "datetime": "2026-09-12T00:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/uruguay_e2b9597af8.png",
+        "league": "Segunda División",
+        "homeTeam": "Oriental",
+        "awayTeam": "Miramar Misiones",
+        "servers": [
+            {
+                "name": "DISNEY12",
+                "channel": "DISNEY12",
+                "url": "https://la18hd.su/vivo/canal.php?stream=disney12",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney12"
+            }
+        ],
+        "id": 22
+    },
+    {
+        "datetime": "2026-09-12T00:00:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/peru_ddc4e685cf.png",
         "league": "Liga 1",
         "homeTeam": "Cusco",
@@ -495,6 +533,150 @@
                 "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/ligaperu.html"
             }
         ],
-        "id": 21
+        "id": 23
+    },
+    {
+        "datetime": "2026-09-12T00:30:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/argentina_2bd748026e.png",
+        "league": "Liga Profesional",
+        "homeTeam": "Boca Juniors",
+        "awayTeam": "Central Córdoba SdE",
+        "servers": [
+            {
+                "name": "ESPN",
+                "channel": "ESPN",
+                "url": "https://la18hd.su/vivo/canal.php?stream=espn",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=espn"
+            },
+            {
+                "name": "DISNEY13",
+                "channel": "DISNEY13",
+                "url": "https://la18hd.su/vivo/canal.php?stream=disney13",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney13"
+            },
+            {
+                "name": "ESPN1TV",
+                "channel": "ESPN1TV",
+                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn1tv.html",
+                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn1tv.html"
+            },
+            {
+                "name": "ESPNPREMIUM",
+                "channel": "ESPNPREMIUM",
+                "url": "https://la18hd.su/vivo/canal.php?stream=espnpremium",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=espnpremium"
+            },
+            {
+                "name": "ESPNPREMIUM2",
+                "channel": "ESPNPREMIUM2",
+                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espnpremium2.html",
+                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espnpremium2.html"
+            }
+        ],
+        "id": 24
+    },
+    {
+        "datetime": "2026-09-12T01:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/bandera_fbc29cb609.png",
+        "league": "Liga de Expansión MX",
+        "homeTeam": "Correcaminos UAT",
+        "awayTeam": "Cancún",
+        "servers": [
+            {
+                "name": "DISNEY14",
+                "channel": "DISNEY14",
+                "url": "https://la18hd.su/vivo/canal.php?stream=disney14",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney14"
+            },
+            {
+                "name": "ESPN2MX",
+                "channel": "ESPN2MX",
+                "url": "https://la18hd.su/vivo/canal.php?stream=espn2mx",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=espn2mx"
+            }
+        ],
+        "id": 25
+    },
+    {
+        "datetime": "2026-09-12T01:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/bandera_fbc29cb609.png",
+        "league": "Liga MX",
+        "homeTeam": "Necaxa",
+        "awayTeam": "Puebla",
+        "servers": [
+            {
+                "name": "FOXDEPORTES",
+                "channel": "FOXDEPORTES",
+                "url": "https://la18hd.su/vivo/canal.php?stream=foxdeportes",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=foxdeportes"
+            }
+        ],
+        "id": 26
+    },
+    {
+        "datetime": "2026-09-12T01:30:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/colombia_dcf9cc2637.png",
+        "league": "Liga BetPlay",
+        "homeTeam": "Santa Fe",
+        "awayTeam": "Deportes Tolima",
+        "servers": [
+            {
+                "name": "WINSPORTS2",
+                "channel": "WINSPORTS2",
+                "url": "https://la18hd.su/vivo/canal.php?stream=winsports2",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=winsports2"
+            },
+            {
+                "name": "WINSPORTS",
+                "channel": "WINSPORTS",
+                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/winsports.html",
+                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/winsports.html"
+            }
+        ],
+        "id": 27
+    },
+    {
+        "datetime": "2026-09-12T03:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/bandera_fbc29cb609.png",
+        "league": "Liga MX",
+        "homeTeam": "Tijuana",
+        "awayTeam": "Querétaro",
+        "servers": [
+            {
+                "name": "TUDN",
+                "channel": "TUDN",
+                "url": "https://la18hd.su/vivo/canal.php?stream=tudn",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=tudn"
+            },
+            {
+                "name": "UNIMAS",
+                "channel": "UNIMAS",
+                "url": "https://la18hd.su/vivo/canal.php?stream=unimas",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=unimas"
+            }
+        ],
+        "id": 28
+    },
+    {
+        "datetime": "2026-09-12T03:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/bandera_fbc29cb609.png",
+        "league": "Liga MX",
+        "homeTeam": "Atlante",
+        "awayTeam": "Pachuca",
+        "servers": [
+            {
+                "name": "AZTECA7",
+                "channel": "AZTECA7",
+                "url": "https://la18hd.su/vivo/canal.php?stream=azteca7",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=azteca7"
+            },
+            {
+                "name": "ESPN2MX",
+                "channel": "ESPN2MX",
+                "url": "https://la18hd.su/vivo/canal.php?stream=espn2mx",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=espn2mx"
+            }
+        ],
+        "id": 29
     }
 ]
