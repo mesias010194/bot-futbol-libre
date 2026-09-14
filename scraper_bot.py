@@ -488,7 +488,15 @@ def notificar_telegram(datos):
     BOT_TOKEN = "8796529607:AAE9lP4H9pQUZMaSXAlCTgmEZ160SYhUono" 
     CANAL_ID = "@futbol_libre_tv_oficial"
     
-    mensaje = "🔥 <b>¡AGENDA DEL DÍA ACTUALIZADA!</b> 🔥\n\n"
+   # === ROTACIÓN SEO DE ENCABEZADOS SEGÚN LA HORA ===
+    if ahora_peru.hour == 9:
+        encabezado = "⚽️ <b>FÚTBOL LIBRE TV ▷ Agenda Deportiva de Hoy</b>\n🔥 <i>Partidos en Vivo y Sin Cortes</i> 🔥\n\n"
+    elif ahora_peru.hour == 13:
+        encabezado = "🔴 <b>ROJA DIRECTA EN VIVO ▷ Partidos Hoy</b>\n🔥 <i>Transmisión Online y Sin Interrupciones</i> 🔥\n\n"
+    else: # Turno de las 18:00
+        encabezado = "📺 <b>ALTERNATIVA PELOTA LIBRE Y PIRLO TV ▷ En Vivo</b>\n🔥 <i>Los mejores encuentros de la jornada</i> 🔥\n\n"
+    
+    mensaje = encabezado
     
     partidos_mostrados = 0
     for partido in datos:
@@ -507,8 +515,9 @@ def notificar_telegram(datos):
         
         partidos_mostrados += 1
 
-    mensaje += "👉 <b>¡Míralos todos EN VIVO y SIN CORTES aquí!</b>\n"
-    mensaje += "🔗 <a href='https://www.balonlibre.blog/'>balonlibre.blog</a>"
+    # === PIE DE PÁGINA (FOOTER SEO) ===
+    mensaje += "📺 <b>VER PARTIDOS AQUÍ (Alternativa Oficial):</b>\n"
+    mensaje += "👉 🔗 <a href='https://www.balonlibre.blog/'>https://www.balonlibre.blog/</a>\n"
     
     url_telegram = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
     payload = {
