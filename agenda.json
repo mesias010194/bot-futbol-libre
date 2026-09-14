@@ -1,45 +1,5 @@
 [
     {
-        "datetime": "2026-09-14T17:00:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/pavo_980d87b7ad.png",
-        "league": "Super Lig",
-        "homeTeam": "Gaziantep FK",
-        "awayTeam": "Fenerbahçe",
-        "servers": [
-            {
-                "name": "ESPN5",
-                "channel": "ESPN5",
-                "url": "https://la18hd.su/vivo/canal.php?stream=espn5",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=espn5"
-            },
-            {
-                "name": "DISNEY5",
-                "channel": "DISNEY5",
-                "url": "https://la18hd.su/vivo/canal.php?stream=disney5",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney5"
-            },
-            {
-                "name": "ESPN5TV",
-                "channel": "ESPN5TV",
-                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn5tv.html",
-                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn5tv.html"
-            },
-            {
-                "name": "ESPN2MX",
-                "channel": "ESPN2MX",
-                "url": "https://la18hd.su/vivo/canal.php?stream=espn2mx",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=espn2mx"
-            },
-            {
-                "name": "BEINSPORTES",
-                "channel": "BEINSPORTES",
-                "url": "https://la18hd.su/vivo/canal.php?stream=beinsportes",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=beinsportes"
-            }
-        ],
-        "id": 1
-    },
-    {
         "datetime": "2026-09-14T18:15:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/afc_champions_L_e5d321e635.png",
         "league": "AFC Champions League Elite",
@@ -53,7 +13,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=disney4"
             }
         ],
-        "id": 2
+        "id": 1
     },
     {
         "datetime": "2026-09-14T18:30:00Z",
@@ -69,7 +29,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=hypermotion1"
             }
         ],
-        "id": 3
+        "id": 2
     },
     {
         "datetime": "2026-09-14T18:45:00Z",
@@ -109,7 +69,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=espn3mx"
             }
         ],
-        "id": 4
+        "id": 3
     },
     {
         "datetime": "2026-09-14T19:00:00Z",
@@ -135,15 +95,9 @@
                 "channel": "ESPN3TV",
                 "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn3tv.html",
                 "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn3tv.html"
-            },
-            {
-                "name": "ESPNDEPORTES",
-                "channel": "ESPNDEPORTES",
-                "url": "https://la18hd.su/vivo/canal.php?stream=espndeportes",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=espndeportes"
             }
         ],
-        "id": 5
+        "id": 4
     },
     {
         "datetime": "2026-09-14T19:00:00Z",
@@ -171,7 +125,7 @@
                 "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn2tv.html"
             }
         ],
-        "id": 6
+        "id": 5
     },
     {
         "datetime": "2026-09-14T22:00:00Z",
@@ -193,7 +147,7 @@
                 "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/tntsports2.html"
             }
         ],
-        "id": 7
+        "id": 6
     },
     {
         "datetime": "2026-09-14T22:00:00Z",
@@ -221,7 +175,7 @@
                 "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espnpremium2.html"
             }
         ],
-        "id": 8
+        "id": 7
     },
     {
         "datetime": "2026-09-14T22:00:00Z",
@@ -237,7 +191,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=disney9"
             }
         ],
-        "id": 9
+        "id": 8
     },
     {
         "datetime": "2026-09-14T23:00:00Z",
@@ -253,7 +207,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=premiere1"
             }
         ],
-        "id": 10
+        "id": 9
     },
     {
         "datetime": "2026-09-14T23:30:00Z",
@@ -269,7 +223,7 @@
                 "iframe": "https://la18hd.su/vivo/canales.php?stream=tntsportschile"
             }
         ],
-        "id": 11
+        "id": 10
     },
     {
         "datetime": "2026-09-15T00:15:00Z",
@@ -291,7 +245,7 @@
                 "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/tntsports2.html"
             }
         ],
-        "id": 12
+        "id": 11
     },
     {
         "datetime": "2026-09-15T00:30:00Z",
@@ -337,7 +291,7 @@
                 "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espnmx.1.html"
             }
         ],
-        "id": 13
+        "id": 12
     },
     {
         "datetime": "2026-09-15T01:00:00Z",
@@ -359,6 +313,6 @@
                 "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/winsports.html"
             }
         ],
-        "id": 14
+        "id": 13
     }
 ]
