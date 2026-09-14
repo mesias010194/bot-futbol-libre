@@ -486,7 +486,7 @@ def notificar_telegram(datos):
     print("\n[*] ¡Es la hora programada! Preparando mensaje...")
     
     BOT_TOKEN = "8796529607:AAE9lP4H9pQUZMaSXAlCTgmEZ160SYhUono" 
-    CANAL_ID = "@futbol_libre_tv_oficial"
+    CANAL_ID = "@balonlibre"
     
    # === ROTACIÓN SEO DE ENCABEZADOS SEGÚN LA HORA ===
     if ahora_peru.hour == 9:
