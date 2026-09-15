@@ -19,7 +19,7 @@ REPO_GITHUB = "mesias010194/bot-futbol-libre" # Cambiar para cada bot (ej: mesia
 NOMBRE_MARCA = "Fútbol Libre TV"
 DOMINIO_PRINCIPAL = "www.verfutbollibre.online" # El que saldrá en el enlace del mensaje
 BOT_TOKEN_TELEGRAM = "8796529607:AAE9lP4H9pQUZMaSXAlCTgmEZ160SYhUono" 
-CANAL_ID_TELEGRAM = "@futbol_libre_tv_oficial" # Cambiar para Pirlo o RojaDirecta
+CANAL_ID_TELEGRAM = "@balonlibre" # Cambiar para Pirlo o RojaDirecta
 
 # 1.3 - Lista de Dominios para IndexNow
 # Agrega aquí todos los dominios que maneja ESTE bot específico.
