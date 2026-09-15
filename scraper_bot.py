@@ -18,7 +18,7 @@ REPO_GITHUB = "mesias010194/bot-futbol-libre" # Cambiar para cada bot (ej: mesia
 # 1.2 - Datos de Promoción en Telegram
 NOMBRE_MARCA = "Fútbol Libre TV"
 DOMINIO_PRINCIPAL = "www.verfutbollibre.online" # El que saldrá en el enlace del mensaje
-BOT_TOKEN_TELEGRAM = "8796529607:AAE9lP4H9pQUZMaSXAlCTgmEZ160SYhUono" 
+BOT_TOKEN_TELEGRAM = "8796529607:AAEhcePDlFjD6I-bQJIQbsnmgqY6w8KOjGU" 
 CANAL_ID_TELEGRAM = "@balonlibre" # Cambiar para Pirlo o RojaDirecta
 
 # 1.3 - Lista de Dominios para IndexNow
@@ -485,7 +485,7 @@ def notificar_telegram(datos):
 
     print("\n[*] ¡Es la hora programada! Preparando mensaje...")
     
-    BOT_TOKEN = "8796529607:AAE9lP4H9pQUZMaSXAlCTgmEZ160SYhUono" 
+    BOT_TOKEN = "8796529607:AAEhcePDlFjD6I-bQJIQbsnmgqY6w8KOjGU" 
     CANAL_ID = "@balonlibre"
     
    # === ROTACIÓN SEO DE ENCABEZADOS SEGÚN LA HORA ===
