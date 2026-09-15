@@ -1,27 +1,5 @@
 [
     {
-        "datetime": "2026-09-15T00:15:00Z",
-        "flagUrl": "https://img.agenda18.com/uploads/argentina_2bd748026e.png",
-        "league": "Liga Profesional",
-        "homeTeam": "Instituto",
-        "awayTeam": "Estudiantes Río Cuarto",
-        "servers": [
-            {
-                "name": "TNTSPORTS",
-                "channel": "TNTSPORTS",
-                "url": "https://la18hd.su/vivo/canal.php?stream=tntsports",
-                "iframe": "https://la18hd.su/vivo/canales.php?stream=tntsports"
-            },
-            {
-                "name": "TNTSPORTS2",
-                "channel": "TNTSPORTS2",
-                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/tntsports2.html",
-                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/tntsports2.html"
-            }
-        ],
-        "id": 1
-    },
-    {
         "datetime": "2026-09-15T00:30:00Z",
         "flagUrl": "https://img.agenda18.com/uploads/NFL_840ecc1d05.png",
         "league": "NFL",
@@ -59,7 +37,7 @@
                 "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espnmx.1.html"
             }
         ],
-        "id": 2
+        "id": 1
     },
     {
         "datetime": "2026-09-15T01:00:00Z",
@@ -81,6 +59,6 @@
                 "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/winsports.html"
             }
         ],
-        "id": 3
+        "id": 2
     }
 ]
