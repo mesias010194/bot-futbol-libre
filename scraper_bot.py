@@ -17,14 +17,14 @@ CANAL_ID_TELEGRAM = "@balonlibre"
 
 DOMINIOS_INDEXNOW = [
     {
-        "host": "www.verfutbollibre.online",
+        "host": "www.balonlibre.blog",
         "key": "391254a6e96a48188f3b6bb64a85220b",
-        "keyLocation": "https://www.verfutbollibre.online/391254a6e96a48188f3b6bb64a85220b"
+        "keyLocation": "https://www.balonlibre.blog/391254a6e96a48188f3b6bb64a85220b"
     },
     {
-        "host": "www.futbollibre-vivo.online",
+        "host": "www.balonlibre.blog",
         "key": "b0fb4526395e43b684ad48ba4c6a7902", 
-        "keyLocation": "https://www.futbollibre-vivo.online/b0fb4526395e43b684ad48ba4c6a7902"
+        "keyLocation": "https://www.balonlibre.blog/b0fb4526395e43b684ad48ba4c6a7902"
     },
     {
         "host": "www.futbollibre-hoy.site",
