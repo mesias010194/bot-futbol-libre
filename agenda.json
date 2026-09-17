@@ -14,5 +14,419 @@
             }
         ],
         "id": 1
+    },
+    {
+        "datetime": "2026-09-17T13:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
+        "league": "Copa Mundial Femenina",
+        "homeTeam": "Francia Sub-20",
+        "awayTeam": "Canadá Sub-20",
+        "servers": [
+            {
+                "name": "UNIVERSO",
+                "channel": "UNIVERSO",
+                "url": "https://la18hd.su/vivo/canal.php?stream=universo",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=universo"
+            },
+            {
+                "name": "FOXSPORTS2 USA",
+                "channel": "FOXSPORTS2 USA",
+                "url": "https://la18hd.su/vivo/canal.php?stream=foxsports2_usa",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=foxsports2_usa"
+            }
+        ],
+        "id": 2
+    },
+    {
+        "datetime": "2026-09-17T13:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
+        "league": "Copa Mundial Femenina",
+        "homeTeam": "Inglaterra Sub-20",
+        "awayTeam": "Nigeria Sub-20",
+        "servers": [
+            {
+                "name": "DSPORTS2",
+                "channel": "DSPORTS2",
+                "url": "https://la18hd.su/vivo/canal.php?stream=dsports2",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=dsports2"
+            },
+            {
+                "name": "DSPORTS2 2",
+                "channel": "DSPORTS2 2",
+                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/dsports2.html",
+                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/dsports2.html"
+            },
+            {
+                "name": "FOXSPORTS2 USA",
+                "channel": "FOXSPORTS2 USA",
+                "url": "https://la18hd.su/vivo/canal.php?stream=foxsports2_usa",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=foxsports2_usa"
+            },
+            {
+                "name": "TUDN MX",
+                "channel": "TUDN MX",
+                "url": "https://la18hd.su/vivo/canal.php?stream=tudn_mx",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=tudn_mx"
+            }
+        ],
+        "id": 3
+    },
+    {
+        "datetime": "2026-09-17T16:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/fifa_ee72f5c955.png",
+        "league": "Copa Mundial Femenina",
+        "homeTeam": "Polonia Sub-20",
+        "awayTeam": "Colombia Sub-20",
+        "servers": [
+            {
+                "name": "DSPORTS2",
+                "channel": "DSPORTS2",
+                "url": "https://la18hd.su/vivo/canal.php?stream=dsports2",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=dsports2"
+            },
+            {
+                "name": "DSPORTS2 2",
+                "channel": "DSPORTS2 2",
+                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/dsports2.html",
+                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/dsports2.html"
+            },
+            {
+                "name": "TUDN MX",
+                "channel": "TUDN MX",
+                "url": "https://la18hd.su/vivo/canal.php?stream=tudn_mx",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=tudn_mx"
+            },
+            {
+                "name": "FOXSPORTS2 USA",
+                "channel": "FOXSPORTS2 USA",
+                "url": "https://la18hd.su/vivo/canal.php?stream=foxsports2_usa",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=foxsports2_usa"
+            }
+        ],
+        "id": 4
+    },
+    {
+        "datetime": "2026-09-17T16:45:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/uefael_2b6c82aa64.png",
+        "league": "UEFA Europa League",
+        "homeTeam": "Levski Sofia",
+        "awayTeam": "Salzburg",
+        "servers": [
+            {
+                "name": "ESPN2",
+                "channel": "ESPN2",
+                "url": "https://la18hd.su/vivo/canal.php?stream=espn2",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=espn2"
+            },
+            {
+                "name": "DISNEY2",
+                "channel": "DISNEY2",
+                "url": "https://la18hd.su/vivo/canal.php?stream=disney2",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney2"
+            },
+            {
+                "name": "ESPN2TV",
+                "channel": "ESPN2TV",
+                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn2tv.html",
+                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn2tv.html"
+            },
+            {
+                "name": "TUDN",
+                "channel": "TUDN",
+                "url": "https://la18hd.su/vivo/canal.php?stream=tudn",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=tudn"
+            }
+        ],
+        "id": 5
+    },
+    {
+        "datetime": "2026-09-17T16:45:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/uefael_2b6c82aa64.png",
+        "league": "UEFA Europa League",
+        "homeTeam": "OFI",
+        "awayTeam": "Hoffenheim",
+        "servers": [
+            {
+                "name": "ESPN4",
+                "channel": "ESPN4",
+                "url": "https://la18hd.su/vivo/canal.php?stream=espn4",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=espn4"
+            },
+            {
+                "name": "DISNEY3",
+                "channel": "DISNEY3",
+                "url": "https://la18hd.su/vivo/canal.php?stream=disney3",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney3"
+            }
+        ],
+        "id": 6
+    },
+    {
+        "datetime": "2026-09-17T17:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/espana_a8510f9b5f.png",
+        "league": "LaLiga",
+        "homeTeam": "Real Betis",
+        "awayTeam": "Getafe",
+        "servers": [
+            {
+                "name": "DSPORTSAR",
+                "channel": "DSPORTSAR",
+                "url": "https://la16hd.com/dsportsar.php",
+                "iframe": "https://la16hd.com/dsportsar.php"
+            },
+            {
+                "name": "DSPORTS EVENTOS",
+                "channel": "DSPORTS EVENTOS",
+                "url": "https://la18hd.su/vivo/canal.php?stream=dsports_eventos",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=dsports_eventos"
+            },
+            {
+                "name": "DIRECTVPERU",
+                "channel": "DIRECTVPERU",
+                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/directvperu.html",
+                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/directvperu.html"
+            },
+            {
+                "name": "DSPORTS",
+                "channel": "DSPORTS",
+                "url": "https://la18hd.su/vivo/canal.php?stream=dsports",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=dsports"
+            },
+            {
+                "name": "VTVPLUS",
+                "channel": "VTVPLUS",
+                "url": "https://la18hd.su/vivo/canal.php?stream=vtvplus",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=vtvplus"
+            },
+            {
+                "name": "ESPNPLUS1",
+                "channel": "ESPNPLUS1",
+                "url": "https://la18hd.su/vivo/canal.php?stream=espnplus1",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=espnplus1"
+            }
+        ],
+        "id": 7
+    },
+    {
+        "datetime": "2026-09-17T18:30:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/inglaterra_823176495f.png",
+        "league": "Carabao Cup",
+        "homeTeam": "Manchester City",
+        "awayTeam": "Norwich City",
+        "servers": [
+            {
+                "name": "DISNEY4",
+                "channel": "DISNEY4",
+                "url": "https://la18hd.su/vivo/canal.php?stream=disney4",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney4"
+            },
+            {
+                "name": "PARAMOUNT1",
+                "channel": "PARAMOUNT1",
+                "url": "https://la18hd.su/vivo/canal.php?stream=paramount1",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=paramount1"
+            }
+        ],
+        "id": 8
+    },
+    {
+        "datetime": "2026-09-17T19:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/uefael_2b6c82aa64.png",
+        "league": "UEFA Europa League",
+        "homeTeam": "Juventus",
+        "awayTeam": "NEC",
+        "servers": [
+            {
+                "name": "ESPN",
+                "channel": "ESPN",
+                "url": "https://la18hd.su/vivo/canal.php?stream=espn",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=espn"
+            },
+            {
+                "name": "DISNEY5",
+                "channel": "DISNEY5",
+                "url": "https://la18hd.su/vivo/canal.php?stream=disney5",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney5"
+            },
+            {
+                "name": "ESPN1TV",
+                "channel": "ESPN1TV",
+                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn1tv.html",
+                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn1tv.html"
+            },
+            {
+                "name": "TUDN",
+                "channel": "TUDN",
+                "url": "https://la18hd.su/vivo/canal.php?stream=tudn",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=tudn"
+            },
+            {
+                "name": "UNIMAS",
+                "channel": "UNIMAS",
+                "url": "https://la18hd.su/vivo/canal.php?stream=unimas",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=unimas"
+            }
+        ],
+        "id": 9
+    },
+    {
+        "datetime": "2026-09-17T19:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/uefael_2b6c82aa64.png",
+        "league": "UEFA Europa League",
+        "homeTeam": "Crystal Palace",
+        "awayTeam": "Lech Poznań",
+        "servers": [
+            {
+                "name": "ESPN2",
+                "channel": "ESPN2",
+                "url": "https://la18hd.su/vivo/canal.php?stream=espn2",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=espn2"
+            },
+            {
+                "name": "DISNEY6",
+                "channel": "DISNEY6",
+                "url": "https://la18hd.su/vivo/canal.php?stream=disney6",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney6"
+            },
+            {
+                "name": "ESPN2TV",
+                "channel": "ESPN2TV",
+                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn2tv.html",
+                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn2tv.html"
+            }
+        ],
+        "id": 10
+    },
+    {
+        "datetime": "2026-09-17T19:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/uefael_2b6c82aa64.png",
+        "league": "UEFA Europa League",
+        "homeTeam": "Beşiktaş",
+        "awayTeam": "Olympique Marseille",
+        "servers": [
+            {
+                "name": "ESPN3",
+                "channel": "ESPN3",
+                "url": "https://la18hd.su/vivo/canal.php?stream=espn3",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=espn3"
+            },
+            {
+                "name": "DISNEY7",
+                "channel": "DISNEY7",
+                "url": "https://la18hd.su/vivo/canal.php?stream=disney7",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney7"
+            },
+            {
+                "name": "ESPN3TV",
+                "channel": "ESPN3TV",
+                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn3tv.html",
+                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn3tv.html"
+            }
+        ],
+        "id": 11
+    },
+    {
+        "datetime": "2026-09-17T19:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/uefael_2b6c82aa64.png",
+        "league": "UEFA Europa League",
+        "homeTeam": "Celtic",
+        "awayTeam": "Ferencváros",
+        "servers": [
+            {
+                "name": "ESPN5",
+                "channel": "ESPN5",
+                "url": "https://la18hd.su/vivo/canal.php?stream=espn5",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=espn5"
+            },
+            {
+                "name": "DISNEY8",
+                "channel": "DISNEY8",
+                "url": "https://la18hd.su/vivo/canal.php?stream=disney8",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney8"
+            },
+            {
+                "name": "ESPN5TV",
+                "channel": "ESPN5TV",
+                "url": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn5tv.html",
+                "iframe": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn5tv.html"
+            }
+        ],
+        "id": 12
+    },
+    {
+        "datetime": "2026-09-17T19:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/uefael_2b6c82aa64.png",
+        "league": "UEFA Europa League",
+        "homeTeam": "Real Sociedad",
+        "awayTeam": "AFC Bournemouth",
+        "servers": [
+            {
+                "name": "ESPN7",
+                "channel": "ESPN7",
+                "url": "https://la18hd.su/vivo/canal.php?stream=espn7",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=espn7"
+            },
+            {
+                "name": "DISNEY9",
+                "channel": "DISNEY9",
+                "url": "https://la18hd.su/vivo/canal.php?stream=disney9",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney9"
+            }
+        ],
+        "id": 13
+    },
+    {
+        "datetime": "2026-09-17T19:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/uefael_2b6c82aa64.png",
+        "league": "UEFA Europa League",
+        "homeTeam": "Viktoria Plzeň",
+        "awayTeam": "Union Saint-Gilloise",
+        "servers": [
+            {
+                "name": "DISNEY10",
+                "channel": "DISNEY10",
+                "url": "https://la18hd.su/vivo/canal.php?stream=disney10",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney10"
+            }
+        ],
+        "id": 14
+    },
+    {
+        "datetime": "2026-09-17T19:00:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/uefael_2b6c82aa64.png",
+        "league": "UEFA Europa League",
+        "homeTeam": "Lillestrøm",
+        "awayTeam": "Torreense",
+        "servers": [
+            {
+                "name": "DISNEY11",
+                "channel": "DISNEY11",
+                "url": "https://la18hd.su/vivo/canal.php?stream=disney11",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney11"
+            }
+        ],
+        "id": 15
+    },
+    {
+        "datetime": "2026-09-17T19:30:00Z",
+        "flagUrl": "https://img.agenda18.com/uploads/espana_a8510f9b5f.png",
+        "league": "LaLiga",
+        "homeTeam": "Málaga",
+        "awayTeam": "Villarreal",
+        "servers": [
+            {
+                "name": "ESPN4",
+                "channel": "ESPN4",
+                "url": "https://la18hd.su/vivo/canal.php?stream=espn4",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=espn4"
+            },
+            {
+                "name": "DISNEY12",
+                "channel": "DISNEY12",
+                "url": "https://la18hd.su/vivo/canal.php?stream=disney12",
+                "iframe": "https://la18hd.su/vivo/canales.php?stream=disney12"
+            }
+        ],
+        "id": 16
     }
 ]
