@@ -11,7 +11,7 @@ import os
 # 1. PANEL DE CONFIGURACIÓN GENERAL (KAMIKAZE TELEGRAM)
 # ==========================================================
 NOMBRE_MARCA = "Fútbol Libre TV"
-DOMINIO_PRINCIPAL = "www.verfutbollibre.online"
+DOMINIO_PRINCIPAL = "www.balonlibre.blog"
 BOT_TOKEN_TELEGRAM = os.environ.get("MI_TOKEN_SECRETO") 
 CANAL_ID_TELEGRAM = "@balonlibre" 
 
@@ -27,9 +27,9 @@ DOMINIOS_INDEXNOW = [
         "keyLocation": "https://www.balonlibre.blog/b0fb4526395e43b684ad48ba4c6a7902"
     },
     {
-        "host": "www.futbollibre-hoy.site",
+        "host": "www.balonlibre.blog",
         "key": "d6e9e3bad3ca42828e74cdeba215d5e7", 
-        "keyLocation": "https://www.futbollibre-hoy.site/d6e9e3bad3ca42828e74cdeba215d5e7"
+        "keyLocation": "https://www.balonlibre.blog/d6e9e3bad3ca42828e74cdeba215d5e7"
     }
 ]
 
