@@ -37,8 +37,8 @@ DOMINIOS_INDEXNOW = [
 # 2. ENLACES DE FUENTES Y RESPALDOS (CASCADA)
 # ==========================================================
 FUENTES_AGENDA = [
-    "https://la18hd.su//eventos/json/agenda123.json", # FUENTE PRINCIPAL
-    "https://futbollibretv.org.pe/diaries.json?v",    # Respaldo 1
+    "https://api.wqxag.com/diaries.json", # FUENTE PRINCIPAL
+    "https://la18hd.su//eventos/json/agenda123.json",    # Respaldo 1
     "https://agenda18.com/agenda.json",               # Respaldo 2
 ]
 
