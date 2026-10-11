@@ -11,25 +11,25 @@ import os
 # 1. PANEL DE CONFIGURACIÓN GENERAL (KAMIKAZE TELEGRAM)
 # ==========================================================
 NOMBRE_MARCA = "Fútbol Libre TV"
-DOMINIO_PRINCIPAL = "www.balonlibre.blog"
+DOMINIO_PRINCIPAL = "www.balonlibre-1.blog"
 BOT_TOKEN_TELEGRAM = os.environ.get("MI_TOKEN_SECRETO") 
 CANAL_ID_TELEGRAM = "@balonlibre" 
 
 DOMINIOS_INDEXNOW = [
     {
-        "host": "www.balonlibre.blog",
+        "host": "www.balonlibre-1.blog",
         "key": "391254a6e96a48188f3b6bb64a85220b",
-        "keyLocation": "https://www.balonlibre.blog/391254a6e96a48188f3b6bb64a85220b"
+        "keyLocation": "https://www.balonlibre-1.blog/391254a6e96a48188f3b6bb64a85220b"
     },
     {
-        "host": "www.balonlibre.blog",
+        "host": "www.balonlibre-1.blog",
         "key": "b0fb4526395e43b684ad48ba4c6a7902", 
-        "keyLocation": "https://www.balonlibre.blog/b0fb4526395e43b684ad48ba4c6a7902"
+        "keyLocation": "https://www.balonlibre-1.blog/b0fb4526395e43b684ad48ba4c6a7902"
     },
     {
-        "host": "www.balonlibre.blog",
+        "host": "www.balonlibre-1.blog",
         "key": "d6e9e3bad3ca42828e74cdeba215d5e7", 
-        "keyLocation": "https://www.balonlibre.blog/d6e9e3bad3ca42828e74cdeba215d5e7"
+        "keyLocation": "https://www.balonlibre-1.blog/d6e9e3bad3ca42828e74cdeba215d5e7"
     }
 ]
 
